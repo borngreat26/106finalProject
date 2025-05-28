@@ -1,0 +1,3169 @@
+fips,county,incidence_rate
+0.0,US (SEER+NPCR)(1),444.4 
+12125.0,"Union County, Florida(6)",1248.4 
+27155.0,"Traverse County, Minnesota(6)",693.5 
+48373.0,"Polk County, Texas(7)",679.5 
+51640.0,"Galax City, Virginia(6)",655 
+31077.0,"Greeley County, Nebraska(6)",653.1 
+46041.0,"Dewey County, South Dakota(6)",634.5 
+28119.0,"Quitman County, Mississippi(6)",626.5 
+30107.0,"Wheatland County, Montana(6)",626 
+46049.0,"Faulk County, South Dakota(6)",625.3 
+48433.0,"Stonewall County, Texas(7)",621.1 
+31113.0,"Logan County, Nebraska(6)",609.3 
+21137.0,"Lincoln County, Kentucky(7)",608.6 
+21071.0,"Floyd County, Kentucky(7)",606.6 
+13053.0,"Chattahoochee County, Georgia(7)",605.6 
+21023.0,"Bracken County, Kentucky(7)",605.3 
+30087.0,"Rosebud County, Montana(6)",602.9 
+21121.0,"Knox County, Kentucky(7)",595.8 
+31087.0,"Hitchcock County, Nebraska(6)",593.2 
+46003.0,"Aurora County, South Dakota(6)",592.3 
+21189.0,"Owsley County, Kentucky(7)",592.1 
+21197.0,"Powell County, Kentucky(7)",592.1 
+17129.0,"Menard County, Illinois(7)",591 
+47169.0,"Trousdale County, Tennessee(6)",588.7 
+21139.0,"Livingston County, Kentucky(7)",588.6 
+21065.0,"Estill County, Kentucky(7)",586.6 
+22047.0,"Iberville Parish, Louisiana(7)",586.4 
+48229.0,"Hudspeth County, Texas(7)",585.8 
+5075.0,"Lawrence County, Arkansas(6)",585 
+21011.0,"Bath County, Kentucky(7)",583.7 
+21001.0,"Adair County, Kentucky(7)",583.1 
+27081.0,"Lincoln County, Minnesota(6)",582.3 
+38079.0,"Rolette County, North Dakota(6)",580.9 
+19147.0,"Palo Alto County, Iowa(7)",580 
+22023.0,"Cameron Parish, Louisiana(7)",579.7 
+21057.0,"Cumberland County, Kentucky(7)",579.6 
+46087.0,"McCook County, South Dakota(6)",578.8 
+54073.0,"Pleasants County, West Virginia(6)",577.4 
+54045.0,"Logan County, West Virginia(6)",576.7 
+21081.0,"Grant County, Kentucky(7)",575.8 
+21237.0,"Wolfe County, Kentucky(7)",574.5 
+13227.0,"Pickens County, Georgia(7)",572.1 
+30037.0,"Golden Valley County, Montana(6)",571.9 
+21235.0,"Whitley County, Kentucky(7)",569.5 
+48063.0,"Camp County, Texas(7)",568.8 
+19029.0,"Cass County, Iowa(7)",568.8 
+27087.0,"Mahnomen County, Minnesota(6)",568 
+17173.0,"Shelby County, Illinois(7)",567.9 
+21085.0,"Grayson County, Kentucky(7)",567 
+39087.0,"Lawrence County, Ohio(6)",566 
+51057.0,"Essex County, Virginia(6)",565.6 
+17121.0,"Marion County, Illinois(7)",565.2 
+21053.0,"Clinton County, Kentucky(7)",565.1 
+23021.0,"Piscataquis County, Maine(6)",564.2 
+17003.0,"Alexander County, Illinois(7)",564.2 
+21031.0,"Butler County, Kentucky(7)",563.2 
+30079.0,"Prairie County, Montana(6)",563 
+29181.0,"Ripley County, Missouri(6)",561.3 
+51115.0,"Mathews County, Virginia(6)",560.8 
+17137.0,"Morgan County, Illinois(7)",560.2 
+5111.0,"Poinsett County, Arkansas(6)",559.5 
+1041.0,"Crenshaw County, Alabama(6)",558.5 
+54041.0,"Lewis County, West Virginia(6)",558 
+17149.0,"Pike County, Illinois(7)",557.7 
+46071.0,"Jackson County, South Dakota(6)",556.9 
+17037.0,"DeKalb County, Illinois(7)",556.8 
+31009.0,"Blaine County, Nebraska(6)",556.6 
+21043.0,"Carter County, Kentucky(7)",555.8 
+21097.0,"Harrison County, Kentucky(7)",555.1 
+37007.0,"Anson County, North Carolina(6)",554.9 
+19035.0,"Cherokee County, Iowa(7)",554.9 
+17171.0,"Scott County, Illinois(7)",554.9 
+17025.0,"Clay County, Illinois(7)",554.3 
+17115.0,"Macon County, Illinois(7)",553.7 
+39131.0,"Pike County, Ohio(6)",553.3 
+12053.0,"Hernando County, Florida(6)",553.1 
+54043.0,"Lincoln County, West Virginia(6)",553 
+23029.0,"Washington County, Maine(6)",552.8 
+21217.0,"Taylor County, Kentucky(7)",552.7 
+27125.0,"Red Lake County, Minnesota(6)",552.4 
+21127.0,"Lawrence County, Kentucky(7)",552.4 
+21171.0,"Monroe County, Kentucky(7)",551.7 
+19007.0,"Appanoose County, Iowa(7)",551.7 
+54015.0,"Clay County, West Virginia(6)",551.1 
+21103.0,"Henry County, Kentucky(7)",551.1 
+21195.0,"Pike County, Kentucky(7)",550.7 
+51670.0,"Hopewell City, Virginia(6)",550.2 
+46077.0,"Kingsbury County, South Dakota(6)",550.1 
+21215.0,"Spencer County, Kentucky(7)",550 
+51580.0,"Covington City, Virginia(6)",549.7 
+17125.0,"Mason County, Illinois(7)",549.5 
+13289.0,"Twiggs County, Georgia(7)",549.2 
+36063.0,"Niagara County, New York(7)",549 
+21149.0,"McLean County, Kentucky(7)",548.5 
+21069.0,"Fleming County, Kentucky(7)",548.5 
+1085.0,"Lowndes County, Alabama(6)",548.3 
+42093.0,"Montour County, Pennsylvania(6)",548 
+21051.0,"Clay County, Kentucky(7)",547.7 
+21203.0,"Rockcastle County, Kentucky(7)",547.5 
+36073.0,"Orleans County, New York(7)",547.5 
+34009.0,"Cape May County, New Jersey(7)",547.2 
+28141.0,"Tishomingo County, Mississippi(6)",547.2 
+17153.0,"Pulaski County, Illinois(7)",546.9 
+27107.0,"Norman County, Minnesota(6)",546.5 
+29149.0,"Oregon County, Missouri(6)",546.3 
+19085.0,"Harrison County, Iowa(7)",546.2 
+46017.0,"Buffalo County, South Dakota(6)",546.1 
+36075.0,"Oswego County, New York(7)",545.7 
+17167.0,"Sangamon County, Illinois(7)",545.7 
+48137.0,"Edwards County, Texas(7)",545.6 
+21039.0,"Carlisle County, Kentucky(7)",545.2 
+21167.0,"Mercer County, Kentucky(7)",545 
+21087.0,"Green County, Kentucky(7)",544.7 
+17061.0,"Greene County, Illinois(7)",544.6 
+17117.0,"Macoupin County, Illinois(7)",544.4 
+51730.0,"Petersburg City, Virginia(6)",544.3 
+39167.0,"Washington County, Ohio(6)",544.3 
+27167.0,"Wilkin County, Minnesota(6)",544.2 
+21173.0,"Montgomery County, Kentucky(7)",543.9 
+21187.0,"Owen County, Kentucky(7)",543.9 
+5043.0,"Drew County, Arkansas(6)",543.8 
+28027.0,"Coahoma County, Mississippi(6)",543.8 
+17021.0,"Christian County, Illinois(7)",543.5 
+31071.0,"Garfield County, Nebraska(6)",542.7 
+50013.0,"Grand Isle County, Vermont(6)",542.6 
+48119.0,"Delta County, Texas(7)",542.5 
+22097.0,"St. Landry Parish, Louisiana(7)",542.3 
+13231.0,"Pike County, Georgia(7)",542 
+12089.0,"Nassau County, Florida(6)",541.8 
+17063.0,"Grundy County, Illinois(7)",541.8 
+48011.0,"Armstrong County, Texas(7)",541.7 
+28053.0,"Humphreys County, Mississippi(6)",541.6 
+21027.0,"Breckinridge County, Kentucky(7)",541.5 
+13105.0,"Elbert County, Georgia(7)",541.3 
+46111.0,"Sanborn County, South Dakota(6)",541.3 
+51135.0,"Nottoway County, Virginia(6)",541.2 
+51007.0,"Amelia County, Virginia(6)",541.1 
+36023.0,"Cortland County, New York(7)",541 
+19135.0,"Monroe County, Iowa(7)",540.9 
+17107.0,"Logan County, Illinois(7)",540.8 
+27027.0,"Clay County, Minnesota(6)",540.1 
+28031.0,"Covington County, Mississippi(6)",539.7 
+19089.0,"Howard County, Iowa(7)",539.3 
+5147.0,"Woodruff County, Arkansas(6)",539.3 
+13311.0,"White County, Georgia(7)",538.7 
+46027.0,"Clay County, South Dakota(6)",538.2 
+21093.0,"Hardin County, Kentucky(7)",538.2 
+21193.0,"Perry County, Kentucky(7)",538.1 
+30065.0,"Musselshell County, Montana(6)",538 
+30043.0,"Jefferson County, Montana(6)",537.7 
+21019.0,"Boyd County, Kentucky(7)",537.6 
+21099.0,"Hart County, Kentucky(7)",537.5 
+51103.0,"Lancaster County, Virginia(6)",537.4 
+37111.0,"McDowell County, North Carolina(6)",537.2 
+29139.0,"Montgomery County, Missouri(6)",537 
+22113.0,"Vermilion Parish, Louisiana(7)",537 
+13159.0,"Jasper County, Georgia(7)",536.9 
+48317.0,"Martin County, Texas(7)",536.7 
+37133.0,"Onslow County, North Carolina(6)",536.5 
+17183.0,"Vermilion County, Illinois(7)",536.1 
+51678.0,"Lexington City, Virginia(6)",535.7 
+47117.0,"Marshall County, Tennessee(6)",535.6 
+24001.0,"Allegany County, Maryland(6)",535.4 
+21155.0,"Marion County, Kentucky(7)",535.4 
+21185.0,"Oldham County, Kentucky(7)",535.1 
+21207.0,"Russell County, Kentucky(7)",535.1 
+36045.0,"Jefferson County, New York(7)",534.9 
+40117.0,"Pawnee County, Oklahoma(6)",534.7 
+55078.0,"Menominee County, Wisconsin(6)",534.6 
+13187.0,"Lumpkin County, Georgia(7)",534.6 
+54103.0,"Wetzel County, West Virginia(6)",534.6 
+36097.0,"Schuyler County, New York(7)",534.6 
+21231.0,"Wayne County, Kentucky(7)",534.5 
+51690.0,"Martinsville City, Virginia(6)",534.3 
+37173.0,"Swain County, North Carolina(6)",534.3 
+5121.0,"Randolph County, Arkansas(6)",534.2 
+13137.0,"Habersham County, Georgia(7)",534.1 
+13103.0,"Effingham County, Georgia(7)",534.1 
+21029.0,"Bullitt County, Kentucky(7)",534 
+13273.0,"Terrell County, Georgia(7)",533.9 
+29133.0,"Mississippi County, Missouri(6)",533.7 
+46099.0,"Minnehaha County, South Dakota(6)",533.7 
+22093.0,"St. James Parish, Louisiana(7)",533.5 
+42107.0,"Schuylkill County, Pennsylvania(6)",533.4 
+19053.0,"Decatur County, Iowa(7)",533.4 
+54099.0,"Wayne County, West Virginia(6)",533.2 
+31061.0,"Franklin County, Nebraska(6)",532.9 
+21223.0,"Trimble County, Kentucky(7)",532.9 
+21191.0,"Pendleton County, Kentucky(7)",532.7 
+17131.0,"Mercer County, Illinois(7)",532.6 
+54033.0,"Harrison County, West Virginia(6)",532.4 
+13221.0,"Oglethorpe County, Georgia(7)",532.3 
+22001.0,"Acadia Parish, Louisiana(7)",532.2 
+31011.0,"Boone County, Nebraska(6)",532.1 
+21077.0,"Gallatin County, Kentucky(7)",532 
+21179.0,"Nelson County, Kentucky(7)",531.5 
+19045.0,"Clinton County, Iowa(7)",531.5 
+21009.0,"Barren County, Kentucky(7)",531.5 
+21095.0,"Harlan County, Kentucky(7)",531.4 
+17055.0,"Franklin County, Illinois(7)",531.2 
+13177.0,"Lee County, Georgia(7)",531.1 
+27057.0,"Hubbard County, Minnesota(6)",531.1 
+12035.0,"Flagler County, Florida(6)",531 
+5069.0,"Jefferson County, Arkansas(6)",531 
+19171.0,"Tama County, Iowa(7)",530.8 
+27051.0,"Grant County, Minnesota(6)",530.6 
+34015.0,"Gloucester County, New Jersey(7)",530.6 
+13261.0,"Sumter County, Georgia(7)",530.5 
+22099.0,"St. Martin Parish, Louisiana(7)",530.2 
+29127.0,"Marion County, Missouri(6)",530 
+13169.0,"Jones County, Georgia(7)",530 
+48023.0,"Baylor County, Texas(7)",529.8 
+47085.0,"Humphreys County, Tennessee(6)",529.8 
+48471.0,"Walker County, Texas(7)",529.7 
+21035.0,"Calloway County, Kentucky(7)",529.4 
+55067.0,"Langlade County, Wisconsin(6)",529.2 
+22045.0,"Iberia Parish, Louisiana(7)",529.2 
+29093.0,"Iron County, Missouri(6)",529.1 
+19121.0,"Madison County, Iowa(7)",528.9 
+21017.0,"Bourbon County, Kentucky(7)",528.9 
+27023.0,"Chippewa County, Minnesota(6)",528.2 
+21199.0,"Pulaski County, Kentucky(7)",527.8 
+54053.0,"Mason County, West Virginia(6)",527.7 
+21169.0,"Metcalfe County, Kentucky(7)",527.6 
+38055.0,"McLean County, North Dakota(6)",527.4 
+23019.0,"Penobscot County, Maine(6)",527.4 
+13301.0,"Warren County, Georgia(7)",527.2 
+46073.0,"Jerauld County, South Dakota(6)",527.2 
+48343.0,"Morris County, Texas(7)",527.1 
+46055.0,"Haakon County, South Dakota(6)",526.9 
+8057.0,"Jackson County, Colorado(6)",526.8 
+5021.0,"Clay County, Arkansas(6)",526.8 
+12017.0,"Citrus County, Florida(6)",526.6 
+48241.0,"Jasper County, Texas(7)",526.6 
+51630.0,"Fredericksburg City, Virginia(6)",526.5 
+19137.0,"Montgomery County, Iowa(7)",526.5 
+54059.0,"Mingo County, West Virginia(6)",526.4 
+38057.0,"Mercer County, North Dakota(6)",526.4 
+51530.0,"Buena Vista City, Virginia(6)",526 
+8017.0,"Cheyenne County, Colorado(6)",525.9 
+19069.0,"Franklin County, Iowa(7)",525.7 
+13013.0,"Barrow County, Georgia(7)",525.7 
+31173.0,"Thurston County, Nebraska(6)",525.7 
+31169.0,"Thayer County, Nebraska(6)",525.7 
+51183.0,"Sussex County, Virginia(6)",525.4 
+12083.0,"Marion County, Florida(6)",525.1 
+21141.0,"Logan County, Kentucky(7)",525.1 
+36057.0,"Montgomery County, New York(7)",525 
+17079.0,"Jasper County, Illinois(7)",524.7 
+13173.0,"Lanier County, Georgia(7)",524.6 
+17057.0,"Fulton County, Illinois(7)",524.6 
+29123.0,"Madison County, Missouri(6)",524.5 
+36035.0,"Fulton County, New York(7)",524.4 
+34029.0,"Ocean County, New Jersey(7)",524.3 
+19041.0,"Clay County, Iowa(7)",523.8 
+13189.0,"McDuffie County, Georgia(7)",523.7 
+29187.0,"St. Francois County, Missouri(6)",523.5 
+27005.0,"Becker County, Minnesota(6)",523.4 
+21147.0,"McCreary County, Kentucky(7)",523.3 
+36121.0,"Wyoming County, New York(7)",523.2 
+22013.0,"Bienville Parish, Louisiana(7)",523.2 
+48307.0,"McCulloch County, Texas(7)",522.8 
+54087.0,"Roane County, West Virginia(6)",522.8 
+40069.0,"Johnston County, Oklahoma(6)",522.7 
+28051.0,"Holmes County, Mississippi(6)",522.6 
+39053.0,"Gallia County, Ohio(6)",522.5 
+54005.0,"Boone County, West Virginia(6)",522.3 
+37103.0,"Jones County, North Carolina(6)",522.3 
+37191.0,"Wayne County, North Carolina(6)",522.2 
+21145.0,"McCracken County, Kentucky(7)",522.2 
+19179.0,"Wapello County, Iowa(7)",522.2 
+17189.0,"Washington County, Illinois(7)",522.2 
+21117.0,"Kenton County, Kentucky(7)",522 
+39141.0,"Ross County, Ohio(6)",521.9 
+5041.0,"Desha County, Arkansas(6)",521.7 
+48155.0,"Foard County, Texas(7)",521.5 
+39001.0,"Adams County, Ohio(6)",521.2 
+23009.0,"Hancock County, Maine(6)",520.9 
+22069.0,"Natchitoches Parish, Louisiana(7)",520.7 
+21153.0,"Magoffin County, Kentucky(7)",520.5 
+47043.0,"Dickson County, Tennessee(6)",520.4 
+19133.0,"Monona County, Iowa(7)",520.4 
+19037.0,"Chickasaw County, Iowa(7)",520.4 
+40111.0,"Okmulgee County, Oklahoma(6)",520.3 
+22011.0,"Beauregard Parish, Louisiana(7)",520.2 
+34025.0,"Monmouth County, New Jersey(7)",520 
+37167.0,"Stanly County, North Carolina(6)",519.7 
+21159.0,"Martin County, Kentucky(7)",519.6 
+40097.0,"Mayes County, Oklahoma(6)",519.6 
+19193.0,"Woodbury County, Iowa(7)",519.5 
+12061.0,"Indian River County, Florida(6)",519.3 
+37077.0,"Granville County, North Carolina(6)",519 
+13257.0,"Stephens County, Georgia(7)",519 
+40135.0,"Sequoyah County, Oklahoma(6)",518.9 
+28017.0,"Chickasaw County, Mississippi(6)",518.8 
+29055.0,"Crawford County, Missouri(6)",518.6 
+40077.0,"Latimer County, Oklahoma(6)",518.5 
+37153.0,"Richmond County, North Carolina(6)",518.5 
+19107.0,"Keokuk County, Iowa(7)",518.5 
+36069.0,"Ontario County, New York(7)",518.5 
+2290.0,"Yukon-Koyukuk Census Area, Alaska(6)",518.4 
+13305.0,"Wayne County, Georgia(7)",518.3 
+46075.0,"Jones County, South Dakota(6)",518.3 
+21049.0,"Clark County, Kentucky(7)",518.3 
+36113.0,"Warren County, New York(7)",518.3 
+21157.0,"Marshall County, Kentucky(7)",518.1 
+31035.0,"Clay County, Nebraska(6)",518.1 
+54083.0,"Randolph County, West Virginia(6)",518 
+13171.0,"Lamar County, Georgia(7)",518 
+27129.0,"Renville County, Minnesota(6)",517.7 
+17001.0,"Adams County, Illinois(7)",517.6 
+27117.0,"Pipestone County, Minnesota(6)",517.1 
+22117.0,"Washington Parish, Louisiana(7)",517.1 
+36099.0,"Seneca County, New York(7)",517 
+28043.0,"Grenada County, Mississippi(6)",516.9 
+5135.0,"Sharp County, Arkansas(6)",516.9 
+36029.0,"Erie County, New York(7)",516.8 
+22003.0,"Allen Parish, Louisiana(7)",516.6 
+19013.0,"Black Hawk County, Iowa(7)",516.6 
+13035.0,"Butts County, Georgia(7)",516.5 
+5093.0,"Mississippi County, Arkansas(6)",516.5 
+54091.0,"Taylor County, West Virginia(6)",516.5 
+46121.0,"Todd County, South Dakota(6)",516.4 
+39081.0,"Jefferson County, Ohio(6)",516.3 
+21115.0,"Johnson County, Kentucky(7)",516.3 
+39079.0,"Jackson County, Ohio(6)",516.2 
+28143.0,"Tunica County, Mississippi(6)",516 
+21229.0,"Washington County, Kentucky(7)",516 
+19033.0,"Cerro Gordo County, Iowa(7)",516 
+27109.0,"Olmsted County, Minnesota(6)",516 
+12101.0,"Pasco County, Florida(6)",515.8 
+5001.0,"Arkansas County, Arkansas(6)",515.8 
+36117.0,"Wayne County, New York(7)",515.6 
+27089.0,"Marshall County, Minnesota(6)",515.5 
+51017.0,"Bath County, Virginia(6)",515.5 
+29035.0,"Carter County, Missouri(6)",515.4 
+36013.0,"Chautauqua County, New York(7)",515.2 
+17083.0,"Jersey County, Illinois(7)",515.1 
+13281.0,"Towns County, Georgia(7)",515.1 
+36103.0,"Suffolk County, New York(7)",514.9 
+19073.0,"Greene County, Iowa(7)",514.7 
+38049.0,"McHenry County, North Dakota(6)",514.7 
+36123.0,"Yates County, New York(7)",514.6 
+19063.0,"Emmet County, Iowa(7)",514.6 
+27059.0,"Isanti County, Minnesota(6)",514.4 
+34007.0,"Camden County, New Jersey(7)",514.3 
+37177.0,"Tyrrell County, North Carolina(6)",514.1 
+22027.0,"Claiborne Parish, Louisiana(7)",514.1 
+19023.0,"Butler County, Iowa(7)",514.1 
+17077.0,"Jackson County, Illinois(7)",513.9 
+5129.0,"Searcy County, Arkansas(6)",513.8 
+12127.0,"Volusia County, Florida(6)",513.7 
+21239.0,"Woodford County, Kentucky(7)",513.6 
+19011.0,"Benton County, Iowa(7)",513.6 
+19097.0,"Jackson County, Iowa(7)",513.6 
+48151.0,"Fisher County, Texas(7)",513.5 
+40089.0,"McCurtain County, Oklahoma(6)",513.5 
+54001.0,"Barbour County, West Virginia(6)",513.1 
+13009.0,"Baldwin County, Georgia(7)",513.1 
+17011.0,"Bureau County, Illinois(7)",513.1 
+13057.0,"Cherokee County, Georgia(7)",513 
+17053.0,"Ford County, Illinois(7)",513 
+54019.0,"Fayette County, West Virginia(6)",512.9 
+12019.0,"Clay County, Florida(6)",512.8 
+27007.0,"Beltrami County, Minnesota(6)",512.8 
+28081.0,"Lee County, Mississippi(6)",512.7 
+21111.0,"Jefferson County, Kentucky(7)",512.7 
+37163.0,"Sampson County, North Carolina(6)",512.7 
+19019.0,"Buchanan County, Iowa(7)",512.6 
+51025.0,"Brunswick County, Virginia(6)",512.6 
+19059.0,"Dickinson County, Iowa(7)",512.5 
+13079.0,"Crawford County, Georgia(7)",512.5 
+47115.0,"Marion County, Tennessee(6)",512.5 
+30051.0,"Liberty County, Montana(6)",512.4 
+21037.0,"Campbell County, Kentucky(7)",512.4 
+40105.0,"Nowata County, Oklahoma(6)",512.3 
+13297.0,"Walton County, Georgia(7)",512 
+19145.0,"Page County, Iowa(7)",511.8 
+2240.0,"Southeast Fairbanks Census Area, Alaska(6)",511.8 
+19159.0,"Ringgold County, Iowa(7)",511.7 
+48431.0,"Sterling County, Texas(7)",511.7 
+19015.0,"Boone County, Iowa(7)",511.7 
+27011.0,"Big Stone County, Minnesota(6)",511.6 
+31125.0,"Nance County, Nebraska(6)",511.5 
+28129.0,"Smith County, Mississippi(6)",511.4 
+19151.0,"Pocahontas County, Iowa(7)",511.4 
+37045.0,"Cleveland County, North Carolina(6)",511.2 
+30077.0,"Powell County, Montana(6)",511.2 
+32009.0,"Esmeralda County, Nevada(6)",511.1 
+21109.0,"Jackson County, Kentucky(7)",511.1 
+36015.0,"Chemung County, New York(7)",510.9 
+21041.0,"Carroll County, Kentucky(7)",510.7 
+22083.0,"Richland Parish, Louisiana(7)",510.7 
+12129.0,"Wakulla County, Florida(6)",510.7 
+29207.0,"Stoddard County, Missouri(6)",510.7 
+42023.0,"Cameron County, Pennsylvania(6)",510.6 
+22039.0,"Evangeline Parish, Louisiana(7)",510.6 
+37145.0,"Person County, North Carolina(6)",510.5 
+48213.0,"Henderson County, Texas(7)",510.4 
+42037.0,"Columbia County, Pennsylvania(6)",510.2 
+47159.0,"Smith County, Tennessee(6)",510 
+12109.0,"St. Johns County, Florida(6)",510 
+21129.0,"Lee County, Kentucky(7)",509.9 
+27015.0,"Brown County, Minnesota(6)",509.9 
+19057.0,"Des Moines County, Iowa(7)",509.7 
+36055.0,"Monroe County, New York(7)",509.6 
+39119.0,"Muskingum County, Ohio(6)",509.4 
+28163.0,"Yazoo County, Mississippi(6)",509.4 
+19149.0,"Plymouth County, Iowa(7)",509.3 
+47005.0,"Benton County, Tennessee(6)",509.3 
+55077.0,"Marquette County, Wisconsin(6)",509.3 
+47143.0,"Rhea County, Tennessee(6)",509.3 
+37087.0,"Haywood County, North Carolina(6)",509.2 
+26051.0,"Gladwin County, Michigan(6)",509.1 
+22049.0,"Jackson Parish, Louisiana(7)",509.1 
+24045.0,"Wicomico County, Maryland(6)",509 
+27095.0,"Mille Lacs County, Minnesota(6)",508.9 
+22125.0,"West Feliciana Parish, Louisiana(7)",508.9 
+13217.0,"Newton County, Georgia(7)",508.9 
+13029.0,"Bryan County, Georgia(7)",508.9 
+22111.0,"Union Parish, Louisiana(7)",508.9 
+19111.0,"Lee County, Iowa(7)",508.8 
+36037.0,"Genesee County, New York(7)",508.8 
+34005.0,"Burlington County, New Jersey(7)",508.7 
+21151.0,"Madison County, Kentucky(7)",508.6 
+36085.0,"Richmond County, New York(7)",508.6 
+22031.0,"De Soto Parish, Louisiana(7)",508.6 
+47075.0,"Haywood County, Tennessee(6)",508.6 
+17175.0,"Stark County, Illinois(7)",508.6 
+19125.0,"Marion County, Iowa(7)",508.4 
+36001.0,"Albany County, New York(7)",508.4 
+21079.0,"Garrard County, Kentucky(7)",508.4 
+30103.0,"Treasure County, Montana(6)",508.3 
+36039.0,"Greene County, New York(7)",508.3 
+29069.0,"Dunklin County, Missouri(6)",508.1 
+27143.0,"Sibley County, Minnesota(6)",508 
+46053.0,"Gregory County, South Dakota(6)",507.9 
+27035.0,"Crow Wing County, Minnesota(6)",507.8 
+12033.0,"Escambia County, Florida(6)",507.8 
+46025.0,"Clark County, South Dakota(6)",507.6 
+30095.0,"Stillwater County, Montana(6)",507.4 
+47111.0,"Macon County, Tennessee(6)",507.4 
+17075.0,"Iroquois County, Illinois(7)",507.3 
+19163.0,"Scott County, Iowa(7)",507.2 
+36011.0,"Cayuga County, New York(7)",507.1 
+48073.0,"Cherokee County, Texas(7)",507 
+13255.0,"Spalding County, Georgia(7)",506.9 
+29201.0,"Scott County, Missouri(6)",506.9 
+29097.0,"Jasper County, Missouri(6)",506.6 
+29087.0,"Holt County, Missouri(6)",506.6 
+54101.0,"Webster County, West Virginia(6)",506.6 
+47067.0,"Hancock County, Tennessee(6)",506.5 
+13037.0,"Calhoun County, Georgia(7)",506.5 
+29227.0,"Worth County, Missouri(6)",506.5 
+37161.0,"Rutherford County, North Carolina(6)",506.2 
+34037.0,"Sussex County, New Jersey(7)",506.2 
+47013.0,"Campbell County, Tennessee(6)",506.2 
+12009.0,"Brevard County, Florida(6)",506.1 
+37107.0,"Lenoir County, North Carolina(6)",506.1 
+47083.0,"Houston County, Tennessee(6)",506.1 
+39047.0,"Fayette County, Ohio(6)",506 
+51131.0,"Northampton County, Virginia(6)",506 
+21181.0,"Nicholas County, Kentucky(7)",505.9 
+19113.0,"Linn County, Iowa(7)",505.9 
+19131.0,"Mitchell County, Iowa(7)",505.9 
+21089.0,"Greenup County, Kentucky(7)",505.9 
+39059.0,"Guernsey County, Ohio(6)",505.7 
+51075.0,"Goochland County, Virginia(6)",505.7 
+54011.0,"Cabell County, West Virginia(6)",505.6 
+40043.0,"Dewey County, Oklahoma(6)",505.5 
+28111.0,"Perry County, Mississippi(6)",505.5 
+12075.0,"Levy County, Florida(6)",505.4 
+42079.0,"Luzerne County, Pennsylvania(6)",505.4 
+39105.0,"Meigs County, Ohio(6)",505.4 
+21163.0,"Meade County, Kentucky(7)",505.4 
+47081.0,"Hickman County, Tennessee(6)",505.3 
+42095.0,"Northampton County, Pennsylvania(6)",505.3 
+48105.0,"Crockett County, Texas(7)",505.3 
+21113.0,"Jessamine County, Kentucky(7)",505.2 
+12041.0,"Gilchrist County, Florida(6)",505.2 
+31003.0,"Antelope County, Nebraska(6)",505.1 
+27075.0,"Lake County, Minnesota(6)",505.1 
+30007.0,"Broadwater County, Montana(6)",505 
+13039.0,"Camden County, Georgia(7)",505 
+19095.0,"Iowa County, Iowa(7)",504.9 
+38081.0,"Sargent County, North Dakota(6)",504.9 
+13139.0,"Hall County, Georgia(7)",504.9 
+51127.0,"New Kent County, Virginia(6)",504.8 
+51830.0,"Williamsburg City, Virginia(6)",504.8 
+37001.0,"Alamance County, North Carolina(6)",504.7 
+28077.0,"Lawrence County, Mississippi(6)",504.7 
+30111.0,"Yellowstone County, Montana(6)",504.6 
+28095.0,"Monroe County, Mississippi(6)",504.5 
+13163.0,"Jefferson County, Georgia(7)",504.5 
+38009.0,"Bottineau County, North Dakota(6)",504.5 
+21083.0,"Graves County, Kentucky(7)",504.5 
+55101.0,"Racine County, Wisconsin(6)",504.4 
+17179.0,"Tazewell County, Illinois(7)",504.4 
+39127.0,"Perry County, Ohio(6)",504.3 
+22007.0,"Assumption Parish, Louisiana(7)",504.3 
+36083.0,"Rensselaer County, New York(7)",504.3 
+24039.0,"Somerset County, Maryland(6)",504.2 
+51820.0,"Waynesboro City, Virginia(6)",504.2 
+21135.0,"Lewis County, Kentucky(7)",504.1 
+19195.0,"Worth County, Iowa(7)",504.1 
+54049.0,"Marion County, West Virginia(6)",504 
+13205.0,"Mitchell County, Georgia(7)",504 
+27163.0,"Washington County, Minnesota(6)",504 
+21047.0,"Christian County, Kentucky(7)",503.9 
+27113.0,"Pennington County, Minnesota(6)",503.9 
+39111.0,"Monroe County, Ohio(6)",503.9 
+21021.0,"Boyle County, Kentucky(7)",503.8 
+30069.0,"Petroleum County, Montana(6)",503.7 
+21201.0,"Robertson County, Kentucky(7)",503.6 
+47167.0,"Tipton County, Tennessee(6)",503.5 
+17145.0,"Perry County, Illinois(7)",503.5 
+12023.0,"Columbia County, Florida(6)",503.5 
+21161.0,"Mason County, Kentucky(7)",503.4 
+54039.0,"Kanawha County, West Virginia(6)",503.4 
+48363.0,"Palo Pinto County, Texas(7)",503.2 
+48315.0,"Marion County, Texas(7)",503.1 
+38061.0,"Mountrail County, North Dakota(6)",503.1 
+17187.0,"Warren County, Illinois(7)",503.1 
+37071.0,"Gaston County, North Carolina(6)",502.9 
+1107.0,"Pickens County, Alabama(6)",502.9 
+27159.0,"Wadena County, Minnesota(6)",502.9 
+48071.0,"Chambers County, Texas(7)",502.9 
+22035.0,"East Carroll Parish, Louisiana(7)",502.8 
+55047.0,"Green Lake County, Wisconsin(6)",502.7 
+13143.0,"Haralson County, Georgia(7)",502.6 
+21075.0,"Fulton County, Kentucky(7)",502.6 
+42131.0,"Wyoming County, Pennsylvania(6)",502.5 
+21059.0,"Daviess County, Kentucky(7)",502.5 
+55075.0,"Marinette County, Wisconsin(6)",502.4 
+33017.0,"Strafford County, New Hampshire(6)",502.4 
+13319.0,"Wilkinson County, Georgia(7)",502.3 
+28161.0,"Yalobusha County, Mississippi(6)",502.3 
+54079.0,"Putnam County, West Virginia(6)",502.2 
+42089.0,"Monroe County, Pennsylvania(6)",502.1 
+27173.0,"Yellow Medicine County, Minnesota(6)",502.1 
+17027.0,"Clinton County, Illinois(7)",502.1 
+27025.0,"Chisago County, Minnesota(6)",502 
+27115.0,"Pine County, Minnesota(6)",502 
+19091.0,"Humboldt County, Iowa(7)",501.9 
+47155.0,"Sevier County, Tennessee(6)",501.8 
+22109.0,"Terrebonne Parish, Louisiana(7)",501.7 
+27119.0,"Polk County, Minnesota(6)",501.6 
+17203.0,"Woodford County, Illinois(7)",501.6 
+13229.0,"Pierce County, Georgia(7)",501.6 
+37049.0,"Craven County, North Carolina(6)",501.5 
+27165.0,"Watonwan County, Minnesota(6)",501.5 
+42059.0,"Greene County, Pennsylvania(6)",501.4 
+48159.0,"Franklin County, Texas(7)",501.4 
+36091.0,"Saratoga County, New York(7)",501.4 
+19093.0,"Ida County, Iowa(7)",501.4 
+19075.0,"Grundy County, Iowa(7)",501.3 
+28013.0,"Calhoun County, Mississippi(6)",501.3 
+28115.0,"Pontotoc County, Mississippi(6)",501.3 
+17005.0,"Bond County, Illinois(7)",501.2 
+17119.0,"Madison County, Illinois(7)",501.1 
+53009.0,"Clallam County, Washington(7)",501.1 
+34041.0,"Warren County, New Jersey(7)",501.1 
+55127.0,"Walworth County, Wisconsin(6)",501 
+22077.0,"Pointe Coupee Parish, Louisiana(7)",500.9 
+36051.0,"Livingston County, New York(7)",500.9 
+40107.0,"Okfuskee County, Oklahoma(6)",500.9 
+17143.0,"Peoria County, Illinois(7)",500.8 
+54007.0,"Braxton County, West Virginia(6)",500.7 
+31175.0,"Valley County, Nebraska(6)",500.7 
+22123.0,"West Carroll Parish, Louisiana(7)",500.6 
+13195.0,"Madison County, Georgia(7)",500.6 
+39067.0,"Harrison County, Ohio(6)",500.6 
+37171.0,"Surry County, North Carolina(6)",500.6 
+22119.0,"Webster Parish, Louisiana(7)",500.5 
+21133.0,"Letcher County, Kentucky(7)",500.4 
+24047.0,"Worcester County, Maryland(6)",500.3 
+12107.0,"Putnam County, Florida(6)",500.3 
+21107.0,"Hopkins County, Kentucky(7)",500.3 
+37083.0,"Halifax County, North Carolina(6)",500.2 
+13263.0,"Talbot County, Georgia(7)",500.2 
+36067.0,"Onondaga County, New York(7)",500.2 
+51071.0,"Giles County, Virginia(6)",500.1 
+39071.0,"Highland County, Ohio(6)",500.1 
+54093.0,"Tucker County, West Virginia(6)",500.1 
+29017.0,"Bollinger County, Missouri(6)",500 
+37109.0,"Lincoln County, North Carolina(6)",500 
+29223.0,"Wayne County, Missouri(6)",500 
+1025.0,"Clarke County, Alabama(6)",499.9 
+42077.0,"Lehigh County, Pennsylvania(6)",499.9 
+22005.0,"Ascension Parish, Louisiana(7)",499.6 
+28109.0,"Pearl River County, Mississippi(6)",499.5 
+27127.0,"Redwood County, Minnesota(6)",499.4 
+37125.0,"Moore County, North Carolina(6)",499.4 
+47101.0,"Lewis County, Tennessee(6)",499.4 
+47021.0,"Cheatham County, Tennessee(6)",499.4 
+19067.0,"Floyd County, Iowa(7)",499.4 
+40037.0,"Creek County, Oklahoma(6)",499.3 
+17009.0,"Brown County, Illinois(7)",499.3 
+24015.0,"Cecil County, Maryland(6)",499 
+29113.0,"Lincoln County, Missouri(6)",499 
+19127.0,"Marshall County, Iowa(7)",499 
+13149.0,"Heard County, Georgia(7)",499 
+37065.0,"Edgecombe County, North Carolina(6)",499 
+5019.0,"Clark County, Arkansas(6)",498.9 
+54035.0,"Jackson County, West Virginia(6)",498.9 
+21045.0,"Casey County, Kentucky(7)",498.9 
+36107.0,"Tioga County, New York(7)",498.9 
+12031.0,"Duval County, Florida(6)",498.8 
+17099.0,"La Salle County, Illinois(7)",498.8 
+21123.0,"Larue County, Kentucky(7)",498.7 
+22103.0,"St. Tammany Parish, Louisiana(7)",498.7 
+48365.0,"Panola County, Texas(7)",498.5 
+55131.0,"Washington County, Wisconsin(6)",498.4 
+47017.0,"Carroll County, Tennessee(6)",498.4 
+48217.0,"Hill County, Texas(7)",498.3 
+48183.0,"Gregg County, Texas(7)",498.3 
+28083.0,"Leflore County, Mississippi(6)",498.3 
+27111.0,"Otter Tail County, Minnesota(6)",498.2 
+10001.0,"Kent County, Delaware(6)",498.2 
+48367.0,"Parker County, Texas(7)",498.2 
+36019.0,"Clinton County, New York(7)",498.2 
+48147.0,"Fannin County, Texas(7)",498.1 
+28063.0,"Jefferson County, Mississippi(6)",498 
+47023.0,"Chester County, Tennessee(6)",497.9 
+12057.0,"Hillsborough County, Florida(6)",497.9 
+55079.0,"Milwaukee County, Wisconsin(6)",497.9 
+39123.0,"Ottawa County, Ohio(6)",497.9 
+13027.0,"Brooks County, Georgia(7)",497.8 
+17199.0,"Williamson County, Illinois(7)",497.8 
+28035.0,"Forrest County, Mississippi(6)",497.7 
+42097.0,"Northumberland County, Pennsylvania(6)",497.6 
+36043.0,"Herkimer County, New York(7)",497.5 
+21183.0,"Ohio County, Kentucky(7)",497.5 
+22105.0,"Tangipahoa Parish, Louisiana(7)",497.5 
+54097.0,"Upshur County, West Virginia(6)",497.4 
+48275.0,"Knox County, Texas(7)",497.2 
+37027.0,"Caldwell County, North Carolina(6)",497.2 
+13011.0,"Banks County, Georgia(7)",497 
+39163.0,"Vinton County, Ohio(6)",497 
+28127.0,"Simpson County, Mississippi(6)",497 
+36017.0,"Chenango County, New York(7)",496.9 
+39015.0,"Brown County, Ohio(6)",496.9 
+39089.0,"Licking County, Ohio(6)",496.8 
+17035.0,"Cumberland County, Illinois(7)",496.8 
+33019.0,"Sullivan County, New Hampshire(6)",496.6 
+28097.0,"Montgomery County, Mississippi(6)",496.6 
+48125.0,"Dickens County, Texas(7)",496.5 
+19025.0,"Calhoun County, Iowa(7)",496.5 
+13095.0,"Dougherty County, Georgia(7)",496.5 
+31025.0,"Cass County, Nebraska(6)",496.5 
+55065.0,"Lafayette County, Wisconsin(6)",496.5 
+13101.0,"Echols County, Georgia(7)",496.5 
+51570.0,"Colonial Heights City, Virginia(6)",496.3 
+42125.0,"Washington County, Pennsylvania(6)",496.3 
+19139.0,"Muscatine County, Iowa(7)",496.2 
+37155.0,"Robeson County, North Carolina(6)",496.2 
+36077.0,"Otsego County, New York(7)",496.2 
+29151.0,"Osage County, Missouri(6)",496.1 
+34033.0,"Salem County, New Jersey(7)",496 
+17091.0,"Kankakee County, Illinois(7)",495.9 
+36049.0,"Lewis County, New York(7)",495.9 
+38005.0,"Benson County, North Dakota(6)",495.9 
+22009.0,"Avoyelles Parish, Louisiana(7)",495.8 
+39135.0,"Preble County, Ohio(6)",495.8 
+29111.0,"Lewis County, Missouri(6)",495.8 
+21015.0,"Boone County, Kentucky(7)",495.7 
+28145.0,"Union County, Mississippi(6)",495.7 
+46043.0,"Douglas County, South Dakota(6)",495.7 
+36021.0,"Columbia County, New York(7)",495.7 
+55137.0,"Waushara County, Wisconsin(6)",495.6 
+37057.0,"Davidson County, North Carolina(6)",495.6 
+55059.0,"Kenosha County, Wisconsin(6)",495.6 
+26079.0,"Kalkaska County, Michigan(6)",495.5 
+37137.0,"Pamlico County, North Carolina(6)",495.3 
+36009.0,"Cattaraugus County, New York(7)",495.2 
+24025.0,"Harford County, Maryland(6)",495.2 
+12069.0,"Lake County, Florida(6)",495.2 
+39101.0,"Marion County, Ohio(6)",495.1 
+48385.0,"Real County, Texas(7)",495.1 
+22059.0,"La Salle Parish, Louisiana(7)",495 
+5031.0,"Craighead County, Arkansas(6)",494.9 
+12103.0,"Pinellas County, Florida(6)",494.9 
+48485.0,"Wichita County, Texas(7)",494.9 
+47061.0,"Grundy County, Tennessee(6)",494.6 
+28065.0,"Jefferson Davis County, Mississippi(6)",494.5 
+27003.0,"Anoka County, Minnesota(6)",494.4 
+22121.0,"West Baton Rouge Parish, Louisiana(7)",494.3 
+55133.0,"Waukesha County, Wisconsin(6)",494.1 
+30085.0,"Roosevelt County, Montana(6)",494.1 
+27137.0,"St. Louis County, Minnesota(6)",494.1 
+17049.0,"Effingham County, Illinois(7)",494 
+37117.0,"Martin County, North Carolina(6)",494 
+13133.0,"Greene County, Georgia(7)",494 
+23027.0,"Waldo County, Maine(6)",493.9 
+36065.0,"Oneida County, New York(7)",493.9 
+22087.0,"St. Bernard Parish, Louisiana(7)",493.9 
+19129.0,"Mills County, Iowa(7)",493.8 
+12029.0,"Dixie County, Florida(6)",493.8 
+29071.0,"Franklin County, Missouri(6)",493.8 
+45033.0,"Dillon County, South Carolina(6)",493.8 
+39129.0,"Pickaway County, Ohio(6)",493.7 
+12105.0,"Polk County, Florida(6)",493.6 
+37151.0,"Randolph County, North Carolina(6)",493.5 
+27029.0,"Clearwater County, Minnesota(6)",493.5 
+48281.0,"Lampasas County, Texas(7)",493.3 
+54095.0,"Tyler County, West Virginia(6)",493.3 
+13157.0,"Jackson County, Georgia(7)",493.3 
+24013.0,"Carroll County, Maryland(6)",493.3 
+37141.0,"Pender County, North Carolina(6)",493.2 
+40021.0,"Cherokee County, Oklahoma(6)",493.2 
+1015.0,"Calhoun County, Alabama(6)",493.2 
+27061.0,"Itasca County, Minnesota(6)",493.1 
+36093.0,"Schenectady County, New York(7)",493.1 
+39083.0,"Knox County, Ohio(6)",493.1 
+21073.0,"Franklin County, Kentucky(7)",493.1 
+37019.0,"Brunswick County, North Carolina(6)",493 
+21025.0,"Breathitt County, Kentucky(7)",492.9 
+13321.0,"Worth County, Georgia(7)",492.9 
+55105.0,"Rock County, Wisconsin(6)",492.7 
+39065.0,"Hardin County, Ohio(6)",492.7 
+54069.0,"Ohio County, West Virginia(6)",492.6 
+40115.0,"Ottawa County, Oklahoma(6)",492.6 
+5023.0,"Cleburne County, Arkansas(6)",492.5 
+24019.0,"Dorchester County, Maryland(6)",492.5 
+13017.0,"Ben Hill County, Georgia(7)",492.5 
+37059.0,"Davie County, North Carolina(6)",492.4 
+5055.0,"Greene County, Arkansas(6)",492.4 
+27043.0,"Faribault County, Minnesota(6)",492.4 
+39115.0,"Morgan County, Ohio(6)",492.3 
+13213.0,"Murray County, Georgia(7)",492.3 
+39023.0,"Clark County, Ohio(6)",492.3 
+36059.0,"Nassau County, New York(7)",492.3 
+19031.0,"Cedar County, Iowa(7)",492.3 
+21131.0,"Leslie County, Kentucky(7)",492.2 
+33013.0,"Merrimack County, New Hampshire(6)",492.1 
+55023.0,"Crawford County, Wisconsin(6)",492.1 
+22067.0,"Morehouse Parish, Louisiana(7)",492.1 
+53045.0,"Mason County, Washington(7)",492 
+19071.0,"Fremont County, Iowa(7)",491.9 
+16039.0,"Elmore County, Idaho(7)",491.9 
+22085.0,"Sabine Parish, Louisiana(7)",491.9 
+39027.0,"Clinton County, Ohio(6)",491.8 
+27069.0,"Kittson County, Minnesota(6)",491.6 
+2068.0,"Denali, Alaska(6)",491.6 
+19105.0,"Jones County, Iowa(7)",491.5 
+46067.0,"Hutchinson County, South Dakota(6)",491.5 
+31111.0,"Lincoln County, Nebraska(6)",491.5 
+13223.0,"Paulding County, Georgia(7)",491.4 
+13199.0,"Meriwether County, Georgia(7)",491.4 
+17081.0,"Jefferson County, Illinois(7)",491.3 
+39147.0,"Seneca County, Ohio(6)",491.3 
+22063.0,"Livingston Parish, Louisiana(7)",491.2 
+13111.0,"Fannin County, Georgia(7)",491.2 
+1131.0,"Wilcox County, Alabama(6)",491.1 
+48459.0,"Upshur County, Texas(7)",491.1 
+34011.0,"Cumberland County, New Jersey(7)",491.1 
+21143.0,"Lyon County, Kentucky(7)",491 
+55001.0,"Adams County, Wisconsin(6)",490.8 
+38031.0,"Foster County, North Dakota(6)",490.8 
+42025.0,"Carbon County, Pennsylvania(6)",490.7 
+30025.0,"Fallon County, Montana(6)",490.7 
+55057.0,"Juneau County, Wisconsin(6)",490.7 
+19153.0,"Polk County, Iowa(7)",490.6 
+29175.0,"Randolph County, Missouri(6)",490.6 
+26099.0,"Macomb County, Michigan(6)",490.6 
+46023.0,"Charles Mix County, South Dakota(6)",490.5 
+39013.0,"Belmont County, Ohio(6)",490.5 
+23025.0,"Somerset County, Maine(6)",490.4 
+21125.0,"Laurel County, Kentucky(7)",490.4 
+36007.0,"Broome County, New York(7)",490.4 
+13075.0,"Cook County, Georgia(7)",490.3 
+36101.0,"Steuben County, New York(7)",490.2 
+27045.0,"Fillmore County, Minnesota(6)",490.2 
+19123.0,"Mahaska County, Iowa(7)",490.2 
+48399.0,"Runnels County, Texas(7)",490 
+21221.0,"Trigg County, Kentucky(7)",490 
+28055.0,"Issaquena County, Mississippi(6)",490 
+21013.0,"Bell County, Kentucky(7)",489.9 
+27033.0,"Cottonwood County, Minnesota(6)",489.9 
+28049.0,"Hinds County, Mississippi(6)",489.8 
+12055.0,"Highlands County, Florida(6)",489.8 
+38017.0,"Cass County, North Dakota(6)",489.7 
+51081.0,"Greensville County, Virginia(6)",489.7 
+13259.0,"Stewart County, Georgia(7)",489.7 
+40071.0,"Kay County, Oklahoma(6)",489.7 
+53027.0,"Grays Harbor County, Washington(7)",489.7 
+28089.0,"Madison County, Mississippi(6)",489.6 
+37101.0,"Johnston County, North Carolina(6)",489.6 
+17123.0,"Marshall County, Illinois(7)",489.6 
+27001.0,"Aitkin County, Minnesota(6)",489.5 
+27037.0,"Dakota County, Minnesota(6)",489.5 
+51053.0,"Dinwiddie County, Virginia(6)",489.4 
+42013.0,"Blair County, Pennsylvania(6)",489.2 
+13025.0,"Brantley County, Georgia(7)",489.2 
+53057.0,"Skagit County, Washington(7)",489.2 
+47123.0,"Monroe County, Tennessee(6)",489.2 
+39103.0,"Medina County, Ohio(6)",489.1 
+17135.0,"Montgomery County, Illinois(7)",489.1 
+13211.0,"Morgan County, Georgia(7)",489.1 
+22041.0,"Franklin Parish, Louisiana(7)",488.9 
+47073.0,"Hawkins County, Tennessee(6)",488.9 
+37157.0,"Rockingham County, North Carolina(6)",488.9 
+48337.0,"Montague County, Texas(7)",488.8 
+1127.0,"Walker County, Alabama(6)",488.8 
+51590.0,"Danville City, Virginia(6)",488.6 
+5103.0,"Ouachita County, Arkansas(6)",488.6 
+31181.0,"Webster County, Nebraska(6)",488.5 
+2180.0,"Nome Census Area, Alaska(6)",488.5 
+22089.0,"St. Charles Parish, Louisiana(7)",488.5 
+39085.0,"Lake County, Ohio(6)",488.5 
+22101.0,"St. Mary Parish, Louisiana(7)",488.4 
+55085.0,"Oneida County, Wisconsin(6)",488.4 
+37093.0,"Hoke County, North Carolina(6)",488.4 
+31095.0,"Jefferson County, Nebraska(6)",488.3 
+40015.0,"Caddo County, Oklahoma(6)",488.3 
+36053.0,"Madison County, New York(7)",488.2 
+13233.0,"Polk County, Georgia(7)",488.2 
+40101.0,"Muskogee County, Oklahoma(6)",488.2 
+36079.0,"Putnam County, New York(7)",488.2 
+45029.0,"Colleton County, South Carolina(6)",488.1 
+16079.0,"Shoshone County, Idaho(7)",488.1 
+12113.0,"Santa Rosa County, Florida(6)",488 
+54085.0,"Ritchie County, West Virginia(6)",488 
+37179.0,"Union County, North Carolina(6)",487.9 
+37085.0,"Harnett County, North Carolina(6)",487.9 
+36115.0,"Washington County, New York(7)",487.9 
+51790.0,"Staunton City, Virginia(6)",487.8 
+19017.0,"Bremer County, Iowa(7)",487.8 
+37199.0,"Yancey County, North Carolina(6)",487.7 
+16061.0,"Lewis County, Idaho(7)",487.7 
+48081.0,"Coke County, Texas(7)",487.6 
+39093.0,"Lorain County, Ohio(6)",487.6 
+37033.0,"Caswell County, North Carolina(6)",487.6 
+42081.0,"Lycoming County, Pennsylvania(6)",487.5 
+27079.0,"Le Sueur County, Minnesota(6)",487.5 
+27041.0,"Douglas County, Minnesota(6)",487.4 
+39113.0,"Montgomery County, Ohio(6)",487.4 
+31021.0,"Burt County, Nebraska(6)",487.3 
+17139.0,"Moultrie County, Illinois(7)",487.3 
+44003.0,"Kent County, Rhode Island(6)",487.2 
+6021.0,"Glenn County, California(7)",487.2 
+37047.0,"Columbus County, North Carolina(6)",487 
+30071.0,"Phillips County, Montana(6)",487 
+40075.0,"Kiowa County, Oklahoma(6)",487 
+28113.0,"Pike County, Mississippi(6)",486.9 
+51117.0,"Mecklenburg County, Virginia(6)",486.8 
+5083.0,"Logan County, Arkansas(6)",486.7 
+16087.0,"Washington County, Idaho(7)",486.7 
+12115.0,"Sarasota County, Florida(6)",486.6 
+26129.0,"Ogemaw County, Michigan(6)",486.6 
+34001.0,"Atlantic County, New Jersey(7)",486.5 
+47079.0,"Henry County, Tennessee(6)",486.5 
+5059.0,"Hot Spring County, Arkansas(6)",486.4 
+53035.0,"Kitsap County, Washington(7)",486.3 
+30029.0,"Flathead County, Montana(6)",486.3 
+26017.0,"Bay County, Michigan(6)",486.3 
+28135.0,"Tallahatchie County, Mississippi(6)",486.2 
+22025.0,"Catahoula Parish, Louisiana(7)",486.2 
+28057.0,"Itawamba County, Mississippi(6)",486.1 
+48097.0,"Cooke County, Texas(7)",486.1 
+47069.0,"Hardeman County, Tennessee(6)",486.1 
+55089.0,"Ozaukee County, Wisconsin(6)",486.1 
+17041.0,"Douglas County, Illinois(7)",486.1 
+22053.0,"Jefferson Davis Parish, Louisiana(7)",486.1 
+13129.0,"Gordon County, Georgia(7)",486 
+31153.0,"Sarpy County, Nebraska(6)",486 
+37181.0,"Vance County, North Carolina(6)",486 
+40023.0,"Choctaw County, Oklahoma(6)",485.9 
+22037.0,"East Feliciana Parish, Louisiana(7)",485.9 
+48067.0,"Cass County, Texas(7)",485.8 
+54109.0,"Wyoming County, West Virginia(6)",485.7 
+19155.0,"Pottawattamie County, Iowa(7)",485.6 
+31055.0,"Douglas County, Nebraska(6)",485.5 
+39021.0,"Champaign County, Ohio(6)",485.5 
+26119.0,"Montmorency County, Michigan(6)",485.5 
+54081.0,"Raleigh County, West Virginia(6)",485.5 
+31027.0,"Cedar County, Nebraska(6)",485.5 
+19175.0,"Union County, Iowa(7)",485.5 
+27017.0,"Carlton County, Minnesota(6)",485.4 
+35021.0,"Harding County, New Mexico(7)",485.4 
+29023.0,"Butler County, Missouri(6)",485.4 
+31053.0,"Dodge County, Nebraska(6)",485.3 
+55125.0,"Vilas County, Wisconsin(6)",485.3 
+36033.0,"Franklin County, New York(7)",485.3 
+16021.0,"Boundary County, Idaho(7)",485.3 
+28047.0,"Harrison County, Mississippi(6)",485.2 
+42035.0,"Clinton County, Pennsylvania(6)",485.2 
+46127.0,"Union County, South Dakota(6)",485.2 
+13045.0,"Carroll County, Georgia(7)",485.1 
+44009.0,"Washington County, Rhode Island(6)",485.1 
+51595.0,"Emporia City, Virginia(6)",485.1 
+37159.0,"Rowan County, North Carolina(6)",485.1 
+27141.0,"Sherburne County, Minnesota(6)",485.1 
+22115.0,"Vernon Parish, Louisiana(7)",485 
+47059.0,"Greene County, Tennessee(6)",485 
+38059.0,"Morton County, North Dakota(6)",484.9 
+46057.0,"Hamlin County, South Dakota(6)",484.8 
+54051.0,"Marshall County, West Virginia(6)",484.8 
+48497.0,"Wise County, Texas(7)",484.7 
+36095.0,"Schoharie County, New York(7)",484.7 
+54067.0,"Nicholas County, West Virginia(6)",484.7 
+27157.0,"Wabasha County, Minnesota(6)",484.6 
+37165.0,"Scotland County, North Carolina(6)",484.6 
+51036.0,"Charles City County, Virginia(6)",484.5 
+39139.0,"Richland County, Ohio(6)",484.5 
+24011.0,"Caroline County, Maryland(6)",484.5 
+39097.0,"Madison County, Ohio(6)",484.4 
+37129.0,"New Hanover County, North Carolina(6)",484.4 
+48311.0,"McMullen County, Texas(7)",484.2 
+39145.0,"Scioto County, Ohio(6)",484.1 
+39009.0,"Athens County, Ohio(6)",484.1 
+19187.0,"Webster County, Iowa(7)",484 
+37187.0,"Washington County, North Carolina(6)",484 
+27049.0,"Goodhue County, Minnesota(6)",484 
+46065.0,"Hughes County, South Dakota(6)",483.9 
+5047.0,"Franklin County, Arkansas(6)",483.9 
+27091.0,"Martin County, Minnesota(6)",483.8 
+22055.0,"Lafayette Parish, Louisiana(7)",483.8 
+21209.0,"Scott County, Kentucky(7)",483.8 
+47119.0,"Maury County, Tennessee(6)",483.7 
+31065.0,"Furnas County, Nebraska(6)",483.7 
+51111.0,"Lunenburg County, Virginia(6)",483.6 
+29143.0,"New Madrid County, Missouri(6)",483.6 
+21177.0,"Muhlenberg County, Kentucky(7)",483.5 
+26085.0,"Lake County, Michigan(6)",483.4 
+39031.0,"Coshocton County, Ohio(6)",483.3 
+6007.0,"Butte County, California(7)",483.2 
+1123.0,"Tallapoosa County, Alabama(6)",483.1 
+27067.0,"Kandiyohi County, Minnesota(6)",483.1 
+17169.0,"Schuyler County, Illinois(7)",483 
+48027.0,"Bell County, Texas(7)",483 
+13277.0,"Tift County, Georgia(7)",483 
+13117.0,"Forsyth County, Georgia(7)",483 
+48277.0,"Lamar County, Texas(7)",482.9 
+23031.0,"York County, Maine(6)",482.9 
+28107.0,"Panola County, Mississippi(6)",482.8 
+48007.0,"Aransas County, Texas(7)",482.8 
+37097.0,"Iredell County, North Carolina(6)",482.7 
+40067.0,"Jefferson County, Oklahoma(6)",482.7 
+19119.0,"Lyon County, Iowa(7)",482.7 
+23013.0,"Knox County, Maine(6)",482.7 
+21119.0,"Knott County, Kentucky(7)",482.6 
+31127.0,"Nemaha County, Nebraska(6)",482.6 
+28091.0,"Marion County, Mississippi(6)",482.6 
+48435.0,"Sutton County, Texas(7)",482.6 
+42099.0,"Perry County, Pennsylvania(6)",482.5 
+5095.0,"Monroe County, Arkansas(6)",482.5 
+42069.0,"Lackawanna County, Pennsylvania(6)",482.2 
+37061.0,"Duplin County, North Carolina(6)",482.2 
+55069.0,"Lincoln County, Wisconsin(6)",482.2 
+29137.0,"Monroe County, Missouri(6)",482.1 
+13119.0,"Franklin County, Georgia(7)",482.1 
+42049.0,"Erie County, Pennsylvania(6)",482.1 
+53053.0,"Pierce County, Washington(7)",482.1 
+19167.0,"Sioux County, Iowa(7)",481.9 
+33001.0,"Belknap County, New Hampshire(6)",481.9 
+47161.0,"Stewart County, Tennessee(6)",481.9 
+22017.0,"Caddo Parish, Louisiana(7)",481.8 
+51137.0,"Orange County, Virginia(6)",481.7 
+37069.0,"Franklin County, North Carolina(6)",481.7 
+13123.0,"Gilmer County, Georgia(7)",481.6 
+54065.0,"Morgan County, West Virginia(6)",481.6 
+13015.0,"Bartow County, Georgia(7)",481.5 
+33007.0,"Coos County, New Hampshire(6)",481.5 
+13275.0,"Thomas County, Georgia(7)",481.4 
+22073.0,"Ouachita Parish, Louisiana(7)",481.3 
+47177.0,"Warren County, Tennessee(6)",481.2 
+54021.0,"Gilmer County, West Virginia(6)",481.1 
+19173.0,"Taylor County, Iowa(7)",481.1 
+55099.0,"Price County, Wisconsin(6)",481.1 
+27021.0,"Cass County, Minnesota(6)",481 
+17015.0,"Carroll County, Illinois(7)",481 
+28151.0,"Washington County, Mississippi(6)",480.9 
+5141.0,"Van Buren County, Arkansas(6)",480.9 
+17163.0,"St. Clair County, Illinois(7)",480.8 
+53061.0,"Snohomish County, Washington(7)",480.8 
+21211.0,"Shelby County, Kentucky(7)",480.7 
+13181.0,"Lincoln County, Georgia(7)",480.7 
+54025.0,"Greenbrier County, West Virginia(6)",480.6 
+54107.0,"Wood County, West Virginia(6)",480.6 
+17141.0,"Ogle County, Illinois(7)",480.6 
+40003.0,"Alfalfa County, Oklahoma(6)",480.5 
+48499.0,"Wood County, Texas(7)",480.5 
+37081.0,"Guilford County, North Carolina(6)",480.5 
+19183.0,"Washington County, Iowa(7)",480.5 
+24009.0,"Calvert County, Maryland(6)",480.5 
+21175.0,"Morgan County, Kentucky(7)",480.4 
+29099.0,"Jefferson County, Missouri(6)",480.4 
+13207.0,"Monroe County, Georgia(7)",480.4 
+53067.0,"Thurston County, Washington(7)",480.4 
+47039.0,"Decatur County, Tennessee(6)",480.3 
+12005.0,"Bay County, Florida(6)",480.3 
+13291.0,"Union County, Georgia(7)",480.3 
+48223.0,"Hopkins County, Texas(7)",480.2 
+37169.0,"Stokes County, North Carolina(6)",480.2 
+39077.0,"Huron County, Ohio(6)",480.1 
+31081.0,"Hamilton County, Nebraska(6)",480.1 
+2164.0,"Lake and Peninsula Borough, Alaska(6)",480.1 
+37023.0,"Burke County, North Carolina(6)",480 
+41007.0,"Clatsop County, Oregon(6)",480 
+30093.0,"Silver Bow County, Montana(6)",479.9 
+19161.0,"Sac County, Iowa(7)",479.9 
+24005.0,"Baltimore County, Maryland(6)",479.9 
+47015.0,"Cannon County, Tennessee(6)",479.8 
+24035.0,"Queen Annes County, Maryland(6)",479.8 
+13285.0,"Troup County, Georgia(7)",479.7 
+21003.0,"Allen County, Kentucky(7)",479.6 
+37031.0,"Carteret County, North Carolina(6)",479.6 
+12003.0,"Baker County, Florida(6)",479.6 
+22079.0,"Rapides Parish, Louisiana(7)",479.6 
+13097.0,"Douglas County, Georgia(7)",479.5 
+42113.0,"Sullivan County, Pennsylvania(6)",479.5 
+29041.0,"Chariton County, Missouri(6)",479.5 
+17093.0,"Kendall County, Illinois(7)",479.4 
+13151.0,"Henry County, Georgia(7)",479.4 
+22043.0,"Grant Parish, Louisiana(7)",479.4 
+17111.0,"McHenry County, Illinois(7)",479.4 
+54029.0,"Hancock County, West Virginia(6)",479.3 
+47009.0,"Blount County, Tennessee(6)",479.3 
+19141.0,"O'Brien County, Iowa(7)",479.3 
+27097.0,"Morrison County, Minnesota(6)",479.3 
+5025.0,"Cleveland County, Arkansas(6)",479.3 
+24510.0,"Baltimore City, Maryland(6)",479.2 
+54105.0,"Wirt County, West Virginia(6)",479.2 
+51149.0,"Prince George County, Virginia(6)",479.1 
+17157.0,"Randolph County, Illinois(7)",479.1 
+40125.0,"Pottawatomie County, Oklahoma(6)",479 
+27083.0,"Lyon County, Minnesota(6)",478.9 
+13283.0,"Treutlen County, Georgia(7)",478.9 
+46029.0,"Codington County, South Dakota(6)",478.9 
+28147.0,"Walthall County, Mississippi(6)",478.9 
+37121.0,"Mitchell County, North Carolina(6)",478.8 
+13287.0,"Turner County, Georgia(7)",478.8 
+31151.0,"Saline County, Nebraska(6)",478.8 
+17051.0,"Fayette County, Illinois(7)",478.8 
+29021.0,"Buchanan County, Missouri(6)",478.8 
+27039.0,"Dodge County, Minnesota(6)",478.7 
+48251.0,"Johnson County, Texas(7)",478.6 
+21091.0,"Hancock County, Kentucky(7)",478.6 
+17013.0,"Calhoun County, Illinois(7)",478.5 
+26163.0,"Wayne County, Michigan(6)",478.5 
+17105.0,"Livingston County, Illinois(7)",478.4 
+21067.0,"Fayette County, Kentucky(7)",478.4 
+47107.0,"McMinn County, Tennessee(6)",478.3 
+40053.0,"Grant County, Oklahoma(6)",478.1 
+17147.0,"Piatt County, Illinois(7)",478.1 
+21005.0,"Anderson County, Kentucky(7)",478.1 
+19043.0,"Clayton County, Iowa(7)",478.1 
+47183.0,"Weakley County, Tennessee(6)",477.9 
+51620.0,"Franklin City, Virginia(6)",477.9 
+27077.0,"Lake of the Woods County, Minnesota(6)",477.7 
+47049.0,"Fentress County, Tennessee(6)",477.7 
+47163.0,"Sullivan County, Tennessee(6)",477.6 
+13001.0,"Appling County, Georgia(7)",477.5 
+42087.0,"Mifflin County, Pennsylvania(6)",477.5 
+38027.0,"Eddy County, North Dakota(6)",477.5 
+34019.0,"Hunterdon County, New Jersey(7)",477.4 
+45021.0,"Cherokee County, South Carolina(6)",477.4 
+48437.0,"Swisher County, Texas(7)",477.4 
+29121.0,"Macon County, Missouri(6)",477.4 
+16075.0,"Payette County, Idaho(7)",477.4 
+38083.0,"Sheridan County, North Dakota(6)",477.4 
+5033.0,"Crawford County, Arkansas(6)",477.3 
+27171.0,"Wright County, Minnesota(6)",477.3 
+5145.0,"White County, Arkansas(6)",477.3 
+39039.0,"Defiance County, Ohio(6)",477.2 
+17069.0,"Hardin County, Illinois(7)",477.2 
+22015.0,"Bossier Parish, Louisiana(7)",477.2 
+29163.0,"Pike County, Missouri(6)",477.1 
+39095.0,"Lucas County, Ohio(6)",477.1 
+29221.0,"Washington County, Missouri(6)",477 
+19115.0,"Louisa County, Iowa(7)",477 
+19083.0,"Hardin County, Iowa(7)",476.9 
+29053.0,"Cooper County, Missouri(6)",476.9 
+48379.0,"Rains County, Texas(7)",476.7 
+21205.0,"Rowan County, Kentucky(7)",476.7 
+13085.0,"Dawson County, Georgia(7)",476.6 
+28059.0,"Jackson County, Mississippi(6)",476.6 
+47099.0,"Lawrence County, Tennessee(6)",476.6 
+5127.0,"Scott County, Arkansas(6)",476.5 
+25023.0,"Plymouth County, Massachusetts(7)",476.5 
+47185.0,"White County, Tennessee(6)",476.5 
+39035.0,"Cuyahoga County, Ohio(6)",476.4 
+30049.0,"Lewis and Clark County, Montana(6)",476.4 
+13245.0,"Richmond County, Georgia(7)",476.3 
+37185.0,"Warren County, North Carolina(6)",476.3 
+37025.0,"Cabarrus County, North Carolina(6)",476.3 
+29169.0,"Pulaski County, Missouri(6)",476.2 
+37131.0,"Northampton County, North Carolina(6)",476.2 
+33005.0,"Cheshire County, New Hampshire(6)",476.2 
+28045.0,"Hancock County, Mississippi(6)",476.1 
+5085.0,"Lonoke County, Arkansas(6)",476.1 
+29081.0,"Harrison County, Missouri(6)",476 
+48115.0,"Dawson County, Texas(7)",476 
+42111.0,"Somerset County, Pennsylvania(6)",476 
+46013.0,"Brown County, South Dakota(6)",475.8 
+53073.0,"Whatcom County, Washington(7)",475.8 
+46037.0,"Day County, South Dakota(6)",475.7 
+39073.0,"Hocking County, Ohio(6)",475.7 
+13153.0,"Houston County, Georgia(7)",475.7 
+39025.0,"Clermont County, Ohio(6)",475.7 
+26039.0,"Crawford County, Michigan(6)",475.7 
+42011.0,"Berks County, Pennsylvania(6)",475.7 
+36003.0,"Allegany County, New York(7)",475.6 
+19061.0,"Dubuque County, Iowa(7)",475.6 
+33015.0,"Rockingham County, New Hampshire(6)",475.6 
+8061.0,"Kiowa County, Colorado(6)",475.6 
+22081.0,"Red River Parish, Louisiana(7)",475.5 
+30035.0,"Glacier County, Montana(6)",475.5 
+48321.0,"Matagorda County, Texas(7)",475.4 
+19103.0,"Johnson County, Iowa(7)",475.4 
+42021.0,"Cambria County, Pennsylvania(6)",475.3 
+27131.0,"Rice County, Minnesota(6)",475.3 
+22033.0,"East Baton Rouge Parish, Louisiana(7)",475.3 
+13215.0,"Muscogee County, Georgia(7)",475.2 
+9011.0,"New London County, Connecticut(7)",475.2 
+55083.0,"Oconto County, Wisconsin(6)",475 
+12039.0,"Gadsden County, Florida(6)",475 
+13279.0,"Toombs County, Georgia(7)",475 
+49013.0,"Duchesne County, Utah(7)",475 
+1079.0,"Lawrence County, Alabama(6)",474.9 
+13065.0,"Clinch County, Georgia(7)",474.9 
+37051.0,"Cumberland County, North Carolina(6)",474.8 
+30055.0,"McCone County, Montana(6)",474.8 
+48051.0,"Burleson County, Texas(7)",474.8 
+40035.0,"Craig County, Oklahoma(6)",474.7 
+47089.0,"Jefferson County, Tennessee(6)",474.7 
+39005.0,"Ashland County, Ohio(6)",474.7 
+5037.0,"Cross County, Arkansas(6)",474.7 
+38071.0,"Ramsey County, North Dakota(6)",474.6 
+37003.0,"Alexander County, North Carolina(6)",474.6 
+1051.0,"Elmore County, Alabama(6)",474.6 
+42015.0,"Bradford County, Pennsylvania(6)",474.6 
+47053.0,"Gibson County, Tennessee(6)",474.6 
+51147.0,"Prince Edward County, Virginia(6)",474.5 
+34021.0,"Mercer County, New Jersey(7)",474.5 
+47121.0,"Meigs County, Tennessee(6)",474.5 
+29117.0,"Livingston County, Missouri(6)",474.5 
+37115.0,"Madison County, North Carolina(6)",474.4 
+42007.0,"Beaver County, Pennsylvania(6)",474.4 
+42067.0,"Juniata County, Pennsylvania(6)",474.4 
+27169.0,"Winona County, Minnesota(6)",474.4 
+48407.0,"San Jacinto County, Texas(7)",474.4 
+24029.0,"Kent County, Maryland(6)",474.4 
+48221.0,"Hood County, Texas(7)",474.3 
+36041.0,"Hamilton County, New York(7)",474.2 
+29159.0,"Pettis County, Missouri(6)",474.2 
+2130.0,"Ketchikan Gateway Borough, Alaska(6)",474.1 
+53031.0,"Jefferson County, Washington(7)",474.1 
+54077.0,"Preston County, West Virginia(6)",474.1 
+40059.0,"Harper County, Oklahoma(6)",474.1 
+42121.0,"Venango County, Pennsylvania(6)",474 
+13237.0,"Putnam County, Georgia(7)",473.9 
+22127.0,"Winn Parish, Louisiana(7)",473.9 
+21213.0,"Simpson County, Kentucky(7)",473.8 
+27105.0,"Nobles County, Minnesota(6)",473.8 
+29031.0,"Cape Girardeau County, Missouri(6)",473.8 
+48463.0,"Uvalde County, Texas(7)",473.7 
+48387.0,"Red River County, Texas(7)",473.7 
+55009.0,"Brown County, Wisconsin(6)",473.7 
+26001.0,"Alcona County, Michigan(6)",473.7 
+9007.0,"Middlesex County, Connecticut(7)",473.7 
+48403.0,"Sabine County, Texas(7)",473.5 
+19099.0,"Jasper County, Iowa(7)",473.5 
+39109.0,"Miami County, Ohio(6)",473.5 
+28133.0,"Sunflower County, Mississippi(6)",473.4 
+27123.0,"Ramsey County, Minnesota(6)",473.3 
+13179.0,"Liberty County, Georgia(7)",473.1 
+29075.0,"Gentry County, Missouri(6)",473.1 
+51775.0,"Salem City, Virginia(6)",473.1 
+40049.0,"Garvin County, Oklahoma(6)",473 
+47029.0,"Cocke County, Tennessee(6)",473 
+13241.0,"Rabun County, Georgia(7)",473 
+24041.0,"Talbot County, Maryland(6)",472.8 
+12007.0,"Bradford County, Florida(6)",472.8 
+13299.0,"Ware County, Georgia(7)",472.8 
+9009.0,"New Haven County, Connecticut(7)",472.8 
+42005.0,"Armstrong County, Pennsylvania(6)",472.8 
+24037.0,"St. Marys County, Maryland(6)",472.6 
+47173.0,"Union County, Tennessee(6)",472.6 
+17103.0,"Lee County, Illinois(7)",472.6 
+53029.0,"Island County, Washington(7)",472.6 
+28007.0,"Attala County, Mississippi(6)",472.6 
+12123.0,"Taylor County, Florida(6)",472.5 
+37079.0,"Greene County, North Carolina(6)",472.5 
+48291.0,"Liberty County, Texas(7)",472.4 
+28025.0,"Clay County, Mississippi(6)",472.4 
+55071.0,"Manitowoc County, Wisconsin(6)",472.2 
+13185.0,"Lowndes County, Georgia(7)",472.2 
+9015.0,"Windham County, Connecticut(7)",472.2 
+12049.0,"Hardee County, Florida(6)",472 
+17073.0,"Henry County, Illinois(7)",472 
+13225.0,"Peach County, Georgia(7)",472 
+29003.0,"Andrew County, Missouri(6)",471.9 
+45087.0,"Union County, South Carolina(6)",471.9 
+31131.0,"Otoe County, Nebraska(6)",471.8 
+5053.0,"Grant County, Arkansas(6)",471.8 
+51157.0,"Rappahannock County, Virginia(6)",471.8 
+23023.0,"Sagadahoc County, Maine(6)",471.7 
+26125.0,"Oakland County, Michigan(6)",471.7 
+12119.0,"Sumter County, Florida(6)",471.6 
+47033.0,"Crockett County, Tennessee(6)",471.6 
+17165.0,"Saline County, Illinois(7)",471.5 
+55081.0,"Monroe County, Wisconsin(6)",471.5 
+51099.0,"King George County, Virginia(6)",471.5 
+17095.0,"Knox County, Illinois(7)",471.5 
+16023.0,"Butte County, Idaho(7)",471.5 
+42119.0,"Union County, Pennsylvania(6)",471.4 
+12093.0,"Okeechobee County, Florida(6)",471.4 
+28157.0,"Wilkinson County, Mississippi(6)",471.4 
+19055.0,"Delaware County, Iowa(7)",471.3 
+36071.0,"Orange County, New York(7)",471.3 
+21061.0,"Edmonson County, Kentucky(7)",471.2 
+22065.0,"Madison Parish, Louisiana(7)",471.2 
+39143.0,"Sandusky County, Ohio(6)",471.1 
+47031.0,"Coffee County, Tennessee(6)",471.1 
+54075.0,"Pocahontas County, West Virginia(6)",471 
+49025.0,"Kane County, Utah(7)",471 
+39045.0,"Fairfield County, Ohio(6)",471 
+26143.0,"Roscommon County, Michigan(6)",471 
+39061.0,"Hamilton County, Ohio(6)",470.8 
+29059.0,"Dallas County, Missouri(6)",470.8 
+37037.0,"Chatham County, North Carolina(6)",470.8 
+27121.0,"Pope County, Minnesota(6)",470.7 
+5029.0,"Conway County, Arkansas(6)",470.6 
+29129.0,"Mercer County, Missouri(6)",470.6 
+27133.0,"Rock County, Minnesota(6)",470.6 
+26145.0,"Saginaw County, Michigan(6)",470.6 
+23011.0,"Kennebec County, Maine(6)",470.5 
+31147.0,"Richardson County, Nebraska(6)",470.5 
+17197.0,"Will County, Illinois(7)",470.5 
+48077.0,"Clay County, Texas(7)",470.3 
+47025.0,"Claiborne County, Tennessee(6)",470.3 
+26007.0,"Alpena County, Michigan(6)",470.2 
+27145.0,"Stearns County, Minnesota(6)",470.2 
+30047.0,"Lake County, Montana(6)",470.2 
+27139.0,"Scott County, Minnesota(6)",470.2 
+19039.0,"Clarke County, Iowa(7)",470.1 
+13021.0,"Bibb County, Georgia(7)",470 
+22021.0,"Caldwell Parish, Louisiana(7)",470 
+38067.0,"Pembina County, North Dakota(6)",469.9 
+55053.0,"Jackson County, Wisconsin(6)",469.9 
+22019.0,"Calcasieu Parish, Louisiana(7)",469.9 
+55019.0,"Clark County, Wisconsin(6)",469.9 
+31121.0,"Merrick County, Nebraska(6)",469.8 
+12111.0,"St. Lucie County, Florida(6)",469.7 
+22107.0,"Tensas Parish, Louisiana(7)",469.7 
+28093.0,"Marshall County, Mississippi(6)",469.6 
+27065.0,"Kanabec County, Minnesota(6)",469.6 
+50021.0,"Rutland County, Vermont(6)",469.6 
+45043.0,"Georgetown County, South Carolina(6)",469.5 
+46089.0,"McPherson County, South Dakota(6)",469.5 
+12121.0,"Suwannee County, Florida(6)",469.5 
+48375.0,"Potter County, Texas(7)",469.3 
+37067.0,"Forsyth County, North Carolina(6)",469.3 
+48423.0,"Smith County, Texas(7)",469.3 
+13317.0,"Wilkes County, Georgia(7)",469.3 
+39029.0,"Columbiana County, Ohio(6)",469.3 
+13115.0,"Floyd County, Georgia(7)",469.3 
+17087.0,"Johnson County, Illinois(7)",469.3 
+48455.0,"Trinity County, Texas(7)",469.2 
+28125.0,"Sharkey County, Mississippi(6)",469.1 
+26035.0,"Clare County, Michigan(6)",469 
+34027.0,"Morris County, New Jersey(7)",469 
+29131.0,"Miller County, Missouri(6)",468.9 
+13107.0,"Emanuel County, Georgia(7)",468.9 
+47045.0,"Dyer County, Tennessee(6)",468.9 
+9003.0,"Hartford County, Connecticut(7)",468.8 
+39019.0,"Carroll County, Ohio(6)",468.8 
+51770.0,"Roanoke City, Virginia(6)",468.8 
+40087.0,"McClain County, Oklahoma(6)",468.8 
+40137.0,"Stephens County, Oklahoma(6)",468.7 
+36025.0,"Delaware County, New York(7)",468.7 
+48289.0,"Leon County, Texas(7)",468.7 
+54003.0,"Berkeley County, West Virginia(6)",468.7 
+19185.0,"Wayne County, Iowa(7)",468.7 
+40129.0,"Roger Mills County, Oklahoma(6)",468.6 
+48035.0,"Bosque County, Texas(7)",468.6 
+13077.0,"Coweta County, Georgia(7)",468.6 
+45047.0,"Greenwood County, South Carolina(6)",468.6 
+12015.0,"Charlotte County, Florida(6)",468.5 
+22075.0,"Plaquemines Parish, Louisiana(7)",468.5 
+26075.0,"Jackson County, Michigan(6)",468.4 
+28131.0,"Stone County, Mississippi(6)",468.4 
+13033.0,"Burke County, Georgia(7)",468.3 
+47181.0,"Wayne County, Tennessee(6)",468.3 
+53047.0,"Okanogan County, Washington(6)",468.3 
+48305.0,"Lynn County, Texas(7)",468.2 
+48503.0,"Young County, Texas(7)",468.2 
+39173.0,"Wood County, Ohio(6)",468.1 
+30053.0,"Lincoln County, Montana(6)",468.1 
+47165.0,"Sumner County, Tennessee(6)",468.1 
+27093.0,"Meeker County, Minnesota(6)",468.1 
+53017.0,"Douglas County, Washington(6)",468.1 
+51197.0,"Wythe County, Virginia(6)",468 
+9013.0,"Tolland County, Connecticut(7)",468 
+17155.0,"Putnam County, Illinois(7)",467.9 
+26147.0,"St. Clair County, Michigan(6)",467.9 
+13313.0,"Whitfield County, Georgia(7)",467.9 
+55123.0,"Vernon County, Wisconsin(6)",467.8 
+54057.0,"Mineral County, West Virginia(6)",467.8 
+19181.0,"Warren County, Iowa(7)",467.8 
+13191.0,"McIntosh County, Georgia(7)",467.7 
+21033.0,"Caldwell County, Kentucky(7)",467.7 
+48033.0,"Borden County, Texas(7)",467.6 
+29157.0,"Perry County, Missouri(6)",467.5 
+13055.0,"Chattooga County, Georgia(7)",467.5 
+13019.0,"Berrien County, Georgia(7)",467.5 
+46035.0,"Davison County, South Dakota(6)",467.5 
+5035.0,"Crittenden County, Arkansas(6)",467.4 
+40081.0,"Lincoln County, Oklahoma(6)",467.4 
+1103.0,"Morgan County, Alabama(6)",467.3 
+45045.0,"Greenville County, South Carolina(6)",467.3 
+42123.0,"Warren County, Pennsylvania(6)",467.2 
+39007.0,"Ashtabula County, Ohio(6)",467.1 
+47147.0,"Robertson County, Tennessee(6)",467.1 
+56029.0,"Park County, Wyoming(6)",467 
+37039.0,"Cherokee County, North Carolina(6)",467 
+39165.0,"Warren County, Ohio(6)",466.9 
+19087.0,"Henry County, Iowa(7)",466.9 
+49043.0,"Summit County, Utah(7)",466.8 
+12117.0,"Seminole County, Florida(6)",466.8 
+29186.0,"Ste. Genevieve County, Missouri(6)",466.8 
+39043.0,"Erie County, Ohio(6)",466.7 
+37089.0,"Henderson County, North Carolina(6)",466.7 
+13167.0,"Johnson County, Georgia(7)",466.4 
+1063.0,"Greene County, Alabama(6)",466.4 
+38063.0,"Nelson County, North Dakota(6)",466.4 
+1027.0,"Clay County, Alabama(6)",466.4 
+40119.0,"Payne County, Oklahoma(6)",466.4 
+31001.0,"Adams County, Nebraska(6)",466.4 
+17039.0,"De Witt County, Illinois(7)",466.2 
+31067.0,"Gage County, Nebraska(6)",466.1 
+23003.0,"Aroostook County, Maine(6)",466.1 
+27103.0,"Nicollet County, Minnesota(6)",466.1 
+40061.0,"Haskell County, Oklahoma(6)",466 
+42109.0,"Snyder County, Pennsylvania(6)",466 
+31177.0,"Washington County, Nebraska(6)",466 
+29205.0,"Shelby County, Missouri(6)",466 
+39055.0,"Geauga County, Ohio(6)",466 
+40151.0,"Woods County, Oklahoma(6)",465.9 
+51033.0,"Caroline County, Virginia(6)",465.8 
+17101.0,"Lawrence County, Illinois(7)",465.8 
+36089.0,"St. Lawrence County, New York(7)",465.8 
+48361.0,"Orange County, Texas(7)",465.8 
+13069.0,"Coffee County, Georgia(7)",465.7 
+47105.0,"Loudon County, Tennessee(6)",465.7 
+22051.0,"Jefferson Parish, Louisiana(7)",465.7 
+48473.0,"Waller County, Texas(7)",465.6 
+16029.0,"Caribou County, Idaho(7)",465.5 
+19191.0,"Winneshiek County, Iowa(7)",465.4 
+55039.0,"Fond du Lac County, Wisconsin(6)",465.3 
+47035.0,"Cumberland County, Tennessee(6)",465.3 
+47001.0,"Anderson County, Tennessee(6)",465.3 
+53007.0,"Chelan County, Washington(6)",465.3 
+48353.0,"Nolan County, Texas(7)",465.3 
+19143.0,"Osceola County, Iowa(7)",465.3 
+29219.0,"Warren County, Missouri(6)",465.3 
+40011.0,"Blaine County, Oklahoma(6)",465.1 
+38077.0,"Richland County, North Dakota(6)",465.1 
+47151.0,"Scott County, Tennessee(6)",465 
+13067.0,"Cobb County, Georgia(7)",465 
+13071.0,"Colquitt County, Georgia(7)",464.9 
+42017.0,"Bucks County, Pennsylvania(6)",464.9 
+34003.0,"Bergen County, New Jersey(7)",464.9 
+1035.0,"Conecuh County, Alabama(6)",464.9 
+13005.0,"Bacon County, Georgia(7)",464.9 
+55129.0,"Washburn County, Wisconsin(6)",464.8 
+5005.0,"Baxter County, Arkansas(6)",464.7 
+42003.0,"Allegheny County, Pennsylvania(6)",464.7 
+41009.0,"Columbia County, Oregon(6)",464.7 
+29141.0,"Morgan County, Missouri(6)",464.7 
+48457.0,"Tyler County, Texas(7)",464.7 
+37149.0,"Polk County, North Carolina(6)",464.6 
+48383.0,"Reagan County, Texas(7)",464.5 
+47027.0,"Clay County, Tennessee(6)",464.5 
+13121.0,"Fulton County, Georgia(7)",464.5 
+46059.0,"Hand County, South Dakota(6)",464.5 
+51800.0,"Suffolk City, Virginia(6)",464.4 
+42133.0,"York County, Pennsylvania(6)",464.4 
+22057.0,"LaFourche Parish, Louisiana(7)",464.4 
+39159.0,"Union County, Ohio(6)",464.4 
+5139.0,"Union County, Arkansas(6)",464.3 
+51097.0,"King and Queen County, Virginia(6)",464.1 
+17067.0,"Hancock County, Illinois(7)",464.1 
+1109.0,"Pike County, Alabama(6)",464.1 
+48507.0,"Zavala County, Texas(7)",463.9 
+6087.0,"Santa Cruz County, California(7)",463.9 
+19065.0,"Fayette County, Iowa(7)",463.8 
+29073.0,"Gasconade County, Missouri(6)",463.8 
+28061.0,"Jasper County, Mississippi(6)",463.8 
+16027.0,"Canyon County, Idaho(7)",463.7 
+37013.0,"Beaufort County, North Carolina(6)",463.7 
+28117.0,"Prentiss County, Mississippi(6)",463.6 
+5067.0,"Jackson County, Arkansas(6)",463.6 
+38015.0,"Burleigh County, North Dakota(6)",463.6 
+48207.0,"Haskell County, Texas(7)",463.5 
+48257.0,"Kaufman County, Texas(7)",463.5 
+21227.0,"Warren County, Kentucky(7)",463.5 
+51175.0,"Southampton County, Virginia(6)",463.5 
+30105.0,"Valley County, Montana(6)",463.4 
+31141.0,"Platte County, Nebraska(6)",463.3 
+48467.0,"Van Zandt County, Texas(7)",463.3 
+54063.0,"Monroe County, West Virginia(6)",463.3 
+48233.0,"Hutchinson County, Texas(7)",463.2 
+54061.0,"Monongalia County, West Virginia(6)",463.1 
+48331.0,"Milam County, Texas(7)",463.1 
+5051.0,"Garland County, Arkansas(6)",463 
+9005.0,"Litchfield County, Connecticut(7)",462.9 
+13063.0,"Clayton County, Georgia(7)",462.8 
+29203.0,"Shannon County, Missouri(6)",462.8 
+13193.0,"Macon County, Georgia(7)",462.8 
+13147.0,"Hart County, Georgia(7)",462.8 
+48351.0,"Newton County, Texas(7)",462.8 
+37105.0,"Lee County, North Carolina(6)",462.7 
+39017.0,"Butler County, Ohio(6)",462.7 
+48171.0,"Gillespie County, Texas(7)",462.5 
+37119.0,"Mecklenburg County, North Carolina(6)",462.4 
+48199.0,"Hardin County, Texas(7)",462.4 
+31051.0,"Dixon County, Nebraska(6)",462.4 
+47063.0,"Hamblen County, Tennessee(6)",462.3 
+40143.0,"Tulsa County, Oklahoma(6)",462.2 
+28155.0,"Webster County, Mississippi(6)",462.2 
+41013.0,"Crook County, Oregon(6)",462.1 
+17185.0,"Wabash County, Illinois(7)",462 
+36027.0,"Dutchess County, New York(7)",462 
+46097.0,"Miner County, South Dakota(6)",462 
+32019.0,"Lyon County, Nevada(6)",462 
+48181.0,"Grayson County, Texas(7)",461.9 
+39153.0,"Summit County, Ohio(6)",461.9 
+23017.0,"Oxford County, Maine(6)",461.8 
+47097.0,"Lauderdale County, Tennessee(6)",461.7 
+42073.0,"Lawrence County, Pennsylvania(6)",461.6 
+40121.0,"Pittsburg County, Oklahoma(6)",461.6 
+51045.0,"Craig County, Virginia(6)",461.6 
+40127.0,"Pushmataha County, Oklahoma(6)",461.5 
+22091.0,"St. Helena Parish, Louisiana(7)",461.4 
+6089.0,"Shasta County, California(7)",461.4 
+30041.0,"Hill County, Montana(6)",461.3 
+17017.0,"Cass County, Illinois(7)",461.3 
+12085.0,"Martin County, Florida(6)",461.3 
+1129.0,"Washington County, Alabama(6)",461.3 
+1121.0,"Talladega County, Alabama(6)",461.2 
+45023.0,"Chester County, South Carolina(6)",461.2 
+47077.0,"Henderson County, Tennessee(6)",461.2 
+31185.0,"York County, Nebraska(6)",461.2 
+31119.0,"Madison County, Nebraska(6)",461.1 
+10005.0,"Sussex County, Delaware(6)",461.1 
+1013.0,"Butler County, Alabama(6)",460.9 
+5039.0,"Dallas County, Arkansas(6)",460.8 
+47145.0,"Roane County, Tennessee(6)",460.7 
+38101.0,"Ward County, North Dakota(6)",460.7 
+37015.0,"Bertie County, North Carolina(6)",460.7 
+31083.0,"Harlan County, Nebraska(6)",460.6 
+47065.0,"Hamilton County, Tennessee(6)",460.6 
+28087.0,"Lowndes County, Mississippi(6)",460.5 
+17181.0,"Union County, Illinois(7)",460.5 
+51047.0,"Culpeper County, Virginia(6)",460.3 
+55139.0,"Winnebago County, Wisconsin(6)",460.3 
+17195.0,"Whiteside County, Illinois(7)",460.1 
+26111.0,"Midland County, Michigan(6)",460.1 
+29083.0,"Henry County, Missouri(6)",460.1 
+51177.0,"Spotsylvania County, Virginia(6)",460 
+26019.0,"Benzie County, Michigan(6)",460 
+19077.0,"Guthrie County, Iowa(7)",460 
+29179.0,"Reynolds County, Missouri(6)",459.9 
+47057.0,"Grainger County, Tennessee(6)",459.9 
+27147.0,"Steele County, Minnesota(6)",459.9 
+42039.0,"Crawford County, Pennsylvania(6)",459.8 
+37197.0,"Yadkin County, North Carolina(6)",459.8 
+36087.0,"Rockland County, New York(7)",459.8 
+37017.0,"Bladen County, North Carolina(6)",459.7 
+29027.0,"Callaway County, Missouri(6)",459.6 
+41033.0,"Josephine County, Oregon(6)",459.6 
+48451.0,"Tom Green County, Texas(7)",459.6 
+27161.0,"Waseca County, Minnesota(6)",459.5 
+19081.0,"Hancock County, Iowa(7)",459.5 
+1001.0,"Autauga County, Alabama(6)",459.5 
+31129.0,"Nuckolls County, Nebraska(6)",459.5 
+29153.0,"Ozark County, Missouri(6)",459.4 
+19177.0,"Van Buren County, Iowa(7)",459.2 
+42085.0,"Mercer County, Pennsylvania(6)",459.2 
+37135.0,"Orange County, North Carolina(6)",459.2 
+48293.0,"Limestone County, Texas(7)",459.1 
+28137.0,"Tate County, Mississippi(6)",459 
+5009.0,"Boone County, Arkansas(6)",458.9 
+48425.0,"Somervell County, Texas(7)",458.9 
+9001.0,"Fairfield County, Connecticut(7)",458.9 
+28029.0,"Copiah County, Mississippi(6)",458.9 
+13127.0,"Glynn County, Georgia(7)",458.9 
+40031.0,"Comanche County, Oklahoma(6)",458.8 
+29107.0,"Lafayette County, Missouri(6)",458.8 
+17097.0,"Lake County, Illinois(7)",458.8 
+39157.0,"Tuscarawas County, Ohio(6)",458.8 
+17029.0,"Coles County, Illinois(7)",458.8 
+33003.0,"Carroll County, New Hampshire(6)",458.7 
+27053.0,"Hennepin County, Minnesota(6)",458.7 
+21007.0,"Ballard County, Kentucky(7)",458.7 
+28067.0,"Jones County, Mississippi(6)",458.7 
+48203.0,"Harrison County, Texas(7)",458.7 
+13251.0,"Screven County, Georgia(7)",458.6 
+45077.0,"Pickens County, South Carolina(6)",458.6 
+55051.0,"Iron County, Wisconsin(6)",458.6 
+19051.0,"Davis County, Iowa(7)",458.6 
+25003.0,"Berkshire County, Massachusetts(7)",458.4 
+29189.0,"St. Louis County, Missouri(6)",458.4 
+29007.0,"Audrain County, Missouri(6)",458.4 
+37063.0,"Durham County, North Carolina(6)",458.3 
+28073.0,"Lamar County, Mississippi(6)",458.3 
+22095.0,"St. John the Baptist Parish, Louisiana(7)",458.2 
+16017.0,"Bonner County, Idaho(7)",458.2 
+30017.0,"Custer County, Montana(6)",458.2 
+17019.0,"Champaign County, Illinois(7)",458.1 
+5125.0,"Saline County, Arkansas(6)",458.1 
+39057.0,"Greene County, Ohio(6)",458 
+40073.0,"Kingfisher County, Oklahoma(6)",458 
+29115.0,"Linn County, Missouri(6)",457.9 
+39033.0,"Crawford County, Ohio(6)",457.9 
+48413.0,"Schleicher County, Texas(7)",457.8 
+16055.0,"Kootenai County, Idaho(7)",457.8 
+5107.0,"Phillips County, Arkansas(6)",457.7 
+17133.0,"Monroe County, Illinois(7)",457.6 
+38035.0,"Grand Forks County, North Dakota(6)",457.6 
+37183.0,"Wake County, North Carolina(6)",457.5 
+47003.0,"Bedford County, Tennessee(6)",457.5 
+27099.0,"Mower County, Minnesota(6)",457.5 
+27013.0,"Blue Earth County, Minnesota(6)",457.4 
+29091.0,"Howell County, Missouri(6)",457.4 
+24003.0,"Anne Arundel County, Maryland(6)",457.4 
+41051.0,"Multnomah County, Oregon(6)",457.4 
+37021.0,"Buncombe County, North Carolina(6)",457.3 
+40103.0,"Noble County, Oklahoma(6)",457.2 
+47041.0,"DeKalb County, Tennessee(6)",457.2 
+25027.0,"Worcester County, Massachusetts(7)",457.1 
+5073.0,"Lafayette County, Arkansas(6)",457.1 
+17201.0,"Winnebago County, Illinois(7)",457.1 
+29161.0,"Phelps County, Missouri(6)",457.1 
+26055.0,"Grand Traverse County, Michigan(6)",457.1 
+13303.0,"Washington County, Georgia(7)",457.1 
+46069.0,"Hyde County, South Dakota(6)",457.1 
+55117.0,"Sheboygan County, Wisconsin(6)",457 
+50019.0,"Orleans County, Vermont(6)",457 
+47131.0,"Obion County, Tennessee(6)",456.9 
+19165.0,"Shelby County, Iowa(7)",456.9 
+48005.0,"Angelina County, Texas(7)",456.9 
+17127.0,"Massac County, Illinois(7)",456.8 
+48135.0,"Ector County, Texas(7)",456.8 
+54055.0,"Mercer County, West Virginia(6)",456.8 
+30003.0,"Big Horn County, Montana(6)",456.7 
+49009.0,"Daggett County, Utah(7)",456.7 
+48469.0,"Victoria County, Texas(7)",456.7 
+47047.0,"Fayette County, Tennessee(6)",456.6 
+48083.0,"Coleman County, Texas(7)",456.5 
+40131.0,"Rogers County, Oklahoma(6)",456.4 
+46079.0,"Lake County, South Dakota(6)",456.4 
+37195.0,"Wilson County, North Carolina(6)",456.4 
+48267.0,"Kimble County, Texas(7)",456.4 
+48401.0,"Rusk County, Texas(7)",456.4 
+42047.0,"Elk County, Pennsylvania(6)",456.4 
+42009.0,"Bedford County, Pennsylvania(6)",456.3 
+33011.0,"Hillsborough County, New Hampshire(6)",456.3 
+36119.0,"Westchester County, New York(7)",456.3 
+5011.0,"Bradley County, Arkansas(6)",456.2 
+27101.0,"Murray County, Minnesota(6)",456.1 
+29065.0,"Dent County, Missouri(6)",456.1 
+19117.0,"Lucas County, Iowa(7)",456.1 
+39049.0,"Franklin County, Ohio(6)",455.9 
+55003.0,"Ashland County, Wisconsin(6)",455.8 
+39133.0,"Portage County, Ohio(6)",455.8 
+31155.0,"Saunders County, Nebraska(6)",455.8 
+6079.0,"San Luis Obispo County, California(7)",455.6 
+30099.0,"Teton County, Montana(6)",455.6 
+37147.0,"Pitt County, North Carolina(6)",455.6 
+19047.0,"Crawford County, Iowa(7)",455.5 
+29011.0,"Barton County, Missouri(6)",455.3 
+54009.0,"Brooke County, West Virginia(6)",455.3 
+48177.0,"Gonzales County, Texas(7)",455.3 
+46083.0,"Lincoln County, South Dakota(6)",455 
+51710.0,"Norfolk City, Virginia(6)",455 
+36111.0,"Ulster County, New York(7)",454.8 
+45073.0,"Oconee County, South Carolina(6)",454.8 
+5131.0,"Sebastian County, Arkansas(6)",454.7 
+19027.0,"Carroll County, Iowa(7)",454.7 
+51037.0,"Charlotte County, Virginia(6)",454.6 
+29079.0,"Grundy County, Missouri(6)",454.6 
+24043.0,"Washington County, Maryland(6)",454.6 
+48309.0,"McLennan County, Texas(7)",454.5 
+39151.0,"Stark County, Ohio(6)",454.5 
+48167.0,"Galveston County, Texas(7)",454.5 
+19189.0,"Winnebago County, Iowa(7)",454.4 
+48231.0,"Hunt County, Texas(7)",454.4 
+40147.0,"Washington County, Oklahoma(6)",454.3 
+1119.0,"Sumter County, Alabama(6)",454.3 
+25021.0,"Norfolk County, Massachusetts(7)",454.3 
+17159.0,"Richland County, Illinois(7)",454.3 
+26011.0,"Arenac County, Michigan(6)",454.2 
+51087.0,"Henrico County, Virginia(6)",454.2 
+31041.0,"Custer County, Nebraska(6)",454.2 
+28101.0,"Newton County, Mississippi(6)",454.1 
+37123.0,"Montgomery County, North Carolina(6)",454.1 
+31143.0,"Polk County, Nebraska(6)",454 
+12027.0,"DeSoto County, Florida(6)",454 
+13109.0,"Evans County, Georgia(7)",453.9 
+1065.0,"Hale County, Alabama(6)",453.9 
+45091.0,"York County, South Carolina(6)",453.9 
+29229.0,"Wright County, Missouri(6)",453.9 
+25005.0,"Bristol County, Massachusetts(7)",453.8 
+12081.0,"Manatee County, Florida(6)",453.8 
+1055.0,"Etowah County, Alabama(6)",453.8 
+55121.0,"Trempealeau County, Wisconsin(6)",453.8 
+42105.0,"Potter County, Pennsylvania(6)",453.7 
+54037.0,"Jefferson County, West Virginia(6)",453.7 
+51093.0,"Isle of Wight County, Virginia(6)",453.7 
+42051.0,"Fayette County, Pennsylvania(6)",453.7 
+5123.0,"St. Francis County, Arkansas(6)",453.7 
+50005.0,"Caledonia County, Vermont(6)",453.6 
+26057.0,"Gratiot County, Michigan(6)",453.6 
+38041.0,"Hettinger County, North Dakota(6)",453.5 
+28139.0,"Tippah County, Mississippi(6)",453.4 
+21101.0,"Henderson County, Kentucky(7)",453.4 
+17059.0,"Gallatin County, Illinois(7)",453.4 
+48185.0,"Grimes County, Texas(7)",453.3 
+17109.0,"McDonough County, Illinois(7)",453.3 
+47093.0,"Knox County, Tennessee(6)",453.2 
+55031.0,"Douglas County, Wisconsin(6)",453.1 
+40123.0,"Pontotoc County, Oklahoma(6)",453.1 
+19169.0,"Story County, Iowa(7)",453.1 
+51073.0,"Gloucester County, Virginia(6)",453.1 
+16001.0,"Ada County, Idaho(7)",453.1 
+19101.0,"Jefferson County, Iowa(7)",453 
+29135.0,"Moniteau County, Missouri(6)",453 
+32510.0,"Carson City, Nevada(6)",453 
+39041.0,"Delaware County, Ohio(6)",452.9 
+42115.0,"Susquehanna County, Pennsylvania(6)",452.9 
+27085.0,"McLeod County, Minnesota(6)",452.8 
+28015.0,"Carroll County, Mississippi(6)",452.7 
+48441.0,"Taylor County, Texas(7)",452.7 
+51015.0,"Augusta County, Virginia(6)",452.7 
+48045.0,"Briscoe County, Texas(7)",452.7 
+19157.0,"Poweshiek County, Iowa(7)",452.7 
+31093.0,"Howard County, Nebraska(6)",452.7 
+39003.0,"Allen County, Ohio(6)",452.6 
+23001.0,"Androscoggin County, Maine(6)",452.6 
+16035.0,"Clearwater County, Idaho(7)",452.5 
+45075.0,"Orangeburg County, South Carolina(6)",452.5 
+31019.0,"Buffalo County, Nebraska(6)",452.4 
+28103.0,"Noxubee County, Mississippi(6)",452.4 
+55055.0,"Jefferson County, Wisconsin(6)",452.3 
+6083.0,"Santa Barbara County, California(7)",452.3 
+40091.0,"McIntosh County, Oklahoma(6)",452.3 
+47189.0,"Wilson County, Tennessee(6)",452.2 
+27055.0,"Houston County, Minnesota(6)",452.2 
+46117.0,"Stanley County, South Dakota(6)",452.2 
+23007.0,"Franklin County, Maine(6)",452.2 
+1075.0,"Lamar County, Alabama(6)",452.1 
+21219.0,"Todd County, Kentucky(7)",452.1 
+21165.0,"Menifee County, Kentucky(7)",452.1 
+5045.0,"Faulkner County, Arkansas(6)",452.1 
+26135.0,"Oscoda County, Michigan(6)",452 
+10003.0,"New Castle County, Delaware(6)",451.9 
+37035.0,"Catawba County, North Carolina(6)",451.9 
+29195.0,"Saline County, Missouri(6)",451.8 
+42065.0,"Jefferson County, Pennsylvania(6)",451.8 
+47051.0,"Franklin County, Tennessee(6)",451.7 
+29183.0,"St. Charles County, Missouri(6)",451.6 
+13145.0,"Harris County, Georgia(7)",451.6 
+13235.0,"Pulaski County, Georgia(7)",451.5 
+2020.0,"Anchorage Borough, Alaska(6)",451.5 
+48501.0,"Yoakum County, Texas(7)",451.5 
+46102.0,"Oglala Lakota, South Dakota(6)",451.4 
+45067.0,"Marion County, South Carolina(6)",451.4 
+51023.0,"Botetourt County, Virginia(6)",451.4 
+19003.0,"Adams County, Iowa(7)",451.4 
+26151.0,"Sanilac County, Michigan(6)",451.4 
+12073.0,"Leon County, Florida(6)",451.3 
+51067.0,"Franklin County, Virginia(6)",451.3 
+28011.0,"Bolivar County, Mississippi(6)",451.2 
+49001.0,"Beaver County, Utah(7)",451.2 
+12097.0,"Osceola County, Florida(6)",451.1 
+48139.0,"Ellis County, Texas(7)",451.1 
+29015.0,"Benton County, Missouri(6)",450.9 
+55135.0,"Waupaca County, Wisconsin(6)",450.7 
+51101.0,"King William County, Virginia(6)",450.7 
+46107.0,"Potter County, South Dakota(6)",450.6 
+48197.0,"Hardeman County, Texas(7)",450.4 
+34035.0,"Somerset County, New Jersey(7)",450.3 
+45035.0,"Dorchester County, South Carolina(6)",450.3 
+45027.0,"Clarendon County, South Carolina(6)",450.3 
+16019.0,"Bonneville County, Idaho(7)",450.1 
+47149.0,"Rutherford County, Tennessee(6)",450 
+5013.0,"Calhoun County, Arkansas(6)",449.9 
+28123.0,"Scott County, Mississippi(6)",449.8 
+47007.0,"Bledsoe County, Tennessee(6)",449.8 
+48161.0,"Freestone County, Texas(7)",449.7 
+17033.0,"Crawford County, Illinois(7)",449.5 
+47125.0,"Montgomery County, Tennessee(6)",449.5 
+13113.0,"Fayette County, Georgia(7)",449.4 
+49007.0,"Carbon County, Utah(7)",449.4 
+56021.0,"Laramie County, Wyoming(6)",449.4 
+51740.0,"Portsmouth City, Virginia(6)",449.3 
+13293.0,"Upson County, Georgia(7)",449.3 
+13125.0,"Glascock County, Georgia(7)",449.2 
+48099.0,"Coryell County, Texas(7)",449.2 
+55043.0,"Grant County, Wisconsin(6)",449.1 
+47179.0,"Washington County, Tennessee(6)",449.1 
+40133.0,"Seminole County, Oklahoma(6)",449.1 
+5063.0,"Independence County, Arkansas(6)",449 
+47141.0,"Putnam County, Tennessee(6)",449 
+42043.0,"Dauphin County, Pennsylvania(6)",449 
+50007.0,"Chittenden County, Vermont(6)",448.8 
+5115.0,"Pope County, Arkansas(6)",448.8 
+42101.0,"Philadelphia County, Pennsylvania(6)",448.7 
+12067.0,"Lafayette County, Florida(6)",448.7 
+13135.0,"Gwinnett County, Georgia(7)",448.7 
+6103.0,"Tehama County, California(7)",448.6 
+21233.0,"Webster County, Kentucky(7)",448.6 
+28003.0,"Alcorn County, Mississippi(6)",448.5 
+27047.0,"Freeborn County, Minnesota(6)",448.5 
+26087.0,"Lapeer County, Michigan(6)",448.5 
+29019.0,"Boone County, Missouri(6)",448.5 
+26165.0,"Wexford County, Michigan(6)",448.4 
+48193.0,"Hamilton County, Texas(7)",448.4 
+51119.0,"Middlesex County, Virginia(6)",448.3 
+51550.0,"Chesapeake City, Virginia(6)",448.3 
+31039.0,"Cuming County, Nebraska(6)",448.3 
+47109.0,"McNairy County, Tennessee(6)",448.3 
+47139.0,"Polk County, Tennessee(6)",448.3 
+45059.0,"Laurens County, South Carolina(6)",448.2 
+44001.0,"Bristol County, Rhode Island(6)",448.2 
+55029.0,"Door County, Wisconsin(6)",448.2 
+48449.0,"Titus County, Texas(7)",448.2 
+45083.0,"Spartanburg County, South Carolina(6)",448.2 
+45041.0,"Florence County, South Carolina(6)",448.1 
+51760.0,"Richmond City, Virginia(6)",448 
+34039.0,"Union County, New Jersey(7)",448 
+50023.0,"Washington County, Vermont(6)",448 
+17043.0,"DuPage County, Illinois(7)",447.9 
+55115.0,"Shawano County, Wisconsin(6)",447.8 
+51109.0,"Louisa County, Virginia(6)",447.8 
+51065.0,"Fluvanna County, Virginia(6)",447.8 
+21105.0,"Hickman County, Kentucky(7)",447.7 
+1101.0,"Montgomery County, Alabama(6)",447.7 
+48483.0,"Wheeler County, Texas(7)",447.6 
+40149.0,"Washita County, Oklahoma(6)",447.6 
+55005.0,"Barron County, Wisconsin(6)",447.6 
+16045.0,"Gem County, Idaho(7)",447.5 
+38075.0,"Renville County, North Dakota(6)",447.5 
+13247.0,"Rockdale County, Georgia(7)",447.5 
+13099.0,"Early County, Georgia(7)",447.5 
+25001.0,"Barnstable County, Massachusetts(7)",447.4 
+33009.0,"Grafton County, New Hampshire(6)",447.3 
+6115.0,"Yuba County, California(7)",447.3 
+55063.0,"La Crosse County, Wisconsin(6)",447.3 
+5049.0,"Fulton County, Arkansas(6)",447.2 
+55021.0,"Columbia County, Wisconsin(6)",447.2 
+48285.0,"Lavaca County, Texas(7)",447.2 
+12001.0,"Alachua County, Florida(6)",447.1 
+48265.0,"Kerr County, Texas(7)",447.1 
+34031.0,"Passaic County, New Jersey(7)",447.1 
+55073.0,"Marathon County, Wisconsin(6)",447 
+12077.0,"Liberty County, Florida(6)",447 
+2122.0,"Kenai Peninsula Borough, Alaska(6)",446.9 
+38003.0,"Barnes County, North Dakota(6)",446.9 
+51810.0,"Virginia Beach City, Virginia(6)",446.8 
+49023.0,"Juab County, Utah(7)",446.8 
+1091.0,"Marengo County, Alabama(6)",446.8 
+47153.0,"Sequatchie County, Tennessee(6)",446.8 
+36109.0,"Tompkins County, New York(7)",446.7 
+28033.0,"DeSoto County, Mississippi(6)",446.6 
+40051.0,"Grady County, Oklahoma(6)",446.6 
+55107.0,"Rusk County, Wisconsin(6)",446.6 
+51009.0,"Amherst County, Virginia(6)",446.5 
+26045.0,"Eaton County, Michigan(6)",446.5 
+13141.0,"Hancock County, Georgia(7)",446.4 
+54047.0,"McDowell County, West Virginia(6)",446.4 
+26089.0,"Leelanau County, Michigan(6)",446.3 
+40001.0,"Adair County, Oklahoma(6)",446.3 
+30011.0,"Carter County, Montana(6)",446.3 
+51063.0,"Floyd County, Virginia(6)",446.1 
+45065.0,"McCormick County, South Carolina(6)",446.1 
+17045.0,"Edgar County, Illinois(7)",446.1 
+42103.0,"Pike County, Pennsylvania(6)",446 
+5077.0,"Lee County, Arkansas(6)",446 
+42071.0,"Lancaster County, Pennsylvania(6)",446 
+1067.0,"Henry County, Alabama(6)",446 
+51193.0,"Westmoreland County, Virginia(6)",446 
+28023.0,"Clarke County, Mississippi(6)",446 
+27019.0,"Carver County, Minnesota(6)",445.9 
+50003.0,"Bennington County, Vermont(6)",445.9 
+30073.0,"Pondera County, Montana(6)",445.9 
+40079.0,"Le Flore County, Oklahoma(6)",445.9 
+17089.0,"Kane County, Illinois(7)",445.9 
+29047.0,"Clay County, Missouri(6)",445.8 
+48053.0,"Burnet County, Texas(7)",445.8 
+27063.0,"Jackson County, Minnesota(6)",445.7 
+26069.0,"Iosco County, Michigan(6)",445.7 
+37043.0,"Clay County, North Carolina(6)",445.7 
+5149.0,"Yell County, Arkansas(6)",445.7 
+12051.0,"Hendry County, Florida(6)",445.7 
+55141.0,"Wood County, Wisconsin(6)",445.7 
+37011.0,"Avery County, North Carolina(6)",445.6 
+8099.0,"Prowers County, Colorado(6)",445.5 
+54089.0,"Summers County, West Virginia(6)",445.5 
+50011.0,"Franklin County, Vermont(6)",445.4 
+55025.0,"Dane County, Wisconsin(6)",445.3 
+48491.0,"Williamson County, Texas(7)",445.1 
+45007.0,"Anderson County, South Carolina(6)",445.1 
+42045.0,"Delaware County, Pennsylvania(6)",445.1 
+42001.0,"Adams County, Pennsylvania(6)",444.9 
+26101.0,"Manistee County, Michigan(6)",444.9 
+29185.0,"St. Clair County, Missouri(6)",444.8 
+1007.0,"Bibb County, Alabama(6)",444.8 
+42117.0,"Tioga County, Pennsylvania(6)",444.7 
+47133.0,"Overton County, Tennessee(6)",444.7 
+48049.0,"Brown County, Texas(7)",444.7 
+48039.0,"Brazoria County, Texas(7)",444.6 
+39117.0,"Morrow County, Ohio(6)",444.6 
+53055.0,"San Juan County, Washington(7)",444.6 
+41047.0,"Marion County, Oregon(6)",444.6 
+48037.0,"Bowie County, Texas(7)",444.5 
+23005.0,"Cumberland County, Maine(6)",444.5 
+1005.0,"Barbour County, Alabama(6)",444.5 
+29101.0,"Johnson County, Missouri(6)",444.5 
+47135.0,"Perry County, Tennessee(6)",444.5 
+5119.0,"Pulaski County, Arkansas(6)",444.5 
+29213.0,"Taney County, Missouri(6)",444.5 
+39011.0,"Auglaize County, Ohio(6)",444.4 
+27135.0,"Roseau County, Minnesota(6)",444.4 
+27009.0,"Benton County, Minnesota(6)",444.3 
+31145.0,"Red Willow County, Nebraska(6)",444.1 
+48409.0,"San Patricio County, Texas(7)",444.1 
+24021.0,"Frederick County, Maryland(6)",444 
+51005.0,"Alleghany County and Clifton Forge City, Virginia(6)",444 
+34023.0,"Middlesex County, New Jersey(7)",443.8 
+54013.0,"Calhoun County, West Virginia(6)",443.6 
+29171.0,"Putnam County, Missouri(6)",443.5 
+31135.0,"Perkins County, Nebraska(6)",443.5 
+6041.0,"Marin County, California(7)",443.4 
+19049.0,"Dallas County, Iowa(7)",443.4 
+48349.0,"Navarro County, Texas(7)",443.4 
+38029.0,"Emmons County, North Dakota(6)",443.4 
+48381.0,"Randall County, Texas(7)",443.4 
+12047.0,"Hamilton County, Florida(6)",443.3 
+51041.0,"Chesterfield County, Virginia(6)",443.2 
+55041.0,"Forest County, Wisconsin(6)",443.2 
+28085.0,"Lincoln County, Mississippi(6)",443.2 
+12071.0,"Lee County, Florida(6)",443.2 
+13307.0,"Webster County, Georgia(7)",443 
+55097.0,"Portage County, Wisconsin(6)",443 
+39137.0,"Putnam County, Ohio(6)",443 
+2070.0,"Dillingham Census Area, Alaska(6)",442.9 
+28009.0,"Benton County, Mississippi(6)",442.6 
+1003.0,"Baldwin County, Alabama(6)",442.5 
+55037.0,"Florence County, Wisconsin(6)",442.5 
+46011.0,"Brookings County, South Dakota(6)",442.5 
+30089.0,"Sanders County, Montana(6)",442.5 
+5071.0,"Johnson County, Arkansas(6)",442.5 
+29037.0,"Cass County, Missouri(6)",442.4 
+12045.0,"Gulf County, Florida(6)",442.4 
+13265.0,"Taliaferro County, Georgia(7)",442.4 
+50027.0,"Windsor County, Vermont(6)",442.3 
+46015.0,"Brule County, South Dakota(6)",442.3 
+17007.0,"Boone County, Illinois(7)",442.1 
+51159.0,"Richmond County, Virginia(6)",442.1 
+48359.0,"Oldham County, Texas(7)",442.1 
+47171.0,"Unicoi County, Tennessee(6)",442.1 
+48303.0,"Lubbock County, Texas(7)",442 
+13089.0,"DeKalb County, Georgia(7)",442 
+51029.0,"Buckingham County, Virginia(6)",441.9 
+47129.0,"Morgan County, Tennessee(6)",441.9 
+31089.0,"Holt County, Nebraska(6)",441.9 
+19109.0,"Kossuth County, Iowa(7)",441.8 
+1115.0,"St. Clair County, Alabama(6)",441.7 
+48009.0,"Archer County, Texas(7)",441.6 
+26033.0,"Chippewa County, Michigan(6)",441.6 
+42091.0,"Montgomery County, Pennsylvania(6)",441.6 
+55061.0,"Kewaunee County, Wisconsin(6)",441.6 
+37193.0,"Wilkes County, North Carolina(6)",441.6 
+49045.0,"Tooele County, Utah(7)",441.4 
+53033.0,"King County, Washington(7)",441.4 
+29009.0,"Barry County, Missouri(6)",441.4 
+37095.0,"Hyde County, North Carolina(6)",441.4 
+48025.0,"Bee County, Texas(7)",441.3 
+38099.0,"Walsh County, North Dakota(6)",441.2 
+37091.0,"Hertford County, North Carolina(6)",441 
+17023.0,"Clark County, Illinois(7)",440.9 
+48133.0,"Eastland County, Texas(7)",440.9 
+27073.0,"Lac qui Parle County, Minnesota(6)",440.7 
+48259.0,"Kendall County, Texas(7)",440.7 
+29051.0,"Cole County, Missouri(6)",440.6 
+45069.0,"Marlboro County, South Carolina(6)",440.6 
+48123.0,"DeWitt County, Texas(7)",440.6 
+41035.0,"Klamath County, Oregon(6)",440.5 
+51161.0,"Roanoke County, Virginia(6)",440.5 
+6023.0,"Humboldt County, California(7)",440.5 
+26123.0,"Newaygo County, Michigan(6)",440.5 
+40095.0,"Marshall County, Oklahoma(6)",440.4 
+36105.0,"Sullivan County, New York(7)",440.3 
+16049.0,"Idaho County, Idaho(7)",440.1 
+29225.0,"Webster County, Missouri(6)",440.1 
+55111.0,"Sauk County, Wisconsin(6)",440.1 
+37113.0,"Macon County, North Carolina(6)",440 
+31023.0,"Butler County, Nebraska(6)",439.8 
+27149.0,"Stevens County, Minnesota(6)",439.8 
+32001.0,"Churchill County, Nevada(6)",439.7 
+55087.0,"Outagamie County, Wisconsin(6)",439.6 
+44007.0,"Providence County, Rhode Island(6)",439.5 
+51181.0,"Surry County, Virginia(6)",439.4 
+13023.0,"Bleckley County, Georgia(7)",439.4 
+41005.0,"Clackamas County, Oregon(6)",439.4 
+45019.0,"Charleston County, South Carolina(6)",439.1 
+24017.0,"Charles County, Maryland(6)",439.1 
+34013.0,"Essex County, New Jersey(7)",439 
+39149.0,"Shelby County, Ohio(6)",439 
+46101.0,"Moody County, South Dakota(6)",438.9 
+50025.0,"Windham County, Vermont(6)",438.9 
+48249.0,"Jim Wells County, Texas(7)",438.9 
+26107.0,"Mecosta County, Michigan(6)",438.9 
+46125.0,"Turner County, South Dakota(6)",438.9 
+54017.0,"Doddridge County, West Virginia(6)",438.8 
+19009.0,"Audubon County, Iowa(7)",438.8 
+39099.0,"Mahoning County, Ohio(6)",438.8 
+29049.0,"Clinton County, Missouri(6)",438.8 
+46135.0,"Yankton County, South Dakota(6)",438.7 
+39069.0,"Henry County, Ohio(6)",438.5 
+47157.0,"Shelby County, Tennessee(6)",438.2 
+48439.0,"Tarrant County, Texas(7)",438.2 
+28099.0,"Neshoba County, Mississippi(6)",438.2 
+48031.0,"Blanco County, Texas(7)",438.2 
+28005.0,"Amite County, Mississippi(6)",438.2 
+47187.0,"Williamson County, Tennessee(6)",438 
+51021.0,"Bland County, Virginia(6)",438 
+47011.0,"Bradley County, Tennessee(6)",437.9 
+31157.0,"Scotts Bluff County, Nebraska(6)",437.9 
+51077.0,"Grayson County, Virginia(6)",437.9 
+12013.0,"Calhoun County, Florida(6)",437.8 
+13295.0,"Walker County, Georgia(7)",437.7 
+28153.0,"Wayne County, Mississippi(6)",437.7 
+42053.0,"Forest County, Pennsylvania(6)",437.7 
+47055.0,"Giles County, Tennessee(6)",437.7 
+51145.0,"Powhatan County, Virginia(6)",437.6 
+48089.0,"Colorado County, Texas(7)",437.6 
+32021.0,"Mineral County, Nevada(6)",437.5 
+13059.0,"Clarke County, Georgia(7)",437.3 
+42075.0,"Lebanon County, Pennsylvania(6)",437.2 
+17161.0,"Rock Island County, Illinois(7)",437.2 
+48219.0,"Hockley County, Texas(7)",437.1 
+48209.0,"Hays County, Texas(7)",437 
+42061.0,"Huntingdon County, Pennsylvania(6)",436.8 
+48145.0,"Falls County, Texas(7)",436.6 
+17047.0,"Edwards County, Illinois(7)",436.6 
+51680.0,"Lynchburg City, Virginia(6)",436.5 
+39107.0,"Mercer County, Ohio(6)",436.5 
+26025.0,"Calhoun County, Michigan(6)",436.5 
+30063.0,"Missoula County, Montana(6)",436.4 
+25013.0,"Hampden County, Massachusetts(7)",436.4 
+47113.0,"Madison County, Tennessee(6)",436.2 
+29167.0,"Polk County, Missouri(6)",436.1 
+6061.0,"Placer County, California(7)",436.1 
+30097.0,"Sweet Grass County, Montana(6)",435.9 
+1017.0,"Chambers County, Alabama(6)",435.9 
+13051.0,"Chatham County, Georgia(7)",435.8 
+27153.0,"Todd County, Minnesota(6)",435.8 
+13267.0,"Tattnall County, Georgia(7)",435.7 
+39051.0,"Fulton County, Ohio(6)",435.7 
+21055.0,"Crittenden County, Kentucky(7)",435.7 
+13073.0,"Columbia County, Georgia(7)",435.7 
+50015.0,"Lamoille County, Vermont(6)",435.7 
+40063.0,"Hughes County, Oklahoma(6)",435.6 
+40019.0,"Carter County, Oklahoma(6)",435.6 
+6097.0,"Sonoma County, California(7)",435.6 
+40013.0,"Bryan County, Oklahoma(6)",435.6 
+1105.0,"Perry County, Alabama(6)",435.5 
+26021.0,"Berrien County, Michigan(6)",435.5 
+28149.0,"Warren County, Mississippi(6)",435.2 
+30009.0,"Carbon County, Montana(6)",435 
+5097.0,"Montgomery County, Arkansas(6)",434.9 
+29145.0,"Newton County, Missouri(6)",434.9 
+31059.0,"Fillmore County, Nebraska(6)",434.9 
+45055.0,"Kershaw County, South Carolina(6)",434.9 
+40141.0,"Tillman County, Oklahoma(6)",434.9 
+29209.0,"Stone County, Missouri(6)",434.8 
+55017.0,"Chippewa County, Wisconsin(6)",434.8 
+39169.0,"Wayne County, Ohio(6)",434.7 
+40029.0,"Coal County, Oklahoma(6)",434.6 
+35057.0,"Torrance County, New Mexico(7)",434.5 
+38097.0,"Traill County, North Dakota(6)",434.5 
+23015.0,"Lincoln County, Maine(6)",434.5 
+6111.0,"Ventura County, California(7)",434.4 
+1097.0,"Mobile County, Alabama(6)",434.4 
+41071.0,"Yamhill County, Oregon(6)",434.4 
+29043.0,"Christian County, Missouri(6)",434.3 
+28159.0,"Winston County, Mississippi(6)",434.3 
+1033.0,"Colbert County, Alabama(6)",434.3 
+1011.0,"Bullock County, Alabama(6)",434.2 
+1073.0,"Jefferson County, Alabama(6)",434.2 
+54023.0,"Grant County, West Virginia(6)",434.1 
+45063.0,"Lexington County, South Carolina(6)",434.1 
+40009.0,"Beckham County, Oklahoma(6)",434.1 
+22071.0,"Orleans Parish, Louisiana(7)",434.1 
+28079.0,"Leake County, Mississippi(6)",434.1 
+2170.0,"Matanuska-Susitna Borough, Alaska(6)",433.9 
+49053.0,"Washington County, Utah(7)",433.9 
+48021.0,"Bastrop County, Texas(7)",433.9 
+41029.0,"Jackson County, Oregon(6)",433.8 
+47087.0,"Jackson County, Tennessee(6)",433.8 
+17177.0,"Stephenson County, Illinois(7)",433.7 
+41069.0,"Wheeler County, Oregon(6)",433.6 
+51735.0,"Poquoson City, Virginia(6)",433.6 
+12091.0,"Okaloosa County, Florida(6)",433.6 
+16051.0,"Jefferson County, Idaho(7)",433.6 
+25009.0,"Essex County, Massachusetts(7)",433.6 
+13175.0,"Laurens County, Georgia(7)",433.5 
+55013.0,"Burnett County, Wisconsin(6)",433.5 
+31101.0,"Keith County, Nebraska(6)",433.4 
+50017.0,"Orange County, Vermont(6)",433.2 
+40047.0,"Garfield County, Oklahoma(6)",433.1 
+26073.0,"Isabella County, Michigan(6)",433 
+29045.0,"Clark County, Missouri(6)",432.9 
+38089.0,"Stark County, North Dakota(6)",432.9 
+51085.0,"Hanover County, Virginia(6)",432.9 
+32005.0,"Douglas County, Nevada(6)",432.7 
+28021.0,"Claiborne County, Mississippi(6)",432.7 
+56011.0,"Crook County, Wyoming(6)",432.7 
+48335.0,"Mitchell County, Texas(7)",432.6 
+5015.0,"Carroll County, Arkansas(6)",432.6 
+38011.0,"Bowman County, North Dakota(6)",432.4 
+31015.0,"Boyd County, Nebraska(6)",432.4 
+39091.0,"Logan County, Ohio(6)",432.3 
+48001.0,"Anderson County, Texas(7)",432.2 
+48287.0,"Lee County, Texas(7)",432.2 
+1045.0,"Dale County, Alabama(6)",432.2 
+48405.0,"San Augustine County, Texas(7)",432.2 
+55027.0,"Dodge County, Wisconsin(6)",432.2 
+17031.0,"Cook County, Illinois(7)",432.1 
+48227.0,"Howard County, Texas(7)",432.1 
+46103.0,"Pennington County, South Dakota(6)",432.1 
+1069.0,"Houston County, Alabama(6)",432 
+40109.0,"Oklahoma County, Oklahoma(6)",432 
+13209.0,"Montgomery County, Georgia(7)",432 
+28121.0,"Rankin County, Mississippi(6)",431.9 
+51750.0,"Radford City, Virginia(6)",431.9 
+40113.0,"Osage County, Oklahoma(6)",431.8 
+39161.0,"Van Wert County, Ohio(6)",431.8 
+17113.0,"McLean County, Illinois(7)",431.8 
+31079.0,"Hall County, Nebraska(6)",431.8 
+22029.0,"Concordia Parish, Louisiana(7)",431.7 
+16011.0,"Bingham County, Idaho(7)",431.7 
+46095.0,"Mellette County, South Dakota(6)",431.7 
+13249.0,"Schley County, Georgia(7)",431.7 
+46005.0,"Beadle County, South Dakota(6)",431.7 
+45009.0,"Bamberg County, South Carolina(6)",431.6 
+13031.0,"Bulloch County, Georgia(7)",431.4 
+16073.0,"Owyhee County, Idaho(7)",431.4 
+1111.0,"Randolph County, Alabama(6)",431.4 
+13087.0,"Decatur County, Georgia(7)",431.4 
+2198.0,"Prince of Wales-Hyder Census Area, Alaska(6)",431.4 
+30031.0,"Gallatin County, Montana(6)",431.4 
+37099.0,"Jackson County, North Carolina(6)",431.4 
+42063.0,"Indiana County, Pennsylvania(6)",431.3 
+45025.0,"Chesterfield County, South Carolina(6)",431.3 
+1133.0,"Winston County, Alabama(6)",431.3 
+26155.0,"Shiawassee County, Michigan(6)",431.3 
+39063.0,"Hancock County, Ohio(6)",431.2 
+48057.0,"Calhoun County, Texas(7)",431.2 
+49005.0,"Cache County, Utah(7)",431.1 
+12099.0,"Palm Beach County, Florida(6)",431.1 
+45031.0,"Darlington County, South Carolina(6)",431.1 
+16053.0,"Jerome County, Idaho(7)",430.8 
+26159.0,"Van Buren County, Michigan(6)",430.8 
+26065.0,"Ingham County, Michigan(6)",430.7 
+5017.0,"Chicot County, Arkansas(6)",430.7 
+8101.0,"Pueblo County, Colorado(6)",430.6 
+48059.0,"Callahan County, Texas(7)",430.6 
+29095.0,"Jackson County, Missouri(6)",430.5 
+26157.0,"Tuscola County, Michigan(6)",430.5 
+29510.0,"St. Louis City, Missouri(6)",430.4 
+29105.0,"Laclede County, Missouri(6)",430.4 
+48019.0,"Bandera County, Texas(7)",430.3 
+48465.0,"Val Verde County, Texas(7)",430.3 
+46115.0,"Spink County, South Dakota(6)",430.2 
+1087.0,"Macon County, Alabama(6)",430.1 
+39125.0,"Paulding County, Ohio(6)",430 
+46051.0,"Grant County, South Dakota(6)",430 
+30081.0,"Ravalli County, Montana(6)",430 
+42041.0,"Cumberland County, Pennsylvania(6)",430 
+55045.0,"Green County, Wisconsin(6)",429.9 
+51163.0,"Rockbridge County, Virginia(6)",429.9 
+48395.0,"Robertson County, Texas(7)",429.9 
+17085.0,"Jo Daviess County, Illinois(7)",429.8 
+40039.0,"Custer County, Oklahoma(6)",429.8 
+48397.0,"Rockwall County, Texas(7)",429.7 
+28001.0,"Adams County, Mississippi(6)",429.7 
+37127.0,"Nash County, North Carolina(6)",429.6 
+27071.0,"Koochiching County, Minnesota(6)",429.5 
+48113.0,"Dallas County, Texas(7)",429.5 
+42033.0,"Clearfield County, Pennsylvania(6)",429.4 
+13083.0,"Dade County, Georgia(7)",429.4 
+31013.0,"Box Butte County, Nebraska(6)",429.4 
+2275.0,"Wrangell Borough, Alaska(6)",429.2 
+40017.0,"Canadian County, Oklahoma(6)",429.1 
+16085.0,"Valley County, Idaho(7)",429.1 
+13007.0,"Baker County, Georgia(7)",429 
+51139.0,"Page County, Virginia(6)",428.9 
+48195.0,"Hansford County, Texas(7)",428.9 
+37189.0,"Watauga County, North Carolina(6)",428.8 
+48175.0,"Goliad County, Texas(7)",428.7 
+12021.0,"Collier County, Florida(6)",428.5 
+5003.0,"Ashley County, Arkansas(6)",428.4 
+37175.0,"Transylvania County, North Carolina(6)",428.2 
+45085.0,"Sumter County, South Carolina(6)",428.1 
+29177.0,"Ray County, Missouri(6)",428.1 
+16071.0,"Oneida County, Idaho(7)",428 
+49011.0,"Davis County, Utah(7)",428 
+16083.0,"Twin Falls County, Idaho(7)",427.8 
+48131.0,"Duval County, Texas(7)",427.8 
+37041.0,"Chowan County, North Carolina(6)",427.7 
+1099.0,"Monroe County, Alabama(6)",427.7 
+47095.0,"Lake County, Tennessee(6)",427.5 
+13243.0,"Randolph County, Georgia(7)",427.5 
+46045.0,"Edmunds County, South Dakota(6)",427.3 
+40145.0,"Wagoner County, Oklahoma(6)",427.3 
+41027.0,"Hood River County, Oregon(6)",427.3 
+36061.0,"New York County, New York(7)",427.3 
+51840.0,"Winchester City, Virginia(6)",427.3 
+48179.0,"Gray County, Texas(7)",427.3 
+42029.0,"Chester County, Pennsylvania(6)",427.2 
+37143.0,"Perquimans County, North Carolina(6)",427.1 
+6005.0,"Amador County, California(7)",427.1 
+13081.0,"Crisp County, Georgia(7)",427 
+11001.0,District of Columbia(6),426.9 
+45071.0,"Newberry County, South Carolina(6)",426.8 
+55113.0,"Sawyer County, Wisconsin(6)",426.8 
+47037.0,"Davidson County, Tennessee(6)",426.7 
+37055.0,"Dare County, North Carolina(6)",426.6 
+28019.0,"Choctaw County, Mississippi(6)",426.6 
+29089.0,"Howard County, Missouri(6)",426.2 
+6073.0,"San Diego County, California(7)",426.1 
+1047.0,"Dallas County, Alabama(6)",426.1 
+13201.0,"Miller County, Georgia(7)",426 
+16069.0,"Nez Perce County, Idaho(7)",426 
+26117.0,"Montcalm County, Michigan(6)",425.9 
+13047.0,"Catoosa County, Georgia(7)",425.9 
+50009.0,"Essex County, Vermont(6)",425.9 
+39175.0,"Wyandot County, Ohio(6)",425.9 
+41065.0,"Wasco County, Oregon(6)",425.7 
+51031.0,"Campbell County, Virginia(6)",425.7 
+16005.0,"Bannock County, Idaho(7)",425.6 
+45005.0,"Allendale County, South Carolina(6)",425.6 
+51917.0,"Bedford City and County, Virginia(6)",425.5 
+51049.0,"Cumberland County, Virginia(6)",425.5 
+13131.0,"Grady County, Georgia(7)",425.4 
+19197.0,"Wright County, Iowa(7)",425.4 
+40005.0,"Atoka County, Oklahoma(6)",425.4 
+26063.0,"Huron County, Michigan(6)",425.3 
+31099.0,"Kearney County, Nebraska(6)",425.3 
+26141.0,"Presque Isle County, Michigan(6)",425.2 
+48255.0,"Karnes County, Texas(7)",425.2 
+31075.0,"Grant County, Nebraska(6)",425.2 
+30021.0,"Dawson County, Montana(6)",425.2 
+38039.0,"Griggs County, North Dakota(6)",425.2 
+45051.0,"Horry County, South Carolina(6)",425.1 
+32031.0,"Washoe County, Nevada(6)",425.1 
+48127.0,"Dimmit County, Texas(7)",424.9 
+39155.0,"Trumbull County, Ohio(6)",424.9 
+29057.0,"Dade County, Missouri(6)",424.8 
+56045.0,"Weston County, Wyoming(6)",424.8 
+46019.0,"Butte County, South Dakota(6)",424.8 
+17191.0,"Wayne County, Illinois(7)",424.7 
+28075.0,"Lauderdale County, Mississippi(6)",424.7 
+47175.0,"Van Buren County, Tennessee(6)",424.7 
+42019.0,"Butler County, Pennsylvania(6)",424.7 
+46039.0,"Deuel County, South Dakota(6)",424.6 
+54027.0,"Hampshire County, West Virginia(6)",424.6 
+46085.0,"Lyman County, South Dakota(6)",424.6 
+30059.0,"Meagher County, Montana(6)",424.6 
+1071.0,"Jackson County, Alabama(6)",424.4 
+48253.0,"Jones County, Texas(7)",424.4 
+38085.0,"Sioux County, North Dakota(6)",424.2 
+5137.0,"Stone County, Arkansas(6)",424.2 
+8069.0,"Larimer County, Colorado(6)",424.2 
+31139.0,"Pierce County, Nebraska(6)",424.1 
+26009.0,"Antrim County, Michigan(6)",424 
+6017.0,"El Dorado County, California(7)",423.8 
+29077.0,"Greene County, Missouri(6)",423.8 
+1095.0,"Marshall County, Alabama(6)",423.8 
+1029.0,"Cleburne County, Alabama(6)",423.6 
+6099.0,"Stanislaus County, California(7)",423.6 
+37009.0,"Ashe County, North Carolina(6)",423.6 
+48101.0,"Cottle County, Texas(7)",423.5 
+26113.0,"Missaukee County, Michigan(6)",423.5 
+48429.0,"Stephens County, Texas(7)",423.5 
+28069.0,"Kemper County, Mississippi(6)",423.4 
+29029.0,"Camden County, Missouri(6)",423.3 
+1083.0,"Limestone County, Alabama(6)",423.3 
+55095.0,"Polk County, Wisconsin(6)",423.3 
+50001.0,"Addison County, Vermont(6)",423.2 
+1093.0,"Marion County, Alabama(6)",423.2 
+45089.0,"Williamsburg County, South Carolina(6)",423.1 
+16013.0,"Blaine County, Idaho(7)",423.1 
+45001.0,"Abbeville County, South Carolina(6)",423 
+48481.0,"Wharton County, Texas(7)",422.9 
+40083.0,"Logan County, Oklahoma(6)",422.7 
+37075.0,"Graham County, North Carolina(6)",422.7 
+1021.0,"Chilton County, Alabama(6)",422.7 
+31107.0,"Knox County, Nebraska(6)",422.7 
+16057.0,"Latah County, Idaho(7)",422.6 
+26161.0,"Washtenaw County, Michigan(6)",422.6 
+29119.0,"McDonald County, Missouri(6)",422.6 
+12011.0,"Broward County, Florida(6)",422.5 
+51179.0,"Stafford County, Virginia(6)",422.4 
+12095.0,"Orange County, Florida(6)",422.3 
+41053.0,"Polk County, Oregon(6)",422.3 
+17151.0,"Pope County, Illinois(7)",422.3 
+1057.0,"Fayette County, Alabama(6)",422.2 
+5109.0,"Pike County, Arkansas(6)",422.2 
+13219.0,"Oconee County, Georgia(7)",422.1 
+2188.0,"Northwest Arctic Borough, Alaska(6)",422 
+48273.0,"Kleberg County, Texas(7)",421.9 
+1059.0,"Franklin County, Alabama(6)",421.9 
+26047.0,"Emmet County, Michigan(6)",421.9 
+56001.0,"Albany County, Wyoming(6)",421.9 
+48121.0,"Denton County, Texas(7)",421.8 
+22061.0,"Lincoln Parish, Louisiana(7)",421.8 
+19079.0,"Hamilton County, Iowa(7)",421.8 
+49057.0,"Weber County, Utah(7)",421.7 
+31017.0,"Brown County, Nebraska(6)",421.7 
+12086.0,"Miami-Dade County, Florida(6)",421.7 
+41037.0,"Lake County, Oregon(6)",421.7 
+17071.0,"Henderson County, Illinois(7)",421.7 
+28037.0,"Franklin County, Mississippi(6)",421.6 
+17193.0,"White County, Illinois(7)",421.6 
+8077.0,"Mesa County, Colorado(6)",421.5 
+1019.0,"Cherokee County, Alabama(6)",421.5 
+19005.0,"Allamakee County, Iowa(7)",421.2 
+6109.0,"Tuolumne County, California(7)",421.2 
+48493.0,"Wilson County, Texas(7)",421.2 
+16081.0,"Teton County, Idaho(7)",421.1 
+27151.0,"Swift County, Minnesota(6)",421.1 
+16009.0,"Benewah County, Idaho(7)",421 
+48339.0,"Montgomery County, Texas(7)",420.9 
+51700.0,"Newport News City, Virginia(6)",420.9 
+26093.0,"Livingston County, Michigan(6)",420.9 
+45015.0,"Berkeley County, South Carolina(6)",420.8 
+26059.0,"Hillsdale County, Michigan(6)",420.7 
+31109.0,"Lancaster County, Nebraska(6)",420.7 
+48245.0,"Jefferson County, Texas(7)",420.6 
+56025.0,"Natrona County, Wyoming(6)",420.4 
+48225.0,"Houston County, Texas(7)",420.4 
+16067.0,"Minidoka County, Idaho(7)",420.4 
+29155.0,"Pemiscot County, Missouri(6)",420.4 
+42031.0,"Clarion County, Pennsylvania(6)",420.2 
+48477.0,"Washington County, Texas(7)",420.1 
+25019.0,"Nantucket County, Massachusetts(7)",419.9 
+44005.0,"Newport County, Rhode Island(6)",419.7 
+6033.0,"Lake County, California(7)",419.7 
+48013.0,"Atascosa County, Texas(7)",419.6 
+30013.0,"Cascade County, Montana(6)",419.6 
+1031.0,"Coffee County, Alabama(6)",419.5 
+29173.0,"Ralls County, Missouri(6)",419.4 
+29103.0,"Knox County, Missouri(6)",419.3 
+49021.0,"Iron County, Utah(7)",419.2 
+31097.0,"Johnson County, Nebraska(6)",419.2 
+46009.0,"Bon Homme County, South Dakota(6)",419.1 
+48453.0,"Travis County, Texas(7)",419 
+51079.0,"Greene County, Virginia(6)",419 
+48065.0,"Carson County, Texas(7)",418.9 
+45049.0,"Hampton County, South Carolina(6)",418.6 
+31069.0,"Garden County, Nebraska(6)",418.5 
+41011.0,"Coos County, Oregon(6)",418.3 
+46129.0,"Walworth County, South Dakota(6)",418.3 
+13155.0,"Irwin County, Georgia(7)",418.2 
+31063.0,"Frontier County, Nebraska(6)",418.2 
+30057.0,"Madison County, Montana(6)",417.9 
+6095.0,"Solano County, California(7)",417.6 
+5091.0,"Miller County, Arkansas(6)",417.6 
+5007.0,"Benton County, Arkansas(6)",417.5 
+13091.0,"Dodge County, Georgia(7)",417.5 
+26041.0,"Delta County, Michigan(6)",417.5 
+39171.0,"Williams County, Ohio(6)",417.4 
+30023.0,"Deer Lodge County, Montana(6)",417.3 
+26105.0,"Mason County, Michigan(6)",417.2 
+42027.0,"Centre County, Pennsylvania(6)",417.2 
+48313.0,"Madison County, Texas(7)",417.2 
+16059.0,"Lemhi County, Idaho(7)",417.1 
+51083.0,"Halifax County with South Boston City, Virginia(6)",417.1 
+55015.0,"Calumet County, Wisconsin(6)",417.1 
+48173.0,"Glasscock County, Texas(7)",417 
+48299.0,"Llano County, Texas(7)",416.9 
+16047.0,"Gooding County, Idaho(7)",416.6 
+5079.0,"Lincoln County, Arkansas(6)",416.5 
+36005.0,"Bronx County, New York(7)",416.3 
+6055.0,"Napa County, California(7)",416.2 
+56031.0,"Platte County, Wyoming(6)",416.2 
+26037.0,"Clinton County, Michigan(6)",416.1 
+6009.0,"Calaveras County, California(7)",416 
+48079.0,"Cochran County, Texas(7)",416 
+46047.0,"Fall River County, South Dakota(6)",416 
+41067.0,"Washington County, Oregon(6)",416 
+13043.0,"Candler County, Georgia(7)",415.8 
+48487.0,"Wilbarger County, Texas(7)",415.7 
+31029.0,"Chase County, Nebraska(6)",415.5 
+29109.0,"Lawrence County, Missouri(6)",415.5 
+35011.0,"DeBaca County, New Mexico(7)",415.5 
+31149.0,"Rock County, Nebraska(6)",415.4 
+26133.0,"Osceola County, Michigan(6)",415.3 
+6101.0,"Sutter County, California(7)",415.3 
+55049.0,"Iowa County, Wisconsin(6)",415.2 
+42083.0,"McKean County, Pennsylvania(6)",415.2 
+48419.0,"Shelby County, Texas(7)",415.1 
+40055.0,"Greer County, Oklahoma(6)",415.1 
+24027.0,"Howard County, Maryland(6)",415 
+48111.0,"Dallam County, Texas(7)",415 
+51171.0,"Shenandoah County, Virginia(6)",414.9 
+53077.0,"Yakima County, Washington(6)",414.8 
+55007.0,"Bayfield County, Wisconsin(6)",414.7 
+13093.0,"Dooly County, Georgia(7)",414.6 
+15009.0,"Maui County, Hawaii(7)",414.5 
+41017.0,"Deschutes County, Oregon(6)",414.5 
+26095.0,"Luce County, Michigan(6)",414.4 
+47071.0,"Hardin County, Tennessee(6)",414.4 
+26077.0,"Kalamazoo County, Michigan(6)",414.3 
+40041.0,"Delaware County, Oklahoma(6)",414.2 
+25017.0,"Middlesex County, Massachusetts(7)",414 
+56007.0,"Carbon County, Wyoming(6)",413.9 
+31057.0,"Dundy County, Nebraska(6)",413.9 
+6113.0,"Yolo County, California(7)",413.8 
+16065.0,"Madison County, Idaho(7)",413.8 
+51095.0,"James City County, Virginia(6)",413.7 
+36047.0,"Kings County, New York(7)",413.6 
+13197.0,"Marion County, Georgia(7)",413.6 
+29039.0,"Cedar County, Missouri(6)",413.6 
+8015.0,"Chaffee County, Colorado(6)",413.5 
+47019.0,"Carter County, Tennessee(6)",413.5 
+29215.0,"Texas County, Missouri(6)",413.5 
+35013.0,"Dona Ana County, New Mexico(7)",413.4 
+48107.0,"Crosby County, Texas(7)",413.3 
+31137.0,"Phelps County, Nebraska(6)",413 
+42129.0,"Westmoreland County, Pennsylvania(6)",412.9 
+48239.0,"Jackson County, Texas(7)",412.9 
+53025.0,"Grant County, Washington(6)",412.8 
+51125.0,"Nelson County, Virginia(6)",412.7 
+5101.0,"Newton County, Arkansas(6)",412.7 
+49055.0,"Wayne County, Utah(7)",412.6 
+48149.0,"Fayette County, Texas(7)",412.6 
+40027.0,"Cleveland County, Oklahoma(6)",412.5 
+41043.0,"Linn County, Oregon(6)",412.5 
+49029.0,"Morgan County, Utah(7)",412.3 
+5117.0,"Prairie County, Arkansas(6)",412.2 
+15001.0,"Hawaii County, Hawaii(7)",412.1 
+51035.0,"Carroll County, Virginia(6)",412 
+28039.0,"George County, Mississippi(6)",412 
+53005.0,"Benton County, Washington(6)",412 
+5089.0,"Marion County, Arkansas(6)",411.9 
+48323.0,"Maverick County, Texas(7)",411.5 
+38103.0,"Wells County, North Dakota(6)",411.5 
+16041.0,"Franklin County, Idaho(7)",411.4 
+1077.0,"Lauderdale County, Alabama(6)",411.4 
+45061.0,"Lee County, South Carolina(6)",411.4 
+8123.0,"Weld County, Colorado(6)",411.3 
+36031.0,"Essex County, New York(7)",411.2 
+51155.0,"Pulaski County, Virginia(6)",410.9 
+21225.0,"Union County, Kentucky(7)",410.8 
+30027.0,"Fergus County, Montana(6)",410.7 
+25011.0,"Franklin County, Massachusetts(7)",410.7 
+26137.0,"Otsego County, Michigan(6)",410.7 
+13239.0,"Quitman County, Georgia(7)",410.6 
+51199.0,"York County, Virginia(6)",410.5 
+16015.0,"Boise County, Idaho(7)",410.5 
+45039.0,"Fairfield County, South Carolina(6)",410.3 
+42127.0,"Wayne County, Pennsylvania(6)",410.3 
+2105.0,"Hoonah-Angoon Census Area, Alaska(6)",410.2 
+31031.0,"Cherry County, Nebraska(6)",410.1 
+1009.0,"Blount County, Alabama(6)",410.1 
+13271.0,"Telfair County, Georgia(7)",410 
+13161.0,"Jeff Davis County, Georgia(7)",409.6 
+6013.0,"Contra Costa County, California(7)",409.6 
+26081.0,"Kent County, Michigan(6)",409.3 
+56039.0,"Teton County, Wyoming(6)",409.3 
+48091.0,"Comal County, Texas(7)",409.2 
+16031.0,"Cassia County, Idaho(7)",409.2 
+48235.0,"Irion County, Texas(7)",409.2 
+48391.0,"Refugio County, Texas(7)",409 
+51650.0,"Hampton City, Virginia(6)",408.8 
+51091.0,"Highland County, Virginia(6)",408.8 
+55119.0,"Taylor County, Wisconsin(6)",408.7 
+27031.0,"Cook County, Minnesota(6)",408.6 
+2090.0,"Fairbanks North Star, Alaska(6)",408.5 
+8073.0,"Lincoln County, Colorado(6)",408.5 
+12043.0,"Glades County, Florida(6)",408.4 
+48085.0,"Collin County, Texas(7)",408.2 
+31037.0,"Colfax County, Nebraska(6)",408.2 
+48325.0,"Medina County, Texas(7)",408.2 
+48029.0,"Bexar County, Texas(7)",408.2 
+45079.0,"Richland County, South Carolina(6)",408.1 
+51089.0,"Henry County, Virginia(6)",407.8 
+6059.0,"Orange County, California(7)",407.8 
+15003.0,"Honolulu County, Hawaii(7)",407.8 
+48187.0,"Guadalupe County, Texas(7)",407.7 
+26067.0,"Ionia County, Michigan(6)",407.6 
+5099.0,"Nevada County, Arkansas(6)",407.5 
+29085.0,"Hickory County, Missouri(6)",407.4 
+5105.0,"Perry County, Arkansas(6)",407.4 
+49041.0,"Sevier County, Utah(7)",407.3 
+55011.0,"Buffalo County, Wisconsin(6)",407.3 
+49051.0,"Wasatch County, Utah(7)",407.2 
+56009.0,"Converse County, Wyoming(6)",407.2 
+30091.0,"Sheridan County, Montana(6)",407.1 
+28071.0,"Lafayette County, Mississippi(6)",407.1 
+13049.0,"Charlton County, Georgia(7)",407 
+45057.0,"Lancaster County, South Carolina(6)",407 
+6067.0,"Sacramento County, California(7)",406.9 
+25015.0,"Hampshire County, Massachusetts(7)",406.8 
+4025.0,"Yavapai County, Arizona(6)",406.8 
+48041.0,"Brazos County, Texas(7)",406.8 
+51187.0,"Warren County, Virginia(6)",406.7 
+1043.0,"Cullman County, Alabama(6)",406.7 
+1061.0,"Geneva County, Alabama(6)",406.7 
+29001.0,"Adair County, Missouri(6)",406.6 
+5081.0,"Little River County, Arkansas(6)",406.5 
+48075.0,"Childress County, Texas(7)",406.4 
+4012.0,"La Paz County, Arizona(6)",406.4 
+49003.0,"Box Elder County, Utah(7)",406.4 
+29147.0,"Nodaway County, Missouri(6)",406.3 
+48283.0,"La Salle County, Texas(7)",406.3 
+35043.0,"Sandoval County, New Mexico(7)",406.3 
+13003.0,"Atkinson County, Georgia(7)",406.2 
+26031.0,"Cheboygan County, Michigan(6)",406.1 
+26015.0,"Barry County, Michigan(6)",406 
+29013.0,"Bates County, Missouri(6)",405.7 
+25025.0,"Suffolk County, Massachusetts(7)",405.5 
+1089.0,"Madison County, Alabama(6)",405.5 
+19021.0,"Buena Vista County, Iowa(7)",405.4 
+49035.0,"Salt Lake County, Utah(7)",405.3 
+40065.0,"Jackson County, Oklahoma(6)",405.3 
+16063.0,"Lincoln County, Idaho(7)",405.2 
+4015.0,"Mohave County, Arizona(6)",405.2 
+2150.0,"Kodiak Island Borough, Alaska(6)",405.2 
+48055.0,"Caldwell County, Texas(7)",404.9 
+6045.0,"Mendocino County, California(7)",404.7 
+51133.0,"Northumberland County, Virginia(6)",404.4 
+48461.0,"Upton County, Texas(7)",404.2 
+8031.0,"Denver County, Colorado(6)",404.1 
+48201.0,"Harris County, Texas(7)",404 
+28105.0,"Oktibbeha County, Mississippi(6)",403.9 
+5113.0,"Polk County, Arkansas(6)",403.9 
+56003.0,"Big Horn County, Wyoming(6)",403.8 
+48415.0,"Scurry County, Texas(7)",403.7 
+30109.0,"Wibaux County, Montana(6)",403.7 
+2158.0,"Kusilvak Census Area, Alaska(6)",403.7 
+24023.0,"Garrett County, Maryland(6)",403.6 
+31163.0,"Sherman County, Nebraska(6)",403.4 
+51141.0,"Patrick County, Virginia(6)",403.3 
+25007.0,"Dukes County, Massachusetts(7)",403.3 
+12037.0,"Franklin County, Florida(6)",403.2 
+48093.0,"Comanche County, Texas(7)",403.1 
+13269.0,"Taylor County, Georgia(7)",403 
+47091.0,"Johnson County, Tennessee(6)",402.9 
+6043.0,"Mariposa County, California(7)",402.9 
+13183.0,"Long County, Georgia(7)",402.9 
+39037.0,"Darke County, Ohio(6)",402.8 
+51165.0,"Rockingham County, Virginia(6)",402.8 
+42055.0,"Franklin County, Pennsylvania(6)",402.7 
+8001.0,"Adams County, Colorado(6)",402.7 
+37139.0,"Pasquotank County, North Carolina(6)",402.6 
+6029.0,"Kern County, California(7)",402.5 
+56033.0,"Sheridan County, Wyoming(6)",402.5 
+51113.0,"Madison County, Virginia(6)",402.3 
+29061.0,"Daviess County, Missouri(6)",402 
+31103.0,"Keya Paha County, Nebraska(6)",401.9 
+8059.0,"Jefferson County, Colorado(6)",401.9 
+48297.0,"Live Oak County, Texas(7)",401.8 
+48015.0,"Austin County, Texas(7)",401.8 
+48333.0,"Mills County, Texas(7)",401.7 
+6057.0,"Nevada County, California(7)",400.9 
+35035.0,"Otero County, New Mexico(7)",400.5 
+31085.0,"Hayes County, Nebraska(6)",400.4 
+38037.0,"Grant County, North Dakota(6)",400.4 
+5027.0,"Columbia County, Arkansas(6)",400.4 
+55035.0,"Eau Claire County, Wisconsin(6)",400.4 
+53069.0,"Wahkiakum County, Washington(6)",400.1 
+41061.0,"Union County, Oregon(6)",400.1 
+48417.0,"Shackelford County, Texas(7)",400.1 
+26071.0,"Iron County, Michigan(6)",400 
+47127.0,"Moore County, Tennessee(6)",400 
+48271.0,"Kinney County, Texas(7)",400 
+26023.0,"Branch County, Michigan(6)",399.8 
+26149.0,"St. Joseph County, Michigan(6)",399.5 
+29033.0,"Carroll County, Missouri(6)",399.4 
+38019.0,"Cavalier County, North Dakota(6)",399.4 
+53021.0,"Franklin County, Washington(6)",399.4 
+48191.0,"Hall County, Texas(7)",399.3 
+55103.0,"Richland County, Wisconsin(6)",399.2 
+36081.0,"Queens County, New York(7)",399.2 
+56037.0,"Sweetwater County, Wyoming(6)",399.1 
+41031.0,"Jefferson County, Oregon(6)",399 
+6081.0,"San Mateo County, California(7)",398.8 
+55109.0,"St. Croix County, Wisconsin(6)",398.8 
+29197.0,"Schuyler County, Missouri(6)",398.8 
+46123.0,"Tripp County, South Dakota(6)",398.7 
+8035.0,"Douglas County, Colorado(6)",398.6 
+6071.0,"San Bernardino County, California(7)",398.6 
+8107.0,"Routt County, Colorado(6)",398.5 
+26027.0,"Cass County, Michigan(6)",398.5 
+41019.0,"Douglas County, Oregon(6)",398.2 
+47137.0,"Pickett County, Tennessee(6)",398.1 
+21063.0,"Elliott County, Kentucky(7)",398 
+4019.0,"Pima County, Arizona(6)",397.9 
+35051.0,"Sierra County, New Mexico(7)",397.9 
+48153.0,"Floyd County, Texas(7)",397.8 
+6065.0,"Riverside County, California(7)",397.8 
+53049.0,"Pacific County, Washington(6)",397.7 
+45017.0,"Calhoun County, South Carolina(6)",397.6 
+45011.0,"Barnwell County, South Carolina(6)",397 
+46007.0,"Bennett County, South Dakota(6)",397 
+2110.0,"Juneau Borough, Alaska(6)",396.9 
+19001.0,"Adair County, Iowa(7)",396.9 
+6069.0,"San Benito County, California(7)",396.9 
+48047.0,"Brooks County, Texas(7)",396.5 
+29005.0,"Atchison County, Missouri(6)",396.5 
+16003.0,"Adams County, Idaho(7)",396.4 
+48319.0,"Mason County, Texas(7)",396.4 
+51069.0,"Frederick County, Virginia(6)",396.2 
+6077.0,"San Joaquin County, California(7)",396.2 
+26049.0,"Genesee County, Michigan(6)",396.2 
+8089.0,"Otero County, Colorado(6)",396 
+48475.0,"Ward County, Texas(7)",395.8 
+51600.0,"Fairfax City, Virginia(6)",395.6 
+30061.0,"Mineral County, Montana(6)",395.6 
+41057.0,"Tillamook County, Oregon(6)",395.3 
+4013.0,"Maricopa County, Arizona(6)",395.2 
+35061.0,"Valencia County, New Mexico(7)",395 
+1039.0,"Covington County, Alabama(6)",394.7 
+48329.0,"Midland County, Texas(7)",394.6 
+48157.0,"Fort Bend County, Texas(7)",394.6 
+53041.0,"Lewis County, Washington(6)",394.6 
+5061.0,"Howard County, Arkansas(6)",394.5 
+1117.0,"Shelby County, Alabama(6)",394.4 
+29165.0,"Platte County, Missouri(6)",394.3 
+41049.0,"Morrow County, Oregon(6)",394.3 
+24031.0,"Montgomery County, Maryland(6)",394.2 
+5065.0,"Izard County, Arkansas(6)",394.1 
+6039.0,"Madera County, California(7)",393.9 
+13165.0,"Jenkins County, Georgia(7)",393.9 
+4003.0,"Cochise County, Arizona(6)",393.9 
+31047.0,"Dawson County, Nebraska(6)",393.8 
+13315.0,"Wilcox County, Georgia(7)",393.2 
+1053.0,"Escambia County, Alabama(6)",393.2 
+40033.0,"Cotton County, Oklahoma(6)",393.2 
+8005.0,"Arapahoe County, Colorado(6)",393.1 
+48347.0,"Nacogdoches County, Texas(7)",393.1 
+49049.0,"Utah County, Utah(7)",393 
+49027.0,"Millard County, Utah(7)",392.9 
+28041.0,"Greene County, Mississippi(6)",392.7 
+31179.0,"Wayne County, Nebraska(6)",392.5 
+5087.0,"Madison County, Arkansas(6)",392.4 
+48143.0,"Erath County, Texas(7)",392.2 
+5143.0,"Washington County, Arkansas(6)",391.8 
+38051.0,"McIntosh County, North Dakota(6)",391.8 
+51720.0,"Norton City, Virginia(6)",391.8 
+46119.0,"Sully County, South Dakota(6)",391.6 
+48345.0,"Motley County, Texas(7)",391.4 
+8014.0,"Broomfield County, Colorado(6)",391.3 
+8055.0,"Huerfano County, Colorado(6)",391.3 
+24033.0,"Prince Georges County, Maryland(6)",391.2 
+29217.0,"Vernon County, Missouri(6)",391.2 
+8045.0,"Garfield County, Colorado(6)",391.1 
+1125.0,"Tuscaloosa County, Alabama(6)",391 
+31043.0,"Dakota County, Nebraska(6)",390.8 
+8029.0,"Delta County, Colorado(6)",390.8 
+46061.0,"Hanson County, South Dakota(6)",390.8 
+53037.0,"Kittitas County, Washington(6)",390.7 
+38045.0,"LaMoure County, North Dakota(6)",390.6 
+48445.0,"Terry County, Texas(7)",390.6 
+8013.0,"Boulder County, Colorado(6)",390.5 
+30039.0,"Granite County, Montana(6)",390.3 
+42057.0,"Fulton County, Pennsylvania(6)",390.3 
+29025.0,"Caldwell County, Missouri(6)",390.2 
+6019.0,"Fresno County, California(7)",390.1 
+26097.0,"Mackinac County, Michigan(6)",390 
+4021.0,"Pinal County, Arizona(6)",389.8 
+53015.0,"Cowlitz County, Washington(6)",389.4 
+41015.0,"Curry County, Oregon(6)",389.4 
+8041.0,"El Paso County, Colorado(6)",389.4 
+48427.0,"Starr County, Texas(7)",389.4 
+51003.0,"Albemarle County, Virginia(6)",389.2 
+53013.0,"Columbia County, Washington(6)",388.8 
+12131.0,"Walton County, Florida(6)",388.7 
+26005.0,"Allegan County, Michigan(6)",388.7 
+53071.0,"Walla Walla County, Washington(6)",388.2 
+1037.0,"Coosa County, Alabama(6)",388.1 
+30101.0,"Toole County, Montana(6)",387.8 
+51540.0,"Charlottesville City, Virginia(6)",387.8 
+40057.0,"Harmon County, Oklahoma(6)",387.7 
+48279.0,"Lamb County, Texas(7)",387.6 
+45003.0,"Aiken County, South Carolina(6)",387.6 
+41041.0,"Lincoln County, Oregon(6)",387.6 
+48141.0,"El Paso County, Texas(7)",387.5 
+31133.0,"Pawnee County, Nebraska(6)",387.4 
+8119.0,"Teller County, Colorado(6)",387.2 
+40045.0,"Ellis County, Oklahoma(6)",387.1 
+53039.0,"Klickitat County, Washington(6)",387 
+29063.0,"DeKalb County, Missouri(6)",387 
+12065.0,"Jefferson County, Florida(6)",386.9 
+26091.0,"Lenawee County, Michigan(6)",386.9 
+8085.0,"Montrose County, Colorado(6)",386.9 
+8043.0,"Fremont County, Colorado(6)",386.8 
+56013.0,"Fremont County, Wyoming(6)",386.7 
+49017.0,"Garfield County, Utah(7)",386.6 
+56005.0,"Campbell County, Wyoming(6)",386.6 
+38013.0,"Burke County, North Dakota(6)",386.2 
+30067.0,"Park County, Montana(6)",386.2 
+49039.0,"Sanpete County, Utah(7)",386.2 
+48341.0,"Moore County, Texas(7)",386.1 
+41063.0,"Wallowa County, Oregon(6)",385.9 
+17065.0,"Hamilton County, Illinois(7)",385.7 
+12087.0,"Monroe County, Florida(6)",385.7 
+35001.0,"Bernalillo County, New Mexico(7)",385.2 
+48129.0,"Donley County, Texas(7)",385 
+16077.0,"Power County, Idaho(7)",384.7 
+6075.0,"San Francisco County, California(7)",384.5 
+26103.0,"Marquette County, Michigan(6)",384.5 
+46093.0,"Meade County, South Dakota(6)",384.3 
+41059.0,"Umatilla County, Oregon(6)",384.3 
+48117.0,"Deaf Smith County, Texas(7)",384.3 
+1023.0,"Choctaw County, Alabama(6)",384.3 
+48003.0,"Andrews County, Texas(7)",384.2 
+8009.0,"Baca County, Colorado(6)",384.2 
+40093.0,"Major County, Oklahoma(6)",384.1 
+6085.0,"Santa Clara County, California(7)",384 
+48355.0,"Nueces County, Texas(7)",383.6 
+16007.0,"Bear Lake County, Idaho(7)",383.3 
+51001.0,"Accomack County, Virginia(6)",383.2 
+55033.0,"Dunn County, Wisconsin(6)",383.1 
+51121.0,"Montgomery County, Virginia(6)",383 
+32023.0,"Nye County, Nevada(6)",382.8 
+46033.0,"Custer County, South Dakota(6)",382.6 
+29211.0,"Sullivan County, Missouri(6)",382.5 
+48163.0,"Frio County, Texas(7)",382.3 
+8039.0,"Elbert County, Colorado(6)",381.9 
+16037.0,"Custer County, Idaho(7)",381.8 
+38095.0,"Towner County, North Dakota(6)",381.6 
+4027.0,"Yuma County, Arizona(6)",381.6 
+31049.0,"Deuel County, Nebraska(6)",381.4 
+48189.0,"Hale County, Texas(7)",381.3 
+8081.0,"Moffat County, Colorado(6)",381.1 
+46081.0,"Lawrence County, South Dakota(6)",380 
+38033.0,"Golden Valley County, North Dakota(6)",379.6 
+40007.0,"Beaver County, Oklahoma(6)",379.6 
+48411.0,"San Saba County, Texas(7)",379.5 
+35028.0,"Los Alamos County, New Mexico(7)",379.1 
+26003.0,"Alger County, Michigan(6)",379 
+6047.0,"Merced County, California(7)",378.9 
+5057.0,"Hempstead County, Arkansas(6)",378.8 
+34017.0,"Hudson County, New Jersey(7)",378.8 
+53011.0,"Clark County, Washington(6)",378.5 
+16043.0,"Fremont County, Idaho(7)",378.2 
+51660.0,"Harrisonburg City, Virginia(6)",378.1 
+38043.0,"Kidder County, North Dakota(6)",378.1 
+40085.0,"Love County, Oklahoma(6)",377.9 
+30045.0,"Judith Basin County, Montana(6)",377.7 
+48211.0,"Hemphill County, Texas(7)",377.4 
+49019.0,"Grand County, Utah(7)",377.3 
+51011.0,"Appomattox County, Virginia(6)",377.2 
+48205.0,"Hartley County, Texas(7)",376.7 
+40139.0,"Texas County, Oklahoma(6)",376.7 
+5133.0,"Sevier County, Arkansas(6)",376.6 
+31159.0,"Seward County, Nebraska(6)",376.2 
+38073.0,"Ransom County, North Dakota(6)",375.6 
+26029.0,"Charlevoix County, Michigan(6)",375.3 
+8091.0,"Ouray County, Colorado(6)",375.1 
+51061.0,"Fauquier County, Virginia(6)",375 
+26109.0,"Menominee County, Michigan(6)",374.9 
+48389.0,"Reeves County, Texas(7)",374.4 
+56023.0,"Lincoln County, Wyoming(6)",374.3 
+32029.0,"Storey County, Nevada(6)",374.1 
+45081.0,"Saluda County, South Carolina(6)",373.9 
+31123.0,"Morrill County, Nebraska(6)",373.9 
+6053.0,"Monterey County, California(7)",373.8 
+6011.0,"Colusa County, California(7)",373.6 
+51143.0,"Pittsylvania County, Virginia(6)",373.4 
+51173.0,"Smyth County, Virginia(6)",373.4 
+39121.0,"Noble County, Ohio(6)",373.4 
+40099.0,"Murray County, Oklahoma(6)",373.2 
+26139.0,"Ottawa County, Michigan(6)",372.9 
+8067.0,"La Plata County, Colorado(6)",372.7 
+48237.0,"Jack County, Texas(7)",372.4 
+45013.0,"Beaufort County, South Carolina(6)",372.1 
+15007.0,"Kauai County, Hawaii(7)",372.1 
+32003.0,"Clark County, Nevada(6)",372 
+53063.0,"Spokane County, Washington(6)",372 
+8095.0,"Phillips County, Colorado(6)",371.7 
+6001.0,"Alameda County, California(7)",371.6 
+56017.0,"Hot Springs County, Wyoming(6)",371.4 
+55091.0,"Pepin County, Wisconsin(6)",371.1 
+48295.0,"Lipscomb County, Texas(7)",370.9 
+48393.0,"Roberts County, Texas(7)",370.7 
+48247.0,"Jim Hogg County, Texas(7)",370.6 
+35053.0,"Socorro County, New Mexico(7)",370.5 
+30001.0,"Beaverhead County, Montana(6)",370.3 
+4017.0,"Navajo County, Arizona(6)",370 
+48103.0,"Crane County, Texas(7)",369.9 
+48169.0,"Garza County, Texas(7)",369.5 
+1049.0,"DeKalb County, Alabama(6)",369.3 
+49047.0,"Uintah County, Utah(7)",369.2 
+48443.0,"Terrell County, Texas(7)",369.2 
+6037.0,"Los Angeles County, California(7)",369.1 
+38069.0,"Pierce County, North Dakota(6)",369.1 
+30075.0,"Powder River County, Montana(6)",369 
+32011.0,"Eureka County, Nevada(6)",368.7 
+31161.0,"Sheridan County, Nebraska(6)",368.6 
+51107.0,"Loudoun County, Virginia(6)",368.6 
+49015.0,"Emery County, Utah(7)",368.5 
+1113.0,"Russell County, Alabama(6)",368.3 
+35029.0,"Luna County, New Mexico(7)",367.4 
+51051.0,"Dickenson County, Virginia(6)",367.3 
+2050.0,"Bethel Census Area, Alaska(6)",366.6 
+29067.0,"Douglas County, Missouri(6)",366.2 
+35009.0,"Curry County, New Mexico(7)",365.9 
+48505.0,"Zapata County, Texas(7)",365.7 
+4011.0,"Greenlee County, Arizona(6)",365 
+2060.0,"Bristol Bay Borough, Alaska(6)",364.7 
+6031.0,"Kings County, California(7)",364.6 
+40153.0,"Woodward County, Oklahoma(6)",364.6 
+48061.0,"Cameron County, Texas(7)",364.6 
+37005.0,"Alleghany County, North Carolina(6)",364.5 
+12079.0,"Madison County, Florida(6)",364 
+35037.0,"Quay County, New Mexico(7)",363.9 
+6025.0,"Imperial County, California(7)",363.7 
+51610.0,"Falls Church City, Virginia(6)",363.7 
+29125.0,"Maries County, Missouri(6)",363.4 
+8071.0,"Las Animas County, Colorado(6)",362.2 
+41023.0,"Grant County, Oregon(6)",362.1 
+6107.0,"Tulare County, California(7)",361.7 
+48215.0,"Hidalgo County, Texas(7)",361.7 
+8103.0,"Rio Blanco County, Colorado(6)",361.5 
+48371.0,"Pecos County, Texas(7)",360.2 
+35015.0,"Eddy County, New Mexico(7)",360.1 
+6063.0,"Plumas County, California(7)",360.1 
+37029.0,"Camden County, North Carolina(6)",359.6 
+26115.0,"Monroe County, Michigan(6)",359.6 
+46109.0,"Roberts County, South Dakota(6)",359.5 
+53001.0,"Adams County, Washington(6)",359.4 
+2261.0,"Valdez-Cordova Census Area, Alaska(6)",359.3 
+38023.0,"Divide County, North Dakota(6)",358.1 
+48327.0,"Menard County, Texas(7)",357.7 
+35006.0,"Cibola County, New Mexico(7)",357.6 
+38093.0,"Stutsman County, North Dakota(6)",357.4 
+6093.0,"Siskiyou County, California(7)",357.4 
+48495.0,"Winkler County, Texas(7)",357 
+38105.0,"Williams County, North Dakota(6)",356.8 
+51683.0,"Manassas City, Virginia(6)",356.3 
+51195.0,"Wise County, Virginia(6)",356.2 
+54031.0,"Hardy County, West Virginia(6)",356.2 
+30015.0,"Chouteau County, Montana(6)",356 
+31073.0,"Gosper County, Nebraska(6)",355.9 
+35025.0,"Lea County, New Mexico(7)",355.7 
+35049.0,"Santa Fe County, New Mexico(7)",355.6 
+8087.0,"Morgan County, Colorado(6)",355.6 
+56035.0,"Sublette County, Wyoming(6)",355.3 
+26153.0,"Schoolcraft County, Michigan(6)",355.3 
+2220.0,"Sitka Borough, Alaska(6)",355.2 
+56019.0,"Johnson County, Wyoming(6)",355 
+30083.0,"Richland County, Montana(6)",354.9 
+48479.0,"Webb County, Texas(7)",354.7 
+53043.0,"Lincoln County, Washington(6)",354.1 
+12133.0,"Washington County, Florida(6)",353 
+55093.0,"Pierce County, Wisconsin(6)",352.9 
+30005.0,"Blaine County, Montana(6)",352.7 
+8115.0,"Sedgwick County, Colorado(6)",352.1 
+35059.0,"Union County, New Mexico(7)",351.9 
+31033.0,"Cheyenne County, Nebraska(6)",351.2 
+45037.0,"Edgefield County, South Carolina(6)",350.7 
+49033.0,"Rich County, Utah(7)",350.7 
+53051.0,"Pend Oreille County, Washington(6)",350.5 
+41045.0,"Malheur County, Oregon(6)",350.4 
+51153.0,"Prince William County, Virginia(6)",350.2 
+51043.0,"Clarke County, Virginia(6)",350 
+38021.0,"Dickey County, North Dakota(6)",349.6 
+51685.0,"Manassas Park City, Virginia(6)",349.5 
+8093.0,"Park County, Colorado(6)",349.1 
+56041.0,"Uinta County, Wyoming(6)",349 
+53023.0,"Garfield County, Washington(6)",349 
+49031.0,"Piute County, Utah(7)",348.8 
+54071.0,"Pendleton County, West Virginia(6)",348.4 
+8121.0,"Washington County, Colorado(6)",348.2 
+26043.0,"Dickinson County, Michigan(6)",348 
+72001.0,Puerto Rico(6),347.6 
+38091.0,"Steele County, North Dakota(6)",347.1 
+32013.0,"Humboldt County, Nevada(6)",346.6 
+48017.0,"Bailey County, Texas(7)",346.2 
+2230.0,"Skagway Municipality, Alaska(6)",345.4 
+47103.0,"Lincoln County, Tennessee(6)",345.4 
+6027.0,"Inyo County, California(7)",345.4 
+49037.0,"San Juan County, Utah(7)",345 
+45053.0,"Jasper County, South Carolina(6)",344.4 
+2100.0,"Haines Borough, Alaska(6)",344.3 
+51185.0,"Tazewell County, Virginia(6)",344.2 
+53065.0,"Stevens County, Washington(6)",343.7 
+13253.0,"Seminole County, Georgia(7)",343.6 
+1081.0,"Lee County, Alabama(6)",343.6 
+56043.0,"Washakie County, Wyoming(6)",343.4 
+8033.0,"Dolores County, Colorado(6)",343.2 
+48263.0,"Kent County, Texas(7)",342.9 
+16025.0,"Camas County, Idaho(7)",342.9 
+6015.0,"Del Norte County, California(7)",342.4 
+8105.0,"Rio Grande County, Colorado(6)",341.3 
+35005.0,"Chaves County, New Mexico(7)",341.3 
+35019.0,"Guadalupe County, New Mexico(7)",341 
+46091.0,"Marshall County, South Dakota(6)",340.6 
+53059.0,"Skamania County, Washington(6)",340.5 
+26131.0,"Ontonagon County, Michigan(6)",340.3 
+56015.0,"Goshen County, Wyoming(6)",340.2 
+39075.0,"Holmes County, Ohio(6)",340 
+38053.0,"McKenzie County, North Dakota(6)",339.8 
+41025.0,"Harney County, Oregon(6)",339.2 
+48069.0,"Castro County, Texas(7)",338.6 
+26013.0,"Baraga County, Michigan(6)",337.8 
+51510.0,"Alexandria City, Virginia(6)",337.7 
+8003.0,"Alamosa County, Colorado(6)",337.3 
+51059.0,"Fairfax County, Virginia(6)",337.1 
+41003.0,"Benton County, Oregon(6)",336.5 
+16033.0,"Clark County, Idaho(7)",336.3 
+8051.0,"Gunnison County, Colorado(6)",334.7 
+32017.0,"Lincoln County, Nevada(6)",334.5 
+48357.0,"Ochiltree County, Texas(7)",334.3 
+48165.0,"Gaines County, Texas(7)",334 
+48489.0,"Willacy County, Texas(7)",334 
+8063.0,"Kit Carson County, Colorado(6)",333.7 
+8113.0,"San Miguel County, Colorado(6)",333.3 
+32007.0,"Elko County, Nevada(6)",332.4 
+48109.0,"Culberson County, Texas(7)",332 
+6035.0,"Lassen County, California(7)",331.2 
+8075.0,"Logan County, Colorado(6)",331.1 
+31105.0,"Kimball County, Nebraska(6)",330.2 
+51167.0,"Russell County, Virginia(6)",329.9 
+4005.0,"Coconino County, Arizona(6)",329.4 
+4009.0,"Graham County, Arizona(6)",328.9 
+8083.0,"Montezuma County, Colorado(6)",328.6 
+13309.0,"Wheeler County, Georgia(7)",328.4 
+4007.0,"Gila County, Arizona(6)",327.9 
+2195.0,"Petersburg Census Area, Alaska(6)",327.2 
+35027.0,"Lincoln County, New Mexico(7)",326.1 
+26127.0,"Oceana County, Michigan(6)",326 
+31183.0,"Wheeler County, Nebraska(6)",325.8 
+48369.0,"Parmer County, Texas(7)",325.3 
+46137.0,"Ziebach County, South Dakota(6)",324.8 
+53003.0,"Asotin County, Washington(6)",324 
+35045.0,"San Juan County, New Mexico(7)",323.8 
+8027.0,"Custer County, Colorado(6)",323.3 
+41055.0,"Sherman County, Oregon(6)",323.2 
+35003.0,"Catron County, New Mexico(7)",322.9 
+41039.0,"Lane County, Oregon(6)",322.6 
+35023.0,"Hidalgo County, New Mexico(7)",321.8 
+2185.0,"North Slope Borough, Alaska(6)",321.7 
+38025.0,"Dunn County, North Dakota(6)",320.8 
+26053.0,"Gogebic County, Michigan(6)",319.8 
+4023.0,"Santa Cruz County, Arizona(6)",319.5 
+35041.0,"Roosevelt County, New Mexico(7)",319.5 
+35017.0,"Grant County, New Mexico(7)",318.8 
+37053.0,"Currituck County, North Carolina(6)",318.7 
+51013.0,"Arlington County, Virginia(6)",318.7 
+12063.0,"Jackson County, Florida(6)",318.6 
+35055.0,"Taos County, New Mexico(7)",318.2 
+35047.0,"San Miguel County, New Mexico(7)",318.1 
+8023.0,"Costilla County, Colorado(6)",317.9 
+31045.0,"Dawes County, Nebraska(6)",316.2 
+26121.0,"Muskegon County, Michigan(6)",315.1 
+13061.0,"Clay County, Georgia(7)",314.3 
+8037.0,"Eagle County, Colorado(6)",314.2 
+46105.0,"Perkins County, South Dakota(6)",312.1 
+8007.0,"Archuleta County, Colorado(6)",311.9 
+51105.0,"Lee County, Virginia(6)",311.7 
+8065.0,"Lake County, Colorado(6)",311.6 
+35033.0,"Mora County, New Mexico(7)",311.4 
+51191.0,"Washington County, Virginia(6)",311 
+8125.0,"Yuma County, Colorado(6)",309.5 
+35031.0,"McKinley County, New Mexico(7)",305.9 
+51027.0,"Buchanan County, Virginia(6)",305.5 
+8011.0,"Bent County, Colorado(6)",304.8 
+32027.0,"Pershing County, Nevada(6)",304.7 
+35039.0,"Rio Arriba County, New Mexico(7)",302.9 
+4001.0,"Apache County, Arizona(6)",301.3 
+6105.0,"Trinity County, California(7)",300.4 
+48087.0,"Collingsworth County, Texas(7)",299.7 
+30033.0,"Garfield County, Montana(6)",299.3 
+8025.0,"Crowley County, Colorado(6)",298.6 
+41001.0,"Baker County, Oregon(6)",298 
+53019.0,"Ferry County, Washington(6)",298 
+8049.0,"Grand County, Colorado(6)",296.3 
+26061.0,"Houghton County, Michigan(6)",295.8 
+35007.0,"Colfax County, New Mexico(7)",295.5 
+32015.0,"Lander County, Nevada(6)",294.9 
+8097.0,"Pitkin County, Colorado(6)",294.5 
+37073.0,"Gates County, North Carolina(6)",293.7 
+38001.0,"Adams County, North Dakota(6)",293.6 
+29199.0,"Scotland County, Missouri(6)",293.6 
+48377.0,"Presidio County, Texas(7)",293 
+48421.0,"Sherman County, Texas(7)",292.9 
+48043.0,"Brewster County, Texas(7)",292.7 
+38047.0,"Logan County, North Dakota(6)",291.9 
+46063.0,"Harding County, South Dakota(6)",291.8 
+6051.0,"Mono County, California(7)",291.4 
+6049.0,"Modoc County, California(7)",290.7 
+2016.0,"Aleutians West Census Area, Alaska(6)",290.1 
+46031.0,"Corson County, South Dakota(6)",289.4 
+31167.0,"Stanton County, Nebraska(6)",288.3 
+30019.0,"Daniels County, Montana(6)",287.7 
+8117.0,"Summit County, Colorado(6)",287.5 
+8019.0,"Clear Creek County, Colorado(6)",286.6 
+32033.0,"White Pine County, Nevada(6)",279.6 
+8021.0,"Conejos County, Colorado(6)",277.4 
+51520.0,"Bristol City, Virginia(6)",274.7 
+46021.0,"Campbell County, South Dakota(6)",274.1 
+12059.0,"Holmes County, Florida(6)",274.1 
+31091.0,"Hooker County, Nebraska(6)",273.1 
+48095.0,"Concho County, Texas(7)",272.6 
+48447.0,"Throckmorton County, Texas(7)",272.4 
+56027.0,"Niobrara County, Wyoming(6)",271 
+8047.0,"Gilpin County, Colorado(6)",268.9 
+6003.0,"Alpine County, California(7)",268.5 
+53075.0,"Whitman County, Washington(6)",262.9 
+51169.0,"Scott County, Virginia(6)",262.9 
+8109.0,"Saguache County, Colorado(6)",262.9 
+6091.0,"Sierra County, California(7)",259.6 
+40025.0,"Cimarron County, Oklahoma(6)",239.6 
+31165.0,"Sioux County, Nebraska(6)",228.6 
+41021.0,"Gilliam County, Oregon(6)",226.4 
+26083.0,"Keweenaw County, Michigan(6)",220.9 
+2013.0,"Aleutians East Borough, Alaska(6)",219.1 
+38065.0,"Oliver County, North Dakota(6)",219 
+48243.0,"Jeff Davis County, Texas(7)",208 
+8079.0,"Mineral County, Colorado(6)",207.4 
+8053.0,"Hinsdale County, Colorado(6)",182.3 
+18001.0,"Adams County, Indiana(6)",data not available 
+18003.0,"Allen County, Indiana(6)",data not available 
+20001.0,"Allen County, Kansas(6)",data not available 
+20003.0,"Anderson County, Kansas(6)",data not available 
+31005.0,"Arthur County, Nebraska(6)",* 
+20005.0,"Atchison County, Kansas(6)",data not available 
+31007.0,"Banner County, Nebraska(6)",* 
+20007.0,"Barber County, Kansas(6)",data not available 
+18005.0,"Bartholomew County, Indiana(6)",data not available 
+20009.0,"Barton County, Kansas(6)",data not available 
+18007.0,"Benton County, Indiana(6)",data not available 
+38007.0,"Billings County, North Dakota(6)",* 
+18009.0,"Blackford County, Indiana(6)",data not available 
+18011.0,"Boone County, Indiana(6)",data not available 
+20011.0,"Bourbon County, Kansas(6)",data not available 
+18013.0,"Brown County, Indiana(6)",data not available 
+20013.0,"Brown County, Kansas(6)",data not available 
+20015.0,"Butler County, Kansas(6)",data not available 
+18015.0,"Carroll County, Indiana(6)",data not available 
+18017.0,"Cass County, Indiana(6)",data not available 
+20017.0,"Chase County, Kansas(6)",data not available 
+20019.0,"Chautauqua County, Kansas(6)",data not available 
+20021.0,"Cherokee County, Kansas(6)",data not available 
+20023.0,"Cheyenne County, Kansas(6)",data not available 
+18019.0,"Clark County, Indiana(6)",data not available 
+20025.0,"Clark County, Kansas(6)",data not available 
+18021.0,"Clay County, Indiana(6)",data not available 
+20027.0,"Clay County, Kansas(6)",data not available 
+18023.0,"Clinton County, Indiana(6)",data not available 
+20029.0,"Cloud County, Kansas(6)",data not available 
+20031.0,"Coffey County, Kansas(6)",data not available 
+20033.0,"Comanche County, Kansas(6)",data not available 
+20035.0,"Cowley County, Kansas(6)",data not available 
+18025.0,"Crawford County, Indiana(6)",data not available 
+20037.0,"Crawford County, Kansas(6)",data not available 
+18027.0,"Daviess County, Indiana(6)",data not available 
+18033.0,"DeKalb County, Indiana(6)",data not available 
+18029.0,"Dearborn County, Indiana(6)",data not available 
+18031.0,"Decatur County, Indiana(6)",data not available 
+20039.0,"Decatur County, Kansas(6)",data not available 
+18035.0,"Delaware County, Indiana(6)",data not available 
+20041.0,"Dickinson County, Kansas(6)",data not available 
+20043.0,"Doniphan County, Kansas(6)",data not available 
+20045.0,"Douglas County, Kansas(6)",data not available 
+18037.0,"Dubois County, Indiana(6)",data not available 
+20047.0,"Edwards County, Kansas(6)",data not available 
+20049.0,"Elk County, Kansas(6)",data not available 
+18039.0,"Elkhart County, Indiana(6)",data not available 
+20051.0,"Ellis County, Kansas(6)",data not available 
+20053.0,"Ellsworth County, Kansas(6)",data not available 
+18041.0,"Fayette County, Indiana(6)",data not available 
+20055.0,"Finney County, Kansas(6)",data not available 
+18043.0,"Floyd County, Indiana(6)",data not available 
+20057.0,"Ford County, Kansas(6)",data not available 
+18045.0,"Fountain County, Indiana(6)",data not available 
+18047.0,"Franklin County, Indiana(6)",data not available 
+20059.0,"Franklin County, Kansas(6)",data not available 
+18049.0,"Fulton County, Indiana(6)",data not available 
+20061.0,"Geary County, Kansas(6)",data not available 
+18051.0,"Gibson County, Indiana(6)",data not available 
+20063.0,"Gove County, Kansas(6)",data not available 
+20065.0,"Graham County, Kansas(6)",data not available 
+18053.0,"Grant County, Indiana(6)",data not available 
+20067.0,"Grant County, Kansas(6)",data not available 
+20069.0,"Gray County, Kansas(6)",data not available 
+20071.0,"Greeley County, Kansas(6)",data not available 
+18055.0,"Greene County, Indiana(6)",data not available 
+20073.0,"Greenwood County, Kansas(6)",data not available 
+18057.0,"Hamilton County, Indiana(6)",data not available 
+20075.0,"Hamilton County, Kansas(6)",data not available 
+18059.0,"Hancock County, Indiana(6)",data not available 
+20077.0,"Harper County, Kansas(6)",data not available 
+18061.0,"Harrison County, Indiana(6)",data not available 
+20079.0,"Harvey County, Kansas(6)",data not available 
+20081.0,"Haskell County, Kansas(6)",data not available 
+18063.0,"Hendricks County, Indiana(6)",data not available 
+18065.0,"Henry County, Indiana(6)",data not available 
+20083.0,"Hodgeman County, Kansas(6)",data not available 
+18067.0,"Howard County, Indiana(6)",data not available 
+18069.0,"Huntington County, Indiana(6)",data not available 
+18071.0,"Jackson County, Indiana(6)",data not available 
+20085.0,"Jackson County, Kansas(6)",data not available 
+18073.0,"Jasper County, Indiana(6)",data not available 
+18075.0,"Jay County, Indiana(6)",data not available 
+18077.0,"Jefferson County, Indiana(6)",data not available 
+20087.0,"Jefferson County, Kansas(6)",data not available 
+18079.0,"Jennings County, Indiana(6)",data not available 
+20089.0,"Jewell County, Kansas(6)",data not available 
+18081.0,"Johnson County, Indiana(6)",data not available 
+20091.0,"Johnson County, Kansas(6)",data not available 
+15005.0,"Kalawao County, Hawaii(7)",* 
+20093.0,"Kearny County, Kansas(6)",data not available 
+48261.0,"Kenedy County, Texas(7)",* 
+48269.0,"King County, Texas(7)",* 
+20095.0,"Kingman County, Kansas(6)",data not available 
+20097.0,"Kiowa County, Kansas(6)",data not available 
+18083.0,"Knox County, Indiana(6)",data not available 
+18085.0,"Kosciusko County, Indiana(6)",data not available 
+18087.0,"LaGrange County, Indiana(6)",data not available 
+18091.0,"LaPorte County, Indiana(6)",data not available 
+20099.0,"Labette County, Kansas(6)",data not available 
+18089.0,"Lake County, Indiana(6)",data not available 
+20101.0,"Lane County, Kansas(6)",data not available 
+18093.0,"Lawrence County, Indiana(6)",data not available 
+20103.0,"Leavenworth County, Kansas(6)",data not available 
+20105.0,"Lincoln County, Kansas(6)",data not available 
+20107.0,"Linn County, Kansas(6)",data not available 
+20109.0,"Logan County, Kansas(6)",data not available 
+31115.0,"Loup County, Nebraska(6)",* 
+48301.0,"Loving County, Texas(7)",* 
+20111.0,"Lyon County, Kansas(6)",data not available 
+18095.0,"Madison County, Indiana(6)",data not available 
+18097.0,"Marion County, Indiana(6)",data not available 
+20115.0,"Marion County, Kansas(6)",data not available 
+18099.0,"Marshall County, Indiana(6)",data not available 
+20117.0,"Marshall County, Kansas(6)",data not available 
+18101.0,"Martin County, Indiana(6)",data not available 
+20113.0,"McPherson County, Kansas(6)",data not available 
+31117.0,"McPherson County, Nebraska(6)",* 
+20119.0,"Meade County, Kansas(6)",data not available 
+18103.0,"Miami County, Indiana(6)",data not available 
+20121.0,"Miami County, Kansas(6)",data not available 
+20123.0,"Mitchell County, Kansas(6)",data not available 
+18105.0,"Monroe County, Indiana(6)",data not available 
+18107.0,"Montgomery County, Indiana(6)",data not available 
+20125.0,"Montgomery County, Kansas(6)",data not available 
+18109.0,"Morgan County, Indiana(6)",data not available 
+20127.0,"Morris County, Kansas(6)",data not available 
+20129.0,"Morton County, Kansas(6)",data not available 
+20131.0,"Nemaha County, Kansas(6)",data not available 
+20133.0,"Neosho County, Kansas(6)",data not available 
+20135.0,"Ness County, Kansas(6)",data not available 
+18111.0,"Newton County, Indiana(6)",data not available 
+18113.0,"Noble County, Indiana(6)",data not available 
+20137.0,"Norton County, Kansas(6)",data not available 
+18115.0,"Ohio County, Indiana(6)",data not available 
+18117.0,"Orange County, Indiana(6)",data not available 
+20139.0,"Osage County, Kansas(6)",data not available 
+20141.0,"Osborne County, Kansas(6)",data not available 
+20143.0,"Ottawa County, Kansas(6)",data not available 
+18119.0,"Owen County, Indiana(6)",data not available 
+18121.0,"Parke County, Indiana(6)",data not available 
+20145.0,"Pawnee County, Kansas(6)",data not available 
+18123.0,"Perry County, Indiana(6)",data not available 
+20147.0,"Phillips County, Kansas(6)",data not available 
+18125.0,"Pike County, Indiana(6)",data not available 
+18127.0,"Porter County, Indiana(6)",data not available 
+18129.0,"Posey County, Indiana(6)",data not available 
+20149.0,"Pottawatomie County, Kansas(6)",data not available 
+20151.0,"Pratt County, Kansas(6)",data not available 
+18131.0,"Pulaski County, Indiana(6)",data not available 
+18133.0,"Putnam County, Indiana(6)",data not available 
+18135.0,"Randolph County, Indiana(6)",data not available 
+20153.0,"Rawlins County, Kansas(6)",data not available 
+20155.0,"Reno County, Kansas(6)",data not available 
+20157.0,"Republic County, Kansas(6)",data not available 
+20159.0,"Rice County, Kansas(6)",data not available 
+20161.0,"Riley County, Kansas(6)",data not available 
+18137.0,"Ripley County, Indiana(6)",data not available 
+20163.0,"Rooks County, Kansas(6)",data not available 
+18139.0,"Rush County, Indiana(6)",data not available 
+20165.0,"Rush County, Kansas(6)",data not available 
+20167.0,"Russell County, Kansas(6)",data not available 
+20169.0,"Saline County, Kansas(6)",data not available 
+8111.0,"San Juan County, Colorado(6)",* 
+18143.0,"Scott County, Indiana(6)",data not available 
+20171.0,"Scott County, Kansas(6)",data not available 
+20173.0,"Sedgwick County, Kansas(6)",data not available 
+20175.0,"Seward County, Kansas(6)",data not available 
+20177.0,"Shawnee County, Kansas(6)",data not available 
+18145.0,"Shelby County, Indiana(6)",data not available 
+20179.0,"Sheridan County, Kansas(6)",data not available 
+20181.0,"Sherman County, Kansas(6)",data not available 
+38087.0,"Slope County, North Dakota(6)",* 
+20183.0,"Smith County, Kansas(6)",data not available 
+18147.0,"Spencer County, Indiana(6)",data not available 
+18141.0,"St. Joseph County, Indiana(6)",data not available 
+20185.0,"Stafford County, Kansas(6)",data not available 
+20187.0,"Stanton County, Kansas(6)",data not available 
+18149.0,"Starke County, Indiana(6)",data not available 
+18151.0,"Steuben County, Indiana(6)",data not available 
+20189.0,"Stevens County, Kansas(6)",data not available 
+18153.0,"Sullivan County, Indiana(6)",data not available 
+20191.0,"Sumner County, Kansas(6)",data not available 
+18155.0,"Switzerland County, Indiana(6)",data not available 
+20193.0,"Thomas County, Kansas(6)",data not available 
+31171.0,"Thomas County, Nebraska(6)",* 
+18157.0,"Tippecanoe County, Indiana(6)",data not available 
+18159.0,"Tipton County, Indiana(6)",data not available 
+20195.0,"Trego County, Kansas(6)",data not available 
+18161.0,"Union County, Indiana(6)",data not available 
+18163.0,"Vanderburgh County, Indiana(6)",data not available 
+18165.0,"Vermillion County, Indiana(6)",data not available 
+18167.0,"Vigo County, Indiana(6)",data not available 
+18169.0,"Wabash County, Indiana(6)",data not available 
+20197.0,"Wabaunsee County, Kansas(6)",data not available 
+20199.0,"Wallace County, Kansas(6)",data not available 
+18171.0,"Warren County, Indiana(6)",data not available 
+18173.0,"Warrick County, Indiana(6)",data not available 
+18175.0,"Washington County, Indiana(6)",data not available 
+20201.0,"Washington County, Kansas(6)",data not available 
+18177.0,"Wayne County, Indiana(6)",data not available 
+18179.0,"Wells County, Indiana(6)",data not available 
+18181.0,"White County, Indiana(6)",data not available 
+18183.0,"Whitley County, Indiana(6)",data not available 
+20203.0,"Wichita County, Kansas(6)",data not available 
+20205.0,"Wilson County, Kansas(6)",data not available 
+20207.0,"Woodson County, Kansas(6)",data not available 
+20209.0,"Wyandotte County, Kansas(6)",data not available 
+2282.0,"Yakutat City and Borough, Alaska(6)",* 
+,Created by statecancerprofiles.cancer.gov on 05/27/2025 9:56 pm.,
+,"Alaska Census Area Name Change: please note that Wade Hampton Census Area, AK (FIPS code=02270) was renamed effective July 1, 2015, and the new name is Kusilvak Census Area (FIPS Code=02158). This website now uses Kusilvak.",
+,"South Dakota County Name Change: please note that Shannon County, SD (FIPS code=46113) was renamed effective May 1, 2015, and the new name is Oglala Lakota County (FIPS Code=46102). This website now uses Oglala Lakota.",
+,State Cancer Registries may provide more current or more local data.,
+,Trend,
+,   Rising when 95% confidence interval of average annual percent change is above 0.,
+,   Stable when 95% confidence interval of average annual percent change includes 0.,
+,   Falling when 95% confidence interval of average annual percent change is below 0.,
+,"[rate note] Incidence rates (cases per 100,000 population per year) are age-adjusted to the 2000 US standard population [http://www.seer.cancer.gov/stdpopulations/stdpop.19ages.html] (19 age groups: <1, 1-4, 5-9, ... , 80-84, 85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Rates calculated using SEER*Stat. Population counts for denominators are based on Census populations as modified [https://seer.cancer.gov/popdata/] by NCI. The US Population Data File [https://seer.cancer.gov/popdata/] is used for SEER and NPCR incidence rates.",
+,"[trend note] Incidence data come from different sources. The Average Annual Percent Change (AAPC) is based on the APCs calculated by Joinpoint. Due to data availability issues, the time period used in the calculation of the joinpoint regression model may differ [ https://statecancerprofiles.cancer.gov/historicaltrend/differences.html ] for selected counties.",
+,Rates and trends are computed using different standards for malignancy. For more information see malignant.html.,
+,"^ All Stages refers to any stage in the Surveillance, Epidemiology, and End Results (SEER) Summary/Historic Combined Summary Stage (2004+) [ https://seer.cancer.gov/tools/ssm/ ].",
+,"[rank note]Results presented with the CI*Rank statistics help show the usefulness of ranks. For example, ranks for relatively rare diseases or less populated areas may be essentially meaningless because of their large variability, but ranks for more common diseases in densely populated regions can be very useful. More information about methodology can be found on the CI*Rank website.",
+,[rural urban note] Rural-Urban Continuum Codes provided by the USDA [ https://www.ers.usda.gov/data-products/rural-urban-continuum-codes ].,
+,Puerto Rico is treated as urban because over 90% of the population lives in urban areas.,
+,"* Data has been suppressed to ensure confidentiality and stability of rate estimates.  Counts are suppressed if fewer than 16 records were reported in a specific area-sex-race category. If an average count of 3 is shown, the total number of cases for the time period is 16 or more which exceeds suppression threshold (but is rounded to 3).",
+,Data not available [http://statecancerprofiles.cancer.gov/datanotavailable.html] for this combination of data selections.,
+,"1 Source: National Program of Cancer Registries [ https://www.cdc.gov/cancer/npcr/index.htm ] and Surveillance, Epidemiology, and End Results [ http://seer.cancer.gov ] SEER*Stat Database - United States Department of Health and Human Services, Centers for Disease Control and Prevention and National Cancer Institute. Based on the 2023 submission.",
+,"6 Source: National Program of Cancer Registries SEER*Stat Database - United States Department of Health and Human Services, Centers for Disease Control and Prevention (based on the 2023 submission).  [ https://www.cdc.gov/cancer/npcr/index.htm ]",
+,7 Source: SEER November 2023 submission.,
+,"8 Source: Incidence data provided by the SEER Program. ( http://seer.cancer.gov ) AAPCs are calculated by the Joinpoint Regression Program ( https://surveillance.cancer.gov/joinpoint/ ) and are based on APCs. Data are age-adjusted to the 2000 US standard population ( http://www.seer.cancer.gov/stdpopulations/single_age.html ) (19 age groups: <1, 1-4, 5-9, ... , 80-84,85+). Rates are for invasive cancer only (except for bladder cancer which is invasive and in situ) or unless otherwise specified. Population counts for denominators are based on Census populations as modified by NCI. The US Population Data ( http://seer.cancer.gov/popdata/ ) File is used with SEER November 2023 data.",
+,"Note: This website still uses Connecticut counties instead of planning regions for consistency of geographies across data topics. If/when all data sources have new planning regions, then this website will switch to using them. 2013 Rural-Urban Continuum Codes will be used for Connecticut counties.",
+,Data for the United States does not include data from Indiana.,
+,Data for the United States does not include Puerto Rico.,
