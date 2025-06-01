@@ -1,0 +1,2080 @@
+County,FIPS,2023 Rural-Urban Continuum Codes([rural urban note]),"Age-Adjusted Incidence Rate([rate note]) - cases per 100,000",Lower 95% Confidence Interval,Upper 95% Confidence Interval,CI*Rank([rank note]),Lower CI (CI*Rank),Upper CI (CI*Rank),Average Annual Count,Recent Trend,Recent 5-Year Trend ([trend note]) in Incidence Rates,Lower 95% Confidence Interval,Upper 95% Confidence Interval
+"Union County, Florida(6)",12125,Rural,42.4,30,58.4,N/A , N/A , N/A,8,stable,-0.8,-4.5,2.9
+"Moody County, South Dakota(6)",46101,Rural,38.7,21.4,65.4,N/A , N/A , N/A,3,*,*,*,*
+"Decatur County, Iowa(7)",19053,Rural,37.5,22.2,60.4,N/A , N/A , N/A,4,*,*,*,*
+"Butler County, Nebraska(6)",31023,Rural,35.4,21.8,55.6,N/A , N/A , N/A,4,*,*,*,*
+"Martin County, Kentucky(7)",21159,Rural,34.4,22,51.7,N/A , N/A , N/A,5,*,*,*,*
+"Franklin County, Iowa(7)",19069,Rural,34.2,21.8,52,N/A , N/A , N/A,5,stable,2.2,-0.3,5.2
+"Archer County, Texas(7)",48009,Urban,34,19.7,55.3,N/A , N/A , N/A,4,*,*,*,*
+"Bon Homme County, South Dakota(6)",46009,Rural,33.7,18.5,57.4,N/A , N/A , N/A,3,*,*,*,*
+"Grant County, South Dakota(6)",46051,Rural,32.7,18.1,55.4,N/A , N/A , N/A,4,*,*,*,*
+"Fremont County, Iowa(7)",19071,Rural,31.7,17.4,54.6,N/A , N/A , N/A,3,*,*,*,*
+"Langlade County, Wisconsin(6)",55067,Rural,31.2,21.9,43.6,N/A , N/A , N/A,9,stable,1.2,-2.4,4.8
+"Owen County, Kentucky(7)",21187,Rural,31.2,19.2,48.3,N/A , N/A , N/A,4,*,*,*,*
+"Montour County, Pennsylvania(6)",42093,Rural,30.1,21.2,42,N/A , N/A , N/A,8,stable,0,-5,5.3
+"Carroll County, Iowa(7)",19027,Rural,30,20.9,42,N/A , N/A , N/A,8,stable,-0.3,-2.4,1.8
+"Clay County, Iowa(7)",19041,Rural,30,20.9,42.3,N/A , N/A , N/A,7,stable,-0.1,-2.8,3
+"Kalkaska County, Michigan(6)",26079,Urban,29.9,20.2,42.9,N/A , N/A , N/A,7,stable,1.9,-2.1,6.8
+"Washington County, Idaho(7)",16087,Rural,29.8,17.4,48.2,N/A , N/A , N/A,4,stable,-0.2,-3.8,3.8
+"Jefferson County, Montana(6)",30043,Urban,29.8,18.7,46.1,N/A , N/A , N/A,5,*,*,*,*
+"Brown County, Minnesota(6)",27015,Rural,29.6,21.8,39.7,N/A , N/A , N/A,11,rising,7.4,2.4,21.2
+"Fulton County, Arkansas(6)",05049,Rural,29.6,18.3,45.9,N/A , N/A , N/A,5,*,*,*,*
+"Mercer County, Illinois(7)",17131,Urban,29.1,19.7,41.9,N/A , N/A , N/A,7,stable,2.2,-1,5.8
+"Watonwan County, Minnesota(6)",27165,Rural,29.1,17,46.5,N/A , N/A , N/A,4,stable,-3.3,-49.4,8.1
+"Marquette County, Wisconsin(6)",55077,Rural,29,19.1,42.9,N/A , N/A , N/A,7,stable,2.2,-2.4,7.8
+"Glenn County, California(7)",06021,Rural,29,21.3,38.6,N/A , N/A , N/A,10,stable,0.9,-2,4.2
+"Douglas County, Wisconsin(6)",55031,Urban,28.9,22.9,36,N/A , N/A , N/A,17,rising,4,0.1,9
+"Polk County, Texas(7)",48373,Rural,28.8,22.5,36.4,N/A , N/A , N/A,17,stable,0.5,-1.8,2.7
+"Orleans County, New York(7)",36073,Urban,28.7,22.5,36.2,N/A , N/A , N/A,16,rising,20.3,1.8,35.8
+"Grant County, Kentucky(7)",21081,Urban,28.6,20.1,39.6,N/A , N/A , N/A,8,stable,-0.8,-3.1,1.6
+"Greene County, Illinois(7)",17061,Rural,28.4,18.1,43.2,N/A , N/A , N/A,5,stable,1.9,-3,7.4
+"Ste. Genevieve County, Missouri(6)",29186,Rural,28.3,20,39.5,N/A , N/A , N/A,8,stable,0.5,-3.4,5.1
+"Ripley County, Missouri(6)",29181,Rural,28.2,17.1,44.4,N/A , N/A , N/A,4,stable,0.9,-2,3.9
+"Cuming County, Nebraska(6)",31039,Rural,28.2,15.2,48,N/A , N/A , N/A,3,*,*,*,*
+"New Madrid County, Missouri(6)",29143,Rural,28.1,18.9,40.7,N/A , N/A , N/A,6,stable,3.1,-0.9,8
+"Juneau County, Wisconsin(6)",55057,Rural,28.1,20.5,37.9,N/A , N/A , N/A,10,rising,8.1,1.8,22
+"Wadena County, Minnesota(6)",27159,Rural,28.1,18.7,41.3,N/A , N/A , N/A,6,stable,-0.5,-4.7,4
+"Pike County, Illinois(7)",17149,Rural,28,18,41.9,N/A , N/A , N/A,6,*,*,*,*
+"Greene County, Iowa(7)",19073,Rural,27.9,16.2,45.8,N/A , N/A , N/A,4,*,*,*,*
+"Knox County, Kentucky(7)",21121,Rural,27.9,20.6,37,N/A , N/A , N/A,10,stable,2.4,-0.3,5.6
+"Crawford County, Wisconsin(6)",55023,Rural,27.8,18.6,40.4,N/A , N/A , N/A,7,stable,2.2,-2.1,6.7
+"Lake County, Minnesota(6)",27075,Rural,27.7,18,42.3,N/A , N/A , N/A,6,stable,1.4,-2.5,6.1
+"Somervell County, Texas(7)",48425,Rural,27.7,15.2,46.7,N/A , N/A , N/A,3,*,*,*,*
+"Oglethorpe County, Georgia(7)",13221,Urban,27.6,18.6,40.2,N/A , N/A , N/A,6,stable,3.5,-0.8,10.3
+"Lawrence County, Illinois(7)",17101,Rural,27.6,18,40.9,N/A , N/A , N/A,5,stable,-0.3,-4.3,3.7
+"Bollinger County, Missouri(6)",29017,Urban,27.5,15.9,44.7,N/A , N/A , N/A,4,stable,3.8,-1.5,10.2
+"Hickman County, Tennessee(6)",47081,Urban,27.4,19.7,37.4,N/A , N/A , N/A,9,stable,1.7,-1.8,6
+"Yellow Medicine County, Minnesota(6)",27173,Rural,27.4,16,44.6,N/A , N/A , N/A,4,*,*,*,*
+"Grays Harbor County, Washington(7)",53027,Rural,27.3,22.9,32.4,N/A , N/A , N/A,30,rising,1.5,0.5,2.7
+"Smith County, Tennessee(6)",47159,Urban,27.2,18.5,38.9,N/A , N/A , N/A,7,stable,1.3,-1.8,4.6
+"Piatt County, Illinois(7)",17147,Urban,27.1,18.5,38.9,N/A , N/A , N/A,7,rising,3.9,0.1,8.9
+"McLean County, Kentucky(7)",21149,Urban,27.1,15.4,44.9,N/A , N/A , N/A,3,*,*,*,*
+"Tama County, Iowa(7)",19171,Rural,27.1,18.4,38.8,N/A , N/A , N/A,7,stable,-0.8,-2.7,1.3
+"Gulf County, Florida(6)",12045,Rural,27,17.9,39.9,N/A , N/A , N/A,6,*,*,*,*
+"Warren County, Tennessee(6)",47177,Rural,27,20.9,34.5,N/A , N/A , N/A,14,stable,1.6,-1.7,5.3
+"Cerro Gordo County, Iowa(7)",19033,Rural,27,21.3,33.9,N/A , N/A , N/A,17,rising,1.5,0.1,3.3
+"Sharp County, Arkansas(6)",05135,Rural,27,18.5,38.6,N/A , N/A , N/A,8,stable,0.7,-2.6,4.3
+"Duval County, Texas(7)",48131,Rural,26.9,15.2,44.5,N/A , N/A , N/A,3,*,*,*,*
+"Clearwater County, Minnesota(6)",27029,Rural,26.8,15.1,45.1,N/A , N/A , N/A,3,*,*,*,*
+"O'Brien County, Iowa(7)",19141,Rural,26.8,16.9,40.8,N/A , N/A , N/A,5,stable,0.1,-2.6,2.8
+"Lake County, Oregon(6)",41037,Rural,26.8,14.3,46.7,N/A , N/A , N/A,3,*,*,*,*
+"Wayne County, Tennessee(6)",47181,Rural,26.8,17.9,39.1,N/A , N/A , N/A,6,stable,1.9,-1.4,6
+"Pipestone County, Minnesota(6)",27117,Rural,26.8,15.3,44.2,N/A , N/A , N/A,4,stable,-0.4,-5.8,5.4
+"Lyon County, Minnesota(6)",27083,Rural,26.8,19.3,36.3,N/A , N/A , N/A,9,stable,-0.5,-4.2,3.5
+"Wetzel County, West Virginia(6)",54103,Rural,26.7,17.4,39.9,N/A , N/A , N/A,6,stable,-0.4,-3.8,3
+"Crow Wing County, Minnesota(6)",27035,Rural,26.7,22,32.1,N/A , N/A , N/A,27,rising,2.4,0.4,4.7
+"Lawrence County, Arkansas(6)",05075,Rural,26.7,17.5,39.3,N/A , N/A , N/A,6,stable,0.2,-4.4,4.7
+"Redwood County, Minnesota(6)",27127,Rural,26.6,17.4,39.4,N/A , N/A , N/A,6,stable,2.5,-3.3,9.1
+"Polk County, Minnesota(6)",27119,Urban,26.6,19.6,35.4,N/A , N/A , N/A,10,stable,1,-3,5.3
+"Clay County, South Dakota(6)",46027,Rural,26.6,15,43.6,N/A , N/A , N/A,3,*,*,*,*
+"Okanogan County, Washington(6)",53047,Rural,26.5,20.5,33.9,N/A , N/A , N/A,15,stable,2.6,-0.5,6.2
+"Lincoln County, Kentucky(7)",21137,Rural,26.5,18.9,36.4,N/A , N/A , N/A,8,stable,2,-1.1,5.9
+"Sibley County, Minnesota(6)",27143,Rural,26.5,17.4,39.2,N/A , N/A , N/A,6,*,*,*,*
+"Stearns County, Minnesota(6)",27145,Urban,26.4,23,30.2,N/A , N/A , N/A,46,stable,0.5,-0.8,1.8
+"Summers County, West Virginia(6)",54089,Rural,26.4,17.2,40,N/A , N/A , N/A,6,stable,2.9,-3,9.9
+"Emmet County, Iowa(7)",19063,Rural,26.3,16.3,41.7,N/A , N/A , N/A,4,*,*,*,*
+"Clayton County, Iowa(7)",19043,Rural,26.3,18,37.7,N/A , N/A , N/A,7,rising,2.2,0.5,4.2
+"Mitchell County, Iowa(7)",19131,Rural,26.3,14.6,43.7,N/A , N/A , N/A,4,stable,0.6,-2.5,4.2
+"Hart County, Kentucky(7)",21099,Rural,26.2,17.4,38,N/A , N/A , N/A,6,stable,1.1,-2.7,5.5
+"Anderson County, Kentucky(7)",21005,Rural,26.2,18.3,36.4,N/A , N/A , N/A,8,*,*,*,*
+"Nobles County, Minnesota(6)",27105,Rural,26.1,17.7,37.1,N/A , N/A , N/A,7,rising,25.6,5.1,47.4
+"Pope County, Minnesota(6)",27121,Rural,26.1,16,41.1,N/A , N/A , N/A,5,*,*,*,*
+"Monroe County, Missouri(6)",29137,Rural,26,14.9,43.6,N/A , N/A , N/A,4,stable,3.8,-1.7,10.8
+"Fall River County, South Dakota(6)",46047,Rural,25.9,13.3,47.9,N/A , N/A , N/A,3,*,*,*,*
+"Lawrence County, Kentucky(7)",21127,Urban,25.9,16.7,38.6,N/A , N/A , N/A,5,stable,2,-0.8,5.3
+"Jersey County, Illinois(7)",17083,Urban,25.8,18.1,36.1,N/A , N/A , N/A,8,*,*,*,*
+"Montague County, Texas(7)",48337,Rural,25.8,17.9,36.5,N/A , N/A , N/A,8,stable,2.6,-0.9,6.9
+"Flagler County, Florida(6)",12035,Urban,25.8,22.4,29.7,N/A , N/A , N/A,54,stable,1.3,-0.7,3.7
+"Evangeline Parish, Louisiana(7)",22039,Rural,25.8,19,34.3,N/A , N/A , N/A,10,stable,-0.5,-2.5,1.7
+"Kane County, Utah(7)",49025,Rural,25.8,14.3,44.5,N/A , N/A , N/A,3,*,*,*,*
+"Sangamon County, Illinois(7)",17167,Urban,25.7,23,28.8,N/A , N/A , N/A,67,rising,2,0.8,3.3
+"Swift County, Minnesota(6)",27151,Rural,25.7,15,42.1,N/A , N/A , N/A,4,*,*,*,*
+"Sarasota County, Florida(6)",12115,Urban,25.7,23.9,27.5,N/A , N/A , N/A,240,falling,-6,-11.6,-2.1
+"Washington County, Iowa(7)",19183,Urban,25.7,18,35.8,N/A , N/A , N/A,8,stable,0.7,-1.2,3.1
+"Lincoln County, Wisconsin(6)",55069,Rural,25.6,18.6,34.7,N/A , N/A , N/A,11,stable,-0.3,-4.1,3.4
+"Morgan County, West Virginia(6)",54065,Urban,25.6,16.6,38.2,N/A , N/A , N/A,6,stable,2.1,-3.5,8.1
+"Ohio County, West Virginia(6)",54069,Urban,25.6,19.8,32.7,N/A , N/A , N/A,15,stable,0.3,-3.4,3.9
+"Monroe County, West Virginia(6)",54063,Rural,25.6,15.4,40.5,N/A , N/A , N/A,5,stable,2.7,-4.1,10.4
+"Wapello County, Iowa(7)",19179,Rural,25.6,19.3,33.4,N/A , N/A , N/A,12,stable,0.6,-1.1,2.6
+"Lawrence County, Ohio(6)",39087,Urban,25.6,20.6,31.5,N/A , N/A , N/A,20,stable,1,-2.2,4.4
+"Bath County, Kentucky(7)",21011,Rural,25.6,15.3,40.4,N/A , N/A , N/A,4,stable,0.3,-2.7,3.6
+"Owyhee County, Idaho(7)",16073,Urban,25.6,14.9,41.2,N/A , N/A , N/A,4,*,*,*,*
+"Gasconade County, Missouri(6)",29073,Rural,25.5,16,39.1,N/A , N/A , N/A,5,stable,1.8,-4.4,8.5
+"Steele County, Minnesota(6)",27147,Rural,25.5,19.6,32.8,N/A , N/A , N/A,13,stable,0.3,-2.3,3.2
+"Chatham County, North Carolina(6)",37037,Urban,25.5,21.1,30.6,N/A , N/A , N/A,29,rising,3,1.1,5.4
+"Floyd County, Kentucky(7)",21071,Rural,25.5,19.1,33.4,N/A , N/A , N/A,12,stable,-0.1,-3.1,2.9
+"Harrison County, Iowa(7)",19085,Urban,25.4,15.9,39,N/A , N/A , N/A,5,*,*,*,*
+"Franklin County, Florida(6)",12037,Rural,25.4,15.3,40.4,N/A , N/A , N/A,5,stable,1.7,-2.4,6.8
+"Benewah County, Idaho(7)",16009,Rural,25.4,13.7,43.6,N/A , N/A , N/A,3,*,*,*,*
+"Carbon County, Utah(7)",49007,Rural,25.3,16.7,36.9,N/A , N/A , N/A,6,rising,2,0.5,3.9
+"Waldo County, Maine(6)",23027,Rural,25.2,19.4,32.4,N/A , N/A , N/A,15,stable,0.3,-2.4,3.4
+"St. John the Baptist Parish, Louisiana(7)",22095,Urban,25.2,19,32.8,N/A , N/A , N/A,12,stable,2,-0.9,5.5
+"Logan County, Arkansas(6)",05083,Rural,25.2,18.1,34.6,N/A , N/A , N/A,8,stable,3.2,-1.4,8.8
+"Summit County, Utah(7)",49043,Rural,25.1,18.4,33.5,N/A , N/A , N/A,11,*,*,*,*
+"Yankton County, South Dakota(6)",46135,Rural,25.1,17.7,34.8,N/A , N/A , N/A,8,stable,2.5,-1.1,6.8
+"Cherokee County, Iowa(7)",19035,Rural,25.1,15.1,40,N/A , N/A , N/A,5,*,*,*,*
+"Montgomery County, Mississippi(6)",28097,Rural,25.1,15,40.5,N/A , N/A , N/A,4,*,*,*,*
+"Fillmore County, Minnesota(6)",27045,Urban,25,17.3,35.3,N/A , N/A , N/A,8,stable,0.8,-2,3.7
+"Effingham County, Georgia(7)",13103,Urban,25,19.6,31.4,N/A , N/A , N/A,16,*,*,*,*
+"Wabasha County, Minnesota(6)",27157,Urban,24.9,18,34.1,N/A , N/A , N/A,9,stable,1.6,-1.6,5.3
+"Wabash County, Illinois(7)",17185,Rural,24.8,15,39.4,N/A , N/A , N/A,4,*,*,*,*
+"Cass County, Nebraska(6)",31025,Urban,24.8,17.6,34.1,N/A , N/A , N/A,8,stable,1.2,-0.7,3.3
+"Plymouth County, Iowa(7)",19149,Rural,24.8,17.6,34.1,N/A , N/A , N/A,8,stable,1.3,-0.8,3.9
+"Morrison County, Minnesota(6)",27097,Rural,24.8,18.6,32.5,N/A , N/A , N/A,12,rising,3.4,0.9,6.6
+"Hughes County, South Dakota(6)",46065,Rural,24.7,15.7,37,N/A , N/A , N/A,5,stable,2,-1.5,6
+"Hutchinson County, Texas(7)",48233,Rural,24.7,16.3,35.8,N/A , N/A , N/A,6,*,*,*,*
+"Hernando County, Florida(6)",12053,Urban,24.7,22.1,27.4,N/A , N/A , N/A,82,falling,-5.7,-13.2,-1.7
+"Wright County, Minnesota(6)",27171,Urban,24.7,21.1,28.7,N/A , N/A , N/A,35,rising,13,3.2,19
+"Green Lake County, Wisconsin(6)",55047,Rural,24.6,17,35,N/A , N/A , N/A,7,stable,2.7,-1.6,8
+"Park County, Colorado(6)",08093,Urban,24.6,15.3,38,N/A , N/A , N/A,6,stable,-50.1,-77.7,6.4
+"Minnehaha County, South Dakota(6)",46099,Urban,24.6,21.5,28,N/A , N/A , N/A,48,stable,0.5,-0.9,2.1
+"Estill County, Kentucky(7)",21065,Rural,24.6,15,38.4,N/A , N/A , N/A,4,stable,0.7,-3,4.9
+"Phelps County, Missouri(6)",29161,Rural,24.6,18.7,31.8,N/A , N/A , N/A,13,stable,0.3,-2.6,3.5
+"Presque Isle County, Michigan(6)",26141,Rural,24.6,15.6,38.3,N/A , N/A , N/A,6,stable,-0.7,-5.2,3.9
+"Lewis County, New York(7)",36049,Rural,24.5,17.2,34.1,N/A , N/A , N/A,8,stable,-0.3,-3.5,2.9
+"St. Johns County, Florida(6)",12109,Urban,24.5,22.2,26.9,N/A , N/A , N/A,93,rising,10.3,0.1,18.4
+"Alpena County, Michigan(6)",26007,Rural,24.4,17.7,33.1,N/A , N/A , N/A,10,stable,1.4,-2,5.1
+"Skamania County, Washington(6)",53059,Urban,24.4,14.5,39.4,N/A , N/A , N/A,4,*,*,*,*
+"Nowata County, Oklahoma(6)",40105,Rural,24.4,13.9,40.7,N/A , N/A , N/A,3,*,*,*,*
+"Benton County, Iowa(7)",19011,Urban,24.4,17.5,33.3,N/A , N/A , N/A,9,stable,-0.4,-2,1.5
+"Putnam County, New York(7)",36079,Urban,24.4,20.6,28.7,N/A , N/A , N/A,33,stable,-0.6,-2.6,1.5
+"Marion County, Kentucky(7)",21155,Rural,24.4,16.1,35.6,N/A , N/A , N/A,6,rising,3.2,0.8,6.5
+"Collier County, Florida(6)",12021,Urban,24.4,22.5,26.4,N/A , N/A , N/A,171,stable,1.8,-0.2,4
+"Beauregard Parish, Louisiana(7)",22011,Rural,24.3,18,32.2,N/A , N/A , N/A,10,stable,2.8,-1.3,8
+"Ramsey County, North Dakota(6)",38071,Rural,24.3,14.8,38.4,N/A , N/A , N/A,4,stable,0.2,-6.3,7
+"Martin County, Minnesota(6)",27091,Rural,24.3,16.9,34.3,N/A , N/A , N/A,8,stable,2.2,-1.6,6.6
+"Glades County, Florida(6)",12043,Rural,24.3,14.4,39.4,N/A , N/A , N/A,4,*,*,*,*
+"Logan County, Kentucky(7)",21141,Rural,24.3,17.2,33.5,N/A , N/A , N/A,8,stable,1.7,-1,4.8
+"Rhea County, Tennessee(6)",47143,Rural,24.3,18,32.2,N/A , N/A , N/A,11,stable,-0.9,-5.4,3.8
+"Drew County, Arkansas(6)",05043,Rural,24.3,15.8,36,N/A , N/A , N/A,5,stable,5.3,-18.6,29.5
+"Olmsted County, Minnesota(6)",27109,Urban,24.3,21.1,27.7,N/A , N/A , N/A,46,stable,0.3,-1.1,1.8
+"Marion County, Florida(6)",12083,Urban,24.3,22.4,26.3,N/A , N/A , N/A,157,rising,1.7,0.1,3.4
+"Howard County, Iowa(7)",19089,Rural,24.3,13.4,41.2,N/A , N/A , N/A,3,*,*,*,*
+"Perry County, Pennsylvania(6)",42099,Urban,24.3,19,30.7,N/A , N/A , N/A,16,stable,-0.3,-2,1.5
+"Monroe County, Illinois(7)",17133,Urban,24.2,18.2,31.8,N/A , N/A , N/A,12,stable,0.4,-2.2,3.3
+"Indian River County, Florida(6)",12061,Urban,24.2,21.5,27.3,N/A , N/A , N/A,77,rising,2.3,0.9,3.8
+"Richardson County, Nebraska(6)",31147,Rural,24.2,13.5,42,N/A , N/A , N/A,3,*,*,*,*
+"Clinton County, Missouri(6)",29049,Urban,24.2,16.6,34.3,N/A , N/A , N/A,7,rising,2.9,0.2,6.2
+"Harrison County, Kentucky(7)",21097,Rural,24.2,16.2,35.1,N/A , N/A , N/A,6,stable,2.2,-2.3,7.8
+"Hardin County, Iowa(7)",19083,Rural,24.2,15.5,36.2,N/A , N/A , N/A,6,stable,1.4,-1,4
+"Levy County, Florida(6)",12075,Urban,24.1,18.6,31,N/A , N/A , N/A,16,stable,0.8,-2.8,5
+"Page County, Iowa(7)",19145,Rural,24.1,15.5,36.3,N/A , N/A , N/A,6,stable,1.9,-0.8,5.3
+"Pierce County, Georgia(7)",13229,Rural,24.1,15.9,35.3,N/A , N/A , N/A,6,stable,0.3,-2.4,3.2
+"Winn Parish, Louisiana(7)",22127,Rural,24.1,14.6,37.7,N/A , N/A , N/A,4,*,*,*,*
+"Boone County, Iowa(7)",19015,Urban,24.1,17.2,33.1,N/A , N/A , N/A,9,*,*,*,*
+"Brown County, Wisconsin(6)",55009,Urban,24,21.6,26.7,N/A , N/A , N/A,72,stable,0.7,-0.6,2.3
+"Jefferson County, New York(7)",36045,Urban,24,20.2,28.4,N/A , N/A , N/A,29,stable,1.5,-0.2,3.4
+"Washington County, Minnesota(6)",27163,Urban,24,21.6,26.7,N/A , N/A , N/A,76,stable,0.4,-0.6,1.6
+"Mahaska County, Iowa(7)",19123,Rural,24,16.6,34,N/A , N/A , N/A,7,stable,1.4,-0.6,3.8
+"Goodhue County, Minnesota(6)",27049,Rural,24,18.9,30.3,N/A , N/A , N/A,16,stable,1,-2.1,4.4
+"Jefferson County, Idaho(7)",16051,Urban,24,16.4,33.9,N/A , N/A , N/A,7,stable,-1.1,-3.8,2.1
+"Jackson County, Oklahoma(6)",40065,Rural,24,16.2,34.3,N/A , N/A , N/A,6,stable,2.7,-1.1,7.1
+"Menard County, Illinois(7)",17129,Urban,24,14,38.8,N/A , N/A , N/A,4,*,*,*,*
+"McLeod County, Minnesota(6)",27085,Rural,24,18.3,31.1,N/A , N/A , N/A,13,stable,20.9,-2.7,40.5
+"Schuyler County, New York(7)",36097,Rural,24,16.6,34.3,N/A , N/A , N/A,7,stable,-0.2,-3.7,3.5
+"Marion County, Tennessee(6)",47115,Urban,23.9,17.1,32.7,N/A , N/A , N/A,9,stable,0.3,-4.9,5.8
+"Wayne County, New York(7)",36117,Urban,23.9,20,28.4,N/A , N/A , N/A,29,stable,-0.9,-2.5,0.8
+"Union County, Ohio(6)",39159,Urban,23.9,18.7,30,N/A , N/A , N/A,16,stable,0.8,-3,5.7
+"Todd County, Minnesota(6)",27153,Rural,23.9,17.2,32.6,N/A , N/A , N/A,9,stable,0,-4.2,4.5
+"Henderson County, North Carolina(6)",37089,Urban,23.9,20.7,27.5,N/A , N/A , N/A,46,stable,-0.4,-2.7,2.1
+"Suwannee County, Florida(6)",12121,Rural,23.9,18.4,30.6,N/A , N/A , N/A,14,stable,2.3,-0.5,5.7
+"Boundary County, Idaho(7)",16021,Rural,23.9,14.5,37.8,N/A , N/A , N/A,4,*,*,*,*
+"Macoupin County, Illinois(7)",17117,Urban,23.8,18.9,29.9,N/A , N/A , N/A,17,stable,1.7,-1.2,4.9
+"Cass County, North Dakota(6)",38017,Urban,23.8,20.6,27.4,N/A , N/A , N/A,41,stable,-0.2,-3.4,3.2
+"Lee County, Mississippi(6)",28081,Rural,23.8,19.6,28.7,N/A , N/A , N/A,23,stable,0.2,-2.4,3.1
+"Oregon County, Missouri(6)",29149,Rural,23.8,12.8,41.6,N/A , N/A , N/A,3,*,*,*,*
+"Richmond County, New York(7)",36085,Urban,23.8,22.1,25.7,N/A , N/A , N/A,143,stable,0.5,-0.5,1.5
+"Haywood County, North Carolina(6)",37087,Rural,23.8,19.5,29,N/A , N/A , N/A,24,rising,10.9,0.4,22.9
+"Rockland County, New York(7)",36087,Urban,23.8,21.6,26.1,N/A , N/A , N/A,89,stable,-0.1,-1.2,1.1
+"Clay County, Florida(6)",12019,Urban,23.8,21.1,26.6,N/A , N/A , N/A,63,stable,-6.8,-23.6,1.6
+"Livingston County, Missouri(6)",29117,Rural,23.7,14.6,36.8,N/A , N/A , N/A,4,*,*,*,*
+"Orange County, North Carolina(6)",37135,Urban,23.7,20.3,27.6,N/A , N/A , N/A,37,rising,1.6,0.2,3.3
+"Whatcom County, Washington(7)",53073,Urban,23.7,21.1,26.5,N/A , N/A , N/A,66,stable,-0.5,-4.9,0.8
+"Madison County, Nebraska(6)",31119,Rural,23.7,17.2,31.9,N/A , N/A , N/A,10,stable,3.1,0,6.8
+"Jefferson County, Pennsylvania(6)",42065,Rural,23.7,18.4,30.2,N/A , N/A , N/A,15,stable,1,-2.7,4.9
+"Santa Cruz County, California(7)",06087,Urban,23.7,21.3,26.3,N/A , N/A , N/A,77,stable,0.3,-0.7,1.3
+"Bullitt County, Kentucky(7)",21029,Urban,23.7,19.5,28.5,N/A , N/A , N/A,24,stable,0.7,-1.2,2.9
+"Highlands County, Florida(6)",12055,Urban,23.6,19.9,28,N/A , N/A , N/A,43,stable,1.9,0,3.9
+"Mason County, Illinois(7)",17125,Rural,23.6,14.8,36.6,N/A , N/A , N/A,5,*,*,*,*
+"Avery County, North Carolina(6)",37011,Rural,23.6,15.6,34.9,N/A , N/A , N/A,6,stable,2.7,-2.9,24.9
+"Erie County, Pennsylvania(6)",42049,Urban,23.6,21.3,26.1,N/A , N/A , N/A,83,stable,0.4,-0.7,1.5
+"Benton County, Minnesota(6)",27009,Urban,23.6,17.6,31.1,N/A , N/A , N/A,11,stable,-1.1,-3.5,1.4
+"Barton County, Missouri(6)",29011,Rural,23.6,13.6,38.5,N/A , N/A , N/A,4,*,*,*,*
+"Sussex County, New Jersey(7)",34037,Urban,23.6,20.5,27,N/A , N/A , N/A,46,stable,-0.3,-1.8,1.3
+"Worth County, Georgia(7)",13321,Urban,23.5,15.5,34.4,N/A , N/A , N/A,6,stable,1.7,-2.6,6.7
+"Scott County, Minnesota(6)",27139,Urban,23.5,20,27.5,N/A , N/A , N/A,34,stable,0.3,-1.3,2.3
+"Wythe County, Virginia(6)",51197,Rural,23.5,17,32,N/A , N/A , N/A,10,stable,0.7,-4.2,6.1
+"Sarpy County, Nebraska(6)",31153,Urban,23.5,20.4,26.9,N/A , N/A , N/A,43,stable,0.3,-1.3,2.1
+"Blair County, Pennsylvania(6)",42013,Urban,23.5,20.3,27.2,N/A , N/A , N/A,42,stable,0.7,-0.6,1.9
+"Buckingham County, Virginia(6)",51029,Rural,23.5,15.1,35.4,N/A , N/A , N/A,5,*,*,*,*
+"Otsego County, New York(7)",36077,Rural,23.5,18.8,29.1,N/A , N/A , N/A,20,stable,0.2,-1.3,1.8
+"Tippah County, Mississippi(6)",28139,Rural,23.5,15.7,33.9,N/A , N/A , N/A,6,stable,-0.5,-4.4,3.5
+"Payette County, Idaho(7)",16075,Rural,23.5,16.6,32.5,N/A , N/A , N/A,8,stable,1.4,-1.8,5.3
+"Allegany County, Maryland(6)",24001,Rural,23.5,19.3,28.4,N/A , N/A , N/A,24,stable,0.1,-3.1,3.3
+"Guernsey County, Ohio(6)",39059,Rural,23.5,17.8,30.5,N/A , N/A , N/A,13,stable,1.1,-1.8,4.4
+"Clay County, Illinois(7)",17025,Rural,23.4,14.7,36.2,N/A , N/A , N/A,5,*,*,*,*
+"Bryan County, Georgia(7)",13029,Urban,23.4,17,31.3,N/A , N/A , N/A,9,*,*,*,*
+"Brevard County, Florida(6)",12009,Urban,23.4,22,24.9,N/A , N/A , N/A,225,stable,1,-0.1,2.2
+"Knox County, Maine(6)",23013,Rural,23.4,18,30.1,N/A , N/A , N/A,15,stable,1.9,-0.4,4.4
+"Walker County, Texas(7)",48471,Rural,23.4,18.8,28.8,N/A , N/A , N/A,19,stable,-1.1,-3.8,1.8
+"Mineral County, West Virginia(6)",54057,Rural,23.4,16.8,31.9,N/A , N/A , N/A,9,stable,0.6,-5.3,6.6
+"Madison County, Iowa(7)",19121,Urban,23.3,14.7,35.5,N/A , N/A , N/A,5,*,*,*,*
+"Elbert County, Georgia(7)",13105,Rural,23.3,15.4,34.2,N/A , N/A , N/A,6,*,*,*,*
+"Martin County, Florida(6)",12085,Urban,23.3,20.6,26.4,N/A , N/A , N/A,70,rising,2.4,0.4,4.6
+"Ogle County, Illinois(7)",17141,Rural,23.3,18.4,29.2,N/A , N/A , N/A,16,stable,0.7,-1.5,3.1
+"Orange County, Virginia(6)",51137,Rural,23.3,17.3,30.8,N/A , N/A , N/A,11,rising,17.5,0.1,30.8
+"Ketchikan Gateway Borough, Alaska(6)",02130,Rural,23.3,13.8,37.1,N/A , N/A , N/A,4,*,*,*,*
+"Allen Parish, Louisiana(7)",22003,Rural,23.3,15.7,33.4,N/A , N/A , N/A,6,stable,0.1,-3.4,3.9
+"Charlevoix County, Michigan(6)",26029,Rural,23.3,16.7,32,N/A , N/A , N/A,10,stable,-0.9,-6.1,4.5
+"Monmouth County, New Jersey(7)",34025,Urban,23.3,21.8,24.8,N/A , N/A , N/A,199,falling,-5.2,-10,-2.1
+"Duval County, Florida(6)",12031,Urban,23.3,22,24.6,N/A , N/A , N/A,251,rising,1.8,0.5,3.2
+"Oswego County, New York(7)",36075,Urban,23.3,19.8,27.2,N/A , N/A , N/A,34,stable,-0.9,-2.4,0.5
+"Madison County, New York(7)",36053,Urban,23.3,18.8,28.5,N/A , N/A , N/A,21,rising,2,0.2,4.1
+"Pickaway County, Ohio(6)",39129,Urban,23.2,18.3,29.1,N/A , N/A , N/A,16,stable,2.6,-0.4,6.3
+"Mille Lacs County, Minnesota(6)",27095,Urban,23.2,16.7,31.8,N/A , N/A , N/A,9,stable,0.3,-3.2,4.3
+"Carroll County, Illinois(7)",17015,Rural,23.2,15.5,34.3,N/A , N/A , N/A,6,*,*,*,*
+"Skagit County, Washington(7)",53057,Urban,23.2,20.1,26.7,N/A , N/A , N/A,44,stable,0,-8.2,1.2
+"St. Louis County, Minnesota(6)",27137,Urban,23.2,20.7,26,N/A , N/A , N/A,66,stable,0.3,-0.8,1.5
+"Lee County, Florida(6)",12071,Urban,23.2,21.9,24.5,N/A , N/A , N/A,309,falling,-4.6,-8,-2.4
+"Putnam County, Georgia(7)",13237,Rural,23.2,16,32.9,N/A , N/A , N/A,8,*,*,*,*
+"Clark County, Kentucky(7)",21049,Urban,23.1,17.3,30.4,N/A , N/A , N/A,11,stable,1.7,-1.2,5.3
+"Waushara County, Wisconsin(6)",55137,Rural,23.1,16.4,32,N/A , N/A , N/A,9,stable,1.3,-1.8,4.7
+"Pasco County, Florida(6)",12101,Urban,23.1,21.6,24.7,N/A , N/A , N/A,188,stable,-4.8,-11.3,1.2
+"Mayes County, Oklahoma(6)",40097,Rural,23.1,17.5,30,N/A , N/A , N/A,12,stable,-0.5,-4.1,3
+"Nelson County, Virginia(6)",51125,Urban,23.1,14.5,35.7,N/A , N/A , N/A,6,stable,-0.1,-5.5,6.2
+"Kenai Peninsula Borough, Alaska(6)",02122,Rural,23.1,18.2,28.9,N/A , N/A , N/A,17,stable,-1.4,-4.3,1.6
+"Humphreys County, Tennessee(6)",47085,Rural,23.1,15.4,33.6,N/A , N/A , N/A,6,*,*,*,*
+"Ottawa County, Ohio(6)",39123,Urban,23,17.6,29.8,N/A , N/A , N/A,15,stable,-1.9,-5,1.1
+"Dodge County, Minnesota(6)",27039,Urban,23,14.9,34.1,N/A , N/A , N/A,5,*,*,*,*
+"Montmorency County, Michigan(6)",26119,Rural,23,11.5,42.5,N/A , N/A , N/A,3,stable,1.1,-3.6,6.1
+"Granville County, North Carolina(6)",37077,Rural,23,18.3,28.6,N/A , N/A , N/A,17,stable,1,-1.8,4
+"Washington County, Maine(6)",23029,Rural,23,17.1,30.5,N/A , N/A , N/A,12,stable,-1.9,-6.4,2.3
+"Warren County, Pennsylvania(6)",42123,Rural,23,17.1,30.3,N/A , N/A , N/A,12,stable,0,-2.7,2.8
+"Columbia County, Pennsylvania(6)",42037,Rural,23,18.3,28.5,N/A , N/A , N/A,19,stable,1.6,0,3.4
+"Pike County, Missouri(6)",29163,Rural,23,15,34,N/A , N/A , N/A,5,*,*,*,*
+"Hillsborough County, Florida(6)",12057,Urban,23,21.9,24,N/A , N/A , N/A,366,stable,1,-0.2,2.2
+"Clark County, Illinois(7)",17023,Rural,22.9,14.4,35,N/A , N/A , N/A,5,stable,2.8,-2,8.6
+"Cass County, Minnesota(6)",27021,Rural,22.9,17.1,30.5,N/A , N/A , N/A,12,stable,-0.4,-5.3,5
+"Warren County, Illinois(7)",17187,Rural,22.9,14.7,34.4,N/A , N/A , N/A,5,stable,-1,-4.7,2.5
+"Jefferson County, Iowa(7)",19101,Rural,22.9,14.9,34.4,N/A , N/A , N/A,6,stable,0.5,-1.5,2.9
+"Wright County, Iowa(7)",19197,Rural,22.9,14.6,35.2,N/A , N/A , N/A,5,*,*,*,*
+"Osceola County, Michigan(6)",26133,Rural,22.9,16.1,32,N/A , N/A , N/A,8,stable,-0.4,-7.8,7.4
+"Augusta County, Virginia(6)",51015,Urban,22.9,18.9,27.6,N/A , N/A , N/A,25,stable,1.3,-0.7,3.5
+"Bremer County, Iowa(7)",19017,Urban,22.9,16.3,31.6,N/A , N/A , N/A,8,stable,1.1,-1.1,3.8
+"Stephens County, Oklahoma(6)",40137,Rural,22.9,17.5,29.5,N/A , N/A , N/A,14,stable,-0.9,-4.7,2.8
+"Harrison County, Ohio(6)",39067,Rural,22.9,14.9,34.4,N/A , N/A , N/A,5,stable,-1.9,-5.3,1.3
+"Edmonson County, Kentucky(7)",21061,Urban,22.9,13.7,36.6,N/A , N/A , N/A,4,*,*,*,*
+"Andrew County, Missouri(6)",29003,Urban,22.9,15.5,33.1,N/A , N/A , N/A,6,*,*,*,*
+"Sanders County, Montana(6)",30089,Rural,22.8,15,35.3,N/A , N/A , N/A,6,stable,-2.5,-7.3,3
+"Greenbrier County, West Virginia(6)",54025,Rural,22.8,17.2,30,N/A , N/A , N/A,13,stable,1.3,-1.6,4.4
+"Columbiana County, Ohio(6)",39029,Rural,22.8,19.2,26.9,N/A , N/A , N/A,32,stable,1.7,-0.7,4.4
+"Hot Spring County, Arkansas(6)",05059,Rural,22.8,16.7,30.6,N/A , N/A , N/A,10,stable,0.1,-3,3.5
+"Eastland County, Texas(7)",48133,Rural,22.8,14.7,33.9,N/A , N/A , N/A,6,*,*,*,*
+"Lawrence County, Tennessee(6)",47099,Rural,22.8,17.6,29.1,N/A , N/A , N/A,13,stable,1.9,-0.8,5.1
+"Haralson County, Georgia(7)",13143,Urban,22.8,16.3,31.1,N/A , N/A , N/A,8,rising,8.9,0.6,34
+"Barron County, Wisconsin(6)",55005,Rural,22.7,17.9,28.6,N/A , N/A , N/A,17,stable,2.8,-1,7.4
+"Orleans County, Vermont(6)",50019,Rural,22.7,16.1,31.4,N/A , N/A , N/A,9,*,*,*,*
+"Madison County, Kentucky(7)",21151,Rural,22.7,18.6,27.5,N/A , N/A , N/A,23,stable,1.3,-3.5,8.7
+"Fayette County, West Virginia(6)",54019,Urban,22.7,17.3,29.4,N/A , N/A , N/A,13,stable,1.9,-1.8,5.8
+"Grayson County, Kentucky(7)",21085,Rural,22.7,15.7,31.8,N/A , N/A , N/A,7,rising,3,0.8,8.6
+"Medina County, Ohio(6)",39103,Urban,22.7,20,25.7,N/A , N/A , N/A,54,stable,-0.1,-1.2,1.1
+"Henderson County, Tennessee(6)",47077,Rural,22.7,16.5,30.8,N/A , N/A , N/A,9,stable,2.7,-1.9,8.7
+"Volusia County, Florida(6)",12127,Urban,22.7,21.2,24.2,N/A , N/A , N/A,200,falling,-6.3,-11.2,-0.9
+"Butler County, Kentucky(7)",21031,Urban,22.6,13.2,36.8,N/A , N/A , N/A,4,*,*,*,*
+"Price County, Wisconsin(6)",55099,Rural,22.6,14.1,35.5,N/A , N/A , N/A,5,stable,1.5,-4.3,7.8
+"Page County, Virginia(6)",51139,Rural,22.6,15.8,31.7,N/A , N/A , N/A,8,stable,1.8,-2.6,6.7
+"Wood County, Wisconsin(6)",55141,Rural,22.6,18.6,27.3,N/A , N/A , N/A,24,stable,0.2,-2.1,2.6
+"Morris County, New Jersey(7)",34027,Urban,22.6,20.9,24.3,N/A , N/A , N/A,149,stable,-0.3,-1.1,0.5
+"Karnes County, Texas(7)",48255,Rural,22.6,13,36.4,N/A , N/A , N/A,3,*,*,*,*
+"Washington County, Wisconsin(6)",55131,Urban,22.6,19.5,26.1,N/A , N/A , N/A,41,stable,-0.7,-2.6,1.3
+"Rusk County, Wisconsin(6)",55107,Rural,22.6,13.5,35.9,N/A , N/A , N/A,5,*,*,*,*
+"De Soto Parish, Louisiana(7)",22031,Urban,22.6,16.1,31,N/A , N/A , N/A,8,stable,1.5,-1,4.6
+"Dakota County, Minnesota(6)",27037,Urban,22.6,20.7,24.6,N/A , N/A , N/A,111,stable,-0.3,-1.4,0.9
+"Northumberland County, Pennsylvania(6)",42097,Rural,22.6,18.9,26.8,N/A , N/A , N/A,30,stable,0.4,-2,2.8
+"Muscatine County, Iowa(7)",19139,Rural,22.6,17.2,29.2,N/A , N/A , N/A,12,stable,0.2,-1.2,1.8
+"Saratoga County, New York(7)",36091,Urban,22.5,20.2,25.1,N/A , N/A , N/A,72,stable,-0.2,-1.2,0.9
+"Miller County, Missouri(6)",29131,Rural,22.5,15.7,31.6,N/A , N/A , N/A,8,stable,-0.2,-4.6,4.6
+"Polk County, Tennessee(6)",47139,Urban,22.5,14.7,33.5,N/A , N/A , N/A,6,stable,-1.6,-5.4,2.3
+"Warren County, Iowa(7)",19181,Urban,22.5,17.4,28.7,N/A , N/A , N/A,14,stable,0.3,-1.5,2.7
+"Greenup County, Kentucky(7)",21089,Urban,22.5,17.2,29.2,N/A , N/A , N/A,13,stable,-0.9,-3.2,1.6
+"Fond du Lac County, Wisconsin(6)",55039,Urban,22.5,19,26.5,N/A , N/A , N/A,32,stable,0.8,-0.9,2.7
+"Mifflin County, Pennsylvania(6)",42087,Rural,22.5,17.5,28.6,N/A , N/A , N/A,15,stable,-0.5,-2.8,1.8
+"Delaware County, New York(7)",36025,Rural,22.5,17.6,28.6,N/A , N/A , N/A,17,stable,-0.3,-2.6,2.1
+"Green County, Kentucky(7)",21087,Rural,22.5,12.3,38.1,N/A , N/A , N/A,3,*,*,*,*
+"Macon County, Illinois(7)",17115,Urban,22.5,19.1,26.3,N/A , N/A , N/A,34,stable,-0.5,-2.2,1.1
+"Grant Parish, Louisiana(7)",22043,Urban,22.4,14.9,32.6,N/A , N/A , N/A,6,stable,0.1,-2.6,3.1
+"Pulaski County, Kentucky(7)",21199,Rural,22.4,18,27.6,N/A , N/A , N/A,20,stable,-0.9,-3.2,1.6
+"Seminole County, Florida(6)",12117,Urban,22.4,20.6,24.3,N/A , N/A , N/A,125,rising,1.5,0.2,3
+"Braxton County, West Virginia(6)",54007,Rural,22.4,13.1,36.4,N/A , N/A , N/A,4,stable,0,-5.6,5.9
+"Vernon County, Wisconsin(6)",55123,Urban,22.4,16.3,30.2,N/A , N/A , N/A,10,stable,4.8,-17.1,26.5
+"St. Lucie County, Florida(6)",12111,Urban,22.4,20.5,24.5,N/A , N/A , N/A,112,stable,1.7,-0.2,3.9
+"Lake County, Illinois(7)",17097,Urban,22.4,20.9,24,N/A , N/A , N/A,180,stable,0,-0.8,0.8
+"Boyle County, Kentucky(7)",21021,Rural,22.4,16.1,30.5,N/A , N/A , N/A,9,stable,0.4,-3.1,4.3
+"DeKalb County, Illinois(7)",17037,Urban,22.4,18.3,27.1,N/A , N/A , N/A,22,rising,1.6,0.1,3.4
+"Kewaunee County, Wisconsin(6)",55061,Urban,22.4,14.9,32.6,N/A , N/A , N/A,6,stable,-1.4,-5.2,2.3
+"Nassau County, New York(7)",36059,Urban,22.3,21.3,23.4,N/A , N/A , N/A,402,falling,-1,-2.7,-0.2
+"Marshall County, Iowa(7)",19127,Rural,22.3,16.7,29.3,N/A , N/A , N/A,11,stable,1.3,-0.5,3.3
+"Wright County, Missouri(6)",29229,Rural,22.3,14.8,32.7,N/A , N/A , N/A,6,falling,-25.4,-42,-3.5
+"Lake County, Florida(6)",12069,Urban,22.3,20.6,24.2,N/A , N/A , N/A,140,stable,-9.9,-23.9,2.5
+"Waynesboro City, Virginia(6)",51820,Urban,22.3,15.1,32,N/A , N/A , N/A,6,stable,0.2,-3.8,4.4
+"Sioux County, Iowa(7)",19167,Rural,22.3,16.1,30.1,N/A , N/A , N/A,9,stable,0.2,-1.2,1.9
+"Oneida County, New York(7)",36065,Urban,22.3,19.9,24.9,N/A , N/A , N/A,68,stable,0.3,-0.6,1.2
+"Mercer County, New Jersey(7)",34021,Urban,22.3,20.3,24.4,N/A , N/A , N/A,100,stable,-0.1,-1.1,0.9
+"Niagara County, New York(7)",36063,Urban,22.3,19.8,25,N/A , N/A , N/A,65,stable,0.5,-0.8,1.7
+"Henry County, Missouri(6)",29083,Rural,22.3,15.1,32,N/A , N/A , N/A,7,stable,0.8,-3.5,5.4
+"Franklin County, Illinois(7)",17055,Rural,22.3,16.6,29.3,N/A , N/A , N/A,12,stable,-0.9,-3.7,1.7
+"Del Norte County, California(7)",06015,Rural,22.2,15.9,30.6,N/A , N/A , N/A,8,stable,-1.6,-5.4,2.3
+"Bosque County, Texas(7)",48035,Urban,22.2,15.1,32.2,N/A , N/A , N/A,7,stable,0.1,-3.6,4.3
+"Nelson County, Kentucky(7)",21179,Urban,22.2,16.8,28.9,N/A , N/A , N/A,12,stable,-2.1,-14.3,1
+"Washington County, Nebraska(6)",31177,Urban,22.2,14.9,32.2,N/A , N/A , N/A,6,stable,-1,-5,3.3
+"DeWitt County, Texas(7)",48123,Rural,22.2,14.9,32.2,N/A , N/A , N/A,6,stable,1,-3.5,6
+"Barnes County, North Dakota(6)",38003,Rural,22.2,12.8,36.9,N/A , N/A , N/A,4,stable,-3.1,-9.9,2.7
+"Jackson County, Illinois(7)",17077,Rural,22.2,17,28.6,N/A , N/A , N/A,13,stable,0.8,-1.5,3.3
+"Noble County, Ohio(6)",39121,Rural,22.2,12.2,37.2,N/A , N/A , N/A,4,stable,1.2,-4.2,7.5
+"Pointe Coupee Parish, Louisiana(7)",22077,Urban,22.2,14.7,32.4,N/A , N/A , N/A,6,stable,0.4,-3.8,4.6
+"Madison County, Ohio(6)",39097,Urban,22.2,16.7,28.9,N/A , N/A , N/A,12,stable,1.4,-1.7,5.1
+"Montgomery County, Iowa(7)",19137,Rural,22.2,12.4,37.5,N/A , N/A , N/A,3,*,*,*,*
+"Platte County, Nebraska(6)",31141,Rural,22.2,15.9,30.1,N/A , N/A , N/A,9,stable,0.3,-3.5,4.4
+"Oldham County, Kentucky(7)",21185,Urban,22.2,17.5,27.7,N/A , N/A , N/A,17,stable,-0.8,-3.1,2.1
+"Twin Falls County, Idaho(7)",16083,Urban,22.2,18.2,26.7,N/A , N/A , N/A,23,stable,0.8,-1,2.7
+"Ramsey County, Minnesota(6)",27123,Urban,22.1,20.5,23.9,N/A , N/A , N/A,135,stable,-0.2,-1.5,1.2
+"Hocking County, Ohio(6)",39073,Urban,22.1,15.6,30.6,N/A , N/A , N/A,8,stable,1.8,-2.1,6.6
+"Bergen County, New Jersey(7)",34003,Urban,22.1,20.9,23.4,N/A , N/A , N/A,270,stable,0.3,-0.2,0.8
+"Alexander County, North Carolina(6)",37003,Urban,22.1,16.7,29,N/A , N/A , N/A,12,stable,1.7,-1.6,5.3
+"Red Willow County, Nebraska(6)",31145,Rural,22.1,11.8,38.1,N/A , N/A , N/A,3,stable,-1.4,-5.7,2.5
+"Wood County, Texas(7)",48499,Rural,22.1,17.1,28.3,N/A , N/A , N/A,17,stable,-0.3,-1.8,1.1
+"Orange County, New York(7)",36071,Urban,22.1,20.2,24.2,N/A , N/A , N/A,97,stable,0.1,-0.8,1.1
+"Warren County, New Jersey(7)",34041,Urban,22.1,18.7,26,N/A , N/A , N/A,33,stable,-0.5,-2.1,1.1
+"Story County, Iowa(7)",19169,Urban,22.1,17.9,27.1,N/A , N/A , N/A,20,stable,0.5,-0.5,1.7
+"Jasper County, Illinois(7)",17079,Rural,22.1,12.4,37.6,N/A , N/A , N/A,3,*,*,*,*
+"Sandusky County, Ohio(6)",39143,Rural,22.1,17.4,27.7,N/A , N/A , N/A,17,stable,1.3,-1.3,4.1
+"Pamlico County, North Carolina(6)",37137,Rural,22.1,14.3,34.5,N/A , N/A , N/A,6,*,*,*,*
+"Renville County, Minnesota(6)",27129,Rural,22.1,14.1,33.7,N/A , N/A , N/A,5,stable,2.1,-1.8,6.3
+"New Haven County, Connecticut(7)",09009,Urban,22.1,20.8,23.4,N/A , N/A , N/A,241,stable,0,-0.4,0.3
+"Ozaukee County, Wisconsin(6)",55089,Urban,22.1,18.4,26.3,N/A , N/A , N/A,28,stable,-0.1,-2.1,1.9
+"Chaffee County, Colorado(6)",08015,Rural,22.1,14.1,33.4,N/A , N/A , N/A,6,falling,-34.7,-57.5,-17.7
+"Coos County, New Hampshire(6)",33007,Rural,22.1,16.2,29.7,N/A , N/A , N/A,11,stable,0.7,-2.2,3.7
+"Ben Hill County, Georgia(7)",13017,Rural,22.1,14.1,33.2,N/A , N/A , N/A,5,*,*,*,*
+"Okeechobee County, Florida(6)",12093,Rural,22.1,16.7,28.7,N/A , N/A , N/A,12,rising,7.1,3.1,20.7
+"Rock County, Wisconsin(6)",55105,Urban,22,19.2,25.3,N/A , N/A , N/A,45,stable,0.7,-1.4,3.1
+"White County, Georgia(7)",13311,Rural,22,15.6,30.4,N/A , N/A , N/A,9,stable,-0.3,-4.1,4.1
+"Clallam County, Washington(7)",53009,Rural,22,18.2,26.5,N/A , N/A , N/A,30,stable,-0.1,-0.9,0.8
+"Brunswick County, Virginia(6)",51025,Rural,22,14.3,33.2,N/A , N/A , N/A,5,stable,4.5,-1.3,12
+"Crockett County, Tennessee(6)",47033,Urban,22,13.9,33.8,N/A , N/A , N/A,5,*,*,*,*
+"Berks County, Pennsylvania(6)",42011,Urban,22,20.2,23.9,N/A , N/A , N/A,116,stable,-0.3,-1.3,0.8
+"Habersham County, Georgia(7)",13137,Rural,22,16.8,28.4,N/A , N/A , N/A,13,stable,1.7,-0.8,4.6
+"Marion County, West Virginia(6)",54049,Rural,22,17.2,27.7,N/A , N/A , N/A,16,stable,-1.2,-3.4,1
+"St. Mary Parish, Louisiana(7)",22101,Rural,22,16.9,28.2,N/A , N/A , N/A,14,stable,-0.6,-2.6,1.4
+"St. Tammany Parish, Louisiana(7)",22103,Urban,22,19.7,24.5,N/A , N/A , N/A,72,stable,-0.8,-2.3,0.8
+"Burlington County, New Jersey(7)",34005,Urban,22,20.3,23.8,N/A , N/A , N/A,131,stable,-0.3,-0.9,0.4
+"Suffolk County, New York(7)",36103,Urban,22,21,23,N/A , N/A , N/A,425,falling,-2.6,-9.8,-0.1
+"Otter Tail County, Minnesota(6)",27111,Rural,22,17.7,27.1,N/A , N/A , N/A,22,stable,-0.1,-3.6,3.6
+"Logan County, West Virginia(6)",54045,Rural,22,16.3,29.3,N/A , N/A , N/A,11,stable,1,-3,5.5
+"Clay County, Arkansas(6)",05021,Rural,22,14,33.5,N/A , N/A , N/A,5,stable,3.8,-0.1,8.1
+"Strafford County, New Hampshire(6)",33017,Urban,22,18.6,25.7,N/A , N/A , N/A,33,stable,0.6,-0.9,2.3
+"Columbia County, Florida(6)",12023,Rural,21.9,17.7,27,N/A , N/A , N/A,20,stable,2,-0.2,4.7
+"Blue Earth County, Minnesota(6)",27013,Urban,21.9,17.1,27.7,N/A , N/A , N/A,15,stable,2.1,-0.2,4.7
+"Palm Beach County, Florida(6)",12099,Urban,21.9,21,22.8,N/A , N/A , N/A,513,falling,-5.2,-10.7,-2
+"Windham County, Vermont(6)",50025,Rural,21.9,16.8,28.3,N/A , N/A , N/A,14,stable,0.3,-2.3,3
+"Racine County, Wisconsin(6)",55101,Urban,21.9,19.3,24.8,N/A , N/A , N/A,54,stable,-1.4,-14.9,1.5
+"Scott County, Tennessee(6)",47151,Rural,21.9,14.7,31.6,N/A , N/A , N/A,6,*,*,*,*
+"Jackson County, Ohio(6)",39079,Rural,21.9,15.8,29.8,N/A , N/A , N/A,9,rising,11.8,0.8,30
+"Ocean County, New Jersey(7)",34029,Urban,21.9,20.5,23.4,N/A , N/A , N/A,207,stable,0.5,-0.2,1.2
+"Waseca County, Minnesota(6)",27161,Rural,21.9,13.9,32.9,N/A , N/A , N/A,5,stable,0.4,-3.9,4.6
+"Winona County, Minnesota(6)",27169,Rural,21.9,16.7,28.3,N/A , N/A , N/A,13,stable,1.8,-1.4,5.6
+"Alamance County, North Carolina(6)",37001,Urban,21.9,19,25,N/A , N/A , N/A,45,stable,1.1,-0.7,3.2
+"Rains County, Texas(7)",48379,Rural,21.9,13.3,35,N/A , N/A , N/A,5,*,*,*,*
+"Albemarle County, Virginia(6)",51003,Urban,21.9,18.5,25.7,N/A , N/A , N/A,32,stable,0.5,-0.8,2
+"Santa Rosa County, Florida(6)",12113,Urban,21.9,19.1,24.9,N/A , N/A , N/A,47,falling,-23.4,-37,-13.2
+"Clinton County, Iowa(7)",19045,Rural,21.8,16.9,27.9,N/A , N/A , N/A,14,stable,0.3,-0.8,1.6
+"Clark County, Wisconsin(6)",55019,Rural,21.8,15.7,29.7,N/A , N/A , N/A,9,stable,-0.3,-4.1,3.4
+"Boone County, Illinois(7)",17007,Urban,21.8,16.9,27.8,N/A , N/A , N/A,14,stable,-0.2,-1.9,1.6
+"Westchester County, New York(7)",36119,Urban,21.8,20.7,23.1,N/A , N/A , N/A,279,stable,0.1,-0.6,0.7
+"Cambria County, Pennsylvania(6)",42021,Urban,21.8,18.9,25.1,N/A , N/A , N/A,45,stable,0.2,-1.5,1.9
+"Fulton County, New York(7)",36035,Rural,21.8,17.1,27.6,N/A , N/A , N/A,16,stable,0,-1.8,1.9
+"Schenectady County, New York(7)",36093,Urban,21.8,18.9,25,N/A , N/A , N/A,44,stable,-0.3,-2.2,1.6
+"Kossuth County, Iowa(7)",19109,Rural,21.8,13.7,33.7,N/A , N/A , N/A,5,stable,0.3,-1.4,2.2
+"Morgan County, Illinois(7)",17137,Rural,21.8,16,29.2,N/A , N/A , N/A,10,stable,1.4,-0.9,3.8
+"Manitowoc County, Wisconsin(6)",55071,Rural,21.8,18.1,26.2,N/A , N/A , N/A,26,rising,2,0.3,3.9
+"Lawrence County, Missouri(6)",29109,Rural,21.8,16.2,28.9,N/A , N/A , N/A,11,stable,1,-1.6,3.9
+"Wexford County, Michigan(6)",26165,Rural,21.8,15.8,29.5,N/A , N/A , N/A,10,stable,1,-4.9,7.7
+"Cottonwood County, Minnesota(6)",27033,Rural,21.8,12.2,36.4,N/A , N/A , N/A,4,*,*,*,*
+"Poinsett County, Arkansas(6)",05111,Urban,21.8,14.9,31,N/A , N/A , N/A,7,rising,3.9,0.4,8.4
+"Waukesha County, Wisconsin(6)",55133,Urban,21.8,20,23.6,N/A , N/A , N/A,122,stable,0.1,-0.7,0.9
+"Pinellas County, Florida(6)",12103,Urban,21.8,20.7,22.9,N/A , N/A , N/A,346,stable,-4,-8.5,0.7
+"Marshall County, West Virginia(6)",54051,Urban,21.8,15.9,29.3,N/A , N/A , N/A,10,stable,3,-1,7.4
+"Gladwin County, Michigan(6)",26051,Rural,21.7,14.8,31,N/A , N/A , N/A,8,stable,1.1,-2.6,5.1
+"Livingston Parish, Louisiana(7)",22063,Urban,21.7,18.4,25.5,N/A , N/A , N/A,31,stable,0.4,-1.3,2.4
+"Bonneville County, Idaho(7)",16019,Urban,21.7,18.1,25.8,N/A , N/A , N/A,27,stable,-1.7,-4,0.6
+"Escambia County, Florida(6)",12033,Urban,21.7,19.6,24,N/A , N/A , N/A,85,falling,-4,-8.9,-1.3
+"LaFourche Parish, Louisiana(7)",22057,Urban,21.7,18,26,N/A , N/A , N/A,25,stable,0.6,-0.7,2.1
+"Matagorda County, Texas(7)",48321,Rural,21.7,15.7,29.3,N/A , N/A , N/A,9,stable,1.4,-1.6,4.7
+"Herkimer County, New York(7)",36043,Urban,21.7,17.3,27,N/A , N/A , N/A,18,stable,14.3,-1.6,26.6
+"Rensselaer County, New York(7)",36083,Urban,21.7,18.8,24.9,N/A , N/A , N/A,43,stable,0.7,-1.1,2.6
+"Marshall County, Tennessee(6)",47117,Rural,21.7,15.6,29.5,N/A , N/A , N/A,9,stable,-0.7,-5,4.2
+"Cumberland County, Virginia(6)",51049,Rural,21.7,12,37.2,N/A , N/A , N/A,3,*,*,*,*
+"Swain County, North Carolina(6)",37173,Rural,21.7,13.2,34.1,N/A , N/A , N/A,4,stable,-2,-7.8,3.8
+"Albany County, New York(7)",36001,Urban,21.7,19.6,23.9,N/A , N/A , N/A,84,stable,-1.3,-5.3,0.2
+"Ionia County, Michigan(6)",26067,Urban,21.7,17.1,27.1,N/A , N/A , N/A,16,stable,0.6,-2.7,4.3
+"Waupaca County, Wisconsin(6)",55135,Rural,21.6,16.8,27.5,N/A , N/A , N/A,15,stable,0,-3.4,3.5
+"Linn County, Iowa(7)",19113,Urban,21.6,19.2,24.3,N/A , N/A , N/A,59,stable,0.3,-0.2,0.9
+"Itawamba County, Mississippi(6)",28057,Rural,21.6,14.8,30.8,N/A , N/A , N/A,7,stable,0.4,-5.2,6.2
+"Rusk County, Texas(7)",48401,Urban,21.6,16.7,27.6,N/A , N/A , N/A,14,rising,2.3,0.2,4.7
+"Butler County, Iowa(7)",19023,Rural,21.6,13.7,33.2,N/A , N/A , N/A,5,stable,0.4,-2.2,3.3
+"Mower County, Minnesota(6)",27099,Rural,21.6,16,28.6,N/A , N/A , N/A,11,stable,0.1,-2.5,2.5
+"Wyoming County, New York(7)",36121,Rural,21.6,16.3,28.2,N/A , N/A , N/A,12,stable,1.4,-1,4.1
+"Pottawattamie County, Iowa(7)",19155,Urban,21.6,18,25.7,N/A , N/A , N/A,27,stable,0.9,0,1.8
+"Paulding County, Ohio(6)",39125,Rural,21.6,14,32.1,N/A , N/A , N/A,6,*,*,*,*
+"Boone County, Arkansas(6)",05009,Rural,21.5,16.2,28.3,N/A , N/A , N/A,12,stable,0,-2.2,2.3
+"Bingham County, Idaho(7)",16011,Rural,21.5,16.1,28.3,N/A , N/A , N/A,11,stable,1.1,-1.7,4.3
+"Hill County, Texas(7)",48217,Rural,21.5,16.1,28.4,N/A , N/A , N/A,11,stable,0.5,-3,4.5
+"Meriwether County, Georgia(7)",13199,Urban,21.5,14.3,31.5,N/A , N/A , N/A,6,*,*,*,*
+"Isanti County, Minnesota(6)",27059,Urban,21.5,16,28.4,N/A , N/A , N/A,11,stable,-0.4,-4.6,4.3
+"Washington County, Rhode Island(6)",44009,Urban,21.5,18.5,25,N/A , N/A , N/A,41,stable,1.5,-0.1,3.2
+"Geauga County, Ohio(6)",39055,Urban,21.5,18,25.6,N/A , N/A , N/A,29,stable,0.4,-1.3,2.2
+"Camden County, New Jersey(7)",34007,Urban,21.5,19.9,23.3,N/A , N/A , N/A,134,stable,0.1,-0.7,0.9
+"Montgomery County, New York(7)",36057,Rural,21.5,16.8,27.3,N/A , N/A , N/A,15,stable,-0.5,-2.6,1.5
+"Greene County, New York(7)",36039,Rural,21.5,16.7,27.5,N/A , N/A , N/A,15,stable,-0.3,-2.5,1.9
+"Snyder County, Pennsylvania(6)",42109,Rural,21.5,16.1,28.3,N/A , N/A , N/A,11,stable,0.3,-2.6,3.3
+"Marion County, Iowa(7)",19125,Rural,21.5,15.9,28.7,N/A , N/A , N/A,10,stable,0.2,-1.3,1.9
+"Thurston County, Washington(7)",53067,Urban,21.5,19.4,23.9,N/A , N/A , N/A,78,stable,0,-0.6,0.7
+"Boone County, Kentucky(7)",21015,Urban,21.5,18.2,25.3,N/A , N/A , N/A,31,stable,-0.1,-2,2
+"Holmes County, Ohio(6)",39075,Rural,21.5,15.9,28.5,N/A , N/A , N/A,10,stable,1.7,-2,6.5
+"Piscataquis County, Maine(6)",23021,Rural,21.5,15,31.1,N/A , N/A , N/A,7,stable,-0.3,-5.5,5.2
+"Huron County, Ohio(6)",39077,Rural,21.5,16.9,27.1,N/A , N/A , N/A,16,stable,0.3,-2.6,3.4
+"Wyandot County, Ohio(6)",39175,Rural,21.5,14.1,31.5,N/A , N/A , N/A,6,stable,-2.6,-6,0.5
+"Manatee County, Florida(6)",12081,Urban,21.5,19.8,23.3,N/A , N/A , N/A,145,stable,-6.1,-12.9,1.2
+"Marshall County, Kentucky(7)",21157,Rural,21.5,15.7,28.9,N/A , N/A , N/A,10,stable,-1.3,-5.5,2.7
+"Juniata County, Pennsylvania(6)",42067,Rural,21.5,15.1,30,N/A , N/A , N/A,8,stable,-0.5,-3.2,2.4
+"Jefferson County, Arkansas(6)",05069,Rural,21.5,17,26.8,N/A , N/A , N/A,17,stable,1.6,-2.2,5.5
+"Erie County, New York(7)",36029,Urban,21.5,20.3,22.7,N/A , N/A , N/A,269,stable,0.7,-0.1,1.6
+"Marion County, Illinois(7)",17121,Rural,21.5,15.8,28.6,N/A , N/A , N/A,10,stable,-0.1,-2.7,2.5
+"Anderson County, Tennessee(6)",47001,Urban,21.5,17.6,26,N/A , N/A , N/A,23,stable,-0.7,-2.9,1.5
+"Mercer County, Kentucky(7)",21167,Rural,21.5,14.5,30.8,N/A , N/A , N/A,7,stable,1,-2.3,4.8
+"Richland County, North Dakota(6)",38077,Rural,21.5,12.5,34.3,N/A , N/A , N/A,4,stable,-1.3,-6,3
+"Pender County, North Carolina(6)",37141,Urban,21.4,17,26.8,N/A , N/A , N/A,17,stable,-0.6,-3.5,2.6
+"Lincoln County, South Dakota(6)",46083,Urban,21.4,16.6,27.3,N/A , N/A , N/A,14,stable,13.2,-0.7,31.1
+"Yamhill County, Oregon(6)",41071,Urban,21.4,18,25.4,N/A , N/A , N/A,29,stable,0.7,-1.6,3.3
+"Yates County, New York(7)",36123,Rural,21.4,14.7,30.5,N/A , N/A , N/A,7,stable,-2.4,-16.9,1.7
+"Warren County, New York(7)",36113,Urban,21.4,17.3,26.4,N/A , N/A , N/A,21,stable,0.3,-1.8,2.4
+"Sumter County, Florida(6)",12119,Urban,21.4,18.1,25.4,N/A , N/A , N/A,82,falling,-5.9,-9.6,-3.4
+"Somerset County, New Jersey(7)",34035,Urban,21.4,19.5,23.6,N/A , N/A , N/A,91,stable,0.1,-1,1.4
+"Fayette County, Iowa(7)",19065,Rural,21.4,13.8,32,N/A , N/A , N/A,6,stable,0,-13.7,2.7
+"Greene County, Virginia(6)",51079,Urban,21.4,14.2,31.4,N/A , N/A , N/A,6,stable,-0.3,-4.4,4.2
+"Elmore County, Idaho(7)",16039,Rural,21.4,14.4,30.7,N/A , N/A , N/A,6,stable,-0.6,-4,3.3
+"Hood County, Texas(7)",48221,Rural,21.4,17,26.7,N/A , N/A , N/A,20,stable,1,-1.4,3.9
+"Middlesex County, Connecticut(7)",09007,Urban,21.4,18.8,24.3,N/A , N/A , N/A,53,stable,0.7,-0.2,1.7
+"Clinton County, New York(7)",36019,Rural,21.4,17.4,26.1,N/A , N/A , N/A,21,stable,0.7,-1.6,3.2
+"Morgan County, Missouri(6)",29141,Rural,21.4,14,31.5,N/A , N/A , N/A,6,stable,-51.6,-82.6,0.1
+"Stark County, North Dakota(6)",38089,Rural,21.4,14.8,29.9,N/A , N/A , N/A,7,stable,-1.4,-4.9,2.1
+"Crawford County, Pennsylvania(6)",42039,Rural,21.4,17.7,25.7,N/A , N/A , N/A,27,stable,0.1,-2,2.2
+"Seneca County, Ohio(6)",39147,Rural,21.4,16.8,27,N/A , N/A , N/A,16,stable,-1.1,-4.2,1.9
+"Sabine Parish, Louisiana(7)",22085,Rural,21.4,14.4,30.9,N/A , N/A , N/A,6,stable,-0.8,-5.3,3.6
+"Jasper County, Missouri(6)",29097,Urban,21.4,18,25.2,N/A , N/A , N/A,30,stable,1,-0.7,2.9
+"Monroe County, New York(7)",36055,Urban,21.4,20,22.8,N/A , N/A , N/A,207,stable,0.1,-0.6,0.9
+"Midland County, Michigan(6)",26111,Urban,21.4,17.6,25.8,N/A , N/A , N/A,24,stable,0.3,-1.9,2.8
+"Latah County, Idaho(7)",16057,Rural,21.3,15.1,29.4,N/A , N/A , N/A,8,stable,2,-2.4,7.4
+"Scioto County, Ohio(6)",39145,Rural,21.3,17.4,26,N/A , N/A , N/A,21,stable,-0.6,-2.8,1.6
+"Walthall County, Mississippi(6)",28147,Rural,21.3,12.5,34.4,N/A , N/A , N/A,4,stable,-0.5,-7.2,5.9
+"Anoka County, Minnesota(6)",27003,Urban,21.3,19.3,23.5,N/A , N/A , N/A,87,stable,-1,-6.7,2
+"Pike County, Ohio(6)",39131,Rural,21.3,14.8,29.9,N/A , N/A , N/A,7,stable,-1.9,-4.7,0.9
+"Portage County, Wisconsin(6)",55097,Rural,21.3,16.9,26.6,N/A , N/A , N/A,17,stable,-0.9,-3.4,1.8
+"Kerr County, Texas(7)",48265,Rural,21.3,16.8,26.9,N/A , N/A , N/A,19,stable,12.9,-0.7,34.9
+"Polk County, Florida(6)",12105,Urban,21.3,20,22.7,N/A , N/A , N/A,204,stable,0.1,-0.7,1.1
+"San Jacinto County, Texas(7)",48407,Urban,21.3,15.1,29.6,N/A , N/A , N/A,9,stable,-0.1,-3.2,3.6
+"Teton County, Wyoming(6)",56039,Rural,21.3,13.9,31.4,N/A , N/A , N/A,6,stable,0.7,-6,9
+"Kanawha County, West Virginia(6)",54039,Urban,21.3,18.7,24.1,N/A , N/A , N/A,55,stable,0.1,-1.7,1.9
+"Dickinson County, Iowa(7)",19059,Rural,21.3,13.7,32.1,N/A , N/A , N/A,6,stable,0.2,-2.1,2.8
+"Campbell County, Kentucky(7)",21037,Urban,21.3,17.6,25.6,N/A , N/A , N/A,25,stable,0.5,-1.3,2.4
+"Pope County, Arkansas(6)",05115,Rural,21.3,16.7,26.7,N/A , N/A , N/A,16,stable,0.8,-1.5,3.2
+"Oakland County, Michigan(6)",26125,Urban,21.3,20.2,22.3,N/A , N/A , N/A,344,falling,-0.8,-1.4,-0.1
+"Perry County, Mississippi(6)",28111,Urban,21.3,12,35.5,N/A , N/A , N/A,3,stable,0.7,-6.3,9.3
+"Coshocton County, Ohio(6)",39031,Rural,21.2,15.8,28.1,N/A , N/A , N/A,11,stable,-0.8,-4.7,3.6
+"Clermont County, Ohio(6)",39025,Urban,21.2,18.7,24,N/A , N/A , N/A,54,stable,0.2,-1.3,1.9
+"Saline County, Nebraska(6)",31151,Rural,21.2,12.4,34.2,N/A , N/A , N/A,4,*,*,*,*
+"Monroe County, Pennsylvania(6)",42089,Rural,21.2,18.4,24.3,N/A , N/A , N/A,46,rising,3.7,0.2,9.6
+"Sawyer County, Wisconsin(6)",55113,Rural,21.2,14.6,30.9,N/A , N/A , N/A,7,stable,-1.2,-5.7,3.6
+"Polk County, Iowa(7)",19153,Urban,21.2,19.4,23.1,N/A , N/A , N/A,106,stable,0,-0.6,0.7
+"Greene County, Pennsylvania(6)",42059,Rural,21.2,15.4,28.5,N/A , N/A , N/A,10,stable,0.5,-3.2,4.3
+"Shelby County, Ohio(6)",39149,Rural,21.2,16.1,27.4,N/A , N/A , N/A,13,stable,0.9,-2.8,5.1
+"Culpeper County, Virginia(6)",51047,Urban,21.1,16.2,27.2,N/A , N/A , N/A,13,falling,-28.3,-46.9,-9.1
+"Custer County, Nebraska(6)",31041,Rural,21.1,12.2,35.2,N/A , N/A , N/A,4,rising,5.7,2.2,13.3
+"Penobscot County, Maine(6)",23019,Urban,21.1,18.3,24.3,N/A , N/A , N/A,44,stable,-0.3,-2.1,1.7
+"Hillsdale County, Michigan(6)",26059,Rural,21.1,16.3,27.1,N/A , N/A , N/A,14,stable,0.1,-3.4,3.7
+"Hennepin County, Minnesota(6)",27053,Urban,21.1,20,22.2,N/A , N/A , N/A,299,falling,-1.1,-3.6,-0.3
+"Belknap County, New Hampshire(6)",33001,Rural,21.1,17,25.9,N/A , N/A , N/A,21,stable,4,-0.8,16.9
+"Alcona County, Michigan(6)",26001,Rural,21.1,13.4,35.2,N/A , N/A , N/A,5,*,*,*,*
+"Raleigh County, West Virginia(6)",54081,Urban,21.1,17.3,25.5,N/A , N/A , N/A,24,stable,1.2,-1.1,3.7
+"New York County, New York(7)",36061,Urban,21.1,20.1,22,N/A , N/A , N/A,426,falling,-0.5,-1.7,-0.2
+"Leon County, Texas(7)",48289,Rural,21.1,13.6,31.9,N/A , N/A , N/A,6,stable,-1,-5,3
+"Logan County, Illinois(7)",17107,Rural,21,15,28.9,N/A , N/A , N/A,8,stable,-1.6,-4,0.8
+"Bay County, Florida(6)",12005,Urban,21,18.4,23.9,N/A , N/A , N/A,50,stable,-6.3,-23.6,1.7
+"Madison County, Idaho(7)",16065,Rural,21,13.2,31.5,N/A , N/A , N/A,5,stable,1.2,-1.7,4.8
+"Pike County, Mississippi(6)",28113,Rural,21,15.5,27.9,N/A , N/A , N/A,10,stable,0.2,-3.9,4.5
+"Chelan County, Washington(6)",53007,Urban,21,17,25.7,N/A , N/A , N/A,21,stable,-1.7,-4.2,1
+"Athens County, Ohio(6)",39009,Rural,21,16.1,27,N/A , N/A , N/A,13,stable,2,-0.5,4.9
+"Victoria County, Texas(7)",48469,Urban,21,17.2,25.4,N/A , N/A , N/A,22,stable,-0.8,-2.3,0.8
+"De Witt County, Illinois(7)",17039,Rural,21,13.1,32.5,N/A , N/A , N/A,5,stable,0.6,-3.6,5
+"Henry County, Iowa(7)",19087,Rural,21,14.1,30.5,N/A , N/A , N/A,6,stable,1.3,-0.8,3.9
+"Johnson County, Iowa(7)",19103,Urban,21,17.6,24.8,N/A , N/A , N/A,29,stable,-6.1,-18,0.3
+"Gloucester County, New Jersey(7)",34015,Urban,21,18.9,23.3,N/A , N/A , N/A,76,stable,0.7,0,1.5
+"Monongalia County, West Virginia(6)",54061,Urban,21,17.1,25.5,N/A , N/A , N/A,22,stable,-0.6,-2.8,1.9
+"Vilas County, Wisconsin(6)",55125,Rural,21,15.2,29.2,N/A , N/A , N/A,11,falling,-8.6,-18.1,-3.3
+"Cooper County, Missouri(6)",29053,Urban,21,13.2,32,N/A , N/A , N/A,5,stable,1,-5,7.8
+"Franklin County, Virginia(6)",51067,Urban,20.9,16.3,26.6,N/A , N/A , N/A,17,stable,2.2,-0.5,5.3
+"Grundy County, Illinois(7)",17063,Urban,20.9,16,27,N/A , N/A , N/A,12,stable,-1.4,-4.8,2.2
+"Buchanan County, Missouri(6)",29021,Urban,20.9,17.1,25.4,N/A , N/A , N/A,22,stable,0.6,-2.4,3.8
+"Adams County, Mississippi(6)",28001,Rural,20.9,14.6,29.1,N/A , N/A , N/A,8,stable,0.1,-4.4,4.5
+"New Hanover County, North Carolina(6)",37129,Urban,20.9,18.5,23.5,N/A , N/A , N/A,59,rising,4.1,1,12.8
+"Upshur County, West Virginia(6)",54097,Rural,20.9,14.5,29.6,N/A , N/A , N/A,7,stable,0.6,-3.8,5.5
+"Stephenson County, Illinois(7)",17177,Rural,20.9,16.1,27,N/A , N/A , N/A,14,stable,-0.8,-3.1,1.5
+"Marshall County, Illinois(7)",17123,Urban,20.9,12.8,33.5,N/A , N/A , N/A,4,*,*,*,*
+"Kandiyohi County, Minnesota(6)",27067,Rural,20.9,16,27.1,N/A , N/A , N/A,13,stable,0.9,-1.6,3.6
+"Woodford County, Kentucky(7)",21239,Urban,20.9,14.7,29.1,N/A , N/A , N/A,8,stable,-0.6,-4.1,3
+"Nantucket County, Massachusetts(7)",25019,Rural,20.9,11.9,34.2,N/A , N/A , N/A,3,*,*,*,*
+"Weber County, Utah(7)",49057,Urban,20.9,18.4,23.7,N/A , N/A , N/A,51,stable,-0.9,-9.1,1.2
+"Humboldt County, California(7)",06023,Rural,20.9,17.8,24.4,N/A , N/A , N/A,35,stable,-1.1,-2.3,0.2
+"Arenac County, Michigan(6)",26011,Rural,20.9,13.4,32.1,N/A , N/A , N/A,5,stable,-3.5,-10.7,2.4
+"San Mateo County, California(7)",06081,Urban,20.9,19.6,22.3,N/A , N/A , N/A,194,stable,-0.1,-0.4,0.3
+"Lorain County, Ohio(6)",39093,Urban,20.9,18.9,23,N/A , N/A , N/A,85,stable,0.6,-0.6,1.9
+"Hillsborough County, New Hampshire(6)",33011,Urban,20.9,19.1,22.8,N/A , N/A , N/A,107,stable,0.2,-0.9,1.4
+"McCreary County, Kentucky(7)",21147,Rural,20.9,12.8,32.4,N/A , N/A , N/A,4,*,*,*,*
+"Hall County, Georgia(7)",13139,Urban,20.9,18.3,23.8,N/A , N/A , N/A,47,stable,1.2,0,2.6
+"Lewis County, West Virginia(6)",54041,Rural,20.9,13.3,31.7,N/A , N/A , N/A,5,stable,0.7,-4,5.6
+"Somerset County, Pennsylvania(6)",42111,Rural,20.9,17.2,25.1,N/A , N/A , N/A,25,stable,-1,-3.7,1.6
+"Cass County, Iowa(7)",19029,Rural,20.9,12.1,34,N/A , N/A , N/A,4,stable,1,-1.3,3.7
+"Macomb County, Michigan(6)",26099,Urban,20.8,19.6,22.1,N/A , N/A , N/A,231,stable,-0.3,-1.3,0.6
+"Beaufort County, North Carolina(6)",37013,Rural,20.8,15.7,27.3,N/A , N/A , N/A,13,stable,-0.4,-3.8,3.3
+"Cattaraugus County, New York(7)",36009,Rural,20.8,17,25.4,N/A , N/A , N/A,22,stable,0.5,-1.4,2.5
+"Nolan County, Texas(7)",48353,Rural,20.8,12.4,33.2,N/A , N/A , N/A,4,*,*,*,*
+"Roseau County, Minnesota(6)",27135,Rural,20.8,13,32.2,N/A , N/A , N/A,5,stable,0.9,-4.9,7.6
+"Ouachita County, Arkansas(6)",05103,Rural,20.8,14.3,29.6,N/A , N/A , N/A,7,stable,2.8,-0.4,6.4
+"Bates County, Missouri(6)",29013,Urban,20.8,12.7,32.5,N/A , N/A , N/A,4,falling,-3.5,-7.5,-0.2
+"Staunton City, Virginia(6)",51790,Urban,20.8,14.6,29.2,N/A , N/A , N/A,8,falling,-32.1,-60.2,-1.5
+"Willacy County, Texas(7)",48489,Rural,20.8,13.1,31.5,N/A , N/A , N/A,5,*,*,*,*
+"Multnomah County, Oregon(6)",41051,Urban,20.8,19.4,22.3,N/A , N/A , N/A,178,stable,0.7,-0.3,1.8
+"Snohomish County, Washington(7)",53061,Urban,20.8,19.4,22.2,N/A , N/A , N/A,185,falling,-1,-2,-0.4
+"Marion County, Ohio(6)",39101,Rural,20.8,16.6,25.8,N/A , N/A , N/A,18,stable,-0.7,-2.5,1.1
+"Tazewell County, Illinois(7)",17179,Urban,20.8,17.8,24.2,N/A , N/A , N/A,36,stable,-0.8,-2.5,0.8
+"Washburn County, Wisconsin(6)",55129,Rural,20.8,13.2,31.9,N/A , N/A , N/A,6,stable,0,-5,5.9
+"Rockingham County, Virginia(6)",51165,Urban,20.8,17.1,25.1,N/A , N/A , N/A,24,stable,-0.3,-3.1,2.7
+"Jefferson County, Wisconsin(6)",55055,Rural,20.8,17,25.2,N/A , N/A , N/A,22,stable,1.5,-0.8,4.1
+"Douglas County, Nebraska(6)",31055,Urban,20.8,19.1,22.5,N/A , N/A , N/A,123,stable,-0.4,-1.2,0.4
+"Conecuh County, Alabama(6)",01035,Rural,20.8,11.2,35.7,N/A , N/A , N/A,3,*,*,*,*
+"Woodbury County, Iowa(7)",19193,Urban,20.8,17.2,24.9,N/A , N/A , N/A,24,stable,0.6,-0.4,1.7
+"Lee County, Illinois(7)",17103,Rural,20.8,15.3,27.8,N/A , N/A , N/A,10,stable,1.7,-1.4,5
+"Harrison County, Mississippi(6)",28047,Urban,20.8,18.2,23.6,N/A , N/A , N/A,49,stable,0.9,-1.1,3.3
+"Faribault County, Minnesota(6)",27043,Rural,20.8,12,33.8,N/A , N/A , N/A,4,stable,2.5,-4.1,10.3
+"Union County, Arkansas(6)",05139,Rural,20.8,15.5,27.3,N/A , N/A , N/A,11,stable,-0.1,-2.8,2.7
+"Black Hawk County, Iowa(7)",19013,Urban,20.8,17.7,24.3,N/A , N/A , N/A,34,stable,0.1,-0.9,1.1
+"Nassau County, Florida(6)",12089,Urban,20.8,17.3,24.8,N/A , N/A , N/A,28,stable,2,0,4.6
+"Lafayette County, Wisconsin(6)",55065,Rural,20.8,12.6,32.5,N/A , N/A , N/A,4,stable,0.8,-4,6.5
+"Passaic County, New Jersey(7)",34031,Urban,20.8,19.1,22.5,N/A , N/A , N/A,124,stable,0.4,-0.5,1.2
+"Richland County, Ohio(6)",39139,Urban,20.7,17.7,24.2,N/A , N/A , N/A,35,stable,0.2,-2.1,2.5
+"Itasca County, Minnesota(6)",27061,Rural,20.7,16,26.6,N/A , N/A , N/A,15,stable,-1.4,-4.9,2
+"Fairfield County, Connecticut(7)",09001,Urban,20.7,19.5,22,N/A , N/A , N/A,240,stable,0.1,-0.3,0.5
+"Venango County, Pennsylvania(6)",42121,Rural,20.7,16.1,26.4,N/A , N/A , N/A,16,stable,1.1,-1.8,4
+"Whitley County, Kentucky(7)",21235,Rural,20.7,15.1,27.8,N/A , N/A , N/A,9,stable,2.2,-0.6,5.5
+"Grainger County, Tennessee(6)",47057,Urban,20.7,13.8,30.1,N/A , N/A , N/A,6,stable,-1.2,-5.5,3.1
+"Falls Church City, Virginia(6)",51610,Urban,20.7,11.6,34.1,N/A , N/A , N/A,3,stable,-0.5,-5.4,5.2
+"Kent County, Rhode Island(6)",44003,Urban,20.7,18,23.7,N/A , N/A , N/A,47,stable,-0.1,-1.4,1.3
+"Jefferson County, Ohio(6)",39081,Urban,20.7,16.4,25.7,N/A , N/A , N/A,19,stable,-1.2,-3.3,0.9
+"Murray County, Oklahoma(6)",40099,Rural,20.7,12.1,33.4,N/A , N/A , N/A,4,stable,0.6,-3.1,4.8
+"Henderson County, Texas(7)",48213,Rural,20.7,17,25,N/A , N/A , N/A,25,stable,0.5,-1.4,2.4
+"Luzerne County, Pennsylvania(6)",42079,Urban,20.7,18.7,22.8,N/A , N/A , N/A,91,stable,0.4,-0.7,1.6
+"Milwaukee County, Wisconsin(6)",55079,Urban,20.7,19.4,22,N/A , N/A , N/A,206,stable,0.2,-0.5,0.9
+"Houston County, Minnesota(6)",27055,Urban,20.7,13.5,30.8,N/A , N/A , N/A,6,stable,-0.5,-4.7,4
+"Chittenden County, Vermont(6)",50007,Urban,20.6,17.8,23.8,N/A , N/A , N/A,41,stable,-1,-2.7,0.8
+"Miami-Dade County, Florida(6)",12086,Urban,20.6,19.9,21.4,N/A , N/A , N/A,682,falling,-4.8,-8.8,-2.6
+"Kenton County, Kentucky(7)",21117,Urban,20.6,17.8,23.9,N/A , N/A , N/A,39,stable,-1.3,-2.7,0.1
+"Dane County, Wisconsin(6)",55025,Urban,20.6,19,22.4,N/A , N/A , N/A,119,stable,-0.1,-1.4,1.3
+"Lee County, Texas(7)",48287,Rural,20.6,12.3,32.5,N/A , N/A , N/A,4,*,*,*,*
+"Franklin County, Arkansas(6)",05047,Rural,20.6,12.9,31.5,N/A , N/A , N/A,5,stable,1,-3.2,5.1
+"Northampton County, Pennsylvania(6)",42095,Urban,20.6,18.6,22.7,N/A , N/A , N/A,87,stable,-1,-4.7,0
+"Cooke County, Texas(7)",48097,Rural,20.6,15.5,27,N/A , N/A , N/A,12,stable,-0.5,-4.1,3.2
+"Ashtabula County, Ohio(6)",39007,Urban,20.6,17.2,24.5,N/A , N/A , N/A,28,stable,-0.7,-2.8,1.2
+"Winnebago County, Wisconsin(6)",55139,Urban,20.6,17.8,23.6,N/A , N/A , N/A,43,stable,0.7,-1,2.5
+"Johnson County, Arkansas(6)",05071,Rural,20.6,14,29.3,N/A , N/A , N/A,7,*,*,*,*
+"Jessamine County, Kentucky(7)",21113,Urban,20.6,15.7,26.5,N/A , N/A , N/A,13,stable,-2.1,-4.6,0.6
+"Pickens County, Georgia(7)",13227,Urban,20.6,14.9,27.9,N/A , N/A , N/A,10,stable,1.1,-2.7,6
+"Beaver County, Pennsylvania(6)",42007,Urban,20.6,18,23.4,N/A , N/A , N/A,53,stable,0,-1.7,1.8
+"Clinton County, Michigan(6)",26037,Urban,20.6,16.7,25.1,N/A , N/A , N/A,21,stable,-0.2,-2.7,2.6
+"Kitsap County, Washington(7)",53035,Urban,20.5,18.4,22.9,N/A , N/A , N/A,73,stable,0.2,-0.4,0.9
+"Hancock County, Maine(6)",23009,Rural,20.5,16.3,25.7,N/A , N/A , N/A,19,stable,-1.9,-4.2,0.4
+"Chambers County, Texas(7)",48071,Urban,20.5,14.7,27.9,N/A , N/A , N/A,9,stable,-0.1,-3.2,3.7
+"Chattooga County, Georgia(7)",13055,Rural,20.5,13.8,29.6,N/A , N/A , N/A,6,stable,0.5,-2.6,3.7
+"Hawkins County, Tennessee(6)",47073,Urban,20.5,16.3,25.7,N/A , N/A , N/A,17,stable,-1.1,-22.6,4.4
+"Buena Vista County, Iowa(7)",19021,Rural,20.5,12.8,31.2,N/A , N/A , N/A,5,stable,-0.4,-2.9,2.3
+"Stanly County, North Carolina(6)",37167,Rural,20.5,16.3,25.6,N/A , N/A , N/A,17,falling,-2.6,-6.3,-0.6
+"Sherburne County, Minnesota(6)",27141,Urban,20.5,16.5,25.3,N/A , N/A , N/A,19,stable,-0.7,-2.8,1.6
+"Cumberland County, New Jersey(7)",34011,Urban,20.5,17.6,23.8,N/A , N/A , N/A,37,stable,0,-1.6,1.6
+"Saginaw County, Michigan(6)",26145,Urban,20.5,18,23.3,N/A , N/A , N/A,53,stable,-1,-3.2,1.2
+"Cass County, Texas(7)",48067,Rural,20.5,14.6,28.2,N/A , N/A , N/A,9,stable,-1.1,-4.5,2.3
+"McHenry County, Illinois(7)",17111,Urban,20.5,18.4,22.8,N/A , N/A , N/A,75,rising,7.8,0.2,12.2
+"Terrebonne Parish, Louisiana(7)",22109,Urban,20.5,17,24.5,N/A , N/A , N/A,25,stable,-11.5,-27.9,2.5
+"Crawford County, Illinois(7)",17033,Rural,20.5,13.6,30.2,N/A , N/A , N/A,6,stable,2.9,-0.2,6.8
+"Rice County, Minnesota(6)",27131,Rural,20.5,16.2,25.6,N/A , N/A , N/A,16,stable,-1.7,-4.5,1.3
+"Audrain County, Missouri(6)",29007,Rural,20.5,14.1,29.1,N/A , N/A , N/A,7,stable,0.6,-3.4,4.9
+"Bourbon County, Kentucky(7)",21017,Urban,20.5,13.7,29.8,N/A , N/A , N/A,6,stable,-1,-3.7,1.8
+"Washtenaw County, Michigan(6)",26161,Urban,20.5,18.4,22.7,N/A , N/A , N/A,78,stable,-0.6,-2.4,1.3
+"Ellis County, Texas(7)",48139,Urban,20.5,17.6,23.7,N/A , N/A , N/A,38,stable,-0.4,-1.7,1.1
+"Des Moines County, Iowa(7)",19057,Rural,20.5,15.4,26.8,N/A , N/A , N/A,12,stable,0.2,-0.9,1.5
+"Perry County, Missouri(6)",29157,Rural,20.4,13.2,30.6,N/A , N/A , N/A,5,stable,-0.1,-4.6,4.8
+"Lancaster County, Pennsylvania(6)",42071,Urban,20.4,18.9,22,N/A , N/A , N/A,148,stable,-0.4,-1.9,1.2
+"Beltrami County, Minnesota(6)",27007,Rural,20.4,15.1,27.1,N/A , N/A , N/A,10,stable,2.5,-1,6.7
+"Caroline County, Virginia(6)",51033,Rural,20.4,14.1,28.7,N/A , N/A , N/A,7,stable,-1.6,-4.5,1.4
+"Washington County, Pennsylvania(6)",42125,Urban,20.4,18.1,22.9,N/A , N/A , N/A,64,stable,-0.4,-1.5,0.6
+"Benton County, Tennessee(6)",47005,Rural,20.4,12.5,32,N/A , N/A , N/A,5,stable,0.7,-3.6,5
+"Clatsop County, Oregon(6)",41007,Rural,20.4,15.4,26.8,N/A , N/A , N/A,13,stable,2,-0.3,4.7
+"Yolo County, California(7)",06113,Urban,20.4,17.7,23.4,N/A , N/A , N/A,43,stable,-0.2,-1.9,1.6
+"Somerset County, Maine(6)",23025,Rural,20.4,15.8,26,N/A , N/A , N/A,15,stable,0.3,-12,11.6
+"Yancey County, North Carolina(6)",37199,Rural,20.4,14,29.5,N/A , N/A , N/A,7,stable,-0.5,-4.5,3.5
+"Charlottesville City, Virginia(6)",51540,Urban,20.4,14.8,27.5,N/A , N/A , N/A,9,stable,-0.4,-3.4,2.9
+"Dodge County, Wisconsin(6)",55027,Rural,20.4,16.9,24.5,N/A , N/A , N/A,25,stable,-0.1,-2,2
+"Lapeer County, Michigan(6)",26087,Urban,20.4,16.8,24.6,N/A , N/A , N/A,24,stable,-0.7,-3.9,2.6
+"Jones County, Georgia(7)",13169,Urban,20.4,13.9,28.9,N/A , N/A , N/A,7,stable,0,-3.8,4.2
+"Cross County, Arkansas(6)",05037,Rural,20.4,12.8,31.2,N/A , N/A , N/A,5,*,*,*,*
+"Cache County, Utah(7)",49005,Urban,20.4,16.5,24.8,N/A , N/A , N/A,20,stable,0.1,-0.9,1.4
+"Cannon County, Tennessee(6)",47015,Urban,20.4,12.1,32.5,N/A , N/A , N/A,4,*,*,*,*
+"Fannin County, Georgia(7)",13111,Rural,20.3,14.7,28.2,N/A , N/A , N/A,10,stable,2.3,-0.3,5.9
+"Hartford County, Connecticut(7)",09003,Urban,20.3,19.2,21.6,N/A , N/A , N/A,229,stable,0,-0.3,0.3
+"Union County, Georgia(7)",13291,Rural,20.3,14,29.3,N/A , N/A , N/A,9,stable,1.1,-2.2,4.8
+"Montgomery County, North Carolina(6)",37123,Rural,20.3,14.1,28.8,N/A , N/A , N/A,7,stable,-0.9,-4.7,3
+"Stoddard County, Missouri(6)",29207,Rural,20.3,14.5,28.1,N/A , N/A , N/A,8,stable,1,-2,4.4
+"Adair County, Kentucky(7)",21001,Rural,20.3,12.4,31.5,N/A , N/A , N/A,5,*,*,*,*
+"Shiawassee County, Michigan(6)",26155,Rural,20.3,16.1,25.4,N/A , N/A , N/A,18,stable,0.8,-2.4,4.1
+"Grand Traverse County, Michigan(6)",26055,Urban,20.3,16.9,24.3,N/A , N/A , N/A,27,stable,-0.7,-2.7,1.5
+"Jefferson County, Oregon(6)",41031,Urban,20.3,13.6,29.4,N/A , N/A , N/A,6,*,*,*,*
+"Fulton County, Illinois(7)",17057,Rural,20.3,14.9,27.3,N/A , N/A , N/A,10,stable,-0.7,-3.2,1.9
+"Greene County, Ohio(6)",39057,Urban,20.3,17.6,23.3,N/A , N/A , N/A,43,rising,3.2,0.8,9.8
+"Montcalm County, Michigan(6)",26117,Urban,20.3,16.2,25.2,N/A , N/A , N/A,18,stable,-0.7,-3.6,2.3
+"Washington County, Tennessee(6)",47179,Urban,20.3,17.3,23.7,N/A , N/A , N/A,35,stable,0.3,-1.8,2.7
+"Dunklin County, Missouri(6)",29069,Rural,20.3,14.1,28.4,N/A , N/A , N/A,7,stable,5,-1.1,12.4
+"Citrus County, Florida(6)",12017,Urban,20.3,17.7,23.2,N/A , N/A , N/A,67,falling,-8.3,-23.6,-2.3
+"Middlesex County, New Jersey(7)",34023,Urban,20.3,19,21.6,N/A , N/A , N/A,203,stable,-0.4,-1.1,0.3
+"Benzie County, Michigan(6)",26019,Urban,20.3,12.7,31.2,N/A , N/A , N/A,6,stable,0.1,-3.9,4.4
+"Green County, Wisconsin(6)",55045,Urban,20.3,14.9,27.2,N/A , N/A , N/A,10,stable,0.2,-1.6,2.2
+"Miami County, Ohio(6)",39109,Urban,20.3,17,24.1,N/A , N/A , N/A,28,stable,0.1,-1.7,2.1
+"Buchanan County, Iowa(7)",19019,Rural,20.3,13.2,30.1,N/A , N/A , N/A,5,stable,0.3,-2,2.8
+"Oneida County, Wisconsin(6)",55085,Rural,20.3,15,27,N/A , N/A , N/A,12,stable,-1.7,-4.5,1
+"Harford County, Maryland(6)",24025,Urban,20.3,18.1,22.7,N/A , N/A , N/A,64,stable,0.7,-0.8,2.5
+"Shelby County, Texas(7)",48419,Rural,20.3,13.6,29.3,N/A , N/A , N/A,6,stable,1.3,-2.2,5.1
+"Tom Green County, Texas(7)",48451,Urban,20.3,16.9,24.1,N/A , N/A , N/A,27,stable,0.7,-0.7,2.2
+"Iron County, Michigan(6)",26071,Rural,20.2,11.2,34.9,N/A , N/A , N/A,4,*,*,*,*
+"DuPage County, Illinois(7)",17043,Urban,20.2,19,21.5,N/A , N/A , N/A,225,stable,0.1,-0.5,0.7
+"Caldwell County, North Carolina(6)",37027,Urban,20.2,16.5,24.7,N/A , N/A , N/A,22,stable,0.9,-1.7,3.9
+"Otero County, Colorado(6)",08089,Rural,20.2,12.3,31.4,N/A , N/A , N/A,5,stable,2.3,-1.7,6.5
+"Holt County, Nebraska(6)",31089,Rural,20.2,11.3,34.6,N/A , N/A , N/A,3,*,*,*,*
+"Dallas County, Missouri(6)",29059,Urban,20.2,13.1,30.5,N/A , N/A , N/A,5,stable,-0.5,-4.8,4.3
+"Fayette County, Kentucky(7)",21067,Urban,20.2,18.1,22.5,N/A , N/A , N/A,69,stable,0.4,-0.9,1.8
+"Rockingham County, New Hampshire(6)",33015,Urban,20.2,18.3,22.3,N/A , N/A , N/A,85,stable,-0.5,-1.4,0.5
+"Fannin County, Texas(7)",48147,Rural,20.2,14.7,27.3,N/A , N/A , N/A,9,stable,2.1,-1.1,5.6
+"Alachua County, Florida(6)",12001,Urban,20.2,17.9,22.7,N/A , N/A , N/A,60,falling,-3.1,-11.4,-0.5
+"Leelanau County, Michigan(6)",26089,Urban,20.2,13.8,29.3,N/A , N/A , N/A,9,stable,0.5,-6.2,7.7
+"Forsyth County, Georgia(7)",13117,Urban,20.2,17.7,23,N/A , N/A , N/A,49,stable,-1,-2.5,0.9
+"Mason County, Washington(7)",53045,Rural,20.2,16.2,25,N/A , N/A , N/A,20,stable,-0.2,-1.1,0.9
+"Lyon County, Nevada(6)",32019,Urban,20.2,15.7,25.6,N/A , N/A , N/A,16,stable,-1,-3.7,2.2
+"Blaine County, Idaho(7)",16013,Rural,20.2,13.4,29.4,N/A , N/A , N/A,6,*,*,*,*
+"Adams County, Ohio(6)",39001,Rural,20.2,13.9,28.5,N/A , N/A , N/A,7,stable,1.4,-2.4,5.6
+"Parker County, Texas(7)",48367,Urban,20.2,17.2,23.6,N/A , N/A , N/A,34,stable,-0.3,-2.4,2.2
+"Koochiching County, Minnesota(6)",27071,Rural,20.2,12.2,32.8,N/A , N/A , N/A,5,stable,1.6,-1.8,5.2
+"Jefferson Parish, Louisiana(7)",22051,Urban,20.2,18.5,22,N/A , N/A , N/A,110,stable,-0.1,-0.9,0.7
+"Island County, Washington(7)",53029,Rural,20.2,16.7,24.2,N/A , N/A , N/A,28,stable,-0.8,-2.4,1.1
+"Dakota County, Nebraska(6)",31043,Urban,20.2,12.8,30.3,N/A , N/A , N/A,5,*,*,*,*
+"Amelia County, Virginia(6)",51007,Urban,20.2,11.1,33.9,N/A , N/A , N/A,3,*,*,*,*
+"Windham County, Connecticut(7)",09015,Urban,20.2,17,23.8,N/A , N/A , N/A,30,stable,0.7,-0.3,1.8
+"Prince George County, Virginia(6)",51149,Urban,20.1,14.5,27.3,N/A , N/A , N/A,9,stable,-1,-4.8,3.3
+"Chippewa County, Minnesota(6)",27023,Rural,20.1,12.1,32.3,N/A , N/A , N/A,4,stable,-1.6,-6.4,3.2
+"Flathead County, Montana(6)",30029,Rural,20.1,16.8,23.9,N/A , N/A , N/A,29,stable,0.5,-1.6,3
+"Broward County, Florida(6)",12011,Urban,20.1,19.3,20.9,N/A , N/A , N/A,483,falling,-4.3,-9.9,-0.2
+"Mingo County, West Virginia(6)",54059,Rural,20.1,13.4,29.2,N/A , N/A , N/A,6,stable,-0.4,-6.1,5.6
+"Washington Parish, Louisiana(7)",22117,Rural,20.1,15.1,26.3,N/A , N/A , N/A,12,stable,-0.9,-2.9,1.1
+"Highland County, Ohio(6)",39071,Rural,20.1,15.1,26.3,N/A , N/A , N/A,11,stable,5.4,-1.2,20.4
+"Mecosta County, Michigan(6)",26107,Rural,20.1,14.5,27.2,N/A , N/A , N/A,10,stable,-1.1,-3.9,1.8
+"DeKalb County, Tennessee(6)",47041,Rural,20.1,13.1,29.9,N/A , N/A , N/A,5,stable,-0.7,-4.4,3.5
+"Chautauqua County, New York(7)",36013,Rural,20.1,17.1,23.5,N/A , N/A , N/A,36,stable,0,-1.9,1.9
+"Goochland County, Virginia(6)",51075,Urban,20.1,13.7,28.9,N/A , N/A , N/A,7,*,*,*,*
+"Kenosha County, Wisconsin(6)",55059,Urban,20.1,17.2,23.3,N/A , N/A , N/A,38,stable,-0.4,-2.1,1.4
+"Newton County, Georgia(7)",13217,Urban,20.1,16.5,24.2,N/A , N/A , N/A,23,stable,-0.2,-2.1,2.2
+"Randolph County, West Virginia(6)",54083,Rural,20.1,14,28.1,N/A , N/A , N/A,8,stable,-2,-5.1,1.1
+"Santa Clara County, California(7)",06085,Urban,20,19.2,20.9,N/A , N/A , N/A,423,stable,-0.3,-0.8,0.2
+"Bartow County, Georgia(7)",13015,Urban,20,16.5,24.1,N/A , N/A , N/A,24,stable,-0.5,-2.9,2.1
+"Kankakee County, Illinois(7)",17091,Urban,20,16.7,23.9,N/A , N/A , N/A,27,stable,-0.1,-1.7,1.6
+"Hancock County, Ohio(6)",39063,Rural,20,16.1,24.7,N/A , N/A , N/A,19,stable,0.1,-2.6,3.1
+"Lafayette County, Missouri(6)",29107,Urban,20,14.6,27,N/A , N/A , N/A,9,stable,-1.3,-4.4,2
+"Lycoming County, Pennsylvania(6)",42081,Urban,20,17,23.5,N/A , N/A , N/A,33,stable,0.3,-1.3,2.1
+"Spotsylvania County, Virginia(6)",51177,Urban,20,16.9,23.6,N/A , N/A , N/A,30,stable,-1,-2.7,0.8
+"Brown County, Ohio(6)",39015,Urban,20,14.9,26.4,N/A , N/A , N/A,11,stable,-0.9,-5.6,3.8
+"Shenandoah County, Virginia(6)",51171,Rural,20,15.4,25.8,N/A , N/A , N/A,14,stable,1,-1.3,3.4
+"Perry County, Kentucky(7)",21193,Rural,20,13.6,28.4,N/A , N/A , N/A,7,stable,2.3,-0.5,5.5
+"Mathews County, Virginia(6)",51115,Urban,20,11.1,36.1,N/A , N/A , N/A,3,*,*,*,*
+"Osage County, Missouri(6)",29151,Urban,20,11.7,32.4,N/A , N/A , N/A,4,stable,-0.1,-6.1,6.5
+"Dutchess County, New York(7)",36027,Urban,20,18,22.2,N/A , N/A , N/A,79,stable,-0.3,-1.5,0.9
+"Sullivan County, Tennessee(6)",47163,Urban,20,17.4,22.9,N/A , N/A , N/A,47,stable,-0.7,-2.1,0.7
+"Darke County, Ohio(6)",39037,Rural,20,15.3,25.8,N/A , N/A , N/A,14,stable,0.4,-2.1,3
+"Lamoille County, Vermont(6)",50015,Rural,20,13.5,28.6,N/A , N/A , N/A,7,stable,-1.3,-4.2,1.6
+"Cherokee County, Texas(7)",48073,Rural,20,15.3,25.7,N/A , N/A , N/A,13,stable,1.6,-0.4,3.9
+"Avoyelles Parish, Louisiana(7)",22009,Rural,20,14.7,26.6,N/A , N/A , N/A,10,stable,0,-2.9,3.1
+"Norfolk County, Massachusetts(7)",25021,Urban,20,18.7,21.3,N/A , N/A , N/A,184,stable,-0.9,-4.9,0
+"Kay County, Oklahoma(6)",40071,Rural,20,14.9,26.3,N/A , N/A , N/A,11,stable,-0.3,-3.3,2.7
+"Grady County, Oklahoma(6)",40051,Urban,20,15.5,25.5,N/A , N/A , N/A,14,stable,-0.4,-3.4,2.8
+"Wood County, Ohio(6)",39173,Urban,20,16.8,23.6,N/A , N/A , N/A,30,stable,-1.5,-7.3,0.4
+"Clinton County, Pennsylvania(6)",42035,Rural,20,14.4,27,N/A , N/A , N/A,9,stable,-1,-5,3
+"Roscommon County, Michigan(6)",26143,Rural,20,14.4,28,N/A , N/A , N/A,10,stable,0,-3.3,3.6
+"Roanoke County, Virginia(6)",51161,Urban,20,16.7,23.8,N/A , N/A , N/A,28,falling,-10.8,-23.1,-0.2
+"St. James Parish, Louisiana(7)",22093,Urban,19.9,12.9,29.7,N/A , N/A , N/A,5,stable,0.9,-2.5,4.6
+"Ford County, Illinois(7)",17053,Urban,19.9,11.6,32.4,N/A , N/A , N/A,4,stable,-1.9,-6.3,2
+"Dawson County, Nebraska(6)",31047,Rural,19.9,13,29.3,N/A , N/A , N/A,6,rising,6.1,0.5,26
+"Palo Pinto County, Texas(7)",48363,Rural,19.9,13.6,28.3,N/A , N/A , N/A,7,stable,-0.9,-3.5,1.8
+"Bladen County, North Carolina(6)",37017,Rural,19.9,14,27.8,N/A , N/A , N/A,8,stable,1.7,-2.3,6.7
+"Assumption Parish, Louisiana(7)",22007,Urban,19.9,12.8,29.9,N/A , N/A , N/A,5,stable,-0.3,-3.3,2.7
+"Bradford County, Pennsylvania(6)",42015,Rural,19.9,15.8,24.9,N/A , N/A , N/A,18,stable,-0.5,-2.8,1.8
+"Gratiot County, Michigan(6)",26057,Rural,19.9,14.8,26.4,N/A , N/A , N/A,10,stable,0.3,-3.1,3.9
+"Chemung County, New York(7)",36015,Urban,19.9,16.3,24.2,N/A , N/A , N/A,23,stable,-1.7,-18.2,0.6
+"Delaware County, Ohio(6)",39041,Urban,19.9,17.3,22.8,N/A , N/A , N/A,44,stable,-0.2,-2,1.9
+"Grant County, Washington(6)",53025,Rural,19.9,16.2,24.3,N/A , N/A , N/A,21,stable,1.5,-1.2,4.6
+"Marin County, California(7)",06041,Urban,19.9,17.9,22.1,N/A , N/A , N/A,80,falling,-6.1,-13.8,-0.4
+"Vermilion Parish, Louisiana(7)",22113,Urban,19.9,15.3,25.5,N/A , N/A , N/A,13,stable,0.2,-1.7,2.2
+"Tompkins County, New York(7)",36109,Urban,19.9,16.3,24.1,N/A , N/A , N/A,22,stable,-0.4,-1.8,1.1
+"Union Parish, Louisiana(7)",22111,Urban,19.9,12.6,30.1,N/A , N/A , N/A,5,stable,2.6,-1.2,6.9
+"King County, Washington(7)",53033,Urban,19.9,19.1,20.7,N/A , N/A , N/A,470,falling,-1.4,-3.1,-0.7
+"Saline County, Missouri(6)",29195,Rural,19.9,12.9,29.4,N/A , N/A , N/A,6,stable,0.7,-2.4,4.2
+"Gooding County, Idaho(7)",16047,Rural,19.9,11.4,32.3,N/A , N/A , N/A,4,*,*,*,*
+"Onondaga County, New York(7)",36067,Urban,19.9,18.3,21.6,N/A , N/A , N/A,119,falling,-1.8,-3.8,-0.9
+"Lenoir County, North Carolina(6)",37107,Rural,19.9,15.5,25.3,N/A , N/A , N/A,15,stable,0.3,-1.9,2.6
+"Franklin County, Kentucky(7)",21073,Rural,19.9,15.1,25.7,N/A , N/A , N/A,13,stable,-1.2,-4.2,1.8
+"Stillwater County, Montana(6)",30095,Urban,19.9,11.1,34.9,N/A , N/A , N/A,3,*,*,*,*
+"Columbia County, Oregon(6)",41009,Urban,19.9,15.4,25.4,N/A , N/A , N/A,14,stable,-1.6,-4.6,1.6
+"St. Bernard Parish, Louisiana(7)",22087,Urban,19.9,14.1,27.2,N/A , N/A , N/A,8,falling,-8.3,-21.6,-2.8
+"Decatur County, Tennessee(6)",47039,Rural,19.9,10.8,34.1,N/A , N/A , N/A,3,falling,-15.2,-67.2,-2.2
+"Freeborn County, Minnesota(6)",27047,Rural,19.9,14,27.6,N/A , N/A , N/A,9,stable,-13.2,-29.7,0.6
+"Charlotte County, Florida(6)",12015,Urban,19.9,17.7,22.3,N/A , N/A , N/A,92,stable,-7.9,-14.8,2.6
+"Schuylkill County, Pennsylvania(6)",42107,Rural,19.9,17.1,22.9,N/A , N/A , N/A,41,stable,0.6,-0.7,1.9
+"Ulster County, New York(7)",36111,Urban,19.9,17.4,22.6,N/A , N/A , N/A,51,stable,-1.5,-13,0.6
+"Marathon County, Wisconsin(6)",55073,Urban,19.9,17,23.1,N/A , N/A , N/A,36,stable,-1.2,-3.4,1
+"McNairy County, Tennessee(6)",47109,Rural,19.9,13.7,28,N/A , N/A , N/A,7,stable,-1.2,-5,2.7
+"Dauphin County, Pennsylvania(6)",42043,Urban,19.8,17.8,22.1,N/A , N/A , N/A,70,stable,-0.5,-1.4,0.4
+"Campbell County, Tennessee(6)",47013,Urban,19.8,14.7,26.4,N/A , N/A , N/A,11,stable,1.2,-4.1,6.9
+"Stokes County, North Carolina(6)",37169,Urban,19.8,15.2,25.6,N/A , N/A , N/A,14,stable,0.3,-2.6,3.6
+"Carroll County, New Hampshire(6)",33003,Rural,19.8,15.4,25.5,N/A , N/A , N/A,18,stable,0,-2.1,2.2
+"Orange County, Texas(7)",48361,Urban,19.8,16.1,24.2,N/A , N/A , N/A,20,stable,0.1,-1.9,2.1
+"Rabun County, Georgia(7)",13241,Rural,19.8,12.9,30.1,N/A , N/A , N/A,6,stable,0.6,-3.7,5.8
+"Randolph County, Illinois(7)",17157,Rural,19.8,14.5,26.7,N/A , N/A , N/A,10,stable,0.9,-1.3,3.3
+"Laramie County, Wyoming(6)",56021,Urban,19.8,16.3,23.9,N/A , N/A , N/A,23,stable,-0.1,-2.5,2.5
+"Pierce County, Washington(7)",53053,Urban,19.8,18.5,21.1,N/A , N/A , N/A,193,falling,-1.1,-3,-0.3
+"York County, Virginia(6)",51199,Urban,19.8,15.7,24.7,N/A , N/A , N/A,17,stable,-0.2,-3.9,4.1
+"Hardee County, Florida(6)",12049,Rural,19.8,13.3,28.5,N/A , N/A , N/A,6,stable,1.3,-3.8,6.6
+"Kane County, Illinois(7)",17089,Urban,19.8,18.2,21.5,N/A , N/A , N/A,113,stable,0.3,-0.7,1.4
+"Canyon County, Idaho(7)",16027,Urban,19.8,17.3,22.6,N/A , N/A , N/A,46,stable,-0.4,-1.5,0.8
+"Montgomery County, Pennsylvania(6)",42091,Urban,19.8,18.6,21,N/A , N/A , N/A,219,falling,-1.7,-6.5,-0.4
+"St. Croix County, Wisconsin(6)",55109,Urban,19.8,16,24.2,N/A , N/A , N/A,20,stable,0.5,-2,3.4
+"Columbia County, New York(7)",36021,Rural,19.8,15.9,24.5,N/A , N/A , N/A,20,stable,-1.2,-3,0.5
+"Lawrence County, Pennsylvania(6)",42073,Urban,19.8,16.3,23.9,N/A , N/A , N/A,26,falling,-2.5,-12.4,-0.4
+"Okaloosa County, Florida(6)",12091,Urban,19.8,17.3,22.5,N/A , N/A , N/A,48,stable,0.5,-1.1,2.3
+"Onslow County, North Carolina(6)",37133,Urban,19.8,16.7,23.2,N/A , N/A , N/A,31,stable,1,-1.8,4.4
+"Fayette County, Illinois(7)",17051,Rural,19.8,13,29.1,N/A , N/A , N/A,6,stable,-1.6,-4.9,1.5
+"Fayette County, Ohio(6)",39047,Rural,19.8,13.7,27.8,N/A , N/A , N/A,7,stable,-0.4,-3.2,2.3
+"Scott County, Iowa(7)",19163,Urban,19.8,17.1,22.7,N/A , N/A , N/A,42,stable,0.5,-0.6,1.7
+"Hood River County, Oregon(6)",41027,Rural,19.8,13.2,28.7,N/A , N/A , N/A,6,stable,-1.8,-5.8,2.5
+"Perry County, Ohio(6)",39127,Urban,19.8,14.1,27,N/A , N/A , N/A,9,stable,-0.2,-2.9,2.7
+"Screven County, Georgia(7)",13251,Rural,19.7,11.5,32.1,N/A , N/A , N/A,4,*,*,*,*
+"Polk County, Wisconsin(6)",55095,Rural,19.7,15.3,25.3,N/A , N/A , N/A,14,stable,0.2,-2.4,3.1
+"Meade County, Kentucky(7)",21163,Urban,19.7,13.5,28,N/A , N/A , N/A,7,stable,-0.1,-4.7,5.4
+"Val Verde County, Texas(7)",48465,Rural,19.7,14.4,26.3,N/A , N/A , N/A,9,stable,1.8,-0.5,4.5
+"Hancock County, Iowa(7)",19081,Rural,19.7,11,33.6,N/A , N/A , N/A,4,*,*,*,*
+"Liberty County, Texas(7)",48291,Urban,19.7,15.8,24.4,N/A , N/A , N/A,18,stable,0.2,-1.9,2.5
+"Ward County, North Dakota(6)",38101,Urban,19.7,15.3,25,N/A , N/A , N/A,14,stable,-1.2,-4.2,1.8
+"Ray County, Missouri(6)",29177,Urban,19.7,13.2,28.5,N/A , N/A , N/A,6,stable,2,-2.7,7.6
+"Butte County, California(7)",06007,Urban,19.7,17.3,22.4,N/A , N/A , N/A,53,stable,0.1,-1.1,1.4
+"Cass County, Michigan(6)",26027,Urban,19.7,15.1,25.3,N/A , N/A , N/A,14,stable,0.3,-2.9,3.7
+"Douglas County, Minnesota(6)",27041,Rural,19.7,14.6,26.1,N/A , N/A , N/A,12,stable,-0.8,-3.3,1.9
+"Lebanon County, Pennsylvania(6)",42075,Urban,19.7,16.9,22.8,N/A , N/A , N/A,38,stable,-0.7,-2.5,1.1
+"Summit County, Ohio(6)",39153,Urban,19.7,18.2,21.2,N/A , N/A , N/A,140,stable,-0.2,-1.1,0.6
+"McDonough County, Illinois(7)",17109,Rural,19.7,13.4,28.1,N/A , N/A , N/A,7,stable,-1.6,-4.3,1
+"Putnam County, Ohio(6)",39137,Rural,19.7,14.1,26.8,N/A , N/A , N/A,9,stable,-1,-4.4,2.3
+"Lewis County, Kentucky(7)",21135,Rural,19.6,11.2,32.5,N/A , N/A , N/A,3,stable,3.9,-0.8,10
+"Bucks County, Pennsylvania(6)",42017,Urban,19.6,18.3,21,N/A , N/A , N/A,177,falling,-2.6,-10.6,-0.7
+"Douglas County, Illinois(7)",17041,Rural,19.6,12.3,29.9,N/A , N/A , N/A,5,stable,1.2,-2.9,5.7
+"Lafayette Parish, Louisiana(7)",22055,Urban,19.6,17.2,22.3,N/A , N/A , N/A,50,stable,0.5,-0.8,1.8
+"Marinette County, Wisconsin(6)",55075,Rural,19.6,15.2,25.3,N/A , N/A , N/A,14,stable,-0.2,-3.6,3.5
+"Clarion County, Pennsylvania(6)",42031,Rural,19.6,14,26.8,N/A , N/A , N/A,9,stable,-1.1,-5.3,2.9
+"Broome County, New York(7)",36007,Urban,19.6,17.2,22.3,N/A , N/A , N/A,53,stable,0.5,-0.3,1.5
+"Harrisonburg City, Virginia(6)",51660,Urban,19.6,13.8,27,N/A , N/A , N/A,8,stable,-1.2,-6.9,2.1
+"Clay County, Minnesota(6)",27027,Urban,19.6,15.1,25.1,N/A , N/A , N/A,13,stable,-0.3,-3.9,3.6
+"Calhoun County, South Carolina(6)",45017,Urban,19.6,10.9,32.8,N/A , N/A , N/A,4,*,*,*,*
+"Carson City, Nevada(6)",32510,Urban,19.6,15.2,25,N/A , N/A , N/A,15,stable,-0.1,-2.6,2.4
+"Putnam County, Florida(6)",12107,Rural,19.6,15.5,24.5,N/A , N/A , N/A,20,stable,2.3,-0.9,5.8
+"Clark County, Ohio(6)",39023,Urban,19.6,16.7,22.9,N/A , N/A , N/A,36,stable,-0.1,-1.8,1.7
+"Henry County, Illinois(7)",17073,Urban,19.6,15.2,25,N/A , N/A , N/A,15,stable,0.2,-2.2,2.6
+"Walton County, Georgia(7)",13297,Urban,19.6,16.1,23.7,N/A , N/A , N/A,23,stable,0.5,-0.9,2.2
+"Sanpete County, Utah(7)",49039,Rural,19.6,13,28.4,N/A , N/A , N/A,6,*,*,*,*
+"Hardin County, Kentucky(7)",21093,Urban,19.5,16.1,23.5,N/A , N/A , N/A,24,stable,-0.3,-1.9,1.5
+"Wood County, West Virginia(6)",54107,Urban,19.5,16.1,23.7,N/A , N/A , N/A,24,stable,-1,-2.8,0.8
+"Appomattox County, Virginia(6)",51011,Urban,19.5,12,30.5,N/A , N/A , N/A,4,*,*,*,*
+"Charlotte County, Virginia(6)",51037,Rural,19.5,10.6,33.6,N/A , N/A , N/A,3,stable,1.6,-4.2,8.3
+"Ontario County, New York(7)",36069,Urban,19.5,16.5,23.1,N/A , N/A , N/A,32,stable,-0.6,-2.5,1.4
+"Aitkin County, Minnesota(6)",27001,Rural,19.5,12.9,30,N/A , N/A , N/A,7,stable,14.4,-3.1,43.2
+"Crawford County, Ohio(6)",39033,Rural,19.5,14.7,25.6,N/A , N/A , N/A,12,stable,1.4,-1.7,4.8
+"Kendall County, Texas(7)",48259,Urban,19.5,14.7,25.6,N/A , N/A , N/A,11,stable,0.5,-2.2,3.9
+"Pike County, Kentucky(7)",21195,Rural,19.5,15.2,24.8,N/A , N/A , N/A,15,stable,0.5,-1.8,2.8
+"Pontotoc County, Oklahoma(6)",40123,Rural,19.5,14.2,26.3,N/A , N/A , N/A,9,stable,-0.1,-2.8,2.9
+"Manassas City, Virginia(6)",51683,Urban,19.5,13.4,27.4,N/A , N/A , N/A,7,stable,2.3,-23.6,22.2
+"Knox County, Ohio(6)",39083,Rural,19.5,15.3,24.6,N/A , N/A , N/A,16,stable,-2.7,-26.7,0.4
+"Cortland County, New York(7)",36023,Rural,19.5,14.6,25.7,N/A , N/A , N/A,11,stable,0.9,-1.9,3.8
+"Taylor County, Kentucky(7)",21217,Rural,19.5,13.2,28,N/A , N/A , N/A,7,*,*,*,*
+"New London County, Connecticut(7)",09011,Urban,19.5,17.4,21.8,N/A , N/A , N/A,68,rising,4.3,0.5,12.6
+"Daviess County, Kentucky(7)",21059,Urban,19.5,16.1,23.5,N/A , N/A , N/A,24,stable,-0.3,-1.9,1.4
+"Gage County, Nebraska(6)",31067,Rural,19.5,12.8,28.7,N/A , N/A , N/A,6,stable,-1.4,-4.7,1.7
+"Will County, Illinois(7)",17197,Urban,19.5,18.1,21,N/A , N/A , N/A,143,stable,-0.1,-0.9,0.8
+"Williamson County, Tennessee(6)",47187,Urban,19.5,17.1,22.1,N/A , N/A , N/A,51,stable,0.5,-2,3.6
+"Atlantic County, New Jersey(7)",34001,Urban,19.5,17.4,21.7,N/A , N/A , N/A,72,stable,-0.5,-1.8,0.7
+"Craighead County, Arkansas(6)",05031,Urban,19.5,16,23.5,N/A , N/A , N/A,22,stable,-0.3,-2.6,2.2
+"Sequoyah County, Oklahoma(6)",40135,Urban,19.5,14.4,25.9,N/A , N/A , N/A,10,stable,0.6,-1.6,3
+"Hunterdon County, New Jersey(7)",34019,Urban,19.5,16.6,22.8,N/A , N/A , N/A,36,stable,-0.7,-2.2,0.8
+"Clinton County, Ohio(6)",39027,Rural,19.5,14.5,25.6,N/A , N/A , N/A,11,stable,3.2,-1,8.8
+"Cherokee County, Oklahoma(6)",40021,Rural,19.5,14.5,25.6,N/A , N/A , N/A,11,stable,-0.7,-6,4.8
+"Iberia Parish, Louisiana(7)",22045,Rural,19.5,15.2,24.5,N/A , N/A , N/A,15,stable,1.8,-0.1,4
+"Licking County, Ohio(6)",39089,Urban,19.4,16.9,22.3,N/A , N/A , N/A,43,stable,1.1,-0.2,2.6
+"Austin County, Texas(7)",48015,Urban,19.4,13.7,27,N/A , N/A , N/A,8,stable,0.2,-4.6,5.2
+"St. Landry Parish, Louisiana(7)",22097,Rural,19.4,15.6,24,N/A , N/A , N/A,19,stable,0.3,-1.9,2.6
+"Garland County, Arkansas(6)",05051,Urban,19.4,16.2,23.2,N/A , N/A , N/A,29,stable,-0.4,-1.7,0.9
+"Polk County, Oregon(6)",41053,Urban,19.4,15.7,23.8,N/A , N/A , N/A,20,stable,-0.1,-2.7,2.8
+"Kennebec County, Maine(6)",23011,Rural,19.4,16.5,22.7,N/A , N/A , N/A,35,stable,-0.9,-2.6,0.8
+"Graves County, Kentucky(7)",21083,Rural,19.4,13.9,26.5,N/A , N/A , N/A,9,stable,-0.8,-3.5,1.8
+"Davison County, South Dakota(6)",46035,Rural,19.4,12.5,29.1,N/A , N/A , N/A,5,stable,-0.9,-4.9,3.4
+"Weld County, Colorado(6)",08123,Urban,19.4,17.2,21.8,N/A , N/A , N/A,60,stable,0.5,-1.1,2.3
+"Burleigh County, North Dakota(6)",38015,Urban,19.4,15.9,23.4,N/A , N/A , N/A,23,stable,-0.1,-2.5,2.5
+"Genesee County, New York(7)",36037,Rural,19.4,15.2,24.5,N/A , N/A , N/A,16,falling,-2,-7.7,-0.3
+"Shelby County, Kentucky(7)",21211,Urban,19.4,14.6,25.3,N/A , N/A , N/A,12,stable,0.7,-2,4.2
+"Washington County, New York(7)",36115,Urban,19.4,15.3,24.3,N/A , N/A , N/A,17,stable,0.6,-1.4,2.8
+"Calumet County, Wisconsin(6)",55015,Urban,19.4,14.6,25.2,N/A , N/A , N/A,12,stable,0.3,-3.7,5
+"Jefferson County, Kentucky(7)",21111,Urban,19.4,18.1,20.7,N/A , N/A , N/A,179,stable,-0.8,-6.7,0.1
+"Webster Parish, Louisiana(7)",22119,Rural,19.4,14.1,26.1,N/A , N/A , N/A,10,stable,-0.5,-4.6,3.5
+"Door County, Wisconsin(6)",55029,Rural,19.4,13.8,26.8,N/A , N/A , N/A,11,stable,-1.5,-4.7,1.8
+"Broomfield County, Colorado(6)",08014,Urban,19.4,15.2,24.3,N/A , N/A , N/A,15,stable,10.3,-1.1,28.5
+"Lincoln County, Missouri(6)",29113,Urban,19.4,14.8,25,N/A , N/A , N/A,13,falling,-23.8,-44.3,-2.5
+"Giles County, Virginia(6)",51071,Urban,19.4,12.3,29.6,N/A , N/A , N/A,5,stable,0.1,-3.9,4.4
+"Livingston County, Michigan(6)",26093,Urban,19.4,16.9,22.1,N/A , N/A , N/A,50,stable,-0.2,-1.7,1.4
+"Craven County, North Carolina(6)",37049,Rural,19.4,16,23.3,N/A , N/A , N/A,26,stable,0.4,-1.5,2.5
+"Wilson County, Texas(7)",48493,Urban,19.4,14.5,25.4,N/A , N/A , N/A,11,stable,0,-2.8,3.2
+"Grimes County, Texas(7)",48185,Rural,19.4,13.5,27.1,N/A , N/A , N/A,7,stable,-0.1,-2.2,2.4
+"Christian County, Illinois(7)",17021,Rural,19.3,14.1,26.2,N/A , N/A , N/A,9,stable,0.3,-2.1,2.8
+"Trigg County, Kentucky(7)",21221,Urban,19.3,11.5,31.2,N/A , N/A , N/A,4,*,*,*,*
+"Iosco County, Michigan(6)",26069,Rural,19.3,13.2,27.8,N/A , N/A , N/A,8,stable,0.7,-2.5,4.1
+"Hardin County, Texas(7)",48199,Urban,19.3,14.8,24.8,N/A , N/A , N/A,13,falling,-2.7,-4.9,-0.7
+"Scott County, Kentucky(7)",21209,Urban,19.3,14.2,25.6,N/A , N/A , N/A,10,stable,0.3,-3.7,6.2
+"Nicollet County, Minnesota(6)",27103,Urban,19.3,13.4,26.9,N/A , N/A , N/A,7,stable,0,-4,4.3
+"Warren County, Ohio(6)",39165,Urban,19.3,17,21.8,N/A , N/A , N/A,52,stable,-0.8,-2.7,1.5
+"Taylor County, West Virginia(6)",54091,Rural,19.3,11.5,30.7,N/A , N/A , N/A,4,stable,0.1,-3.3,3.4
+"Bennington County, Vermont(6)",50003,Rural,19.3,14.5,25.4,N/A , N/A , N/A,12,stable,-2.9,-6.9,1.1
+"Larimer County, Colorado(6)",08069,Urban,19.3,17.4,21.4,N/A , N/A , N/A,79,stable,-9.7,-21.4,1.2
+"Winnebago County, Illinois(7)",17201,Urban,19.3,17.2,21.5,N/A , N/A , N/A,69,stable,-0.2,-1.1,0.8
+"Delaware County, Iowa(7)",19055,Rural,19.3,12.5,29.1,N/A , N/A , N/A,5,stable,0.8,-1.4,3.7
+"Chippewa County, Michigan(6)",26033,Rural,19.3,14.1,25.9,N/A , N/A , N/A,10,stable,0.3,-2.9,3.7
+"Lake County, Ohio(6)",39085,Urban,19.3,17.1,21.6,N/A , N/A , N/A,64,stable,-1,-2,0
+"Woodford County, Illinois(7)",17203,Urban,19.3,14,25.9,N/A , N/A , N/A,10,stable,0.1,-3.5,3.9
+"Berrien County, Michigan(6)",26021,Urban,19.3,16.6,22.3,N/A , N/A , N/A,41,stable,-1.7,-3.8,0.4
+"Lee County, Iowa(7)",19111,Rural,19.3,13.9,26.3,N/A , N/A , N/A,9,stable,-1.1,-2.9,0.8
+"La Crosse County, Wisconsin(6)",55063,Urban,19.3,16,23,N/A , N/A , N/A,27,stable,-1.4,-4.2,1.3
+"McClain County, Oklahoma(6)",40087,Urban,19.3,13.9,26,N/A , N/A , N/A,9,stable,-0.5,-3.2,2.5
+"Union County, New Jersey(7)",34039,Urban,19.3,17.7,20.8,N/A , N/A , N/A,126,stable,-0.2,-1.2,0.7
+"Bond County, Illinois(7)",17005,Urban,19.2,11.8,30.2,N/A , N/A , N/A,4,stable,-0.7,-5,3.6
+"Allegheny County, Pennsylvania(6)",42003,Urban,19.2,18.3,20.2,N/A , N/A , N/A,328,falling,-0.8,-1.4,-0.2
+"Iowa County, Iowa(7)",19095,Rural,19.2,12.3,29.3,N/A , N/A , N/A,5,falling,-6.2,-21.8,-2.1
+"Dubuque County, Iowa(7)",19061,Urban,19.2,15.9,23.2,N/A , N/A , N/A,24,stable,0.2,-0.9,1.3
+"Androscoggin County, Maine(6)",23001,Urban,19.2,16.1,22.9,N/A , N/A , N/A,28,stable,0.4,-2.2,3.1
+"Montgomery County, Ohio(6)",39113,Urban,19.2,17.8,20.8,N/A , N/A , N/A,134,stable,-0.3,-1.2,0.7
+"Tuscola County, Michigan(6)",26157,Rural,19.2,15.1,24.3,N/A , N/A , N/A,16,stable,-1.4,-4.2,1.4
+"Monterey County, California(7)",06053,Urban,19.2,17.4,21.1,N/A , N/A , N/A,87,stable,0.1,-0.9,1.1
+"Lavaca County, Texas(7)",48285,Rural,19.2,13.3,27.5,N/A , N/A , N/A,7,stable,-0.5,-3.9,3.3
+"Rockbridge County, Virginia(6)",51163,Rural,19.2,12.7,28.4,N/A , N/A , N/A,7,stable,-26.2,-52.4,1.5
+"St. Louis County, Missouri(6)",29189,Urban,19.2,18.1,20.3,N/A , N/A , N/A,249,stable,-0.1,-0.7,0.5
+"Rogers County, Oklahoma(6)",40131,Urban,19.2,15.7,23.3,N/A , N/A , N/A,22,stable,-2.2,-4.4,0.2
+"Davis County, Utah(7)",49011,Urban,19.2,17,21.6,N/A , N/A , N/A,59,stable,0.2,-0.5,1
+"Addison County, Vermont(6)",50001,Rural,19.2,14.1,25.8,N/A , N/A , N/A,10,stable,-0.8,-3.7,2.3
+"Wake County, North Carolina(6)",37183,Urban,19.2,18,20.4,N/A , N/A , N/A,209,stable,0,-0.7,0.8
+"Marion County, Oregon(6)",41047,Urban,19.2,17.3,21.2,N/A , N/A , N/A,77,stable,-0.7,-2,0.6
+"Calcasieu Parish, Louisiana(7)",22019,Urban,19.2,16.7,21.9,N/A , N/A , N/A,46,stable,-1.3,-2.9,0.3
+"Alleghany County and Clifton Forge City, Virginia(6)",51005,Rural,19.2,11.7,30.4,N/A , N/A , N/A,5,stable,1.3,-2.4,5.8
+"Franklin County, Missouri(6)",29071,Urban,19.1,15.9,22.9,N/A , N/A , N/A,27,stable,0.5,-1.5,2.8
+"Johnson County, Texas(7)",48251,Urban,19.1,16.5,22.1,N/A , N/A , N/A,38,stable,-0.4,-1.8,1.1
+"Huron County, Michigan(6)",26063,Rural,19.1,13.6,26.4,N/A , N/A , N/A,10,stable,-2.7,-6,0.3
+"Kendall County, Illinois(7)",17093,Urban,19.1,15.7,23.1,N/A , N/A , N/A,23,stable,-0.7,-2.5,1.5
+"Bristol County, Massachusetts(7)",25005,Urban,19.1,17.7,20.7,N/A , N/A , N/A,138,stable,-0.2,-3.5,0.6
+"Cheatham County, Tennessee(6)",47021,Urban,19.1,13.8,25.9,N/A , N/A , N/A,9,stable,-0.8,-3.8,2.6
+"Tangipahoa Parish, Louisiana(7)",22105,Urban,19.1,16,22.7,N/A , N/A , N/A,28,stable,-1.1,-2.9,0.8
+"Pike County, Alabama(6)",01109,Rural,19.1,13,27.3,N/A , N/A , N/A,7,stable,-1.3,-4.5,2
+"DeSoto County, Florida(6)",12027,Rural,19.1,13.8,26.1,N/A , N/A , N/A,9,stable,2.2,-1,5.9
+"Randolph County, Arkansas(6)",05121,Rural,19.1,12.1,29,N/A , N/A , N/A,5,stable,-0.4,-5.9,5
+"Towns County, Georgia(7)",13281,Rural,19.1,9.8,34.5,N/A , N/A , N/A,4,*,*,*,*
+"Harrison County, West Virginia(6)",54033,Rural,19.1,15.2,23.8,N/A , N/A , N/A,17,stable,-1.3,-3,0.4
+"Jefferson County, Missouri(6)",29099,Urban,19.1,16.8,21.7,N/A , N/A , N/A,52,stable,-0.6,-2.3,1.3
+"Carroll County, Maryland(6)",24013,Urban,19.1,16.5,22,N/A , N/A , N/A,42,stable,0.5,-1.8,3.1
+"Lincoln County, West Virginia(6)",54043,Rural,19.1,12.4,28.5,N/A , N/A , N/A,6,stable,-0.4,-4.3,3.6
+"Gallatin County, Montana(6)",30031,Urban,19.1,15.5,23.3,N/A , N/A , N/A,21,stable,-1.2,-3.4,1.4
+"Ventura County, California(7)",06111,Urban,19.1,17.9,20.4,N/A , N/A , N/A,192,stable,-0.4,-0.9,0.2
+"Bastrop County, Texas(7)",48021,Urban,19.1,15.4,23.4,N/A , N/A , N/A,20,stable,-0.1,-2.4,2.5
+"Franklin County, Pennsylvania(6)",42055,Urban,19.1,16.4,22.1,N/A , N/A , N/A,40,stable,-0.3,-1.8,1.2
+"Lincoln County, Nebraska(6)",31111,Rural,19.1,13.8,25.9,N/A , N/A , N/A,9,falling,-17.3,-31.6,-0.9
+"Bradley County, Tennessee(6)",47011,Urban,19.1,15.8,22.8,N/A , N/A , N/A,25,stable,-0.5,-2.6,1.9
+"Newton County, Texas(7)",48351,Rural,19.1,10.6,32.2,N/A , N/A , N/A,3,*,*,*,*
+"Hall County, Nebraska(6)",31079,Urban,19.1,14.7,24.4,N/A , N/A , N/A,13,stable,-1.3,-4.6,1.9
+"Greene County, Missouri(6)",29077,Urban,19.1,17,21.3,N/A , N/A , N/A,68,falling,-1.7,-3,-0.5
+"Cumberland County, Maine(6)",23005,Urban,19.1,17.1,21.2,N/A , N/A , N/A,76,stable,-1,-2.2,0.2
+"Jackson County, Texas(7)",48239,Rural,19.1,11,30.9,N/A , N/A , N/A,4,stable,-1.9,-7.3,3.4
+"McDuffie County, Georgia(7)",13189,Urban,19,12.2,28.6,N/A , N/A , N/A,5,*,*,*,*
+"Pike County, Pennsylvania(6)",42103,Rural,19,15,24,N/A , N/A , N/A,18,stable,-0.3,-2.6,2.3
+"Klickitat County, Washington(6)",53039,Rural,19,12.7,27.9,N/A , N/A , N/A,7,stable,3.1,-0.4,7.6
+"Solano County, California(7)",06095,Urban,19,17.4,20.8,N/A , N/A , N/A,99,stable,-0.1,-1.2,1.1
+"Grant County, Wisconsin(6)",55043,Rural,19,14.3,24.9,N/A , N/A , N/A,12,stable,-1.3,-3.5,0.9
+"Contra Costa County, California(7)",06013,Urban,19,18,20.1,N/A , N/A , N/A,264,stable,-0.6,-4.4,0
+"Orange County, California(7)",06059,Urban,19,18.4,19.7,N/A , N/A , N/A,696,stable,0,-0.4,0.4
+"Berkeley County, West Virginia(6)",54003,Urban,19,15.8,22.8,N/A , N/A , N/A,26,stable,-0.5,-2.4,1.8
+"Franklin County, Tennessee(6)",47051,Rural,19,14.2,25.2,N/A , N/A , N/A,11,stable,1.4,-1.4,4.6
+"Morrow County, Ohio(6)",39117,Urban,19,13.7,26,N/A , N/A , N/A,9,stable,1.4,-1.3,4.5
+"Franklin County, Vermont(6)",50011,Urban,19,14.3,24.9,N/A , N/A , N/A,12,stable,0.8,-3,5.2
+"East Baton Rouge Parish, Louisiana(7)",22033,Urban,19,17.2,20.9,N/A , N/A , N/A,90,stable,0.4,-0.3,1.3
+"McMinn County, Tennessee(6)",47107,Rural,19,14.6,24.5,N/A , N/A , N/A,13,stable,1.4,-2.3,5.6
+"Portage County, Ohio(6)",39133,Urban,19,16.3,22.1,N/A , N/A , N/A,37,stable,0.3,-1.7,2.6
+"Mills County, Iowa(7)",19129,Urban,19,11.1,30.8,N/A , N/A , N/A,4,*,*,*,*
+"Lawrence County, Alabama(6)",01079,Urban,19,13.5,26.1,N/A , N/A , N/A,8,stable,1.7,-2.8,7.1
+"Coffee County, Tennessee(6)",47031,Rural,19,14.8,24.2,N/A , N/A , N/A,14,stable,-0.8,-3.5,2.2
+"Marion County, Missouri(6)",29127,Rural,19,12.9,27,N/A , N/A , N/A,7,stable,1.3,-1.4,4.3
+"Boyd County, Kentucky(7)",21019,Urban,19,14.6,24.5,N/A , N/A , N/A,13,falling,-2,-3.7,-0.5
+"Houston County, Texas(7)",48225,Rural,19,12.6,27.8,N/A , N/A , N/A,6,*,*,*,*
+"Duplin County, North Carolina(6)",37061,Rural,19,14.5,24.6,N/A , N/A , N/A,13,stable,1.9,-0.2,4.2
+"Carroll County, Tennessee(6)",47017,Rural,19,13.1,26.8,N/A , N/A , N/A,7,stable,-0.1,-4.1,4
+"McCracken County, Kentucky(7)",21145,Urban,19,15.1,23.6,N/A , N/A , N/A,18,stable,-0.5,-2.2,1.2
+"Cherokee County, Georgia(7)",13057,Urban,19,16.7,21.4,N/A , N/A , N/A,56,stable,-0.3,-1.6,1.3
+"Cumberland County, Pennsylvania(6)",42041,Urban,19,16.9,21.2,N/A , N/A , N/A,65,stable,-0.7,-2.8,1.5
+"Lincoln County, Mississippi(6)",28085,Rural,19,13.4,26.2,N/A , N/A , N/A,8,stable,-0.5,-5.7,4.8
+"Frederick County, Maryland(6)",24021,Urban,19,16.8,21.3,N/A , N/A , N/A,58,stable,-1.1,-2.2,0.2
+"Washington County, Maryland(6)",24043,Urban,19,16.3,22,N/A , N/A , N/A,38,stable,-0.7,-1.8,0.5
+"Potter County, Pennsylvania(6)",42105,Rural,19,11.6,29.8,N/A , N/A , N/A,5,*,*,*,*
+"Saline County, Arkansas(6)",05125,Urban,19,15.9,22.4,N/A , N/A , N/A,29,stable,-1.2,-3.2,1
+"Troup County, Georgia(7)",13285,Rural,18.9,14.9,23.8,N/A , N/A , N/A,16,stable,-0.5,-2.6,1.9
+"Pettis County, Missouri(6)",29159,Rural,18.9,13.9,25.2,N/A , N/A , N/A,10,stable,-0.4,-3.6,2.8
+"Bedford City and County, Virginia(6)",51917,Urban,18.9,15.3,23.2,N/A , N/A , N/A,22,stable,1.3,-1.8,5
+"Grant County, West Virginia(6)",54023,Rural,18.9,10.2,32.9,N/A , N/A , N/A,3,*,*,*,*
+"St. Martin Parish, Louisiana(7)",22099,Urban,18.9,14.2,24.7,N/A , N/A , N/A,12,stable,1.9,-0.3,4.6
+"Madison County, Illinois(7)",17119,Urban,18.9,16.9,21.2,N/A , N/A , N/A,65,stable,0.3,-1,1.6
+"Prentiss County, Mississippi(6)",28117,Rural,18.9,12.7,27.3,N/A , N/A , N/A,6,stable,-0.3,-5.4,4.9
+"Bibb County, Georgia(7)",13021,Urban,18.9,16.1,22.1,N/A , N/A , N/A,33,stable,0.3,-1.3,1.8
+"St. Charles County, Missouri(6)",29183,Urban,18.9,17.2,20.8,N/A , N/A , N/A,92,stable,-1.1,-2.3,0.2
+"Cape Girardeau County, Missouri(6)",29031,Urban,18.9,15.2,23.3,N/A , N/A , N/A,19,stable,0.5,-2,3.2
+"Josephine County, Oregon(6)",41033,Urban,18.9,15.6,22.8,N/A , N/A , N/A,28,stable,-1.2,-3,0.6
+"Sumner County, Tennessee(6)",47165,Urban,18.9,16.4,21.7,N/A , N/A , N/A,44,stable,-1.8,-10.8,0.3
+"Seneca County, New York(7)",36099,Rural,18.9,13.6,25.8,N/A , N/A , N/A,9,falling,-2.9,-17.2,-0.4
+"Wayne County, Ohio(6)",39169,Rural,18.9,15.8,22.5,N/A , N/A , N/A,27,stable,-0.6,-1.8,0.7
+"Maury County, Tennessee(6)",47119,Urban,18.9,15.4,22.9,N/A , N/A , N/A,22,stable,-0.1,-9.9,8.2
+"Moore County, North Carolina(6)",37125,Urban,18.9,15.8,22.5,N/A , N/A , N/A,29,stable,0.2,-1.9,2.4
+"Sutter County, California(7)",06101,Urban,18.9,15.4,22.9,N/A , N/A , N/A,22,stable,0,-1.2,1.4
+"Sullivan County, New Hampshire(6)",33019,Rural,18.9,14,25.1,N/A , N/A , N/A,11,stable,-1.7,-5.7,2.1
+"Clackamas County, Oregon(6)",41005,Urban,18.9,17.2,20.7,N/A , N/A , N/A,103,stable,0.3,-0.7,1.4
+"Carter County, Kentucky(7)",21043,Urban,18.9,12.8,27.1,N/A , N/A , N/A,7,falling,-14.2,-22.6,-8.5
+"Meeker County, Minnesota(6)",27093,Rural,18.9,12.2,28,N/A , N/A , N/A,6,stable,1.1,-4,6.7
+"Leon County, Florida(6)",12073,Urban,18.9,16.6,21.3,N/A , N/A , N/A,54,falling,-2.9,-8.5,-0.4
+"Clay County, Missouri(6)",29047,Urban,18.9,16.6,21.3,N/A , N/A , N/A,53,stable,-0.2,-1.6,1.5
+"Barren County, Kentucky(7)",21009,Rural,18.9,14.1,24.8,N/A , N/A , N/A,11,stable,0.7,-2.7,4.3
+"Tarrant County, Texas(7)",48439,Urban,18.9,18,19.8,N/A , N/A , N/A,377,falling,-1.1,-3.4,-0.6
+"Washington County, Oregon(6)",41067,Urban,18.9,17.3,20.5,N/A , N/A , N/A,118,stable,-0.7,-1.7,0.5
+"Christian County, Kentucky(7)",21047,Urban,18.9,14.4,24.2,N/A , N/A , N/A,13,stable,1.2,-1.4,3.9
+"Union County, Pennsylvania(6)",42119,Rural,18.9,14,25,N/A , N/A , N/A,11,stable,0.6,-2.6,4.2
+"Jackson County, Michigan(6)",26075,Urban,18.8,16.3,21.8,N/A , N/A , N/A,41,stable,-0.6,-2.5,1.3
+"York County, Pennsylvania(6)",42133,Urban,18.8,17.3,20.5,N/A , N/A , N/A,113,stable,-0.7,-1.8,0.4
+"Cedar County, Iowa(7)",19031,Rural,18.8,11.9,28.7,N/A , N/A , N/A,5,falling,-8.4,-28.8,-0.6
+"Franklin County, Ohio(6)",39049,Urban,18.8,17.7,19.9,N/A , N/A , N/A,244,stable,0.2,-1.1,1.6
+"Lake County, Montana(6)",30047,Rural,18.8,13.5,25.8,N/A , N/A , N/A,9,stable,-0.7,-3.7,2.5
+"Hamilton County, Tennessee(6)",47065,Urban,18.8,17,20.7,N/A , N/A , N/A,88,stable,-0.9,-2.1,0.3
+"Barnstable County, Massachusetts(7)",25001,Urban,18.8,16.8,21,N/A , N/A , N/A,87,stable,-0.2,-0.9,0.5
+"St. Clair County, Michigan(6)",26147,Urban,18.8,16.2,21.7,N/A , N/A , N/A,41,stable,-0.7,-2.7,1.2
+"Uvalde County, Texas(7)",48463,Rural,18.8,12.2,27.7,N/A , N/A , N/A,5,*,*,*,*
+"Faulkner County, Arkansas(6)",05045,Urban,18.8,15.5,22.5,N/A , N/A , N/A,24,stable,-0.4,-2.9,2.5
+"Becker County, Minnesota(6)",27005,Rural,18.8,13.5,25.6,N/A , N/A , N/A,9,stable,-1.2,-5.2,3.1
+"Matanuska-Susitna Borough, Alaska(6)",02170,Urban,18.8,15.1,23.1,N/A , N/A , N/A,20,stable,-1.4,-3.9,1.3
+"Madison County, North Carolina(6)",37115,Urban,18.8,12.3,27.8,N/A , N/A , N/A,6,*,*,*,*
+"Kaufman County, Texas(7)",48257,Urban,18.8,15.5,22.5,N/A , N/A , N/A,24,stable,-1.3,-2.8,0.2
+"Floyd County, Iowa(7)",19067,Rural,18.7,11.7,29.2,N/A , N/A , N/A,5,*,*,*,*
+"Breckinridge County, Kentucky(7)",21027,Rural,18.7,12.1,28.1,N/A , N/A , N/A,5,stable,0,-5.3,4.9
+"Isabella County, Michigan(6)",26073,Rural,18.7,14.2,24.4,N/A , N/A , N/A,12,stable,-1.8,-5.2,1.5
+"Madera County, California(7)",06039,Urban,18.7,15.9,22,N/A , N/A , N/A,31,stable,0.5,-1,2.1
+"Lucas County, Ohio(6)",39095,Urban,18.7,17.1,20.5,N/A , N/A , N/A,99,stable,0,-1.9,2
+"Silver Bow County, Montana(6)",30093,Rural,18.7,13.3,25.8,N/A , N/A , N/A,9,stable,2.8,-0.4,6.5
+"Union County, Mississippi(6)",28145,Rural,18.7,12.4,27.1,N/A , N/A , N/A,6,stable,-0.7,-5,3.8
+"Crook County, Oregon(6)",41013,Urban,18.7,12.6,27.2,N/A , N/A , N/A,7,stable,-0.7,-3.5,2.4
+"Hopkins County, Kentucky(7)",21107,Rural,18.7,13.9,24.8,N/A , N/A , N/A,11,falling,-2.5,-4.6,-0.5
+"Hampshire County, Massachusetts(7)",25015,Urban,18.7,15.9,21.9,N/A , N/A , N/A,36,stable,-0.4,-1.6,0.9
+"Gillespie County, Texas(7)",48171,Rural,18.7,12.9,26.6,N/A , N/A , N/A,9,stable,-0.6,-4.1,3
+"West Feliciana Parish, Louisiana(7)",22125,Urban,18.7,11.1,30.2,N/A , N/A , N/A,4,*,*,*,*
+"Jackson County, Oregon(6)",41029,Urban,18.7,16.6,21.1,N/A , N/A , N/A,61,stable,2.2,-1.7,11
+"Grafton County, New Hampshire(6)",33009,Rural,18.7,15.4,22.5,N/A , N/A , N/A,25,stable,-1.1,-3.9,1.9
+"Wayne County, Missouri(6)",29223,Rural,18.7,11.2,30.9,N/A , N/A , N/A,4,*,*,*,*
+"Berkeley County, South Carolina(6)",45015,Urban,18.7,16.2,21.4,N/A , N/A , N/A,45,stable,0.5,-1,2.3
+"McDowell County, West Virginia(6)",54047,Rural,18.7,11.5,28.9,N/A , N/A , N/A,5,*,*,*,*
+"Iroquois County, Illinois(7)",17075,Rural,18.7,12.8,26.5,N/A , N/A , N/A,7,stable,-1.3,-4.7,2.1
+"Muskingum County, Ohio(6)",39119,Rural,18.6,15.3,22.6,N/A , N/A , N/A,22,stable,-1.2,-4.1,1.6
+"Fluvanna County, Virginia(6)",51065,Urban,18.6,12.8,26.5,N/A , N/A , N/A,7,stable,-2.3,-5.8,1.1
+"Wasatch County, Utah(7)",49051,Rural,18.6,12.4,27,N/A , N/A , N/A,6,*,*,*,*
+"Simpson County, Mississippi(6)",28127,Urban,18.6,12.4,27.1,N/A , N/A , N/A,6,stable,-4.6,-47.9,5.2
+"Worcester County, Massachusetts(7)",25027,Urban,18.6,17.4,19.9,N/A , N/A , N/A,196,stable,-0.2,-0.9,0.5
+"Greene County, Georgia(7)",13133,Rural,18.6,12.4,27.8,N/A , N/A , N/A,7,*,*,*,*
+"Hampden County, Massachusetts(7)",25013,Urban,18.6,17,20.3,N/A , N/A , N/A,106,stable,0.2,-0.8,1.2
+"Pine County, Minnesota(6)",27115,Rural,18.6,12.9,26.3,N/A , N/A , N/A,8,stable,1.5,-1,4.3
+"Cleburne County, Arkansas(6)",05023,Rural,18.6,12.5,27,N/A , N/A , N/A,7,stable,-2.5,-7.4,1.9
+"Elbert County, Colorado(6)",08039,Urban,18.6,12.1,27.6,N/A , N/A , N/A,6,stable,0.3,-4.1,5.8
+"Berkshire County, Massachusetts(7)",25003,Urban,18.6,15.9,21.7,N/A , N/A , N/A,39,stable,-0.5,-1.8,0.8
+"Aransas County, Texas(7)",48007,Urban,18.6,12.1,27.6,N/A , N/A , N/A,7,stable,-0.1,-3.5,3.5
+"Jerome County, Idaho(7)",16053,Urban,18.6,11.6,28.2,N/A , N/A , N/A,5,*,*,*,*
+"Essex County, Massachusetts(7)",25009,Urban,18.6,17.4,19.8,N/A , N/A , N/A,192,falling,-3.2,-7.8,-1.3
+"Cuyahoga County, Ohio(6)",39035,Urban,18.6,17.6,19.6,N/A , N/A , N/A,306,stable,-0.3,-0.9,0.3
+"Montgomery County, Missouri(6)",29139,Rural,18.6,10.4,31.6,N/A , N/A , N/A,3,stable,-0.7,-4.6,3.3
+"Yell County, Arkansas(6)",05149,Rural,18.6,11.6,28.4,N/A , N/A , N/A,5,stable,-1.4,-7.5,4.1
+"Barbour County, West Virginia(6)",54001,Rural,18.6,10.7,30.4,N/A , N/A , N/A,4,*,*,*,*
+"Tioga County, New York(7)",36107,Urban,18.6,14,24.2,N/A , N/A , N/A,13,stable,-0.9,-3.8,1.9
+"Van Buren County, Arkansas(6)",05141,Rural,18.6,10.5,30.8,N/A , N/A , N/A,4,stable,1.1,-5.8,7.8
+"Armstrong County, Pennsylvania(6)",42005,Urban,18.6,14.8,23.1,N/A , N/A , N/A,19,stable,0,-3.2,3.3
+"Davidson County, North Carolina(6)",37057,Urban,18.6,16,21.4,N/A , N/A , N/A,42,stable,-1.1,-2.7,0.5
+"Plymouth County, Massachusetts(7)",25023,Urban,18.6,17.1,20.1,N/A , N/A , N/A,133,falling,-1.4,-5.1,-0.6
+"Collin County, Texas(7)",48085,Urban,18.6,17.3,19.8,N/A , N/A , N/A,183,falling,-2.9,-10,-0.6
+"Santa Barbara County, California(7)",06083,Urban,18.5,16.9,20.3,N/A , N/A , N/A,96,stable,-0.3,-0.9,0.4
+"Crawford County, Arkansas(6)",05033,Urban,18.5,14.5,23.5,N/A , N/A , N/A,15,stable,-1.4,-4.7,2.2
+"Chesterfield County, Virginia(6)",51041,Urban,18.5,16.6,20.6,N/A , N/A , N/A,75,stable,-0.8,-2.4,1.1
+"Oconee County, Georgia(7)",13219,Urban,18.5,13.5,24.9,N/A , N/A , N/A,9,stable,-0.3,-3.4,3.6
+"Newton County, Missouri(6)",29145,Urban,18.5,14.4,23.6,N/A , N/A , N/A,14,stable,-12.7,-27.5,3.7
+"Ashland County, Ohio(6)",39005,Rural,18.5,14.3,23.7,N/A , N/A , N/A,14,stable,1.7,-0.9,4.6
+"Vance County, North Carolina(6)",37181,Rural,18.5,13.6,24.8,N/A , N/A , N/A,10,stable,-0.7,-4.3,3
+"Nez Perce County, Idaho(7)",16069,Urban,18.5,13.8,24.5,N/A , N/A , N/A,11,stable,-0.6,-2.9,1.9
+"Bradford County, Florida(6)",12007,Rural,18.5,12.6,26.4,N/A , N/A , N/A,7,stable,1.8,-3.4,8.2
+"Pend Oreille County, Washington(6)",53051,Rural,18.5,10.9,30.5,N/A , N/A , N/A,4,*,*,*,*
+"Litchfield County, Connecticut(7)",09005,Rural,18.5,16.2,21,N/A , N/A , N/A,53,falling,-1.2,-4.6,-0.1
+"Wharton County, Texas(7)",48481,Rural,18.5,13.5,24.8,N/A , N/A , N/A,9,stable,-0.1,-2.7,2.5
+"Unicoi County, Tennessee(6)",47171,Urban,18.5,11.3,28.9,N/A , N/A , N/A,5,stable,-3.8,-42.4,8.6
+"Floyd County, Georgia(7)",13115,Urban,18.5,15.1,22.4,N/A , N/A , N/A,22,stable,0.1,-2.1,2.3
+"Trempealeau County, Wisconsin(6)",55121,Rural,18.5,12.7,26.1,N/A , N/A , N/A,7,stable,1.2,-2.9,5.7
+"Box Elder County, Utah(7)",49003,Rural,18.5,13.7,24.3,N/A , N/A , N/A,10,stable,1.1,-0.3,2.9
+"Bronx County, New York(7)",36005,Urban,18.5,17.5,19.5,N/A , N/A , N/A,279,stable,-0.4,-1,0.2
+"Comal County, Texas(7)",48091,Urban,18.5,15.8,21.5,N/A , N/A , N/A,37,stable,-0.7,-2.4,1.2
+"Belmont County, Ohio(6)",39013,Urban,18.5,14.7,23,N/A , N/A , N/A,18,stable,-0.4,-3,2.1
+"Baltimore County, Maryland(6)",24005,Urban,18.5,17.3,19.7,N/A , N/A , N/A,198,stable,-0.3,-1.3,0.7
+"Butler County, Missouri(6)",29023,Rural,18.5,13.7,24.5,N/A , N/A , N/A,10,stable,0.8,-2.8,4.6
+"Preble County, Ohio(6)",39135,Rural,18.5,13.5,24.7,N/A , N/A , N/A,10,stable,-0.8,-4.3,2.7
+"Eau Claire County, Wisconsin(6)",55035,Urban,18.5,15.1,22.3,N/A , N/A , N/A,23,stable,0.6,-1.5,3.1
+"Livingston County, New York(7)",36051,Urban,18.5,14.2,23.6,N/A , N/A , N/A,15,stable,-0.5,-2.4,1.5
+"Smith County, Texas(7)",48423,Urban,18.5,16.2,20.9,N/A , N/A , N/A,52,stable,-0.8,-2.1,0.5
+"Dallas County, Iowa(7)",19049,Urban,18.4,14.6,22.9,N/A , N/A , N/A,17,stable,-0.5,-1.8,1.3
+"Carver County, Minnesota(6)",27019,Urban,18.4,14.9,22.6,N/A , N/A , N/A,20,stable,-0.3,-2.6,2.6
+"Rockdale County, Georgia(7)",13247,Urban,18.4,14.8,22.8,N/A , N/A , N/A,19,stable,0.7,-1.9,3.6
+"Dallas County, Texas(7)",48113,Urban,18.4,17.7,19.2,N/A , N/A , N/A,442,falling,-0.9,-3.3,-0.4
+"Brown County, Texas(7)",48049,Rural,18.4,13.3,25.1,N/A , N/A , N/A,9,stable,-1,-3.9,1.8
+"Wayne County, Michigan(6)",26163,Urban,18.4,17.6,19.3,N/A , N/A , N/A,378,stable,-0.7,-1.6,0.1
+"Walworth County, Wisconsin(6)",55127,Rural,18.4,15.3,22.1,N/A , N/A , N/A,25,stable,0.5,-1.8,3.1
+"Sagadahoc County, Maine(6)",23023,Urban,18.4,13.5,24.8,N/A , N/A , N/A,10,stable,-1.9,-6.2,2.6
+"McCurtain County, Oklahoma(6)",40089,Rural,18.4,12.8,25.9,N/A , N/A , N/A,7,stable,-1.8,-5.6,1.8
+"Montgomery County, Maryland(6)",24031,Urban,18.4,17.4,19.5,N/A , N/A , N/A,233,stable,0,-1,1.1
+"Lincoln County, North Carolina(6)",37109,Urban,18.4,14.9,22.5,N/A , N/A , N/A,21,stable,0.5,-1.2,2.3
+"Merrimack County, New Hampshire(6)",33013,Rural,18.4,15.9,21.3,N/A , N/A , N/A,40,stable,-0.7,-2.9,1.7
+"Rapides Parish, Louisiana(7)",22079,Urban,18.4,15.5,21.8,N/A , N/A , N/A,29,stable,0.2,-1.4,1.7
+"Kootenai County, Idaho(7)",16055,Urban,18.4,15.9,21.2,N/A , N/A , N/A,42,stable,-0.4,-2,1.3
+"San Francisco County, California(7)",06075,Urban,18.4,17.2,19.6,N/A , N/A , N/A,192,stable,-1.3,-2.1,0.7
+"Arkansas County, Arkansas(6)",05001,Rural,18.4,11.6,28.3,N/A , N/A , N/A,5,*,*,*,*
+"Harris County, Georgia(7)",13145,Urban,18.4,13.1,25.3,N/A , N/A , N/A,9,*,*,*,*
+"Anchorage Borough, Alaska(6)",02020,Urban,18.4,16.1,20.9,N/A , N/A , N/A,50,stable,-0.6,-1.8,0.6
+"Calvert County, Maryland(6)",24009,Urban,18.4,14.9,22.5,N/A , N/A , N/A,21,stable,0.1,-3.2,3.9
+"Davie County, North Carolina(6)",37059,Urban,18.4,13.5,24.7,N/A , N/A , N/A,10,stable,0.5,-3.3,4.5
+"Salt Lake County, Utah(7)",49035,Urban,18.4,17.2,19.6,N/A , N/A , N/A,193,stable,-0.2,-0.6,0.3
+"Stanislaus County, California(7)",06099,Urban,18.4,16.8,20.1,N/A , N/A , N/A,104,stable,0.1,-0.7,0.9
+"Brazoria County, Texas(7)",48039,Urban,18.4,16.4,20.5,N/A , N/A , N/A,67,stable,-1,-2.3,0.4
+"Oklahoma County, Oklahoma(6)",40109,Urban,18.4,17.1,19.8,N/A , N/A , N/A,154,stable,-0.9,-2,0.1
+"Yakima County, Washington(6)",53077,Urban,18.4,16.1,20.9,N/A , N/A , N/A,48,stable,0,-1.4,1.4
+"Madison County, Georgia(7)",13195,Urban,18.4,12.6,26,N/A , N/A , N/A,7,stable,0.3,-3,4.2
+"Cobb County, Georgia(7)",13067,Urban,18.4,17,19.8,N/A , N/A , N/A,141,stable,0.3,-0.3,0.9
+"Mendocino County, California(7)",06045,Rural,18.4,15.1,22.2,N/A , N/A , N/A,25,stable,-0.1,-1.9,1.7
+"Union County, South Dakota(6)",46127,Urban,18.4,11.2,28.8,N/A , N/A , N/A,4,*,*,*,*
+"Greenville County, South Carolina(6)",45045,Urban,18.3,16.8,20,N/A , N/A , N/A,112,stable,0,-1.5,1.6
+"Washington County, Ohio(6)",39167,Rural,18.3,14.4,23.1,N/A , N/A , N/A,16,stable,-0.5,-3.1,2.2
+"Antrim County, Michigan(6)",26009,Rural,18.3,12,27.2,N/A , N/A , N/A,7,stable,-1.9,-4.2,0.2
+"Mason County, West Virginia(6)",54053,Rural,18.3,12.6,26.2,N/A , N/A , N/A,7,stable,1,-3.3,5.8
+"Christian County, Missouri(6)",29043,Urban,18.3,14.8,22.4,N/A , N/A , N/A,20,stable,-2.5,-5.5,0.4
+"Columbia County, Georgia(7)",13073,Urban,18.3,15.5,21.5,N/A , N/A , N/A,31,stable,-0.4,-3,2.3
+"Craig County, Oklahoma(6)",40035,Rural,18.3,10.8,29.7,N/A , N/A , N/A,4,*,*,*,*
+"Callahan County, Texas(7)",48059,Urban,18.3,10.8,29.8,N/A , N/A , N/A,4,stable,1.8,-1.4,5.6
+"Lancaster County, Nebraska(6)",31109,Urban,18.3,16.3,20.5,N/A , N/A , N/A,60,stable,-1.3,-2.8,0.3
+"Schoharie County, New York(7)",36095,Urban,18.3,12.8,25.6,N/A , N/A , N/A,8,falling,-3.1,-14.6,-0.6
+"Wicomico County, Maryland(6)",24045,Urban,18.3,14.9,22.2,N/A , N/A , N/A,22,stable,-5.6,-21.7,0.3
+"Monroe County, Ohio(6)",39111,Rural,18.3,10.9,29.7,N/A , N/A , N/A,4,stable,-0.4,-6.3,5.7
+"San Diego County, California(7)",06073,Urban,18.3,17.7,18.9,N/A , N/A , N/A,661,falling,-0.9,-2.9,-0.4
+"Mahoning County, Ohio(6)",39099,Urban,18.3,16.1,20.7,N/A , N/A , N/A,59,stable,-0.6,-2.7,1.4
+"Pitt County, North Carolina(6)",37147,Urban,18.3,15.5,21.5,N/A , N/A , N/A,31,stable,0,-2.1,2.3
+"Forest County, Wisconsin(6)",55041,Rural,18.3,10.4,32.1,N/A , N/A , N/A,3,*,*,*,*
+"Van Zandt County, Texas(7)",48467,Rural,18.3,14.4,23,N/A , N/A , N/A,16,stable,0.4,-1.5,2.5
+"Franklin County, Maine(6)",23007,Rural,18.3,12.9,25.6,N/A , N/A , N/A,8,stable,-0.7,-4.3,3
+"Lehigh County, Pennsylvania(6)",42077,Urban,18.3,16.5,20.2,N/A , N/A , N/A,85,falling,-4.7,-12.9,-1.6
+"Sanilac County, Michigan(6)",26151,Rural,18.3,13.4,24.5,N/A , N/A , N/A,11,stable,-26,-46.3,0
+"Brooks County, Georgia(7)",13027,Urban,18.3,11,29,N/A , N/A , N/A,4,*,*,*,*
+"Emmet County, Michigan(6)",26047,Rural,18.3,13.3,24.8,N/A , N/A , N/A,10,stable,0.4,-4.4,5.9
+"Juneau Borough, Alaska(6)",02110,Rural,18.3,12.1,26.5,N/A , N/A , N/A,6,stable,-0.6,-5.9,5.1
+"Murray County, Georgia(7)",13213,Urban,18.2,13.1,24.9,N/A , N/A , N/A,9,stable,-0.4,-3.5,3.3
+"Williamson County, Texas(7)",48491,Urban,18.2,16.7,19.9,N/A , N/A , N/A,106,stable,-1,-2,0.2
+"Putnam County, West Virginia(6)",54079,Urban,18.2,14.1,23.3,N/A , N/A , N/A,14,stable,-1.5,-3.8,0.9
+"Union County, North Carolina(6)",37179,Urban,18.2,15.9,20.8,N/A , N/A , N/A,46,stable,-1.1,-2.9,1
+"Thomas County, Georgia(7)",13275,Rural,18.2,13.4,24.3,N/A , N/A , N/A,10,stable,0.5,-2.4,3.6
+"Coahoma County, Mississippi(6)",28027,Rural,18.2,11.1,28.3,N/A , N/A , N/A,4,*,*,*,*
+"Alameda County, California(7)",06001,Urban,18.2,17.3,19.1,N/A , N/A , N/A,335,stable,-0.2,-0.6,0.2
+"Person County, North Carolina(6)",37145,Urban,18.2,13.5,24.3,N/A , N/A , N/A,11,stable,-1,-4.5,2.4
+"Coffee County, Alabama(6)",01031,Rural,18.2,13.9,23.6,N/A , N/A , N/A,12,stable,0.7,-2.1,4.1
+"Franklin County, New York(7)",36033,Rural,18.2,13.5,24.1,N/A , N/A , N/A,11,stable,0.3,-2.2,2.8
+"Acadia Parish, Louisiana(7)",22001,Urban,18.2,13.9,23.5,N/A , N/A , N/A,12,stable,-1.6,-5.2,1.8
+"Defiance County, Ohio(6)",39039,Rural,18.2,13.4,24.4,N/A , N/A , N/A,10,stable,-1.3,-4.7,2.3
+"Fulton County, Georgia(7)",13121,Urban,18.2,17,19.4,N/A , N/A , N/A,187,stable,0,-0.6,0.8
+"Muhlenberg County, Kentucky(7)",21177,Rural,18.2,12.9,25.3,N/A , N/A , N/A,8,stable,-2.4,-5.5,0.3
+"Pulaski County, Arkansas(6)",05119,Urban,18.2,16.5,20.1,N/A , N/A , N/A,84,stable,-0.8,-2.5,1
+"Rankin County, Mississippi(6)",28121,Urban,18.2,15.5,21.3,N/A , N/A , N/A,33,stable,-0.3,-2.9,2.7
+"Sauk County, Wisconsin(6)",55111,Rural,18.2,14.3,22.9,N/A , N/A , N/A,16,stable,1.2,-1.7,4.4
+"Fayette County, Georgia(7)",13113,Urban,18.2,15.3,21.6,N/A , N/A , N/A,30,stable,0.3,-1,1.9
+"Le Sueur County, Minnesota(6)",27079,Urban,18.2,12.4,26,N/A , N/A , N/A,7,stable,-1.4,-6.6,4
+"Orange County, Florida(6)",12095,Urban,18.2,17.2,19.2,N/A , N/A , N/A,258,falling,-2.4,-5.1,-0.7
+"Richmond County, Georgia(7)",13245,Urban,18.2,15.7,21,N/A , N/A , N/A,40,stable,1.3,-0.6,3.4
+"Oconto County, Wisconsin(6)",55083,Urban,18.2,13.3,24.4,N/A , N/A , N/A,10,stable,-1.5,-6.1,3.3
+"Middlesex County, Massachusetts(7)",25017,Urban,18.2,17.3,19.1,N/A , N/A , N/A,348,falling,-0.7,-1.2,-0.2
+"Utah County, Utah(7)",49049,Urban,18.2,16.3,20.1,N/A , N/A , N/A,76,stable,0.4,-0.3,1.2
+"Osceola County, Florida(6)",12097,Urban,18.2,16.3,20.2,N/A , N/A , N/A,73,stable,2.7,-10.1,12.1
+"Mariposa County, California(7)",06043,Rural,18.2,10.6,29.5,N/A , N/A , N/A,5,*,*,*,*
+"Preston County, West Virginia(6)",54077,Urban,18.2,12.9,25,N/A , N/A , N/A,8,stable,0.4,-5.5,7.3
+"Routt County, Colorado(6)",08107,Rural,18.2,11.3,27.7,N/A , N/A , N/A,5,*,*,*,*
+"Clearfield County, Pennsylvania(6)",42033,Rural,18.2,14.7,22.3,N/A , N/A , N/A,20,falling,-1.7,-3.3,-0.1
+"Shelby County, Illinois(7)",17173,Rural,18.1,12,26.8,N/A , N/A , N/A,6,stable,-0.3,-4,3.9
+"Moore County, Texas(7)",48341,Rural,18.1,10.8,28.5,N/A , N/A , N/A,4,stable,0,-4.6,4.9
+"Rutherford County, Tennessee(6)",47149,Urban,18.1,16,20.5,N/A , N/A , N/A,55,stable,-0.9,-2.6,1
+"Gwinnett County, Georgia(7)",13135,Urban,18.1,16.8,19.5,N/A , N/A , N/A,152,rising,0.6,0.1,1.3
+"Navarro County, Texas(7)",48349,Rural,18.1,13.5,23.9,N/A , N/A , N/A,11,stable,-3,-6.5,0
+"Ada County, Idaho(7)",16001,Urban,18.1,16.5,19.8,N/A , N/A , N/A,100,stable,-0.8,-1.8,0.4
+"Marion County, Texas(7)",48315,Rural,18.1,9.7,32.6,N/A , N/A , N/A,3,*,*,*,*
+"Comanche County, Oklahoma(6)",40031,Urban,18.1,14.8,21.9,N/A , N/A , N/A,22,stable,1.1,-1.4,4
+"Sonoma County, California(7)",06097,Urban,18.1,16.6,19.7,N/A , N/A , N/A,124,stable,-0.7,-1.4,0.1
+"Fayette County, Pennsylvania(6)",42051,Urban,18.1,15.3,21.3,N/A , N/A , N/A,34,falling,-1.8,-3.8,-0.1
+"Outagamie County, Wisconsin(6)",55087,Urban,18.1,15.6,20.9,N/A , N/A , N/A,40,stable,-1.4,-3,0.2
+"Montgomery County, Kentucky(7)",21173,Rural,18.1,12,26.2,N/A , N/A , N/A,6,stable,-2.3,-6.1,1.4
+"Grand Forks County, North Dakota(6)",38035,Urban,18.1,13.9,23.2,N/A , N/A , N/A,13,stable,-1,-4,2.2
+"Loudon County, Tennessee(6)",47105,Urban,18.1,14.2,22.9,N/A , N/A , N/A,18,stable,-0.8,-3.4,2.1
+"Baxter County, Arkansas(6)",05005,Rural,18.1,13.6,23.8,N/A , N/A , N/A,14,stable,0.5,-2.3,3.2
+"Aroostook County, Maine(6)",23003,Rural,18.1,14.6,22.3,N/A , N/A , N/A,21,stable,-1.2,-3.3,1
+"Bexar County, Texas(7)",48029,Urban,18.1,17.2,19,N/A , N/A , N/A,348,stable,-0.6,-1.2,0
+"Travis County, Texas(7)",48453,Urban,18.1,16.9,19.3,N/A , N/A , N/A,197,falling,-1.3,-4.3,-0.5
+"Missoula County, Montana(6)",30063,Urban,18.1,14.9,21.7,N/A , N/A , N/A,24,stable,-0.1,-2.7,2.9
+"Baker County, Florida(6)",12003,Urban,18.1,11.9,26.4,N/A , N/A , N/A,6,stable,-0.3,-5.8,6
+"Chisago County, Minnesota(6)",27025,Urban,18.1,13.8,23.3,N/A , N/A , N/A,13,stable,-1.7,-5.2,2
+"Henry County, Ohio(6)",39069,Rural,18.1,12.3,25.8,N/A , N/A , N/A,7,stable,-3.2,-7.3,0.8
+"Calhoun County, Michigan(6)",26025,Urban,18.1,15.3,21.2,N/A , N/A , N/A,32,stable,-0.4,-1.9,1.1
+"Butler County, Pennsylvania(6)",42019,Urban,18.1,15.8,20.6,N/A , N/A , N/A,50,falling,-4.2,-15.1,-1.6
+"Rockcastle County, Kentucky(7)",21203,Rural,18.1,10.8,28.9,N/A , N/A , N/A,4,*,*,*,*
+"Ohio County, Kentucky(7)",21183,Rural,18.1,11.9,26.6,N/A , N/A , N/A,6,stable,0.2,-3.7,4.3
+"Placer County, California(7)",06061,Urban,18.1,16.5,19.8,N/A , N/A , N/A,100,falling,-2.7,-10.7,-0.1
+"Whitfield County, Georgia(7)",13313,Urban,18.1,14.7,21.9,N/A , N/A , N/A,21,stable,-0.9,-3.5,1.9
+"Bell County, Texas(7)",48027,Urban,18,16,20.3,N/A , N/A , N/A,58,stable,-0.7,-1.8,0.5
+"Tolland County, Connecticut(7)",09013,Urban,18,15.2,21.3,N/A , N/A , N/A,31,stable,-0.1,-0.9,0.9
+"Centre County, Pennsylvania(6)",42027,Urban,18,15.2,21.3,N/A , N/A , N/A,31,stable,-0.8,-2.4,1
+"Jasper County, Iowa(7)",19099,Urban,18,13,24.5,N/A , N/A , N/A,9,stable,0.2,-1,1.6
+"Sussex County, Delaware(6)",10005,Rural,18,16,20.3,N/A , N/A , N/A,72,falling,-5.4,-15.5,-1.6
+"Williamson County, Illinois(7)",17199,Rural,18,14.2,22.7,N/A , N/A , N/A,16,stable,0.2,-2.1,2.7
+"Grayson County, Texas(7)",48181,Urban,18,15.2,21.2,N/A , N/A , N/A,31,stable,-0.5,-2.1,1.2
+"Maverick County, Texas(7)",48323,Urban,18,13.2,24,N/A , N/A , N/A,9,stable,2.1,-0.6,5.3
+"Erie County, Ohio(6)",39043,Urban,18,14.6,22.1,N/A , N/A , N/A,21,stable,0,-3,3
+"Jim Wells County, Texas(7)",48249,Rural,18,12.6,25,N/A , N/A , N/A,8,stable,0.4,-3.5,4.5
+"Mercer County, Ohio(6)",39107,Rural,18,13.3,24,N/A , N/A , N/A,10,stable,-2.1,-5.2,0.8
+"Cecil County, Maryland(6)",24015,Urban,18,14.8,21.7,N/A , N/A , N/A,24,stable,-5.7,-20.5,0.3
+"Cabarrus County, North Carolina(6)",37025,Urban,18,15.6,20.6,N/A , N/A , N/A,42,falling,-3.6,-11.7,-1.3
+"Park County, Montana(6)",30067,Rural,18,11.7,27.4,N/A , N/A , N/A,5,*,*,*,*
+"Peoria County, Illinois(7)",17143,Urban,18,15.6,20.7,N/A , N/A , N/A,42,stable,-0.9,-1.9,0.1
+"Mitchell County, North Carolina(6)",37121,Rural,18,10.9,28.8,N/A , N/A , N/A,4,stable,0.4,-5.9,7.2
+"Camden County, Georgia(7)",13039,Rural,18,13.2,23.9,N/A , N/A , N/A,10,stable,1.2,-2.7,6.7
+"Cocke County, Tennessee(6)",47029,Rural,18,13,24.5,N/A , N/A , N/A,10,stable,0.4,-3.8,5.3
+"Caddo Parish, Louisiana(7)",22017,Urban,18,15.8,20.3,N/A , N/A , N/A,54,stable,0.4,-1.3,2.1
+"Attala County, Mississippi(6)",28007,Rural,18,11.2,27.8,N/A , N/A , N/A,4,stable,3.6,-0.5,8.7
+"Blount County, Tennessee(6)",47009,Urban,18,15.3,21,N/A , N/A , N/A,35,falling,-3.1,-7.8,-1.5
+"St. Marys County, Maryland(6)",24037,Urban,18,14.7,21.8,N/A , N/A , N/A,22,stable,0.3,-2.4,3.5
+"Pendleton County, Kentucky(7)",21191,Urban,18,10.5,29.3,N/A , N/A , N/A,4,*,*,*,*
+"Carbon County, Pennsylvania(6)",42025,Urban,17.9,14,22.7,N/A , N/A , N/A,16,stable,-1.6,-4.6,1.4
+"Montgomery County, Texas(7)",48339,Urban,17.9,16.4,19.5,N/A , N/A , N/A,111,stable,-1.6,-3,0
+"Adams County, Wisconsin(6)",55001,Rural,17.9,11.4,27.7,N/A , N/A , N/A,6,stable,0.7,-5.4,7.5
+"Howard County, Maryland(6)",24027,Urban,17.9,16,20.1,N/A , N/A , N/A,65,stable,-0.8,-1.9,0.5
+"Johnston County, North Carolina(6)",37101,Urban,17.9,15.5,20.7,N/A , N/A , N/A,40,stable,-0.3,-2.5,2.2
+"Lamar County, Mississippi(6)",28073,Urban,17.9,13.6,23.2,N/A , N/A , N/A,12,stable,-0.3,-2.8,2.6
+"Garfield County, Oklahoma(6)",40047,Urban,17.9,13.7,23,N/A , N/A , N/A,13,stable,-0.7,-3.2,1.7
+"Ross County, Ohio(6)",39141,Rural,17.9,14.2,22.3,N/A , N/A , N/A,17,stable,0.2,-1.7,2.2
+"Marion County, Mississippi(6)",28091,Rural,17.9,11.4,26.8,N/A , N/A , N/A,5,stable,-0.8,-5.5,4.2
+"Johnson County, Missouri(6)",29101,Rural,17.9,13.1,24,N/A , N/A , N/A,9,stable,-0.8,-4.2,2.9
+"Allegany County, New York(7)",36003,Rural,17.9,13.3,23.6,N/A , N/A , N/A,12,stable,0.6,-1.2,2.5
+"York County, Maine(6)",23031,Urban,17.9,15.7,20.3,N/A , N/A , N/A,53,falling,-8.3,-18.4,-1.9
+"Tuscarawas County, Ohio(6)",39157,Rural,17.9,14.6,21.8,N/A , N/A , N/A,22,stable,-1.3,-3.7,1
+"Ector County, Texas(7)",48135,Urban,17.9,14.8,21.4,N/A , N/A , N/A,25,stable,-0.6,-2.9,1.8
+"Franklin County, Georgia(7)",13119,Rural,17.9,11.7,26.5,N/A , N/A , N/A,6,*,*,*,*
+"Kalamazoo County, Michigan(6)",26077,Urban,17.9,15.7,20.3,N/A , N/A , N/A,52,falling,-2.2,-4.1,-0.3
+"Cass County, Missouri(6)",29037,Urban,17.9,14.8,21.5,N/A , N/A , N/A,25,stable,0.3,-1.8,2.7
+"Providence County, Rhode Island(6)",44007,Urban,17.9,16.5,19.3,N/A , N/A , N/A,138,stable,-1,-2.2,0.2
+"Izard County, Arkansas(6)",05065,Rural,17.9,10.8,29,N/A , N/A , N/A,4,stable,-0.1,-3.9,3.9
+"Tehama County, California(7)",06103,Rural,17.9,14.1,22.4,N/A , N/A , N/A,17,falling,-2.2,-4.2,-0.3
+"Shasta County, California(7)",06089,Urban,17.8,15.5,20.5,N/A , N/A , N/A,46,stable,-0.6,-1.7,0.6
+"Big Horn County, Wyoming(6)",56003,Rural,17.8,10.2,30.1,N/A , N/A , N/A,3,*,*,*,*
+"Mason County, Michigan(6)",26105,Rural,17.8,12.7,24.8,N/A , N/A , N/A,9,stable,2.2,-0.8,5.6
+"Cabell County, West Virginia(6)",54011,Urban,17.8,14.5,21.7,N/A , N/A , N/A,22,stable,-0.3,-3,2.3
+"Jackson County, Iowa(7)",19097,Rural,17.8,11.5,27,N/A , N/A , N/A,5,stable,0.6,-1.9,3.6
+"Madison County, Mississippi(6)",28089,Urban,17.8,14.5,21.7,N/A , N/A , N/A,21,falling,-4.9,-16.1,-0.7
+"Adair County, Missouri(6)",29001,Rural,17.8,10.8,27.7,N/A , N/A , N/A,4,*,*,*,*
+"Martinsville City, Virginia(6)",51690,Rural,17.8,10,29.8,N/A , N/A , N/A,3,*,*,*,*
+"Bedford County, Tennessee(6)",47003,Rural,17.8,13.2,23.6,N/A , N/A , N/A,10,stable,0,-2.5,2.8
+"La Salle County, Illinois(7)",17099,Rural,17.8,14.7,21.3,N/A , N/A , N/A,26,stable,-1.1,-3.1,0.7
+"Leflore County, Mississippi(6)",28083,Rural,17.8,11.3,26.6,N/A , N/A , N/A,5,stable,3.9,-0.7,9.7
+"Rockwall County, Texas(7)",48397,Urban,17.8,14.3,21.9,N/A , N/A , N/A,19,stable,-0.7,-2.9,2
+"Hancock County, West Virginia(6)",54029,Urban,17.8,12.6,24.8,N/A , N/A , N/A,9,stable,-3,-7.1,0.9
+"Vermilion County, Illinois(7)",17183,Rural,17.8,14.2,22,N/A , N/A , N/A,19,stable,0.1,-1.7,1.9
+"Bay County, Michigan(6)",26017,Urban,17.8,14.7,21.3,N/A , N/A , N/A,26,falling,-2,-3.8,-0.3
+"Gadsden County, Florida(6)",12039,Urban,17.8,13.3,23.4,N/A , N/A , N/A,11,stable,-0.9,-4.9,3.5
+"Chester County, Pennsylvania(6)",42029,Urban,17.8,16.3,19.3,N/A , N/A , N/A,115,falling,-5.4,-11.5,-2.3
+"Sevier County, Tennessee(6)",47155,Rural,17.8,14.7,21.4,N/A , N/A , N/A,25,stable,-0.5,-2.9,2.2
+"White County, Illinois(7)",17193,Rural,17.8,10.5,28.9,N/A , N/A , N/A,4,*,*,*,*
+"Forsyth County, North Carolina(6)",37067,Urban,17.8,16,19.6,N/A , N/A , N/A,80,stable,-0.7,-1.9,0.5
+"Walker County, Alabama(6)",01127,Urban,17.8,13.9,22.4,N/A , N/A , N/A,16,stable,-0.9,-3.3,1.5
+"Effingham County, Illinois(7)",17049,Rural,17.8,12.4,24.7,N/A , N/A , N/A,8,stable,-1.5,-4.7,1.6
+"McLennan County, Texas(7)",48309,Urban,17.7,15.6,20.1,N/A , N/A , N/A,50,stable,-0.7,-1.6,0.4
+"Henrico County, Virginia(6)",51087,Urban,17.7,15.9,19.8,N/A , N/A , N/A,68,stable,-0.1,-5.6,1.3
+"Huntingdon County, Pennsylvania(6)",42061,Rural,17.7,13.3,23.4,N/A , N/A , N/A,11,stable,-1.1,-4.4,2.4
+"Nevada County, California(7)",06057,Rural,17.7,14.8,21.2,N/A , N/A , N/A,31,stable,-0.3,-2.1,1.5
+"Fresno County, California(7)",06019,Urban,17.7,16.5,19,N/A , N/A , N/A,170,stable,-0.2,-1.1,0.8
+"Boone County, Missouri(6)",29019,Urban,17.7,15,20.8,N/A , N/A , N/A,32,stable,-1,-3,1.2
+"Stark County, Ohio(6)",39151,Urban,17.7,16.1,19.5,N/A , N/A , N/A,92,stable,-0.7,-2.1,0.6
+"Morgan County, Tennessee(6)",47129,Urban,17.7,11.2,26.9,N/A , N/A , N/A,5,stable,-0.1,-3.5,3.7
+"Warren County, North Carolina(6)",37185,Rural,17.7,11,27.5,N/A , N/A , N/A,5,stable,-0.7,-7.7,6.1
+"Anne Arundel County, Maryland(6)",24003,Urban,17.7,16.3,19.2,N/A , N/A , N/A,120,stable,-0.2,-1.5,1.1
+"Gaston County, North Carolina(6)",37071,Urban,17.7,15.5,20.2,N/A , N/A , N/A,48,stable,-1.1,-3.5,1.3
+"Greene County, North Carolina(6)",37079,Rural,17.7,11,27.2,N/A , N/A , N/A,5,*,*,*,*
+"Deschutes County, Oregon(6)",41017,Urban,17.7,15.4,20.2,N/A , N/A , N/A,46,stable,4.5,-3.1,11.9
+"Trinity County, Texas(7)",48455,Rural,17.7,9.7,30.2,N/A , N/A , N/A,4,stable,2.9,-1.5,8.1
+"Buncombe County, North Carolina(6)",37021,Urban,17.7,15.7,19.8,N/A , N/A , N/A,65,stable,-1.2,-2.4,0
+"Lincoln County, Maine(6)",23015,Rural,17.7,12.9,24,N/A , N/A , N/A,11,stable,-0.6,-4.1,3.2
+"Denton County, Texas(7)",48121,Urban,17.7,16.4,19.1,N/A , N/A , N/A,145,falling,-1.4,-2.4,-0.1
+"Jackson County, Missouri(6)",29095,Urban,17.7,16.4,19.1,N/A , N/A , N/A,142,stable,-0.5,-1.6,0.7
+"Cedar County, Missouri(6)",29039,Rural,17.7,10,29.4,N/A , N/A , N/A,4,stable,0.7,-5.6,7.3
+"Sheboygan County, Wisconsin(6)",55117,Urban,17.7,14.8,21,N/A , N/A , N/A,28,falling,-4.4,-15.1,-0.6
+"White County, Arkansas(6)",05145,Rural,17.7,13.9,22.1,N/A , N/A , N/A,16,stable,-0.3,-2.3,1.7
+"Douglas County, Washington(6)",53017,Urban,17.7,12.9,23.7,N/A , N/A , N/A,10,stable,-1.8,-5,1.5
+"Stone County, Mississippi(6)",28131,Urban,17.7,10.3,28.3,N/A , N/A , N/A,4,*,*,*,*
+"Wayne County, West Virginia(6)",54099,Urban,17.7,13,23.6,N/A , N/A , N/A,10,stable,-1.4,-5.4,2.7
+"Otero County, New Mexico(7)",35035,Rural,17.7,13.7,22.5,N/A , N/A , N/A,14,rising,1.5,0.2,3.2
+"Johnson County, Kentucky(7)",21115,Rural,17.7,11.3,26.5,N/A , N/A , N/A,5,stable,-1.1,-5.2,3
+"Yadkin County, North Carolina(6)",37197,Urban,17.6,13,23.6,N/A , N/A , N/A,10,stable,0.1,-2.2,2.5
+"Mecklenburg County, North Carolina(6)",37119,Urban,17.6,16.5,18.8,N/A , N/A , N/A,184,falling,-1,-5.3,-0.1
+"Oxford County, Maine(6)",23017,Rural,17.6,13.9,22.2,N/A , N/A , N/A,17,stable,-0.1,-3,3.1
+"Kittitas County, Washington(6)",53037,Rural,17.6,12.7,24,N/A , N/A , N/A,9,stable,-1.3,-4.7,2.3
+"Rock Island County, Illinois(7)",17161,Urban,17.6,14.9,20.7,N/A , N/A , N/A,33,stable,-0.8,-2.5,0.7
+"Kings County, New York(7)",36047,Urban,17.6,16.9,18.3,N/A , N/A , N/A,512,falling,-1.2,-3.7,-0.4
+"Douglas County, Colorado(6)",08035,Urban,17.6,15.7,19.7,N/A , N/A , N/A,64,stable,-0.1,-1.6,1.9
+"Morgan County, Georgia(7)",13211,Urban,17.6,11.1,27,N/A , N/A , N/A,5,*,*,*,*
+"Caddo County, Oklahoma(6)",40015,Rural,17.6,11.6,25.7,N/A , N/A , N/A,6,stable,-0.7,-5.7,4.4
+"Brooke County, West Virginia(6)",54009,Urban,17.6,11.6,26.1,N/A , N/A , N/A,6,falling,-2.5,-5.1,-0.1
+"Horry County, South Carolina(6)",45051,Urban,17.6,15.9,19.5,N/A , N/A , N/A,90,rising,3.2,0.5,8.5
+"Bannock County, Idaho(7)",16005,Urban,17.6,13.9,22,N/A , N/A , N/A,17,stable,-0.7,-2.5,1.4
+"Orange County, Vermont(6)",50017,Rural,17.6,12.7,24.3,N/A , N/A , N/A,9,stable,0.3,-2.9,3.7
+"Hanover County, Virginia(6)",51085,Urban,17.6,14.5,21.2,N/A , N/A , N/A,25,falling,-3.4,-14.1,-1.2
+"Fayette County, Alabama(6)",01057,Rural,17.6,10.6,27.9,N/A , N/A , N/A,4,stable,0.9,-2,3.9
+"Cook County, Illinois(7)",17031,Urban,17.6,17.1,18.1,N/A , N/A , N/A,1044,stable,-0.2,-0.7,0.2
+"Shawano County, Wisconsin(6)",55115,Rural,17.6,13.1,23.4,N/A , N/A , N/A,11,stable,-1.4,-9.3,0.8
+"Manistee County, Michigan(6)",26101,Rural,17.6,11.5,26,N/A , N/A , N/A,7,stable,-1.8,-7,3
+"Clare County, Michigan(6)",26035,Rural,17.6,12,25.1,N/A , N/A , N/A,8,stable,-0.2,-3.8,3.4
+"Paulding County, Georgia(7)",13223,Urban,17.6,14.6,20.9,N/A , N/A , N/A,27,stable,-1.1,-3.1,1.4
+"Delaware County, Pennsylvania(6)",42045,Urban,17.6,16.1,19.1,N/A , N/A , N/A,122,falling,-14.5,-23.5,-7.1
+"Grundy County, Iowa(7)",19075,Urban,17.6,9.9,29.6,N/A , N/A , N/A,3,*,*,*,*
+"Russell County, Kentucky(7)",21207,Rural,17.5,10.9,27.2,N/A , N/A , N/A,5,stable,-1.6,-5.5,2.4
+"Carroll County, Georgia(7)",13045,Urban,17.5,14.3,21.3,N/A , N/A , N/A,21,stable,0.9,-0.6,2.7
+"Webster County, Missouri(6)",29225,Urban,17.5,12.3,24.3,N/A , N/A , N/A,8,falling,-30.8,-48.2,-7
+"Dorchester County, South Carolina(6)",45035,Urban,17.5,14.8,20.6,N/A , N/A , N/A,31,stable,0.6,-1.3,2.8
+"San Joaquin County, California(7)",06077,Urban,17.5,16.2,18.9,N/A , N/A , N/A,136,stable,0,-0.8,0.9
+"Osage County, Oklahoma(6)",40113,Urban,17.5,13.1,23.1,N/A , N/A , N/A,11,stable,1.3,-1.1,4
+"Mercer County, Pennsylvania(6)",42085,Rural,17.5,14.6,20.8,N/A , N/A , N/A,29,stable,-1.1,-2.6,0.4
+"Dawson County, Georgia(7)",13085,Urban,17.5,12.1,25,N/A , N/A , N/A,7,*,*,*,*
+"Hockley County, Texas(7)",48219,Urban,17.5,11,26.7,N/A , N/A , N/A,5,stable,-0.6,-3.8,2.6
+"Carlton County, Minnesota(6)",27017,Urban,17.5,12.5,24,N/A , N/A , N/A,9,stable,-0.7,-3.9,2.7
+"Ingham County, Michigan(6)",26065,Urban,17.5,15.4,19.9,N/A , N/A , N/A,51,stable,-1.1,-2.5,0.4
+"Angelina County, Texas(7)",48005,Rural,17.5,14,21.7,N/A , N/A , N/A,18,stable,-1.1,-2.8,0.7
+"Linn County, Oregon(6)",41043,Urban,17.5,14.6,20.8,N/A , N/A , N/A,28,falling,-15.1,-29.1,-0.7
+"Durham County, North Carolina(6)",37063,Urban,17.5,15.5,19.7,N/A , N/A , N/A,58,stable,-0.9,-2.6,0.8
+"Fairfield County, Ohio(6)",39045,Urban,17.5,14.9,20.5,N/A , N/A , N/A,33,stable,2.5,-10.3,13.2
+"Cheshire County, New Hampshire(6)",33005,Rural,17.5,14,21.7,N/A , N/A , N/A,19,falling,-4,-13.4,-1.2
+"Garvin County, Oklahoma(6)",40049,Rural,17.5,11.3,25.9,N/A , N/A , N/A,5,stable,-1.7,-5.2,1.6
+"San Patricio County, Texas(7)",48409,Urban,17.5,13.5,22.4,N/A , N/A , N/A,13,stable,-2,-4.5,0.4
+"Guilford County, North Carolina(6)",37081,Urban,17.5,16,19.1,N/A , N/A , N/A,108,stable,-0.5,-2,1.2
+"Winston County, Alabama(6)",01133,Rural,17.5,11.1,26.3,N/A , N/A , N/A,5,stable,-2.4,-5.7,0.6
+"Lackawanna County, Pennsylvania(6)",42069,Urban,17.5,15.4,19.8,N/A , N/A , N/A,54,stable,-1.1,-2.9,0.9
+"Hancock County, Illinois(7)",17067,Rural,17.5,10.8,27.3,N/A , N/A , N/A,5,stable,-0.8,-3.9,2.2
+"Giles County, Tennessee(6)",47055,Rural,17.5,12.4,24.3,N/A , N/A , N/A,8,stable,0.6,-3.8,5.6
+"Gordon County, Georgia(7)",13129,Rural,17.5,13.2,22.7,N/A , N/A , N/A,12,stable,-1.2,-3.2,1
+"Iredell County, North Carolina(6)",37097,Urban,17.5,15.1,20.2,N/A , N/A , N/A,39,stable,-0.4,-1.9,1.3
+"Essex County, New Jersey(7)",34013,Urban,17.5,16.3,18.7,N/A , N/A , N/A,159,falling,-1.6,-4.9,-0.9
+"Boulder County, Colorado(6)",08013,Urban,17.5,15.5,19.6,N/A , N/A , N/A,62,stable,-1,-2.3,0.4
+"Putnam County, Tennessee(6)",47141,Rural,17.5,13.8,21.9,N/A , N/A , N/A,16,stable,-2.3,-4.7,0
+"Adams County, Illinois(7)",17001,Rural,17.4,13.7,22,N/A , N/A , N/A,17,stable,-1.3,-3.3,0.8
+"Yellowstone County, Montana(6)",30111,Urban,17.4,14.9,20.3,N/A , N/A , N/A,36,falling,-1.9,-3.6,-0.3
+"Nodaway County, Missouri(6)",29147,Rural,17.4,11,26.7,N/A , N/A , N/A,5,stable,-1.7,-6.9,3.9
+"Brunswick County, North Carolina(6)",37019,Urban,17.4,15,20.3,N/A , N/A , N/A,48,stable,-1,-3.2,1.6
+"Queen Annes County, Maryland(6)",24035,Urban,17.4,13,22.9,N/A , N/A , N/A,12,stable,1.5,-1.7,5.3
+"White County, Tennessee(6)",47185,Rural,17.4,12,24.8,N/A , N/A , N/A,7,stable,-0.5,-5.8,5.7
+"Pottawatomie County, Oklahoma(6)",40125,Rural,17.4,13.6,22.1,N/A , N/A , N/A,14,stable,-2,-5.2,1.1
+"Chesapeake City, Virginia(6)",51550,Urban,17.4,15.2,19.9,N/A , N/A , N/A,47,stable,-0.3,-1.9,1.4
+"Amador County, California(7)",06005,Rural,17.4,13.1,23.1,N/A , N/A , N/A,13,stable,-0.7,-3.4,2.2
+"Trumbull County, Ohio(6)",39155,Urban,17.4,15.2,19.8,N/A , N/A , N/A,52,stable,-0.5,-2.4,1.4
+"Weakley County, Tennessee(6)",47183,Rural,17.4,12.2,24.3,N/A , N/A , N/A,8,stable,2.6,-1.3,7.3
+"Essex County, New York(7)",36031,Rural,17.4,12.8,23.4,N/A , N/A , N/A,11,stable,-0.6,-2.6,1.6
+"Red River County, Texas(7)",48387,Rural,17.4,10.4,28.9,N/A , N/A , N/A,4,stable,1.4,-3.1,6.5
+"Meigs County, Ohio(6)",39105,Rural,17.4,11.3,26,N/A , N/A , N/A,6,stable,-2,-5.8,1.4
+"New Castle County, Delaware(6)",10003,Urban,17.4,16,18.9,N/A , N/A , N/A,118,falling,-7.6,-11.4,-3.6
+"Scotts Bluff County, Nebraska(6)",31157,Rural,17.4,12.4,23.9,N/A , N/A , N/A,9,stable,-0.4,-3.4,2.6
+"Cape May County, New Jersey(7)",34009,Urban,17.4,14.5,20.8,N/A , N/A , N/A,31,stable,-0.7,-2.3,0.9
+"Newton County, Mississippi(6)",28101,Rural,17.4,10.7,26.7,N/A , N/A , N/A,4,stable,-0.1,-5.9,5.8
+"Sandoval County, New Mexico(7)",35043,Urban,17.4,14.7,20.4,N/A , N/A , N/A,33,stable,0.2,-1.1,2.1
+"Tooele County, Utah(7)",49045,Urban,17.4,12.8,23,N/A , N/A , N/A,10,stable,-1.6,-3.1,0.3
+"Franklin County, Massachusetts(7)",25011,Rural,17.4,13.8,21.7,N/A , N/A , N/A,18,stable,-1.3,-3.1,0.6
+"Calhoun County, Florida(6)",12013,Rural,17.4,10.1,28.6,N/A , N/A , N/A,3,rising,4.5,0.4,10
+"Caroline County, Maryland(6)",24011,Rural,17.3,12,24.4,N/A , N/A , N/A,7,stable,0.6,-1.1,2.3
+"Falls County, Texas(7)",48145,Urban,17.3,10.7,27.1,N/A , N/A , N/A,4,stable,-0.7,-5.9,4.3
+"Hamblen County, Tennessee(6)",47063,Urban,17.3,13.5,21.9,N/A , N/A , N/A,15,stable,0.5,-2,3.2
+"Pearl River County, Mississippi(6)",28109,Rural,17.3,13.2,22.5,N/A , N/A , N/A,13,falling,-2.4,-4.8,-0.2
+"King George County, Virginia(6)",51099,Rural,17.3,10.9,26.2,N/A , N/A , N/A,5,*,*,*,*
+"Queens County, New York(7)",36081,Urban,17.3,16.6,18,N/A , N/A , N/A,498,stable,-0.6,-3.4,0.1
+"St. Charles Parish, Louisiana(7)",22089,Urban,17.3,12.8,23,N/A , N/A , N/A,10,stable,-0.9,-3.2,1.5
+"Bedford County, Pennsylvania(6)",42009,Rural,17.3,13,22.7,N/A , N/A , N/A,12,falling,-3.1,-5.8,-0.5
+"Whiteside County, Illinois(7)",17195,Rural,17.3,13.4,22.1,N/A , N/A , N/A,14,falling,-9.3,-30.5,-1.4
+"Louisa County, Virginia(6)",51109,Rural,17.3,12.4,23.6,N/A , N/A , N/A,9,stable,-1.5,-5.5,2.9
+"Medina County, Texas(7)",48325,Urban,17.3,12.9,22.8,N/A , N/A , N/A,11,stable,0.7,-1.7,3.6
+"St. Francois County, Missouri(6)",29187,Rural,17.3,13.5,21.9,N/A , N/A , N/A,15,falling,-20.2,-34,-2.9
+"Sevier County, Utah(7)",49041,Rural,17.3,10.6,26.8,N/A , N/A , N/A,4,stable,0.4,-1.8,3.4
+"Stone County, Missouri(6)",29209,Rural,17.3,12.2,24.2,N/A , N/A , N/A,10,stable,1.7,-32.3,21.9
+"Bowie County, Texas(7)",48037,Urban,17.3,13.9,21.2,N/A , N/A , N/A,19,stable,-0.1,-2.2,2.1
+"Plaquemines Parish, Louisiana(7)",22075,Urban,17.3,10.5,26.8,N/A , N/A , N/A,4,falling,-13.2,-30.2,-5.6
+"Ascension Parish, Louisiana(7)",22005,Urban,17.3,14.1,21,N/A , N/A , N/A,22,stable,-0.8,-3,1.8
+"Russell County, Virginia(6)",51167,Rural,17.3,11.4,25.3,N/A , N/A , N/A,6,stable,-1.3,-4.9,2.1
+"Hendry County, Florida(6)",12051,Rural,17.3,12,24,N/A , N/A , N/A,7,stable,2.5,-1.4,7.5
+"Sullivan County, New York(7)",36105,Rural,17.3,13.9,21.3,N/A , N/A , N/A,19,stable,-0.9,-3.2,1.3
+"Rutherford County, North Carolina(6)",37161,Rural,17.3,13.5,21.9,N/A , N/A , N/A,16,stable,0.6,-2.9,4.5
+"Tulsa County, Oklahoma(6)",40143,Urban,17.3,15.9,18.7,N/A , N/A , N/A,127,stable,-1,-2.1,0
+"Winneshiek County, Iowa(7)",19191,Rural,17.2,10.6,26.9,N/A , N/A , N/A,5,stable,-2.4,-14.1,0.1
+"Washington County, Oklahoma(6)",40147,Rural,17.2,13,22.5,N/A , N/A , N/A,12,stable,-0.2,-3.1,2.9
+"Bossier Parish, Louisiana(7)",22015,Urban,17.2,14.3,20.6,N/A , N/A , N/A,25,stable,-1.7,-14.8,0.4
+"Northampton County, North Carolina(6)",37131,Rural,17.2,11.1,26.4,N/A , N/A , N/A,6,stable,-3.3,-8.1,0.8
+"Sequatchie County, Tennessee(6)",47153,Urban,17.2,10,27.9,N/A , N/A , N/A,4,*,*,*,*
+"Robertson County, Texas(7)",48395,Urban,17.2,10.7,26.7,N/A , N/A , N/A,4,stable,-1,-4.5,2.4
+"San Luis Obispo County, California(7)",06079,Urban,17.2,15.3,19.2,N/A , N/A , N/A,69,stable,-0.4,-2,1.3
+"Macon County, North Carolina(6)",37113,Rural,17.2,12.9,22.8,N/A , N/A , N/A,13,stable,-1.1,-4.1,2.3
+"Boone County, West Virginia(6)",54005,Urban,17.2,10.8,26.2,N/A , N/A , N/A,5,stable,0.4,-3.4,4.6
+"Dickson County, Tennessee(6)",47043,Urban,17.2,12.8,22.6,N/A , N/A , N/A,11,stable,-0.8,-4.3,3.1
+"Monroe County, Tennessee(6)",47123,Rural,17.2,12.7,22.9,N/A , N/A , N/A,11,stable,-1.5,-4.9,2
+"Chowan County, North Carolina(6)",37041,Rural,17.2,10.4,27.9,N/A , N/A , N/A,4,rising,4.6,0.6,10.1
+"Washington County, Vermont(6)",50023,Rural,17.1,13.2,22,N/A , N/A , N/A,14,stable,-0.2,-2.5,2.2
+"Butler County, Ohio(6)",39017,Urban,17.1,15.4,19,N/A , N/A , N/A,76,falling,-1.4,-2.4,-0.5
+"Coos County, Oregon(6)",41011,Rural,17.1,13.3,21.9,N/A , N/A , N/A,17,stable,1.5,-13.9,18.7
+"Wayne County, Pennsylvania(6)",42127,Rural,17.1,13.3,21.9,N/A , N/A , N/A,15,stable,-0.9,-3.2,1.5
+"Buffalo County, Nebraska(6)",31019,Rural,17.1,12.4,23,N/A , N/A , N/A,9,stable,-1.9,-4.9,1.1
+"Lewis and Clark County, Montana(6)",30049,Urban,17.1,13.3,21.7,N/A , N/A , N/A,15,falling,-2.3,-4.1,-0.4
+"Muskogee County, Oklahoma(6)",40101,Rural,17.1,13.3,21.7,N/A , N/A , N/A,14,stable,-1,-3.6,1.5
+"Chenango County, New York(7)",36017,Rural,17.1,12.8,22.6,N/A , N/A , N/A,12,stable,-1.4,-3.9,1.1
+"Rowan County, North Carolina(6)",37159,Urban,17.1,14.5,20.1,N/A , N/A , N/A,32,stable,-0.5,-2.2,1.3
+"Ouachita Parish, Louisiana(7)",22073,Urban,17.1,14.4,20.1,N/A , N/A , N/A,30,stable,-0.8,-2.6,0.9
+"Franklin County, North Carolina(6)",37069,Urban,17.1,13.2,21.7,N/A , N/A , N/A,15,stable,-0.7,-2.9,1.7
+"Monroe County, Georgia(7)",13207,Urban,17.1,11.3,25,N/A , N/A , N/A,6,stable,-1.3,-5.1,3
+"Jackson County, Mississippi(6)",28059,Urban,17.1,14.3,20.2,N/A , N/A , N/A,29,stable,-0.7,-2.7,1.4
+"Harris County, Texas(7)",48201,Urban,17.1,16.5,17.6,N/A , N/A , N/A,725,falling,-1.6,-3.9,-1
+"Grant County, Arkansas(6)",05053,Urban,17.1,10.3,26.9,N/A , N/A , N/A,4,stable,-0.2,-4.5,4.4
+"Lynchburg City, Virginia(6)",51680,Urban,17.1,13.1,21.8,N/A , N/A , N/A,14,stable,1.5,-1.4,4.8
+"Charleston County, South Carolina(6)",45019,Urban,17.1,15.4,18.8,N/A , N/A , N/A,83,falling,-1.5,-2.4,-0.5
+"Crawford County, Iowa(7)",19047,Rural,17,10.1,27.4,N/A , N/A , N/A,4,*,*,*,*
+"Richmond County, North Carolina(6)",37153,Rural,17,12.5,22.9,N/A , N/A , N/A,10,stable,-1.7,-4.7,1.1
+"Cumberland County, North Carolina(6)",37051,Urban,17,15,19.2,N/A , N/A , N/A,55,stable,-0.9,-2.2,0.3
+"Logan County, Ohio(6)",39091,Rural,17,12.6,22.6,N/A , N/A , N/A,11,stable,0,-4.1,4.1
+"Wayne County, North Carolina(6)",37191,Urban,17,14,20.5,N/A , N/A , N/A,24,stable,0.8,-1.8,3.6
+"Gilmer County, Georgia(7)",13123,Rural,17,11.8,24,N/A , N/A , N/A,8,falling,-42.9,-54.9,-29.4
+"Union County, South Carolina(6)",45087,Urban,17,11.3,24.8,N/A , N/A , N/A,6,stable,2.1,-2.4,7.1
+"Panola County, Texas(7)",48365,Rural,17,10.8,25.8,N/A , N/A , N/A,5,stable,-0.1,-3.4,3.4
+"Randall County, Texas(7)",48381,Urban,17,14.2,20.3,N/A , N/A , N/A,27,falling,-1.5,-2.7,-0.3
+"Harlan County, Kentucky(7)",21095,Rural,17,11.5,24.5,N/A , N/A , N/A,7,stable,1,-2.6,4.8
+"Guadalupe County, Texas(7)",48187,Urban,17,14.4,19.9,N/A , N/A , N/A,32,stable,-0.5,-1.9,1.1
+"Washington County, Utah(7)",49053,Urban,17,14.7,19.6,N/A , N/A , N/A,43,stable,-1,-1.9,0.2
+"Stephens County, Georgia(7)",13257,Rural,17,11.4,24.6,N/A , N/A , N/A,6,stable,0.2,-3.8,4.4
+"Pitkin County, Colorado(6)",08097,Rural,17,10.2,27.3,N/A , N/A , N/A,4,stable,-1.3,-6,4.3
+"Simpson County, Kentucky(7)",21213,Rural,17,10.3,26.6,N/A , N/A , N/A,4,*,*,*,*
+"Macon County, Tennessee(6)",47111,Urban,17,11,25.2,N/A , N/A , N/A,5,*,*,*,*
+"Delaware County, Oklahoma(6)",40041,Rural,17,12.4,23,N/A , N/A , N/A,11,stable,-1.6,-5.2,2
+"Lonoke County, Arkansas(6)",05085,Urban,16.9,13.1,21.6,N/A , N/A , N/A,13,stable,-1,-3.8,2.1
+"Platte County, Missouri(6)",29165,Urban,16.9,13.8,20.6,N/A , N/A , N/A,21,stable,0.5,-1.7,3
+"Texas County, Missouri(6)",29215,Rural,16.9,11.2,24.9,N/A , N/A , N/A,6,stable,-1.5,-4.7,1.6
+"Pickens County, South Carolina(6)",45077,Urban,16.9,14.1,20.2,N/A , N/A , N/A,27,stable,-0.7,-2.8,1.7
+"Champaign County, Illinois(7)",17019,Urban,16.9,14.4,19.7,N/A , N/A , N/A,34,stable,-0.8,-2.7,1.1
+"Creek County, Oklahoma(6)",40037,Urban,16.9,13.2,21.3,N/A , N/A , N/A,16,stable,-1.1,-4.1,2
+"York County, South Carolina(6)",45091,Urban,16.9,14.8,19.2,N/A , N/A , N/A,51,stable,-0.2,-1.5,1.1
+"Jefferson County, West Virginia(6)",54037,Urban,16.9,12.8,21.9,N/A , N/A , N/A,12,stable,-1.5,-4.2,1.4
+"Coweta County, Georgia(7)",13077,Urban,16.9,14.1,20.1,N/A , N/A , N/A,27,stable,-3.9,-18.8,0.1
+"Sunflower County, Mississippi(6)",28133,Rural,16.9,10.7,25.4,N/A , N/A , N/A,5,rising,4.1,1.3,7.5
+"Forrest County, Mississippi(6)",28035,Urban,16.9,13,21.6,N/A , N/A , N/A,13,stable,6,-6.3,21.5
+"Coles County, Illinois(7)",17029,Rural,16.9,12.5,22.5,N/A , N/A , N/A,10,stable,-1.2,-2.9,0.5
+"Smith County, Mississippi(6)",28129,Rural,16.9,9.2,28.6,N/A , N/A , N/A,3,*,*,*,*
+"Jo Daviess County, Illinois(7)",17085,Rural,16.9,10.6,25.9,N/A , N/A , N/A,6,stable,-1.3,-5.2,2.3
+"Natrona County, Wyoming(6)",56025,Urban,16.9,13.3,21.2,N/A , N/A , N/A,16,stable,-0.7,-3.7,2.6
+"Cayuga County, New York(7)",36011,Rural,16.9,13.6,20.8,N/A , N/A , N/A,19,stable,-1.2,-2.9,0.3
+"Gloucester County, Virginia(6)",51073,Urban,16.9,12.3,22.8,N/A , N/A , N/A,10,stable,0.8,-3.2,5.7
+"Douglas County, Oregon(6)",41019,Rural,16.9,14.1,20.1,N/A , N/A , N/A,31,stable,-1,-3,1.1
+"Beaufort County, South Carolina(6)",45013,Urban,16.9,14.6,19.4,N/A , N/A , N/A,52,stable,-0.9,-2.6,0.9
+"Monroe County, Mississippi(6)",28095,Rural,16.9,12,23.2,N/A , N/A , N/A,8,stable,0.9,-2,4.1
+"Jackson County, Georgia(7)",13157,Rural,16.8,13.1,21.4,N/A , N/A , N/A,14,stable,0.2,-3,4.4
+"Taylor County, Texas(7)",48441,Urban,16.8,13.9,20.1,N/A , N/A , N/A,25,stable,-0.6,-1.9,0.6
+"Allen County, Ohio(6)",39003,Urban,16.8,13.7,20.5,N/A , N/A , N/A,21,stable,0.3,-2.5,3.1
+"Champaign County, Ohio(6)",39021,Rural,16.8,12.2,22.9,N/A , N/A , N/A,9,stable,-4.6,-28.1,1.3
+"Greene County, Tennessee(6)",47059,Rural,16.8,13.4,21,N/A , N/A , N/A,18,stable,-0.8,-3.8,2.3
+"Denver County, Colorado(6)",08031,Urban,16.8,15.4,18.3,N/A , N/A , N/A,110,falling,-1.1,-2.2,-0.1
+"Napa County, California(7)",06055,Urban,16.8,14.3,19.8,N/A , N/A , N/A,32,stable,-1.2,-3.5,1.1
+"La Salle Parish, Louisiana(7)",22059,Rural,16.8,9.5,28,N/A , N/A , N/A,3,*,*,*,*
+"Bryan County, Oklahoma(6)",40013,Rural,16.8,12.4,22.4,N/A , N/A , N/A,10,stable,-1.3,-3.8,1.5
+"Arapahoe County, Colorado(6)",08005,Urban,16.8,15.4,18.3,N/A , N/A , N/A,114,falling,-1.5,-2.4,-0.4
+"Pike County, Georgia(7)",13231,Urban,16.8,10,26.7,N/A , N/A , N/A,4,*,*,*,*
+"Philadelphia County, Pennsylvania(6)",42101,Urban,16.8,15.9,17.7,N/A , N/A , N/A,283,falling,-9.8,-13.3,-6
+"Wayne County, Illinois(7)",17191,Rural,16.8,10.3,26.5,N/A , N/A , N/A,4,*,*,*,*
+"Lumpkin County, Georgia(7)",13187,Urban,16.8,11.5,23.8,N/A , N/A , N/A,7,falling,-15.9,-41.6,-1.5
+"Columbus County, North Carolina(6)",37047,Rural,16.8,12.7,21.8,N/A , N/A , N/A,12,stable,-0.8,-3.4,2
+"Nueces County, Texas(7)",48355,Urban,16.8,15,18.7,N/A , N/A , N/A,66,falling,-1.4,-2.6,-0.3
+"Brazos County, Texas(7)",48041,Urban,16.8,14,19.8,N/A , N/A , N/A,28,stable,-1,-2.9,1.2
+"Roane County, West Virginia(6)",54087,Rural,16.8,9.4,28.2,N/A , N/A , N/A,3,stable,0.5,-4,5.6
+"Suffolk County, Massachusetts(7)",25025,Urban,16.8,15.5,18.1,N/A , N/A , N/A,132,falling,-1.3,-2.2,-0.3
+"Conway County, Arkansas(6)",05029,Rural,16.8,10.8,25.3,N/A , N/A , N/A,5,stable,-2.4,-6.3,1.4
+"Virginia Beach City, Virginia(6)",51810,Urban,16.8,15.2,18.4,N/A , N/A , N/A,87,falling,-5.7,-12.6,-2
+"Branch County, Michigan(6)",26023,Rural,16.7,12.4,22.2,N/A , N/A , N/A,10,stable,-1,-3.5,1.5
+"Kent County, Maryland(6)",24029,Rural,16.7,10,26.7,N/A , N/A , N/A,5,*,*,*,*
+"Spalding County, Georgia(7)",13255,Urban,16.7,13,21.3,N/A , N/A , N/A,14,stable,-0.5,-3.8,2.9
+"Kingfisher County, Oklahoma(6)",40073,Rural,16.7,9.6,27.5,N/A , N/A , N/A,3,stable,-1.5,-6.5,3.8
+"Canadian County, Oklahoma(6)",40017,Urban,16.7,13.9,19.9,N/A , N/A , N/A,26,stable,-1.1,-3,1
+"Clark County, Washington(6)",53011,Urban,16.7,15.2,18.3,N/A , N/A , N/A,97,falling,-1.7,-3.1,-0.2
+"Merced County, California(7)",06047,Urban,16.7,14.5,19.1,N/A , N/A , N/A,43,stable,-0.6,-1.7,0.5
+"Le Flore County, Oklahoma(6)",40079,Rural,16.7,12.4,22.1,N/A , N/A , N/A,11,stable,-0.6,-3.1,1.8
+"Worcester County, Maryland(6)",24047,Rural,16.7,13,21.4,N/A , N/A , N/A,16,stable,-0.6,-2.9,1.7
+"Dixie County, Florida(6)",12029,Rural,16.7,10,26.8,N/A , N/A , N/A,4,falling,-45.4,-70.4,-4.3
+"Roanoke City, Virginia(6)",51770,Urban,16.7,13.5,20.4,N/A , N/A , N/A,21,stable,-0.2,-3.7,3.3
+"Jefferson Davis Parish, Louisiana(7)",22053,Urban,16.7,11.4,23.7,N/A , N/A , N/A,7,stable,-1.6,-5.8,2.6
+"Colonial Heights City, Virginia(6)",51570,Urban,16.7,10.3,26,N/A , N/A , N/A,4,stable,-2.5,-8.7,3.1
+"Lenawee County, Michigan(6)",26091,Rural,16.7,13.6,20.2,N/A , N/A , N/A,23,stable,-1.8,-4.1,0.6
+"Hamilton County, Ohio(6)",39061,Urban,16.7,15.5,17.9,N/A , N/A , N/A,160,falling,-3.6,-8.8,-0.6
+"Lincoln County, Montana(6)",30053,Rural,16.7,10.7,25.6,N/A , N/A , N/A,6,stable,-0.5,-4.1,3.4
+"Walker County, Georgia(7)",13295,Urban,16.7,13,21,N/A , N/A , N/A,15,stable,-2.2,-4.7,0.1
+"Livingston County, Illinois(7)",17105,Rural,16.6,11.8,23,N/A , N/A , N/A,8,stable,-2,-4.7,0.6
+"Morgan County, Colorado(6)",08087,Rural,16.6,10.9,24.5,N/A , N/A , N/A,6,stable,0.1,-3.4,4
+"Henry County, Kentucky(7)",21103,Urban,16.6,9.5,27.5,N/A , N/A , N/A,3,stable,-1.9,-5.7,2
+"Auglaize County, Ohio(6)",39011,Rural,16.6,12.3,22.2,N/A , N/A , N/A,10,stable,-2.8,-6.1,0.4
+"Ashland County, Wisconsin(6)",55003,Rural,16.6,9.6,27.2,N/A , N/A , N/A,4,stable,-0.7,-6,4.9
+"Imperial County, California(7)",06025,Urban,16.6,14,19.5,N/A , N/A , N/A,30,stable,0.1,-1.5,2
+"Titus County, Texas(7)",48449,Rural,16.6,11,24.1,N/A , N/A , N/A,6,stable,-0.6,-4,3.2
+"Pueblo County, Colorado(6)",08101,Urban,16.6,14.2,19.3,N/A , N/A , N/A,36,stable,-0.2,-2,1.6
+"Ottawa County, Michigan(6)",26139,Urban,16.6,14.7,18.8,N/A , N/A , N/A,54,stable,-1,-2.6,0.9
+"Wilkes County, North Carolina(6)",37193,Rural,16.6,12.9,21.1,N/A , N/A , N/A,15,stable,0.5,-1.7,2.9
+"Roane County, Tennessee(6)",47145,Urban,16.6,12.7,21.4,N/A , N/A , N/A,14,stable,-2.1,-4.7,0.4
+"Chatham County, Georgia(7)",13051,Urban,16.6,14.6,18.7,N/A , N/A , N/A,56,stable,-1.1,-10.1,0.8
+"Houston County, Georgia(7)",13153,Urban,16.6,13.9,19.6,N/A , N/A , N/A,29,stable,-0.2,-1.6,1.3
+"Westmoreland County, Pennsylvania(6)",42129,Urban,16.6,15,18.3,N/A , N/A , N/A,94,falling,-12,-23.6,-2.1
+"Limestone County, Alabama(6)",01083,Urban,16.6,13.4,20.3,N/A , N/A , N/A,20,stable,-1.2,-3.3,1.1
+"Washington County, Mississippi(6)",28151,Rural,16.6,11.9,22.6,N/A , N/A , N/A,9,stable,2.8,-3.4,10.2
+"Fleming County, Kentucky(7)",21069,Rural,16.6,9.3,27.7,N/A , N/A , N/A,3,*,*,*,*
+"Morton County, North Dakota(6)",38059,Urban,16.6,11.3,23.6,N/A , N/A , N/A,7,falling,-7.9,-15.8,-3.5
+"Malheur County, Oregon(6)",41045,Rural,16.6,11,24,N/A , N/A , N/A,6,stable,1.6,-2.5,6
+"Macon County, Alabama(6)",01087,Urban,16.6,9.6,26.9,N/A , N/A , N/A,4,stable,0,-6.6,7.4
+"Montgomery County, Illinois(7)",17135,Rural,16.6,11.4,23.6,N/A , N/A , N/A,7,stable,0.2,-2.8,3.3
+"Adams County, Nebraska(6)",31001,Rural,16.6,11.5,23.3,N/A , N/A , N/A,7,falling,-2.5,-4.8,-0.2
+"Okmulgee County, Oklahoma(6)",40111,Urban,16.5,11.6,23,N/A , N/A , N/A,8,stable,1,-3.6,5.7
+"Surry County, North Carolina(6)",37171,Rural,16.5,13.2,20.6,N/A , N/A , N/A,18,stable,-6.3,-25.1,0.7
+"Houston County, Alabama(6)",01069,Urban,16.5,13.5,20,N/A , N/A , N/A,22,stable,4,-7.6,16.7
+"Gregg County, Texas(7)",48183,Urban,16.5,13.7,19.9,N/A , N/A , N/A,24,falling,-1.9,-3.7,-0.2
+"Calloway County, Kentucky(7)",21035,Rural,16.5,11.6,23.1,N/A , N/A , N/A,8,stable,-2.3,-5.8,1.1
+"Montgomery County, Virginia(6)",51121,Urban,16.5,13,20.7,N/A , N/A , N/A,16,stable,-1.1,-3.8,1.7
+"Sebastian County, Arkansas(6)",05131,Urban,16.5,13.7,19.7,N/A , N/A , N/A,26,stable,-0.5,-1.6,0.7
+"Steuben County, New York(7)",36101,Rural,16.5,13.4,20.2,N/A , N/A , N/A,21,stable,-0.6,-2.4,1.3
+"Sacramento County, California(7)",06067,Urban,16.5,15.7,17.4,N/A , N/A , N/A,287,stable,-0.1,-0.7,0.5
+"Socorro County, New Mexico(7)",35053,Rural,16.5,9.3,27.4,N/A , N/A , N/A,3,*,*,*,*
+"Richland County, Wisconsin(6)",55103,Rural,16.5,10.4,25.7,N/A , N/A , N/A,5,*,*,*,*
+"Bertie County, North Carolina(6)",37015,Rural,16.5,10.3,25.7,N/A , N/A , N/A,5,rising,7.4,0.9,29.8
+"Riverside County, California(7)",06065,Urban,16.5,15.8,17.2,N/A , N/A , N/A,436,falling,-3.6,-5.6,-1.3
+"Wilson County, Tennessee(6)",47189,Urban,16.5,13.9,19.5,N/A , N/A , N/A,29,falling,-6,-26.6,-2.1
+"Clay County, North Carolina(6)",37043,Rural,16.5,9.9,28.2,N/A , N/A , N/A,4,stable,-0.4,-6.3,6.3
+"Ogemaw County, Michigan(6)",26129,Rural,16.5,10.5,25.3,N/A , N/A , N/A,6,stable,-1.2,-6,3.8
+"San Benito County, California(7)",06069,Urban,16.5,12.3,21.6,N/A , N/A , N/A,11,stable,-2.7,-5.5,0
+"Eaton County, Michigan(6)",26045,Urban,16.5,13.6,19.8,N/A , N/A , N/A,24,stable,-1.5,-4.2,1.2
+"Hudson County, New Jersey(7)",34017,Urban,16.5,15.1,17.9,N/A , N/A , N/A,117,stable,-0.4,-1.3,0.5
+"Los Angeles County, California(7)",06037,Urban,16.5,16.1,16.8,N/A , N/A , N/A,1796,falling,-2.2,-4.4,-1
+"Fort Bend County, Texas(7)",48157,Urban,16.5,15.1,17.9,N/A , N/A , N/A,126,falling,-1.5,-2.1,-0.8
+"Douglas County, Georgia(7)",13097,Urban,16.5,13.5,19.9,N/A , N/A , N/A,23,stable,-1.1,-2.9,0.8
+"Baldwin County, Alabama(6)",01003,Urban,16.4,14.4,18.7,N/A , N/A , N/A,52,stable,-0.3,-2.7,2.6
+"Logan County, Oklahoma(6)",40083,Urban,16.4,12,22.1,N/A , N/A , N/A,9,stable,-1.6,-7.2,4.6
+"Harrison County, Texas(7)",48203,Urban,16.4,12.7,20.9,N/A , N/A , N/A,14,stable,0.7,-1.5,3
+"Saunders County, Nebraska(6)",31155,Urban,16.4,10,25.6,N/A , N/A , N/A,4,stable,20.3,-2.1,37.6
+"Decatur County, Georgia(7)",13087,Rural,16.4,10.9,23.9,N/A , N/A , N/A,6,*,*,*,*
+"Burleson County, Texas(7)",48051,Urban,16.4,9.9,26.1,N/A , N/A , N/A,4,*,*,*,*
+"Navajo County, Arizona(6)",04017,Rural,16.4,13.4,19.9,N/A , N/A , N/A,23,stable,0.6,-1.7,3.4
+"Gibson County, Tennessee(6)",47053,Urban,16.4,12.1,21.9,N/A , N/A , N/A,10,stable,0.2,-2.4,2.8
+"Hunt County, Texas(7)",48231,Urban,16.4,13.2,20.2,N/A , N/A , N/A,19,stable,-1.3,-3.2,0.6
+"Bureau County, Illinois(7)",17011,Rural,16.4,11.9,22.5,N/A , N/A , N/A,9,stable,-0.2,-2.2,2
+"Natchitoches Parish, Louisiana(7)",22069,Rural,16.4,11.4,23,N/A , N/A , N/A,7,*,*,*,*
+"Wichita County, Texas(7)",48485,Urban,16.4,13.5,19.8,N/A , N/A , N/A,24,stable,-1.1,-2.7,0.4
+"Sampson County, North Carolina(6)",37163,Rural,16.4,12.5,21.3,N/A , N/A , N/A,12,stable,-0.5,-2.9,2
+"Kern County, California(7)",06029,Urban,16.4,15.2,17.7,N/A , N/A , N/A,134,stable,-0.3,-1,0.4
+"Marion County, South Carolina(6)",45067,Rural,16.4,11.1,23.6,N/A , N/A , N/A,7,stable,3,-0.9,7.9
+"Caldwell County, Texas(7)",48055,Urban,16.4,11.8,22.3,N/A , N/A , N/A,9,stable,-1.9,-5.4,2
+"Lancaster County, South Carolina(6)",45057,Urban,16.4,13.4,20,N/A , N/A , N/A,22,stable,-0.8,-2.7,1.4
+"Jefferson County, Colorado(6)",08059,Urban,16.4,15.1,17.8,N/A , N/A , N/A,117,falling,-3.9,-7.7,-2
+"Anderson County, Texas(7)",48001,Rural,16.4,12.3,21.5,N/A , N/A , N/A,11,stable,-1,-3.2,1.3
+"West Baton Rouge Parish, Louisiana(7)",22121,Urban,16.4,10.3,24.8,N/A , N/A , N/A,5,stable,-1.4,-5.1,2.4
+"Lewis County, Washington(6)",53041,Rural,16.4,13.2,20.2,N/A , N/A , N/A,19,stable,-2,-4.4,0.4
+"Teller County, Colorado(6)",08119,Urban,16.4,10.3,25.1,N/A , N/A , N/A,6,stable,-4.4,-28.6,2.8
+"Crisp County, Georgia(7)",13081,Rural,16.4,10.1,25.4,N/A , N/A , N/A,5,stable,1,-3.5,6
+"Cleburne County, Alabama(6)",01029,Rural,16.4,9.1,27.5,N/A , N/A , N/A,3,stable,1.3,-4,7.5
+"McDowell County, North Carolina(6)",37111,Rural,16.4,12.3,21.6,N/A , N/A , N/A,11,stable,-0.8,-4.3,2.8
+"Leake County, Mississippi(6)",28079,Rural,16.4,9.9,25.6,N/A , N/A , N/A,4,*,*,*,*
+"Clinton County, Illinois(7)",17027,Urban,16.3,11.5,22.6,N/A , N/A , N/A,8,stable,-1.2,-3.9,1.6
+"Iowa County, Wisconsin(6)",55049,Urban,16.3,10.7,24.2,N/A , N/A , N/A,6,stable,2.1,-2.9,8.4
+"Gallia County, Ohio(6)",39053,Rural,16.3,11,23.5,N/A , N/A , N/A,6,stable,0.1,-3.1,3.6
+"Kings County, California(7)",06031,Urban,16.3,13.3,19.8,N/A , N/A , N/A,22,stable,-0.4,-2.2,1.5
+"Letcher County, Kentucky(7)",21133,Rural,16.3,10.4,24.7,N/A , N/A , N/A,5,stable,-0.5,-3.3,2.3
+"Hawaii County, Hawaii(7)",15001,Rural,16.3,14.2,18.7,N/A , N/A , N/A,48,stable,-0.6,-2,0.8
+"Saline County, Illinois(7)",17165,Rural,16.3,10.2,24.9,N/A , N/A , N/A,5,falling,-3.2,-6.1,-0.9
+"Northampton County, Virginia(6)",51131,Rural,16.3,10,26.9,N/A , N/A , N/A,4,stable,-0.4,-4.4,3.8
+"Yuba County, California(7)",06115,Urban,16.3,12.4,21,N/A , N/A , N/A,13,stable,-0.9,-3,1.4
+"Uintah County, Utah(7)",49047,Rural,16.3,10.5,24.1,N/A , N/A , N/A,5,*,*,*,*
+"Fairbanks North Star, Alaska(6)",02090,Urban,16.3,12.5,20.8,N/A , N/A , N/A,14,stable,-0.5,-8.3,8.5
+"James City County, Virginia(6)",51095,Urban,16.3,13.1,20.1,N/A , N/A , N/A,21,stable,0.5,-2.8,4.3
+"Davidson County, Tennessee(6)",47037,Urban,16.3,15,17.7,N/A , N/A , N/A,116,stable,-0.8,-1.8,0.2
+"Harnett County, North Carolina(6)",37085,Rural,16.3,13.3,19.7,N/A , N/A , N/A,22,falling,-10.4,-19.4,-2.7
+"Benton County, Washington(6)",53005,Urban,16.3,13.9,18.9,N/A , N/A , N/A,37,falling,-1.3,-2.5,-0.1
+"Lamar County, Texas(7)",48277,Rural,16.3,12.1,21.4,N/A , N/A , N/A,11,stable,-1.8,-4.9,1.1
+"Caledonia County, Vermont(6)",50005,Rural,16.3,11.3,23,N/A , N/A , N/A,8,stable,2,-3.3,8.4
+"Burnet County, Texas(7)",48053,Rural,16.3,12,21.7,N/A , N/A , N/A,11,stable,-1.5,-3.9,1
+"Salem County, New Jersey(7)",34033,Urban,16.2,12.6,20.7,N/A , N/A , N/A,15,stable,-1.2,-3.8,1.4
+"Baltimore City, Maryland(6)",24510,Urban,16.2,14.8,17.7,N/A , N/A , N/A,106,stable,-0.1,-0.9,0.7
+"Catoosa County, Georgia(7)",13047,Urban,16.2,12.6,20.6,N/A , N/A , N/A,14,stable,-1.6,-4,0.9
+"Yuma County, Arizona(6)",04027,Urban,16.2,14,18.7,N/A , N/A , N/A,41,stable,1.1,-1.2,3.6
+"Rutland County, Vermont(6)",50021,Rural,16.2,12.6,20.7,N/A , N/A , N/A,16,stable,-1.3,-3.4,0.8
+"Calhoun County, Alabama(6)",01015,Urban,16.2,13.4,19.5,N/A , N/A , N/A,24,stable,-0.8,-3.2,1.6
+"Dunn County, Wisconsin(6)",55033,Rural,16.2,11.6,22.1,N/A , N/A , N/A,9,stable,-0.2,-3.2,3.2
+"Jasper County, South Carolina(6)",45053,Urban,16.2,10.5,24,N/A , N/A , N/A,6,stable,-0.8,-6.4,5.9
+"Tipton County, Tennessee(6)",47167,Urban,16.2,12.1,21.3,N/A , N/A , N/A,11,stable,-1,-4.2,2.5
+"Benton County, Missouri(6)",29015,Rural,16.2,10.2,25.3,N/A , N/A , N/A,6,stable,-2.5,-8.7,3.5
+"Dodge County, Nebraska(6)",31053,Rural,16.2,11.4,22.4,N/A , N/A , N/A,8,stable,-3,-6.6,0.3
+"Taylor County, Florida(6)",12123,Rural,16.2,10.3,24.6,N/A , N/A , N/A,5,stable,-0.8,-6.5,5.5
+"Mesa County, Colorado(6)",08077,Urban,16.2,13.8,18.9,N/A , N/A , N/A,35,falling,-2.5,-4,-1
+"Cibola County, New Mexico(7)",35006,Rural,16.2,10.4,24.1,N/A , N/A , N/A,5,stable,-0.5,-2.8,2.2
+"Lubbock County, Texas(7)",48303,Urban,16.2,14.2,18.4,N/A , N/A , N/A,48,stable,-1.2,-2.6,0.3
+"Potter County, Texas(7)",48375,Urban,16.2,13.1,19.7,N/A , N/A , N/A,20,stable,-0.8,-2.4,0.8
+"Tallapoosa County, Alabama(6)",01123,Rural,16.2,11.7,21.9,N/A , N/A , N/A,10,stable,0.9,-3.8,6
+"Fayette County, Texas(7)",48149,Rural,16.1,11.4,22.8,N/A , N/A , N/A,8,stable,-13.9,-33.7,0.2
+"Randolph County, North Carolina(6)",37151,Urban,16.1,13.6,19,N/A , N/A , N/A,31,stable,-1.6,-3.1,0
+"Chambers County, Alabama(6)",01017,Rural,16.1,11.3,22.5,N/A , N/A , N/A,8,stable,0.7,-3,4.8
+"Santa Cruz County, Arizona(6)",04023,Rural,16.1,11.6,21.9,N/A , N/A , N/A,9,stable,0.4,-3.4,4.8
+"Wakulla County, Florida(6)",12129,Urban,16.1,10.9,23.1,N/A , N/A , N/A,7,stable,0.3,-2.9,3.9
+"Alcorn County, Mississippi(6)",28003,Rural,16.1,11.3,22.5,N/A , N/A , N/A,8,stable,-3,-25.2,4.9
+"Wayne County, Mississippi(6)",28153,Rural,16.1,9.6,25.7,N/A , N/A , N/A,4,*,*,*,*
+"Jackson County, West Virginia(6)",54035,Rural,16.1,10.9,23.3,N/A , N/A , N/A,6,stable,-2.3,-6.1,1.1
+"Polk County, Georgia(7)",13233,Rural,16.1,11.4,22.2,N/A , N/A , N/A,8,stable,-0.9,-3.1,1.5
+"El Dorado County, California(7)",06017,Urban,16.1,14,18.5,N/A , N/A , N/A,47,stable,-0.6,-2.6,1.7
+"Orleans Parish, Louisiana(7)",22071,Urban,16.1,14.4,18,N/A , N/A , N/A,70,stable,-0.1,-1.4,1.1
+"Ashe County, North Carolina(6)",37009,Rural,16.1,11,23.2,N/A , N/A , N/A,8,stable,-2,-7.9,3.6
+"Westmoreland County, Virginia(6)",51193,Rural,16.1,9.9,25.4,N/A , N/A , N/A,5,*,*,*,*
+"Bonner County, Idaho(7)",16017,Rural,16.1,11.8,21.6,N/A , N/A , N/A,11,stable,-2,-5.2,1.3
+"Columbia County, Wisconsin(6)",55021,Urban,16.1,12.3,20.8,N/A , N/A , N/A,13,stable,-14.9,-36.4,0.8
+"McDonald County, Missouri(6)",29119,Rural,16.1,9.7,25.1,N/A , N/A , N/A,4,stable,3.6,-1.9,11.1
+"Adams County, Pennsylvania(6)",42001,Urban,16.1,13.3,19.4,N/A , N/A , N/A,24,stable,-2,-4.7,0.7
+"Montgomery County, Tennessee(6)",47125,Urban,16.1,13.4,19.1,N/A , N/A , N/A,27,stable,-1.1,-3.5,1.4
+"Washoe County, Nevada(6)",32031,Urban,16.1,14.6,17.7,N/A , N/A , N/A,93,stable,-0.5,-1.3,0.4
+"Oktibbeha County, Mississippi(6)",28105,Rural,16.1,10.9,22.7,N/A , N/A , N/A,7,stable,-2.2,-8.2,4.1
+"Lowndes County, Mississippi(6)",28087,Rural,16.1,12,21.1,N/A , N/A , N/A,11,stable,-1.7,-6.1,2.8
+"St. Lawrence County, New York(7)",36089,Rural,16,13.1,19.4,N/A , N/A , N/A,23,stable,-1.2,-3.3,0.9
+"Florence County, South Carolina(6)",45041,Urban,16,13.4,19.1,N/A , N/A , N/A,28,stable,-0.8,-2.9,1.4
+"Galveston County, Texas(7)",48167,Urban,16,14.2,18,N/A , N/A , N/A,62,stable,-1.2,-3.2,0.8
+"Rockingham County, North Carolina(6)",37157,Urban,16,12.9,19.6,N/A , N/A , N/A,21,stable,-0.5,-2.5,1.6
+"Coffee County, Georgia(7)",13069,Rural,16,11.3,22,N/A , N/A , N/A,8,stable,1.3,-1,4.1
+"Iberville Parish, Louisiana(7)",22047,Urban,16,10.6,23.3,N/A , N/A , N/A,6,stable,0.4,-2.5,3.7
+"Ashley County, Arkansas(6)",05003,Rural,16,9.9,25,N/A , N/A , N/A,4,stable,-0.3,-3.5,3
+"Williams County, Ohio(6)",39171,Rural,16,11.3,22.2,N/A , N/A , N/A,8,stable,-1.7,-5.4,2.1
+"Berrien County, Georgia(7)",13019,Rural,16,9.3,25.8,N/A , N/A , N/A,4,*,*,*,*
+"Greenwood County, South Carolina(6)",45047,Rural,16,12.4,20.3,N/A , N/A , N/A,14,stable,-0.7,-3.5,2.3
+"Loudoun County, Virginia(6)",51107,Urban,16,14.1,18,N/A , N/A , N/A,59,stable,-0.4,-2,1.7
+"Jackson County, North Carolina(6)",37099,Rural,16,11.3,22.1,N/A , N/A , N/A,9,stable,-1.7,-5.5,2
+"Columbia County, Arkansas(6)",05027,Rural,16,10,24.4,N/A , N/A , N/A,5,*,*,*,*
+"Cherokee County, North Carolina(6)",37039,Rural,16,11.2,22.6,N/A , N/A , N/A,9,stable,-1.1,-5,3.2
+"Washington County, Missouri(6)",29221,Rural,15.9,9.9,24.5,N/A , N/A , N/A,5,stable,2.1,-1.4,6.2
+"Clay County, Kentucky(7)",21051,Rural,15.9,9.3,25.7,N/A , N/A , N/A,4,stable,-2.3,-6.1,1.2
+"Jackson Parish, Louisiana(7)",22049,Rural,15.9,9.4,26.1,N/A , N/A , N/A,4,*,*,*,*
+"York County, Nebraska(6)",31185,Rural,15.9,8.7,27.2,N/A , N/A , N/A,3,*,*,*,*
+"Cassia County, Idaho(7)",16031,Rural,15.9,9.6,24.8,N/A , N/A , N/A,4,stable,0.4,-3.4,4.6
+"Tuscaloosa County, Alabama(6)",01125,Urban,15.9,13.6,18.5,N/A , N/A , N/A,36,stable,-1.6,-4.1,0.9
+"Barnwell County, South Carolina(6)",45011,Rural,15.9,9.8,24.6,N/A , N/A , N/A,5,stable,1.2,-2.1,4.9
+"Nacogdoches County, Texas(7)",48347,Rural,15.9,11.9,20.8,N/A , N/A , N/A,11,stable,-2.7,-5.8,0.1
+"Aiken County, South Carolina(6)",45003,Urban,15.9,13.5,18.6,N/A , N/A , N/A,35,falling,-11.5,-24.1,-0.2
+"Jefferson County, Washington(7)",53031,Rural,15.9,11.2,22.6,N/A , N/A , N/A,12,stable,-0.5,-2.3,1.5
+"Montgomery County, Alabama(6)",01101,Urban,15.9,13.7,18.3,N/A , N/A , N/A,41,stable,1.3,-0.7,3.6
+"Lexington County, South Carolina(6)",45063,Urban,15.9,14,17.9,N/A , N/A , N/A,56,stable,-1.1,-2.5,0.4
+"St. Clair County, Illinois(7)",17163,Urban,15.9,13.9,18.1,N/A , N/A , N/A,49,stable,-1,-2.6,0.5
+"Lincoln Parish, Louisiana(7)",22061,Rural,15.9,11.2,21.9,N/A , N/A , N/A,8,stable,7.5,-1.7,28.2
+"Cheboygan County, Michigan(6)",26031,Rural,15.9,10.7,23.3,N/A , N/A , N/A,7,stable,-1.4,-5.3,2.6
+"Cascade County, Montana(6)",30013,Urban,15.9,12.6,19.8,N/A , N/A , N/A,17,stable,-1.6,-4.8,1.4
+"Maricopa County, Arizona(6)",04013,Urban,15.9,15.4,16.4,N/A , N/A , N/A,788,falling,-0.7,-1.3,-0.2
+"Gray County, Texas(7)",48179,Rural,15.9,9.8,24.6,N/A , N/A , N/A,4,stable,-1.8,-5.9,1.8
+"Grundy County, Tennessee(6)",47061,Rural,15.9,9.1,26.6,N/A , N/A , N/A,3,*,*,*,*
+"Barrow County, Georgia(7)",13013,Urban,15.8,12.2,20.3,N/A , N/A , N/A,13,stable,-2.6,-5,0.1
+"Brantley County, Georgia(7)",13025,Urban,15.8,9.6,25.2,N/A , N/A , N/A,4,*,*,*,*
+"Robeson County, North Carolina(6)",37155,Rural,15.8,12.9,19.3,N/A , N/A , N/A,21,falling,-21.2,-34,-12.1
+"San Bernardino County, California(7)",06071,Urban,15.8,15.1,16.6,N/A , N/A , N/A,333,falling,-0.6,-1,-0.1
+"Hopkins County, Texas(7)",48223,Rural,15.8,11,22.1,N/A , N/A , N/A,8,falling,-3.5,-7.4,-0.1
+"Charles County, Maryland(6)",24017,Urban,15.8,13.3,18.7,N/A , N/A , N/A,29,stable,-1.2,-3.6,1.4
+"Overton County, Tennessee(6)",47133,Rural,15.8,9.6,24.7,N/A , N/A , N/A,4,*,*,*,*
+"Richmond City, Virginia(6)",51760,Urban,15.8,13.5,18.4,N/A , N/A , N/A,36,falling,-3,-7.4,-1
+"Tishomingo County, Mississippi(6)",28141,Rural,15.8,9.5,25.2,N/A , N/A , N/A,4,*,*,*,*
+"Marshall County, Alabama(6)",01095,Rural,15.8,12.7,19.4,N/A , N/A , N/A,19,stable,-1.1,-3.3,1
+"Monroe County, Michigan(6)",26115,Urban,15.8,13.3,18.6,N/A , N/A , N/A,31,stable,-2.3,-4.8,0.3
+"Newaygo County, Michigan(6)",26123,Rural,15.8,11.6,21.1,N/A , N/A , N/A,11,stable,-1.8,-4.6,1.1
+"Clarke County, Virginia(6)",51043,Urban,15.8,9.2,26.3,N/A , N/A , N/A,4,stable,1.5,-1.8,5.6
+"Llano County, Texas(7)",48299,Rural,15.8,10,24.6,N/A , N/A , N/A,7,stable,-2,-5.4,1.2
+"Sweetwater County, Wyoming(6)",56037,Rural,15.8,10.8,22.2,N/A , N/A , N/A,7,stable,2.6,-1.5,7.9
+"Patrick County, Virginia(6)",51141,Rural,15.8,10.5,24.1,N/A , N/A , N/A,6,stable,-0.7,-6.3,5.5
+"Scott County, Missouri(6)",29201,Rural,15.8,11.1,21.8,N/A , N/A , N/A,8,stable,-0.8,-5.7,4.3
+"Stewart County, Tennessee(6)",47161,Urban,15.8,8.9,26.7,N/A , N/A , N/A,3,*,*,*,*
+"Elk County, Pennsylvania(6)",42047,Rural,15.8,10.7,22.6,N/A , N/A , N/A,7,stable,-0.6,-4.2,3
+"Petersburg City, Virginia(6)",51730,Urban,15.8,10.3,23.1,N/A , N/A , N/A,6,stable,-0.3,-5.2,4.4
+District of Columbia(6),11001,Urban,15.8,14.4,17.2,N/A , N/A , N/A,106,falling,-1.1,-2.1,-0.2
+"Erath County, Texas(7)",48143,Rural,15.7,10.9,22.1,N/A , N/A , N/A,7,stable,-2.4,-5.7,0.7
+"Park County, Wyoming(6)",56029,Rural,15.7,10.6,22.8,N/A , N/A , N/A,7,stable,-1.9,-5.1,1.3
+"Adams County, Colorado(6)",08001,Urban,15.7,14.1,17.5,N/A , N/A , N/A,71,stable,-1.1,-2.3,0.2
+"Genesee County, Michigan(6)",26049,Urban,15.7,14.2,17.4,N/A , N/A , N/A,81,falling,-10.2,-16.3,-2.6
+"Caswell County, North Carolina(6)",37033,Rural,15.7,10,24,N/A , N/A , N/A,5,stable,-0.8,-6.1,4.5
+"DeKalb County, Georgia(7)",13089,Urban,15.7,14.5,17,N/A , N/A , N/A,122,falling,-4.3,-8.2,-2.2
+"Marion County, Alabama(6)",01093,Rural,15.7,11,22.2,N/A , N/A , N/A,7,stable,0,-3.7,4.1
+"Dyer County, Tennessee(6)",47045,Rural,15.7,10.9,22.1,N/A , N/A , N/A,7,stable,2.8,-1.1,7.4
+"Valley County, Idaho(7)",16085,Rural,15.7,8,28.9,N/A , N/A , N/A,3,*,*,*,*
+"Tuolumne County, California(7)",06109,Rural,15.7,12.1,20.3,N/A , N/A , N/A,15,stable,-1.9,-5.1,1.2
+"Morgan County, Alabama(6)",01103,Urban,15.7,13,18.9,N/A , N/A , N/A,24,falling,-18.4,-35.1,-0.8
+"Brookings County, South Dakota(6)",46011,Rural,15.7,10.1,23.3,N/A , N/A , N/A,5,stable,-0.7,-4.6,3.7
+"Fulton County, Pennsylvania(6)",42057,Rural,15.7,8.7,26.6,N/A , N/A , N/A,3,falling,-23.7,-51.1,-5.9
+"Midland County, Texas(7)",48329,Urban,15.7,12.9,18.9,N/A , N/A , N/A,24,stable,-1.5,-4.6,1.6
+"Stafford County, Virginia(6)",51179,Urban,15.7,12.8,19,N/A , N/A , N/A,22,stable,-0.5,-2.2,1.4
+"Meade County, South Dakota(6)",46093,Urban,15.7,10.4,22.9,N/A , N/A , N/A,6,*,*,*,*
+"Jefferson County, Illinois(7)",17081,Rural,15.7,11.1,21.6,N/A , N/A , N/A,8,stable,-2.4,-5.2,0.1
+"Isle of Wight County, Virginia(6)",51093,Urban,15.7,11.1,21.7,N/A , N/A , N/A,8,stable,-0.2,-5.2,5.6
+"Dona Ana County, New Mexico(7)",35013,Urban,15.7,13.5,18.1,N/A , N/A , N/A,39,stable,0,-1.1,1.3
+"Hardin County, Ohio(6)",39065,Rural,15.7,10.5,22.7,N/A , N/A , N/A,6,stable,-1.5,-4.2,1
+"Edgecombe County, North Carolina(6)",37065,Urban,15.7,11.4,21,N/A , N/A , N/A,10,stable,0,-3,3
+"Toombs County, Georgia(7)",13279,Rural,15.7,10,23.4,N/A , N/A , N/A,5,stable,-1.5,-5.1,2.1
+"Susquehanna County, Pennsylvania(6)",42115,Rural,15.7,11,21.8,N/A , N/A , N/A,9,stable,-0.5,-5.4,4.5
+"Fairfax County, Virginia(6)",51059,Urban,15.7,14.7,16.7,N/A , N/A , N/A,196,falling,-0.9,-1.6,-0.2
+"Jefferson County, Texas(7)",48245,Urban,15.6,13.6,17.9,N/A , N/A , N/A,45,stable,-0.9,-2.3,0.4
+"Kent County, Michigan(6)",26081,Urban,15.6,14.3,17,N/A , N/A , N/A,110,falling,-1.3,-2.3,-0.1
+"Norfolk City, Virginia(6)",51710,Urban,15.6,13.3,18.2,N/A , N/A , N/A,36,stable,-0.5,-2.4,1.3
+"Hubbard County, Minnesota(6)",27057,Rural,15.6,10.1,23.7,N/A , N/A , N/A,6,stable,-2.4,-5.4,0.5
+"Tulare County, California(7)",06107,Urban,15.6,14,17.4,N/A , N/A , N/A,67,falling,-0.9,-1.8,-0.1
+"Waller County, Texas(7)",48473,Urban,15.6,10.9,21.6,N/A , N/A , N/A,8,stable,0.5,-2.8,4.7
+"Warren County, Missouri(6)",29219,Urban,15.6,10.7,22.1,N/A , N/A , N/A,7,stable,1.3,-3.2,6.5
+"El Paso County, Texas(7)",48141,Urban,15.6,14.4,16.8,N/A , N/A , N/A,131,stable,-0.4,-1,0.3
+"Mason County, Kentucky(7)",21161,Rural,15.6,9,25.4,N/A , N/A , N/A,4,*,*,*,*
+"Polk County, Arkansas(6)",05113,Rural,15.6,9.8,24.1,N/A , N/A , N/A,5,falling,-15.7,-38.4,-3.5
+"McLean County, Illinois(7)",17113,Urban,15.5,13,18.4,N/A , N/A , N/A,28,falling,-2.1,-3.4,-0.9
+"El Paso County, Colorado(6)",08041,Urban,15.5,14.3,16.9,N/A , N/A , N/A,116,stable,-1.5,-3.3,0.5
+"Salem City, Virginia(6)",51775,Urban,15.5,10.3,22.9,N/A , N/A , N/A,6,falling,-5.5,-16.1,-1.7
+"Jasper County, Mississippi(6)",28061,Rural,15.5,8.9,25.6,N/A , N/A , N/A,4,stable,8.1,-0.6,39.2
+"Honolulu County, Hawaii(7)",15003,Urban,15.5,14.5,16.5,N/A , N/A , N/A,201,stable,3.9,-1.2,8.2
+"Cowlitz County, Washington(6)",53015,Urban,15.5,12.7,18.8,N/A , N/A , N/A,23,stable,-0.9,-2.8,1
+"Knox County, Tennessee(6)",47093,Urban,15.5,14.1,17.1,N/A , N/A , N/A,86,falling,-2.4,-7.3,-1.1
+"Howell County, Missouri(6)",29091,Rural,15.5,10.9,21.4,N/A , N/A , N/A,8,stable,-1.3,-7.2,4.1
+"Pickens County, Alabama(6)",01107,Urban,15.5,9.3,24.6,N/A , N/A , N/A,4,*,*,*,*
+"Lowndes County, Georgia(7)",13185,Urban,15.5,12.3,19.1,N/A , N/A , N/A,18,stable,0.7,-1.8,3.6
+"Indiana County, Pennsylvania(6)",42063,Rural,15.5,12.2,19.4,N/A , N/A , N/A,17,stable,0,-2.2,2.1
+"Webster County, Iowa(7)",19187,Rural,15.5,10.7,21.7,N/A , N/A , N/A,8,stable,-0.6,-2.2,1
+"Scotland County, North Carolina(6)",37165,Rural,15.5,10.6,22,N/A , N/A , N/A,7,stable,0.3,-2.8,3.7
+"Lincoln County, Oregon(6)",41041,Rural,15.5,11.5,20.6,N/A , N/A , N/A,13,stable,-1.3,-3.5,0.9
+"Clayton County, Georgia(7)",13063,Urban,15.4,13.2,18,N/A , N/A , N/A,39,stable,0.6,-0.3,1.7
+"Wyoming County, West Virginia(6)",54109,Rural,15.4,9.6,23.9,N/A , N/A , N/A,5,stable,-2.2,-7.6,2.9
+"Yavapai County, Arizona(6)",04025,Urban,15.4,13.6,17.5,N/A , N/A , N/A,69,stable,0.5,-0.6,1.6
+"Halifax County, North Carolina(6)",37083,Rural,15.4,11.4,20.6,N/A , N/A , N/A,11,stable,0.8,-1.3,3
+"Barbour County, Alabama(6)",01005,Rural,15.4,10.2,22.7,N/A , N/A , N/A,6,stable,0.3,-4.8,6.2
+"Clarke County, Georgia(7)",13059,Urban,15.4,12.3,19.2,N/A , N/A , N/A,17,stable,-0.7,-2.7,1.5
+"Henry County, Georgia(7)",13151,Urban,15.4,13.2,18,N/A , N/A , N/A,36,stable,-1.3,-3,0.6
+"Hancock County, Mississippi(6)",28045,Urban,15.4,11.3,20.8,N/A , N/A , N/A,10,stable,-0.6,-3.9,2.9
+"Lincoln County, Oklahoma(6)",40081,Urban,15.4,10.9,21.5,N/A , N/A , N/A,8,stable,-0.3,-5.4,5.2
+"Van Wert County, Ohio(6)",39161,Rural,15.4,10.4,22.2,N/A , N/A , N/A,6,stable,-1.2,-4.7,2.4
+"Hart County, Georgia(7)",13147,Rural,15.4,10.4,22.3,N/A , N/A , N/A,6,stable,0,-3.2,3.7
+"Siskiyou County, California(7)",06093,Rural,15.4,11,21,N/A , N/A , N/A,10,stable,-2.1,-4.7,0.3
+"Prince William County, Virginia(6)",51153,Urban,15.4,13.7,17.2,N/A , N/A , N/A,65,stable,-0.8,-2.5,1.2
+"Bristol County, Rhode Island(6)",44001,Urban,15.4,11.7,20.1,N/A , N/A , N/A,12,stable,-1,-4.2,2.3
+"Otsego County, Michigan(6)",26137,Rural,15.4,9.9,23,N/A , N/A , N/A,6,stable,-2,-6,2.1
+"Anson County, North Carolina(6)",37007,Urban,15.4,9.5,23.8,N/A , N/A , N/A,5,stable,0,-3.2,3.3
+"Kent County, Delaware(6)",10001,Urban,15.3,13.1,17.9,N/A , N/A , N/A,35,stable,-2.8,-20.9,0.8
+"Lampasas County, Texas(7)",48281,Urban,15.3,9.7,23.5,N/A , N/A , N/A,5,stable,-1.4,-4.1,1.8
+"Portsmouth City, Virginia(6)",51740,Urban,15.3,12.1,19.2,N/A , N/A , N/A,16,stable,-2,-5.7,1.6
+"Somerset County, Maryland(6)",24039,Urban,15.3,9.7,23.4,N/A , N/A , N/A,5,stable,-0.5,-3.4,2.5
+"Beckham County, Oklahoma(6)",40009,Rural,15.3,9.2,24.1,N/A , N/A , N/A,4,stable,-1.9,-5.6,1.8
+"Pawnee County, Oklahoma(6)",40117,Urban,15.3,8.7,25.5,N/A , N/A , N/A,3,stable,-1.2,-5.1,2.8
+"Henderson County, Kentucky(7)",21101,Rural,15.3,11,20.8,N/A , N/A , N/A,9,falling,-23.1,-36.1,-7.9
+"Seminole County, Oklahoma(6)",40133,Rural,15.3,9.8,23.1,N/A , N/A , N/A,5,stable,-0.2,-4.5,4.2
+"Pulaski County, Missouri(6)",29169,Rural,15.3,10.3,21.8,N/A , N/A , N/A,6,stable,-2.5,-6.1,1.1
+"Hampton City, Virginia(6)",51650,Urban,15.3,12.7,18.3,N/A , N/A , N/A,25,stable,-1,-10.5,1.3
+"Randolph County, Missouri(6)",29175,Rural,15.3,9.7,23.2,N/A , N/A , N/A,5,stable,-1.3,-7.3,4.6
+"New Kent County, Virginia(6)",51127,Urban,15.3,9.4,23.9,N/A , N/A , N/A,5,*,*,*,*
+"Union County, Oregon(6)",41061,Rural,15.3,9.7,23.1,N/A , N/A , N/A,5,stable,-2.9,-6.8,0.7
+"Washington County, Arkansas(6)",05143,Urban,15.3,13.1,17.7,N/A , N/A , N/A,36,rising,2.5,1.4,3.9
+"Miller County, Arkansas(6)",05091,Urban,15.3,10.7,21.2,N/A , N/A , N/A,8,stable,3.7,-0.8,18.8
+"Fredericksburg City, Virginia(6)",51630,Urban,15.3,9.2,23.8,N/A , N/A , N/A,4,stable,-3.8,-9.8,2.1
+"Clark County, Arkansas(6)",05019,Rural,15.3,8.8,24.8,N/A , N/A , N/A,4,stable,-2.9,-7.1,1
+"Dinwiddie County, Virginia(6)",51053,Urban,15.3,10.1,22.5,N/A , N/A , N/A,6,stable,0.9,-2.9,5.3
+"Codington County, South Dakota(6)",46029,Rural,15.2,10.1,22.4,N/A , N/A , N/A,6,stable,-1.2,-6,3.9
+"Calhoun County, Texas(7)",48057,Rural,15.2,9,24.3,N/A , N/A , N/A,4,falling,-5.1,-11,-2.5
+"Spencer County, Kentucky(7)",21215,Urban,15.2,8.6,25.1,N/A , N/A , N/A,3,*,*,*,*
+"Bibb County, Alabama(6)",01007,Urban,15.2,9.5,23.5,N/A , N/A , N/A,4,stable,-3.4,-7.5,0.6
+"Monroe County, Wisconsin(6)",55081,Rural,15.2,11,20.7,N/A , N/A , N/A,9,stable,-2.1,-5.6,1.4
+"Hinds County, Mississippi(6)",28049,Urban,15.2,13.1,17.6,N/A , N/A , N/A,39,falling,-1.9,-3.5,-0.4
+"Ottawa County, Oklahoma(6)",40115,Rural,15.2,10.1,22.1,N/A , N/A , N/A,6,falling,-16.5,-48.3,-0.6
+"Copiah County, Mississippi(6)",28029,Urban,15.2,9.6,23,N/A , N/A , N/A,5,stable,-9.1,-47,0.1
+"Los Alamos County, New Mexico(7)",35028,Rural,15.2,8.7,24.8,N/A , N/A , N/A,4,stable,0.1,-2.2,2.8
+"Douglas County, Nevada(6)",32005,Rural,15.2,11.9,19.5,N/A , N/A , N/A,16,stable,-3,-18.3,0.6
+"Martin County, North Carolina(6)",37117,Rural,15.2,9.3,23.7,N/A , N/A , N/A,5,stable,-0.4,-4.5,3.7
+"Missaukee County, Michigan(6)",26113,Rural,15.2,9,24.8,N/A , N/A , N/A,4,*,*,*,*
+"Hamilton County, Iowa(7)",19079,Rural,15.2,8.9,24.9,N/A , N/A , N/A,4,stable,-1,-3.8,2
+"Newport News City, Virginia(6)",51700,Urban,15.1,12.7,17.9,N/A , N/A , N/A,29,stable,0.1,-2.1,2.4
+"Cleveland County, North Carolina(6)",37045,Rural,15.1,12.2,18.6,N/A , N/A , N/A,20,stable,-0.8,-2.4,0.8
+"Covington County, Mississippi(6)",28031,Rural,15.1,8.7,24.7,N/A , N/A , N/A,3,*,*,*,*
+"Bernalillo County, New Mexico(7)",35001,Urban,15.1,13.9,16.4,N/A , N/A , N/A,125,stable,-0.1,-0.6,0.4
+"Hardeman County, Tennessee(6)",47069,Rural,15.1,9.6,22.9,N/A , N/A , N/A,5,falling,-33.6,-53.2,-5.1
+"Walla Walla County, Washington(6)",53071,Urban,15.1,11.5,19.6,N/A , N/A , N/A,12,falling,-2.7,-5.2,-0.3
+"Upshur County, Texas(7)",48459,Urban,15.1,10.6,21,N/A , N/A , N/A,8,stable,-1.3,-4.9,2.4
+"Idaho County, Idaho(7)",16049,Rural,15.1,9.1,24.5,N/A , N/A , N/A,5,stable,0,-2.7,3.4
+"Madison County, Alabama(6)",01089,Urban,15.1,13.5,16.9,N/A , N/A , N/A,67,falling,-13.2,-23.1,-2.5
+"Tioga County, Pennsylvania(6)",42117,Rural,15.1,10.9,20.6,N/A , N/A , N/A,9,stable,0.6,-15.3,25.5
+"Marshall County, Oklahoma(6)",40095,Rural,15.1,8.4,25.5,N/A , N/A , N/A,3,*,*,*,*
+"Santa Fe County, New Mexico(7)",35049,Urban,15.1,12.8,17.7,N/A , N/A , N/A,37,stable,-0.5,-1.4,0.5
+"Crittenden County, Arkansas(6)",05035,Urban,15.1,10.8,20.5,N/A , N/A , N/A,9,stable,-0.7,-3.8,2.8
+"Garfield County, Colorado(6)",08045,Rural,15.1,10.9,20.3,N/A , N/A , N/A,9,stable,0,-3.2,3.7
+"Chippewa County, Wisconsin(6)",55017,Urban,15.1,11.5,19.4,N/A , N/A , N/A,13,falling,-11.3,-23.9,-2.4
+"Campbell County, Virginia(6)",51031,Urban,15.1,11.3,19.7,N/A , N/A , N/A,12,falling,-29.9,-45.6,-20.1
+"Pinal County, Arizona(6)",04021,Urban,15,13.6,16.6,N/A , N/A , N/A,87,stable,-1.2,-2.5,0.3
+"Jefferson County, Tennessee(6)",47089,Urban,15,11.2,19.9,N/A , N/A , N/A,11,stable,-1.7,-5.1,1.9
+"Cleveland County, Oklahoma(6)",40027,Urban,15,13.1,17.2,N/A , N/A , N/A,45,stable,-1.1,-2.7,0.8
+"Benton County, Arkansas(6)",05007,Urban,15,13.1,17.2,N/A , N/A , N/A,43,stable,-0.4,-2.6,2
+"Fentress County, Tennessee(6)",47049,Rural,15,9.2,23.8,N/A , N/A , N/A,4,*,*,*,*
+"Crawford County, Michigan(6)",26039,Rural,15,8.6,25.9,N/A , N/A , N/A,4,falling,-5.3,-9.9,-1.2
+"Allegan County, Michigan(6)",26005,Rural,15,12.3,18.2,N/A , N/A , N/A,23,falling,-2.7,-5.2,-0.3
+"Marion County, Arkansas(6)",05089,Rural,15,9.8,23.4,N/A , N/A , N/A,5,stable,-3,-7,0.9
+"Pulaski County, Virginia(6)",51155,Urban,15,10.7,20.8,N/A , N/A , N/A,8,stable,-1.8,-6.3,2.5
+"Carroll County, Virginia(6)",51035,Rural,15,10.3,21.5,N/A , N/A , N/A,7,stable,1,-2.8,5.3
+"Pennington County, South Dakota(6)",46103,Urban,15,12.2,18.2,N/A , N/A , N/A,23,falling,-12.7,-26.5,-7.8
+"Van Buren County, Michigan(6)",26159,Rural,15,11.5,19.1,N/A , N/A , N/A,14,stable,-1.8,-3.9,0.2
+"Lamar County, Georgia(7)",13171,Rural,15,8.6,24.6,N/A , N/A , N/A,3,stable,-2.1,-7.8,3.8
+"Minidoka County, Idaho(7)",16067,Rural,15,9.1,23.5,N/A , N/A , N/A,4,stable,-0.9,-5.8,3.5
+"Escambia County, Alabama(6)",01053,Rural,14.9,10.3,21.1,N/A , N/A , N/A,7,stable,-0.4,-2.3,1.7
+"Spartanburg County, South Carolina(6)",45083,Urban,14.9,13.2,16.8,N/A , N/A , N/A,58,stable,-0.4,-2,1.4
+"Henry County, Tennessee(6)",47079,Rural,14.9,10.7,20.7,N/A , N/A , N/A,8,stable,-1,-4.4,2.8
+"Fayette County, Tennessee(6)",47047,Urban,14.9,10.9,20.3,N/A , N/A , N/A,10,stable,-1.3,-3.9,1.6
+"Allen County, Kentucky(7)",21003,Urban,14.9,8.9,23.7,N/A , N/A , N/A,4,*,*,*,*
+"Wayne County, Georgia(7)",13305,Rural,14.9,9.7,22,N/A , N/A , N/A,5,stable,-0.7,-5.6,4.3
+"Cameron County, Texas(7)",48061,Urban,14.9,13.3,16.7,N/A , N/A , N/A,65,stable,-1.2,-2.4,0.1
+"Bulloch County, Georgia(7)",13031,Rural,14.9,11,19.7,N/A , N/A , N/A,10,stable,-0.5,-2.7,2.1
+"Newberry County, South Carolina(6)",45071,Rural,14.9,10.2,21,N/A , N/A , N/A,7,stable,-2.1,-5.4,1
+"Jones County, Mississippi(6)",28067,Rural,14.9,11.3,19.3,N/A , N/A , N/A,12,stable,-1.6,-4.5,1.3
+"Chesterfield County, South Carolina(6)",45025,Rural,14.9,10.4,20.7,N/A , N/A , N/A,8,stable,0.4,-4.1,5.5
+"Carteret County, North Carolina(6)",37031,Rural,14.9,11.8,18.7,N/A , N/A , N/A,18,stable,-2.3,-6,1.8
+"Walton County, Florida(6)",12131,Urban,14.9,11.6,18.8,N/A , N/A , N/A,16,stable,0.2,-1.8,2.5
+"Mobile County, Alabama(6)",01097,Urban,14.9,13.3,16.5,N/A , N/A , N/A,74,stable,-0.2,-2,1.5
+"Hidalgo County, Texas(7)",48215,Urban,14.8,13.6,16.1,N/A , N/A , N/A,113,stable,-0.8,-2,0.5
+"Hampshire County, West Virginia(6)",54027,Urban,14.8,9.9,22.1,N/A , N/A , N/A,6,stable,0.8,-3.8,6.1
+"Arlington County, Virginia(6)",51013,Urban,14.8,12.6,17.4,N/A , N/A , N/A,33,falling,-12.4,-25.9,-1.4
+"Burke County, North Carolina(6)",37023,Urban,14.8,11.9,18.3,N/A , N/A , N/A,19,stable,-0.1,-1.9,1.9
+"Hays County, Texas(7)",48209,Urban,14.8,12.5,17.4,N/A , N/A , N/A,32,stable,-1.1,-3.2,1.7
+"Vernon Parish, Louisiana(7)",22115,Rural,14.8,10.3,20.6,N/A , N/A , N/A,7,stable,-28.9,-57.9,0.2
+"Anderson County, South Carolina(6)",45007,Urban,14.8,12.7,17.1,N/A , N/A , N/A,39,stable,-0.4,-3.3,2.6
+"Spokane County, Washington(6)",53063,Urban,14.8,13.5,16.2,N/A , N/A , N/A,94,falling,-1.9,-3.3,-0.6
+"Lee County, Georgia(7)",13177,Urban,14.8,9.2,22.5,N/A , N/A , N/A,5,stable,-1.2,-5.3,4
+"Johnson County, Tennessee(6)",47091,Rural,14.8,8.8,24,N/A , N/A , N/A,4,*,*,*,*
+"Lincoln County, Wyoming(6)",56023,Rural,14.8,8.6,24,N/A , N/A , N/A,4,*,*,*,*
+"Lee County, North Carolina(6)",37105,Rural,14.8,11,19.4,N/A , N/A , N/A,11,stable,-1.3,-4.8,2.4
+"Eddy County, New Mexico(7)",35015,Rural,14.8,10.8,19.6,N/A , N/A , N/A,10,stable,-0.4,-1.9,1.2
+"Montrose County, Colorado(6)",08085,Rural,14.8,10.8,19.9,N/A , N/A , N/A,10,stable,-1.4,-5.4,2.8
+"Washington County, Texas(7)",48477,Rural,14.7,10.5,20.4,N/A , N/A , N/A,8,stable,-2.3,-5.8,1.3
+"Fairfax City, Virginia(6)",51600,Urban,14.7,9,22.9,N/A , N/A , N/A,4,*,*,*,*
+"Wilson County, North Carolina(6)",37195,Rural,14.7,11.5,18.7,N/A , N/A , N/A,15,stable,0,-2.7,2.8
+"Delta County, Michigan(6)",26041,Rural,14.7,10.2,20.8,N/A , N/A , N/A,8,stable,-0.7,-4.7,3.3
+"Oconee County, South Carolina(6)",45073,Rural,14.7,11.8,18.4,N/A , N/A , N/A,19,stable,-2.1,-5,1
+"Laurens County, South Carolina(6)",45059,Urban,14.7,11.2,19.1,N/A , N/A , N/A,13,stable,0.2,-2.1,2.6
+"Jones County, Iowa(7)",19105,Urban,14.7,9.4,22.6,N/A , N/A , N/A,5,stable,-1.4,-3.4,0.7
+"Chickasaw County, Mississippi(6)",28017,Rural,14.7,8.5,24.1,N/A , N/A , N/A,3,stable,2.1,-2.4,7.4
+"Rowan County, Kentucky(7)",21205,Rural,14.7,8.5,23.7,N/A , N/A , N/A,4,*,*,*,*
+"Nash County, North Carolina(6)",37127,Urban,14.7,11.8,18.2,N/A , N/A , N/A,19,falling,-10.2,-17.9,-5.7
+"Gem County, Idaho(7)",16045,Urban,14.7,8.8,23.5,N/A , N/A , N/A,4,falling,-4.1,-8.2,-0.3
+"Curry County, Oregon(6)",41015,Rural,14.7,9.5,22.5,N/A , N/A , N/A,7,falling,-6.1,-30.2,-1.5
+"Sheridan County, Wyoming(6)",56033,Rural,14.7,9.8,21.3,N/A , N/A , N/A,6,stable,-0.4,-6.7,6.6
+"Franklin County, Washington(6)",53021,Urban,14.7,10.9,19.2,N/A , N/A , N/A,11,stable,0.6,-3.7,6.1
+"Appling County, Georgia(7)",13001,Rural,14.7,8.6,23.7,N/A , N/A , N/A,4,*,*,*,*
+"Buffalo County, Wisconsin(6)",55011,Rural,14.7,8.5,24.8,N/A , N/A , N/A,3,*,*,*,*
+"Clarke County, Mississippi(6)",28023,Rural,14.6,8.3,24.5,N/A , N/A , N/A,3,*,*,*,*
+"Eagle County, Colorado(6)",08037,Rural,14.6,9.9,20.8,N/A , N/A , N/A,8,stable,0.2,-4.6,6.3
+"Hardin County, Tennessee(6)",47071,Rural,14.6,9.6,21.7,N/A , N/A , N/A,6,stable,-1.3,-5.1,2.6
+"Newport County, Rhode Island(6)",44005,Urban,14.6,11.6,18.2,N/A , N/A , N/A,19,stable,-1.6,-3.5,0.4
+"Mercer County, West Virginia(6)",54055,Rural,14.6,11.2,18.8,N/A , N/A , N/A,14,falling,-5.2,-21.5,-0.9
+"Liberty County, Georgia(7)",13179,Urban,14.6,10,20.4,N/A , N/A , N/A,7,stable,1.2,-2.7,5.8
+"Warren County, Kentucky(7)",21227,Urban,14.6,11.8,17.8,N/A , N/A , N/A,19,stable,-2.1,-5,1
+"Fairfield County, South Carolina(6)",45039,Urban,14.5,8.7,23.2,N/A , N/A , N/A,4,*,*,*,*
+"Payne County, Oklahoma(6)",40119,Rural,14.5,11,18.9,N/A , N/A , N/A,11,stable,-1.1,-4.1,1.9
+"Catawba County, North Carolina(6)",37035,Urban,14.5,12.2,17.1,N/A , N/A , N/A,30,stable,-1.6,-3.3,0.2
+"Dougherty County, Georgia(7)",13095,Urban,14.5,11.3,18.4,N/A , N/A , N/A,15,stable,-1.8,-4.2,0.4
+"Accomack County, Virginia(6)",51001,Rural,14.5,9.7,21.1,N/A , N/A , N/A,7,stable,-1.7,-5.8,2.2
+"Iron County, Utah(7)",49021,Rural,14.5,10.1,20.1,N/A , N/A , N/A,8,falling,-8.4,-27.1,-0.1
+"Gila County, Arizona(6)",04007,Rural,14.5,10.7,19.3,N/A , N/A , N/A,13,stable,-0.9,-4.6,2.7
+"La Plata County, Colorado(6)",08067,Rural,14.5,10.5,19.6,N/A , N/A , N/A,9,stable,-0.1,-3.9,4.1
+"Pacific County, Washington(6)",53049,Rural,14.5,9.5,22,N/A , N/A , N/A,6,stable,-2.5,-5.4,0.4
+"Carroll County, Ohio(6)",39019,Urban,14.5,9.7,21.2,N/A , N/A , N/A,6,stable,-1.8,-6.1,2.5
+"Laclede County, Missouri(6)",29105,Rural,14.5,9.6,20.9,N/A , N/A , N/A,6,stable,-0.2,-3.2,2.9
+"Fulton County, Ohio(6)",39051,Urban,14.5,10.2,20,N/A , N/A , N/A,8,stable,-2.3,-7.1,2.6
+"Hoke County, North Carolina(6)",37093,Urban,14.5,9.8,20.5,N/A , N/A , N/A,7,stable,-2.2,-7,2.8
+"Oceana County, Michigan(6)",26127,Rural,14.4,9.3,21.7,N/A , N/A , N/A,6,stable,-0.2,-3.8,3.8
+"Dodge County, Georgia(7)",13091,Rural,14.4,8.5,23.2,N/A , N/A , N/A,4,*,*,*,*
+"Fremont County, Wyoming(6)",56013,Rural,14.4,10,20.3,N/A , N/A , N/A,7,stable,-0.9,-6.3,4.8
+"Colquitt County, Georgia(7)",13071,Rural,14.4,10.2,19.9,N/A , N/A , N/A,8,falling,-3.5,-15.7,-1
+"Churchill County, Nevada(6)",32001,Rural,14.4,8.8,22.5,N/A , N/A , N/A,4,stable,-1.6,-4.5,1.3
+"Umatilla County, Oregon(6)",41059,Rural,14.4,11.1,18.5,N/A , N/A , N/A,13,falling,-20.6,-51.6,-0.7
+"Grady County, Georgia(7)",13131,Rural,14.4,9.1,21.9,N/A , N/A , N/A,5,*,*,*,*
+"Vernon County, Missouri(6)",29217,Rural,14.4,8.7,22.8,N/A , N/A , N/A,4,stable,1.9,-3.1,7.4
+"Pittsburg County, Oklahoma(6)",40121,Rural,14.4,10.3,19.6,N/A , N/A , N/A,9,falling,-2.9,-5.7,-0.3
+"Fremont County, Colorado(6)",08043,Rural,14.4,10.7,19.2,N/A , N/A , N/A,11,stable,-2.3,-5.9,1.1
+"Graham County, Arizona(6)",04009,Rural,14.4,9.5,20.9,N/A , N/A , N/A,6,stable,-0.6,-5.6,5
+"Edgar County, Illinois(7)",17045,Rural,14.4,8.6,23.3,N/A , N/A , N/A,4,*,*,*,*
+"Lea County, New Mexico(7)",35025,Rural,14.4,10.4,19.2,N/A , N/A , N/A,9,stable,-1,-2.8,1
+"Poweshiek County, Iowa(7)",19157,Rural,14.4,8.1,23.8,N/A , N/A , N/A,4,*,*,*,*
+"Amherst County, Virginia(6)",51009,Urban,14.4,9.7,20.7,N/A , N/A , N/A,7,falling,-7.3,-14.3,-4.5
+"Etowah County, Alabama(6)",01055,Urban,14.3,11.6,17.6,N/A , N/A , N/A,20,stable,-1.2,-3.4,0.9
+"Talbot County, Maryland(6)",24041,Rural,14.3,10.2,20,N/A , N/A , N/A,10,stable,-0.8,-5.6,4.4
+"Asotin County, Washington(6)",53003,Urban,14.3,9,22.1,N/A , N/A , N/A,5,*,*,*,*
+"Ware County, Georgia(7)",13299,Rural,14.3,9.7,20.5,N/A , N/A , N/A,6,stable,-0.9,-4.4,2.6
+"Lane County, Oregon(6)",41039,Urban,14.3,12.8,16,N/A , N/A , N/A,73,falling,-16.5,-32.9,-0.7
+"Botetourt County, Virginia(6)",51023,Urban,14.3,10.3,19.9,N/A , N/A , N/A,8,stable,-1.5,-17.4,14.8
+"Jefferson County, Florida(6)",12065,Urban,14.3,8.1,24.5,N/A , N/A , N/A,4,*,*,*,*
+"Independence County, Arkansas(6)",05063,Rural,14.3,10,20.1,N/A , N/A , N/A,7,stable,-2.2,-5.3,0.8
+"Cumberland County, Tennessee(6)",47035,Rural,14.3,10.9,18.6,N/A , N/A , N/A,16,falling,-4.6,-7.3,-2.1
+"Pima County, Arizona(6)",04019,Urban,14.3,13.4,15.2,N/A , N/A , N/A,201,stable,-0.6,-1.6,0.3
+"Wise County, Texas(7)",48497,Urban,14.3,10.7,18.7,N/A , N/A , N/A,11,falling,-21.9,-42.9,-0.5
+"Dukes County, Massachusetts(7)",25007,Rural,14.3,9,22.2,N/A , N/A , N/A,5,*,*,*,*
+"Union County, Tennessee(6)",47173,Urban,14.2,8.4,23,N/A , N/A , N/A,4,stable,-0.1,-5.3,5.9
+"Muscogee County, Georgia(7)",13215,Urban,14.2,12,16.7,N/A , N/A , N/A,31,stable,0.4,-1.4,2.3
+"Windsor County, Vermont(6)",50027,Rural,14.2,10.8,18.5,N/A , N/A , N/A,14,stable,-1.5,-5.4,2.6
+"Dickenson County, Virginia(6)",51051,Rural,14.2,8.4,23.7,N/A , N/A , N/A,4,stable,-1.5,-7.3,4.9
+"Barry County, Michigan(6)",26015,Urban,14.2,10.7,18.5,N/A , N/A , N/A,12,stable,-3.3,-7.2,0.4
+"Wasco County, Oregon(6)",41065,Rural,14.2,9,21.5,N/A , N/A , N/A,5,stable,-1.8,-6.1,2.7
+"Taney County, Missouri(6)",29213,Rural,14.2,10.7,18.5,N/A , N/A , N/A,12,stable,-3,-6.2,0.2
+"Colorado County, Texas(7)",48089,Rural,14.1,8.9,22,N/A , N/A , N/A,5,stable,-1.6,-5.1,2.1
+"Clark County, Nevada(6)",32003,Urban,14.1,13.5,14.8,N/A , N/A , N/A,353,falling,-2.5,-3.1,-1.9
+"Barry County, Missouri(6)",29009,Rural,14.1,9.6,20.2,N/A , N/A , N/A,7,stable,-3.4,-7.7,0.7
+"Georgetown County, South Carolina(6)",45043,Rural,14.1,10.8,18.3,N/A , N/A , N/A,16,stable,-1.4,-4.2,1.6
+"Morehouse Parish, Louisiana(7)",22067,Urban,14.1,9.3,20.9,N/A , N/A , N/A,6,stable,-1.4,-4.6,1.7
+"Menominee County, Michigan(6)",26109,Rural,14.1,8.6,22.2,N/A , N/A , N/A,5,stable,1,-5.9,8.9
+"Pontotoc County, Mississippi(6)",28115,Rural,14.1,9.1,21,N/A , N/A , N/A,5,falling,-4.1,-7.6,-0.9
+"Shelby County, Tennessee(6)",47157,Urban,14.1,13,15.2,N/A , N/A , N/A,138,falling,-3.1,-8.7,-0.6
+"Greene County, Arkansas(6)",05055,Rural,14.1,10,19.4,N/A , N/A , N/A,8,*,*,*,*
+"Abbeville County, South Carolina(6)",45001,Rural,14.1,8.4,22.3,N/A , N/A , N/A,4,falling,-47.6,-76.1,-0.2
+"Suffolk City, Virginia(6)",51800,Urban,14.1,11,17.8,N/A , N/A , N/A,15,stable,0.1,-2.5,2.9
+"Burke County, Georgia(7)",13033,Urban,14.1,8.6,21.9,N/A , N/A , N/A,4,*,*,*,*
+"Kershaw County, South Carolina(6)",45055,Urban,14.1,10.7,18.3,N/A , N/A , N/A,12,stable,-3.3,-26.5,0.6
+"Campbell County, Wyoming(6)",56005,Rural,14.1,9.1,20.7,N/A , N/A , N/A,6,*,*,*,*
+"Danville City, Virginia(6)",51590,Rural,14.1,9.8,19.7,N/A , N/A , N/A,8,stable,-1.8,-5,1.1
+"Scott County, Mississippi(6)",28123,Urban,14.1,8.8,21.5,N/A , N/A , N/A,4,stable,-1.2,-6.2,3.8
+"Madison County, Florida(6)",12079,Rural,14.1,8.2,23,N/A , N/A , N/A,4,stable,3.1,-1.1,16.4
+"Callaway County, Missouri(6)",29027,Urban,14,10,19.3,N/A , N/A , N/A,8,stable,-3.5,-7.4,0.2
+"Powhatan County, Virginia(6)",51145,Urban,14,9.2,20.8,N/A , N/A , N/A,6,stable,-3,-6.8,0.8
+"Sumter County, South Carolina(6)",45085,Urban,14,11.1,17.5,N/A , N/A , N/A,17,stable,0.3,-2.7,3.7
+"Woodward County, Oklahoma(6)",40153,Rural,14,8.2,22.5,N/A , N/A , N/A,4,stable,0.8,-4,6.2
+"Hertford County, North Carolina(6)",37091,Rural,14,8.5,22.2,N/A , N/A , N/A,4,*,*,*,*
+"Laurel County, Kentucky(7)",21125,Rural,14,10.5,18.4,N/A , N/A , N/A,11,falling,-4.8,-11.3,-2.1
+"Mohave County, Arizona(6)",04015,Urban,14,12.1,16.1,N/A , N/A , N/A,55,falling,-6.3,-16.5,-1.6
+"Hopewell City, Virginia(6)",51670,Urban,14,8.4,21.9,N/A , N/A , N/A,4,stable,-1.9,-7.2,3.1
+"Taylor County, Wisconsin(6)",55119,Rural,14,8.2,22.6,N/A , N/A , N/A,4,stable,-2.2,-6.3,1.7
+"Winchester City, Virginia(6)",51840,Urban,14,8.9,21,N/A , N/A , N/A,5,stable,-1.2,-4.8,2.5
+"Watauga County, North Carolina(6)",37189,Rural,14,9.9,19.3,N/A , N/A , N/A,8,falling,-4.4,-7.2,-1.9
+"Union County, Illinois(7)",17181,Rural,14,8.2,22.9,N/A , N/A , N/A,4,falling,-3.8,-7.8,-0.6
+"Glynn County, Georgia(7)",13127,Urban,13.9,11,17.4,N/A , N/A , N/A,17,stable,-1.2,-4.1,1.7
+"Webb County, Texas(7)",48479,Urban,13.9,11.7,16.3,N/A , N/A , N/A,30,stable,-1.3,-2.6,0.2
+"Otoe County, Nebraska(6)",31131,Rural,13.9,7.7,23.6,N/A , N/A , N/A,3,stable,-1,-6.6,4.6
+"Torrance County, New Mexico(7)",35057,Urban,13.9,7.8,23.7,N/A , N/A , N/A,3,*,*,*,*
+"Gilchrist County, Florida(6)",12041,Urban,13.9,8.1,22.8,N/A , N/A , N/A,4,falling,-16.9,-41.1,-5.6
+"Starr County, Texas(7)",48427,Rural,13.9,9.9,18.9,N/A , N/A , N/A,8,stable,1.5,-2.4,6.3
+"Richland County, Illinois(7)",17159,Rural,13.9,7.7,23.6,N/A , N/A , N/A,3,*,*,*,*
+"Perquimans County, North Carolina(6)",37143,Rural,13.9,8.3,23.5,N/A , N/A , N/A,4,falling,-3.7,-7.4,-0.2
+"Chester County, South Carolina(6)",45023,Urban,13.8,9.2,20.2,N/A , N/A , N/A,6,stable,0.7,-3.2,5
+"Blount County, Alabama(6)",01009,Urban,13.8,10.3,18.3,N/A , N/A , N/A,11,stable,-1.3,-3.7,1.3
+"Ravalli County, Montana(6)",30081,Rural,13.8,9.9,19,N/A , N/A , N/A,10,stable,-2.1,-5.3,1.1
+"Clay County, Mississippi(6)",28025,Rural,13.8,7.7,23,N/A , N/A , N/A,3,*,*,*,*
+"Henry County, Virginia(6)",51089,Rural,13.8,10.2,18.5,N/A , N/A , N/A,11,stable,-0.2,-3.8,3.6
+"DeKalb County, Alabama(6)",01049,Rural,13.8,10.4,18,N/A , N/A , N/A,12,stable,-1.2,-3.9,1.5
+"Madison County, Tennessee(6)",47113,Urban,13.8,10.9,17.2,N/A , N/A , N/A,17,stable,-1.9,-4,0.3
+"Sabine County, Texas(7)",48403,Rural,13.8,7.8,25.4,N/A , N/A , N/A,3,stable,1.6,-2.5,6.5
+"Maui County, Hawaii(7)",15009,Urban,13.7,11.6,16.2,N/A , N/A , N/A,31,stable,-0.3,-2.1,1.6
+"Freestone County, Texas(7)",48161,Rural,13.7,8.1,22.1,N/A , N/A , N/A,4,stable,-1,-5.4,3.6
+"Tattnall County, Georgia(7)",13267,Rural,13.7,8.3,21.5,N/A , N/A , N/A,4,*,*,*,*
+"Shelby County, Alabama(6)",01117,Urban,13.7,11.7,16,N/A , N/A , N/A,35,falling,-2,-3.7,-0.3
+"Southampton County, Virginia(6)",51175,Rural,13.7,7.6,23.2,N/A , N/A , N/A,3,stable,2.9,-3.8,11.5
+"Albany County, Wyoming(6)",56001,Rural,13.7,8.5,20.9,N/A , N/A , N/A,5,stable,-3.2,-7.8,1.4
+Puerto Rico(6),72001,Urban,13.7,13.1,14.2,N/A , N/A , N/A,558,stable,-0.7,-6.6,0.8
+"Lincoln County, Tennessee(6)",47103,Rural,13.7,9.4,19.4,N/A , N/A , N/A,7,stable,-2,-6.1,2.4
+"Crawford County, Missouri(6)",29055,Rural,13.6,8.2,21.6,N/A , N/A , N/A,4,stable,-1.6,-5.2,2
+"San Juan County, Washington(7)",53055,Rural,13.6,9.1,21.6,N/A , N/A , N/A,6,*,*,*,*
+"Bee County, Texas(7)",48025,Rural,13.6,8.4,20.9,N/A , N/A , N/A,4,stable,-1.9,-6.6,2.6
+"Cullman County, Alabama(6)",01043,Rural,13.6,10.8,17,N/A , N/A , N/A,17,stable,-2.4,-5,0.2
+"Concordia Parish, Louisiana(7)",22029,Rural,13.6,7.8,22.3,N/A , N/A , N/A,3,*,*,*,*
+"Lincoln County, New Mexico(7)",35027,Rural,13.6,7.9,22.3,N/A , N/A , N/A,5,*,*,*,*
+"Benton County, Oregon(6)",41003,Urban,13.6,10.5,17.4,N/A , N/A , N/A,14,falling,-2.2,-4.1,-0.2
+"Beadle County, South Dakota(6)",46005,Rural,13.6,7.9,22.2,N/A , N/A , N/A,4,stable,-3.2,-8.1,1.2
+"Bayfield County, Wisconsin(6)",55007,Rural,13.6,8.5,22.1,N/A , N/A , N/A,5,stable,1,-4.1,7.5
+"Autauga County, Alabama(6)",01001,Urban,13.5,9.9,18.1,N/A , N/A , N/A,9,stable,-1.2,-4.3,2.3
+"Prince Georges County, Maryland(6)",24033,Urban,13.5,12.5,14.6,N/A , N/A , N/A,143,stable,-0.1,-1.1,0.9
+"Plumas County, California(7)",06063,Rural,13.5,7.7,22.6,N/A , N/A , N/A,4,stable,-3.1,-7.2,0.2
+"Grenada County, Mississippi(6)",28043,Rural,13.5,7.7,22.1,N/A , N/A , N/A,4,stable,-0.3,-6.4,6
+"Lauderdale County, Mississippi(6)",28075,Rural,13.5,10.3,17.5,N/A , N/A , N/A,13,stable,-3.2,-27.6,3.2
+"St. Joseph County, Michigan(6)",26149,Rural,13.5,10,17.9,N/A , N/A , N/A,11,stable,-2.5,-6,0.9
+"Tyler County, Texas(7)",48457,Rural,13.5,7.7,22.2,N/A , N/A , N/A,4,stable,-1.3,-5.6,2.9
+"San Juan County, New Mexico(7)",35045,Urban,13.5,10.8,16.6,N/A , N/A , N/A,18,stable,-0.8,-6.3,0.4
+"Atascosa County, Texas(7)",48013,Urban,13.4,9.4,18.6,N/A , N/A , N/A,8,*,*,*,*
+"Hale County, Texas(7)",48189,Rural,13.4,8.5,20.2,N/A , N/A , N/A,5,falling,-5.7,-9.8,-3.2
+"Fauquier County, Virginia(6)",51061,Urban,13.4,10.2,17.3,N/A , N/A , N/A,13,stable,-0.6,-2.9,1.8
+"Wayne County, Kentucky(7)",21231,Rural,13.4,7.8,21.9,N/A , N/A , N/A,4,stable,-40.7,-71.7,3.4
+"Wagoner County, Oklahoma(6)",40145,Urban,13.4,10.3,17.2,N/A , N/A , N/A,13,stable,-2.1,-4.6,0.4
+"Talladega County, Alabama(6)",01121,Rural,13.4,10.3,17.1,N/A , N/A , N/A,14,stable,-4.6,-36.8,4.4
+"Jefferson County, Alabama(6)",01073,Urban,13.4,12.2,14.6,N/A , N/A , N/A,106,stable,-2.1,-11.9,1.2
+"Elmore County, Alabama(6)",01051,Urban,13.4,10.3,17,N/A , N/A , N/A,14,stable,-0.8,-3.7,2.5
+"Marlboro County, South Carolina(6)",45069,Rural,13.3,8.4,20.2,N/A , N/A , N/A,5,stable,-0.7,-5.3,4.1
+"Lauderdale County, Alabama(6)",01077,Urban,13.3,10.5,16.6,N/A , N/A , N/A,17,stable,-0.8,-3.4,1.9
+"Baldwin County, Georgia(7)",13009,Rural,13.3,9.1,18.8,N/A , N/A , N/A,7,stable,-0.3,-3.5,3
+"Neshoba County, Mississippi(6)",28099,Rural,13.3,8.4,20,N/A , N/A , N/A,5,stable,-1,-7.6,4.9
+"Coconino County, Arizona(6)",04005,Urban,13.3,10.7,16.3,N/A , N/A , N/A,20,stable,-1.2,-3.6,1.4
+"Russell County, Alabama(6)",01113,Urban,13.2,9.5,18,N/A , N/A , N/A,9,stable,1.3,-3.8,7.2
+"Williamsburg County, South Carolina(6)",45089,Rural,13.2,8.4,20,N/A , N/A , N/A,5,stable,-0.4,-4.5,3.8
+"Carter County, Tennessee(6)",47019,Urban,13.2,9.9,17.5,N/A , N/A , N/A,12,falling,-5.7,-20.3,-1.7
+"Darlington County, South Carolina(6)",45031,Urban,13.2,9.8,17.5,N/A , N/A , N/A,11,falling,-8.1,-23.8,-0.3
+"Washington County, Florida(6)",12133,Urban,13.2,8.2,20.3,N/A , N/A , N/A,5,rising,5.1,1.6,10.1
+"Knox County, Illinois(7)",17095,Rural,13.2,9.7,17.7,N/A , N/A , N/A,10,stable,-2.1,-5.6,1
+"Saluda County, South Carolina(6)",45081,Urban,13.2,7.5,21.8,N/A , N/A , N/A,3,*,*,*,*
+"Scott County, Virginia(6)",51169,Urban,13.2,7.5,21.8,N/A , N/A , N/A,4,*,*,*,*
+"Upson County, Georgia(7)",13293,Rural,13.1,8.5,19.7,N/A , N/A , N/A,5,stable,-2.4,-5.7,0.8
+"Klamath County, Oregon(6)",41035,Rural,13.1,10,17,N/A , N/A , N/A,14,falling,-3,-5.5,-0.7
+"McKean County, Pennsylvania(6)",42083,Rural,13.1,9.1,18.5,N/A , N/A , N/A,8,falling,-4.2,-7.8,-1.4
+"Washington County, Virginia(6)",51191,Urban,13.1,9.9,17.3,N/A , N/A , N/A,12,falling,-4.7,-7.8,-1.7
+"Yazoo County, Mississippi(6)",28163,Urban,13.1,7.8,20.7,N/A , N/A , N/A,4,*,*,*,*
+"Young County, Texas(7)",48503,Rural,13.1,7.2,22.2,N/A , N/A , N/A,3,stable,-3.1,-7.8,1.3
+"Jackson County, Wisconsin(6)",55053,Rural,13.1,7.6,21.3,N/A , N/A , N/A,4,stable,-1.6,-6.6,3.7
+"St. Louis City, Missouri(6)",29510,Urban,13.1,11.4,15,N/A , N/A , N/A,45,falling,-5.6,-10.9,-3
+"Nicholas County, West Virginia(6)",54067,Rural,13.1,8.2,20.2,N/A , N/A , N/A,5,*,*,*,*
+"Robertson County, Tennessee(6)",47147,Urban,13.1,9.8,17.1,N/A , N/A , N/A,12,stable,-2.4,-5.5,0.7
+"Wyoming County, Pennsylvania(6)",42131,Urban,13.1,8.7,19.4,N/A , N/A , N/A,6,stable,-2.9,-8,1.8
+"Tazewell County, Virginia(6)",51185,Rural,13.1,9,18.5,N/A , N/A , N/A,7,stable,-3.1,-7.2,0.6
+"Transylvania County, North Carolina(6)",37175,Rural,13,9.3,18.4,N/A , N/A , N/A,9,stable,-2.2,-5.7,1.2
+"Smyth County, Virginia(6)",51173,Rural,13,8.4,19.6,N/A , N/A , N/A,5,stable,-1.7,-6.8,3
+"Richland Parish, Louisiana(7)",22083,Urban,13,7.5,21.2,N/A , N/A , N/A,4,falling,-3.2,-6.4,-0.4
+"Curry County, New Mexico(7)",35009,Rural,13,8.8,18.5,N/A , N/A , N/A,6,stable,-1.1,-3.5,1.3
+"Monroe County, Florida(6)",12087,Rural,13,10.2,16.4,N/A , N/A , N/A,17,stable,-0.8,-2.7,1.2
+"Bandera County, Texas(7)",48019,Urban,13,8.1,20.6,N/A , N/A , N/A,5,stable,-3,-6.5,0.6
+"Pasquotank County, North Carolina(6)",37139,Rural,12.9,8.8,18.5,N/A , N/A , N/A,7,stable,-0.4,-6.3,5.2
+"Randolph County, Alabama(6)",01111,Rural,12.9,7.6,20.8,N/A , N/A , N/A,4,*,*,*,*
+"Dale County, Alabama(6)",01045,Rural,12.9,9.1,17.9,N/A , N/A , N/A,8,stable,-2.2,-6.5,2.1
+"Frederick County, Virginia(6)",51069,Urban,12.9,10.1,16.3,N/A , N/A , N/A,15,falling,-3.1,-5.5,-0.6
+"Pierce County, Wisconsin(6)",55093,Urban,12.9,8.5,18.8,N/A , N/A , N/A,6,stable,2.3,-2.5,8.2
+"Cherokee County, Alabama(6)",01019,Rural,12.9,8.2,19.7,N/A , N/A , N/A,5,stable,-1.1,-6.9,5.1
+"Summit County, Colorado(6)",08117,Rural,12.9,7.3,20.9,N/A , N/A , N/A,4,*,*,*,*
+"Mitchell County, Georgia(7)",13205,Rural,12.9,7.4,21,N/A , N/A , N/A,3,stable,-3.3,-17.1,1.6
+"Richland County, South Carolina(6)",45079,Urban,12.8,11.3,14.5,N/A , N/A , N/A,53,falling,-8.6,-16.5,-2.7
+"Dillon County, South Carolina(6)",45033,Rural,12.8,8.2,19.4,N/A , N/A , N/A,5,stable,-2.3,-8,3.1
+"Colleton County, South Carolina(6)",45029,Rural,12.8,8.8,18.1,N/A , N/A , N/A,7,stable,-2.3,-6.6,2.3
+"Orangeburg County, South Carolina(6)",45075,Rural,12.8,9.9,16.4,N/A , N/A , N/A,14,stable,-1.9,-4.4,0.4
+"Sumter County, Georgia(7)",13261,Rural,12.8,8.1,19.4,N/A , N/A , N/A,5,stable,-0.7,-3.4,1.9
+"Panola County, Mississippi(6)",28107,Rural,12.8,8.2,19,N/A , N/A , N/A,5,stable,-3.7,-7.9,0.2
+"McKinley County, New Mexico(7)",35031,Rural,12.7,9.2,17.2,N/A , N/A , N/A,9,stable,0.6,-1.4,3.1
+"Marquette County, Michigan(6)",26103,Rural,12.7,9.4,16.8,N/A , N/A , N/A,11,falling,-2.7,-5.1,-0.3
+"Lassen County, California(7)",06035,Rural,12.7,8,19.2,N/A , N/A , N/A,5,stable,-2.3,-14.3,1.2
+"Kanabec County, Minnesota(6)",27065,Rural,12.7,7.1,21.6,N/A , N/A , N/A,3,*,*,*,*
+"DeSoto County, Mississippi(6)",28033,Urban,12.6,10.5,15.2,N/A , N/A , N/A,24,falling,-7.2,-21.6,-1.6
+"Banks County, Georgia(7)",13011,Rural,12.6,7,21.3,N/A , N/A , N/A,3,*,*,*,*
+"Jasper County, Texas(7)",48241,Rural,12.6,8.2,18.6,N/A , N/A , N/A,6,stable,-1.9,-5.2,1.3
+"Burnett County, Wisconsin(6)",55013,Rural,12.6,7.3,21.4,N/A , N/A , N/A,4,stable,-1.5,-6,3.1
+"Butler County, Alabama(6)",01013,Rural,12.6,7.2,20.8,N/A , N/A , N/A,3,*,*,*,*
+"Coryell County, Texas(7)",48099,Urban,12.5,9.1,16.9,N/A , N/A , N/A,9,falling,-2.5,-4.3,-0.6
+"Butts County, Georgia(7)",13035,Urban,12.5,7.4,20,N/A , N/A , N/A,4,stable,-0.9,-4.5,2.9
+"Casey County, Kentucky(7)",21045,Rural,12.5,7,21.4,N/A , N/A , N/A,3,stable,-2.7,-5.6,0.1
+"Lafayette County, Mississippi(6)",28071,Rural,12.5,8.5,17.8,N/A , N/A , N/A,6,stable,-3.2,-6.9,0.7
+"Brown County, South Dakota(6)",46013,Rural,12.5,8.3,18.1,N/A , N/A , N/A,6,stable,-1.5,-4.8,1.8
+"Custer County, Oklahoma(6)",40039,Rural,12.5,7.4,19.7,N/A , N/A , N/A,4,falling,-2.9,-5.8,-0.3
+"Dorchester County, Maryland(6)",24019,Rural,12.5,8.4,18.1,N/A , N/A , N/A,6,stable,-1.4,-4,1.2
+"Garrett County, Maryland(6)",24023,Rural,12.4,7.9,18.9,N/A , N/A , N/A,6,falling,-7.3,-41.7,-1.6
+"Stevens County, Washington(6)",53065,Urban,12.4,8.8,17.3,N/A , N/A , N/A,9,stable,-4.1,-8.4,0
+"Hampton County, South Carolina(6)",45049,Rural,12.4,7,20.8,N/A , N/A , N/A,3,falling,-9.3,-27.3,-5.5
+"Geneva County, Alabama(6)",01061,Urban,12.4,7.7,19.2,N/A , N/A , N/A,5,stable,-4,-9.4,0.4
+"Cherokee County, South Carolina(6)",45021,Rural,12.4,9,16.8,N/A , N/A , N/A,9,falling,-4.1,-7.2,-1.1
+"Covington County, Alabama(6)",01039,Rural,12.4,8.4,17.8,N/A , N/A , N/A,7,stable,-2.6,-7.4,1.7
+"Dare County, North Carolina(6)",37055,Rural,12.4,8.4,17.8,N/A , N/A , N/A,7,stable,-1.2,-4.4,2.1
+"Lawrence County, South Dakota(6)",46081,Rural,12.3,7.9,18.9,N/A , N/A , N/A,5,falling,-9.1,-29.2,-2.8
+"Clarendon County, South Carolina(6)",45027,Rural,12.3,8.2,18.2,N/A , N/A , N/A,6,stable,-1.2,-4.1,1.8
+"Kleberg County, Texas(7)",48273,Rural,12.3,7.2,19.6,N/A , N/A , N/A,4,*,*,*,*
+"Delta County, Colorado(6)",08029,Rural,12.3,8.1,18.3,N/A , N/A , N/A,6,stable,-1.1,-5,3
+"Warren County, Mississippi(6)",28149,Rural,12.3,8.3,17.5,N/A , N/A , N/A,7,stable,-1.7,-5.4,1.8
+"Alexandria City, Virginia(6)",51510,Urban,12.2,9.8,15,N/A , N/A , N/A,19,stable,-1.7,-4.5,1.1
+"Camden County, Missouri(6)",29029,Rural,12.2,8.3,17.4,N/A , N/A , N/A,9,falling,-7.7,-21.3,-2.1
+"Williams County, North Dakota(6)",38105,Rural,12.2,7.2,19.2,N/A , N/A , N/A,4,stable,-4.3,-10.9,1.4
+"Emanuel County, Georgia(7)",13107,Rural,12.2,6.8,20.2,N/A , N/A , N/A,3,*,*,*,*
+"Tift County, Georgia(7)",13277,Rural,12.1,7.9,17.8,N/A , N/A , N/A,5,stable,-20.5,-55.9,2.2
+"Inyo County, California(7)",06027,Rural,12.1,6.9,20.3,N/A , N/A , N/A,4,stable,-1.4,-6.1,3.1
+"Howard County, Texas(7)",48227,Rural,12.1,7.6,18.4,N/A , N/A , N/A,5,stable,0.2,-4.9,5.2
+"Polk County, North Carolina(6)",37149,Rural,12.1,7.5,19.7,N/A , N/A , N/A,5,stable,0.6,-4.2,6.1
+"Cole County, Missouri(6)",29051,Urban,12.1,9.1,15.8,N/A , N/A , N/A,12,stable,-1.4,-3.7,1.1
+"Franklin County, Alabama(6)",01059,Rural,12.1,7.6,18.4,N/A , N/A , N/A,5,stable,-0.6,-5.3,4.8
+"Polk County, Missouri(6)",29167,Urban,12.1,7.9,17.9,N/A , N/A , N/A,5,rising,17.4,3.4,40.9
+"Lancaster County, Virginia(6)",51103,Rural,11.9,6.9,22.9,N/A , N/A , N/A,3,stable,0.6,-5.6,7.9
+"Peach County, Georgia(7)",13225,Urban,11.9,7.4,18.5,N/A , N/A , N/A,4,*,*,*,*
+"Laurens County, Georgia(7)",13175,Rural,11.9,8.2,16.8,N/A , N/A , N/A,7,falling,-7.8,-25.3,-2.7
+"Milam County, Texas(7)",48331,Rural,11.8,7.1,18.9,N/A , N/A , N/A,4,falling,-3.4,-7.3,-0.2
+"Jackson County, Alabama(6)",01071,Rural,11.8,8.5,16.2,N/A , N/A , N/A,9,stable,-1.4,-4.3,1.5
+"Calaveras County, California(7)",06009,Rural,11.8,8.5,16.4,N/A , N/A , N/A,10,stable,-6.1,-32.5,0.1
+"Elko County, Nevada(6)",32007,Rural,11.8,7.9,16.9,N/A , N/A , N/A,6,falling,-4.2,-7.7,-0.8
+"Kauai County, Hawaii(7)",15007,Rural,11.8,8.9,15.4,N/A , N/A , N/A,12,stable,-2.1,-4.7,0.7
+"Carroll County, Arkansas(6)",05015,Rural,11.8,7.7,17.7,N/A , N/A , N/A,6,stable,-2.5,-8,3
+"Claiborne County, Tennessee(6)",47025,Rural,11.8,7.7,17.5,N/A , N/A , N/A,6,falling,-21.3,-52.7,-4.4
+"Lake County, California(7)",06033,Rural,11.7,9,15.2,N/A , N/A , N/A,13,stable,-1.7,-4.5,1
+"Carter County, Oklahoma(6)",40019,Rural,11.7,8,16.6,N/A , N/A , N/A,7,stable,-10.1,-29.4,6.9
+"St. Clair County, Alabama(6)",01115,Urban,11.7,9,15,N/A , N/A , N/A,13,falling,-2.7,-5.1,-0.2
+"St. Francis County, Arkansas(6)",05123,Rural,11.7,6.6,19.3,N/A , N/A , N/A,3,*,*,*,*
+"McIntosh County, Oklahoma(6)",40091,Rural,11.5,6.8,19,N/A , N/A , N/A,4,stable,-2.6,-9.1,3.8
+"Halifax County with South Boston City, Virginia(6)",51083,Rural,11.5,8,16.5,N/A , N/A , N/A,7,stable,-2,-6.9,2.9
+"George County, Mississippi(6)",28039,Rural,11.5,6.3,19.2,N/A , N/A , N/A,3,*,*,*,*
+"Colbert County, Alabama(6)",01033,Urban,11.5,8.2,15.7,N/A , N/A , N/A,9,falling,-3.8,-7.6,-0.2
+"Warren County, Virginia(6)",51187,Urban,11.5,7.6,16.7,N/A , N/A , N/A,6,stable,-0.9,-6.1,5
+"Grant County, New Mexico(7)",35017,Rural,11.4,6.9,18.1,N/A , N/A , N/A,5,stable,-1.3,-3.7,1.3
+"Bell County, Kentucky(7)",21013,Rural,11.4,6.9,18.2,N/A , N/A , N/A,4,falling,-12.8,-36.6,-2.2
+"Perry County, Illinois(7)",17145,Rural,11.4,6.7,18.6,N/A , N/A , N/A,4,stable,-5.4,-69.5,0.4
+"Wise County, Virginia(6)",51195,Rural,11.3,7.3,17,N/A , N/A , N/A,5,falling,-6.1,-21,-2.1
+"Pittsylvania County, Virginia(6)",51143,Rural,11.3,8.4,15,N/A , N/A , N/A,11,falling,-2.9,-6,-0.1
+"Tillamook County, Oregon(6)",41057,Rural,11.3,7.2,17.4,N/A , N/A , N/A,6,falling,-4.3,-7.9,-1.1
+"Apache County, Arizona(6)",04001,Rural,11.2,8,15.3,N/A , N/A , N/A,8,stable,1.6,-2.3,6
+"Jackson County, Florida(6)",12063,Rural,11.2,7.7,15.8,N/A , N/A , N/A,7,stable,0,-3.1,3.5
+"La Paz County, Arizona(6)",04012,Rural,11.2,6.5,19.4,N/A , N/A , N/A,5,stable,2.5,-4.6,10.2
+"Valencia County, New Mexico(7)",35061,Urban,11.2,8.4,14.6,N/A , N/A , N/A,11,falling,-4.5,-18.7,-0.7
+"Mississippi County, Arkansas(6)",05093,Rural,11.1,7.2,16.5,N/A , N/A , N/A,5,stable,-3.1,-8.6,1.6
+"Trinity County, California(7)",06105,Rural,11.1,6.2,19.7,N/A , N/A , N/A,4,*,*,*,*
+"Lee County, Alabama(6)",01081,Urban,11.1,8.9,13.7,N/A , N/A , N/A,18,stable,-2.2,-4.5,0.2
+"Montezuma County, Colorado(6)",08083,Rural,11.1,7,17.2,N/A , N/A , N/A,5,stable,-3.5,-9.2,2
+"Rio Arriba County, New Mexico(7)",35039,Rural,11.1,7.5,16,N/A , N/A , N/A,6,*,*,*,*
+"Edgefield County, South Carolina(6)",45037,Urban,11.1,6.6,17.7,N/A , N/A , N/A,4,*,*,*,*
+"Lauderdale County, Tennessee(6)",47097,Rural,11,6.2,18.2,N/A , N/A , N/A,3,*,*,*,*
+"Cochise County, Arizona(6)",04003,Urban,11,8.9,13.5,N/A , N/A , N/A,21,stable,-1.5,-3.5,0.5
+"Bolivar County, Mississippi(6)",28011,Rural,10.9,6.5,17.4,N/A , N/A , N/A,4,stable,2,-4.9,10.8
+"Obion County, Tennessee(6)",47131,Rural,10.8,6.5,16.9,N/A , N/A , N/A,4,stable,-2.8,-7,1
+"Logan County, Colorado(6)",08075,Rural,10.8,6.1,18.1,N/A , N/A , N/A,3,stable,-1.3,-5.9,3.3
+"Nye County, Nevada(6)",32023,Rural,10.4,7.2,14.7,N/A , N/A , N/A,9,stable,-2.4,-5.9,1.4
+"Houghton County, Michigan(6)",26061,Rural,10.2,6.2,16.1,N/A , N/A , N/A,4,stable,-2.7,-8.9,2.9
+"Mecklenburg County, Virginia(6)",51117,Rural,10.2,6.7,15.4,N/A , N/A , N/A,6,stable,-2.8,-7.5,1.9
+"Currituck County, North Carolina(6)",37053,Urban,10,5.7,16.6,N/A , N/A , N/A,3,stable,-3.4,-8,1.2
+"Muskegon County, Michigan(6)",26121,Urban,10,8.1,12.2,N/A , N/A , N/A,21,falling,-19.4,-36.4,-6.3
+"Luna County, New Mexico(7)",35029,Rural,9.8,5.6,16.3,N/A , N/A , N/A,3,stable,0.7,-1.9,3.6
+"Marshall County, Mississippi(6)",28093,Urban,9.7,6.1,14.9,N/A , N/A , N/A,5,falling,-20.1,-51.6,-2.1
+"Taos County, New Mexico(7)",35055,Rural,9.7,6.5,14.4,N/A , N/A , N/A,6,*,*,*,*
+"Whitman County, Washington(6)",53075,Rural,9.3,5.6,14.6,N/A , N/A , N/A,4,*,*,*,*
+"Dallas County, Alabama(6)",01047,Rural,9.3,5.8,14.1,N/A , N/A , N/A,5,stable,-0.1,-4,3.8
+"Clarke County, Alabama(6)",01025,Rural,9.1,5.3,15.2,N/A , N/A , N/A,3,stable,-0.5,-3.8,3.2
+"Chilton County, Alabama(6)",01021,Urban,9.1,5.8,13.5,N/A , N/A , N/A,5,stable,-1.8,-5,1.6
+"San Miguel County, New Mexico(7)",35047,Rural,8.5,4.9,14.1,N/A , N/A , N/A,4,*,*,*,*
+"Chaves County, New Mexico(7)",35005,Rural,8.2,5.5,11.7,N/A , N/A , N/A,6,falling,-12.3,-30.6,-3.4
