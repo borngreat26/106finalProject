@@ -1,19 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
-  <title>Cancer Rate Map</title>
+  <title>Cancer Incidence & Air Pollution by County</title>
+
+  <!-- D3 + TopoJSON -->
   <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
   <script src="https://cdn.jsdelivr.net/npm/topojson@3"></script>
-  <link rel="stylesheet" href="style_map.css" />
-</head>
 
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 1rem;
+      background: #f9f9f9;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 0.5rem;
+    }
+    #controls {
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+
+    /* Search box & buttons */
+    #county-search {
+      width: 200px;
+      padding: 4px;
+      margin-right: 4px;
+      font-size: 0.9rem;
+    }
+    button {
+      padding: 4px 8px;
+      font-size: 0.9rem;
+      margin-right: 8px;
+    }
+
+    /* Dropdowns */
+    select {
+      font-size: 1rem;
+      padding: 0.25rem;
+      margin: 0 8px;
+    }
+
+    #map {
+      width: 960px;
+      margin: 0 auto;
+      position: relative;
+    }
+    svg {
+      display: block;
+    }
+    .tooltip {
+      position: absolute;
+      padding: 6px 8px;
+      background: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      border-radius: 4px;
+      pointer-events: none;
+      font-size: 0.9rem;
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+
+    /* Container spacing for two stacked maps */
+    #pollution-container {
+      margin-top: 2rem;
+    }
+  </style>
+</head>
 <body>
-  <h2>U.S. Cancer Incidence Rates by County</h2>
-  <div id="map"></div>
-  <div id="tooltip" class="tooltip" hidden></div>
+  <h2>Cancer Incidence & Air Pollution by County</h2>
+
+  <div id="controls">
+    <!-- SEARCH BOX -->
+    <input
+      type="text"
+      id="county-search"
+      placeholder="Type county, e.g. Union County, Florida"
+    />
+    <button id="search-button">Go</button>
+
+    <!-- CANCER DROPDOWN -->
+    <label for="cancer-select">Cancer Type:</label>
+    <select id="cancer-select">
+      <option value="all" selected>All Cancer Sites</option>
+      <option value="leukemia">Leukemia Incidence</option>
+      <option value="lymphoma">Lymphoma Incidence</option>
+      <option value="thyroid">Thyroid Incidence</option>
+    </select>
+
+    <!-- POLLUTION DROPDOWN -->
+    <label for="pollution-select">Pollution Metric:</label>
+    <select id="pollution-select">
+      <option value="none" selected>None</option>
+      <option value="aps">Air Pollution Score</option>
+    </select>
+
+    <!-- RESET BUTTON -->
+    <button id="reset-button">Reset</button>
+  </div>
+
+  <div id="map">
+    <!-- CANCER MAP -->
+    <div id="cancer-container">
+      <svg id="cancer-svg" width="960" height="600"></svg>
+      <div id="cancer-tooltip" class="tooltip"></div>
+    </div>
+
+    <!-- POLLUTION MAP (hidden by default) -->
+    <div id="pollution-container" style="display: none;">
+      <svg id="pollution-svg" width="960" height="600"></svg>
+      <div id="pollution-tooltip" class="tooltip"></div>
+    </div>
+  </div>
+
+  <!-- Link to the JavaScript logic -->
   <script src="main_map.js"></script>
 </body>
-
 </html>
