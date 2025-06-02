@@ -2,13 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Cancer Incidence & Air Pollution by County</title>
+  <title>Cancer Incidence & Environmental Quality in U.S. Counties</title>
 
   <!-- D3 + TopoJSON -->
   <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
   <script src="https://cdn.jsdelivr.net/npm/topojson@3"></script>
 
   <style>
+    /* ========================
+       Global Styles & Narrative
+       ======================== */
     body {
       font-family: sans-serif;
       margin: 0;
@@ -42,11 +45,13 @@
       padding: 0 1rem;
     }
 
-    /* Controls & Search */
+    /* ========================
+       Dashboard Controls
+       ======================== */
     #controls {
       text-align: center;
       margin-bottom: 1rem;
-      position: relative; /* for suggestions positioning */
+      position: relative; /* anchor for suggestion dropdown */
     }
     #search-container {
       display: inline-block;
@@ -90,7 +95,9 @@
       background-color: #eee;
     }
 
-    /* Map styling */
+    /* ========================
+       Map & Tooltip Styles
+       ======================== */
     #map {
       width: 960px;
       margin: 0 auto 2rem auto;
@@ -99,8 +106,10 @@
     svg {
       display: block;
     }
+    /* Tooltip must float above everything */
     .tooltip {
       position: absolute;
+      z-index: 1000;
       padding: 6px 8px;
       background: rgba(0, 0, 0, 0.8);
       color: #fff;
@@ -110,6 +119,7 @@
       opacity: 0;
       transition: opacity 0.2s;
     }
+
     /* Space between cancer map and pollution map */
     #pollution-container {
       margin-top: 2rem;
@@ -137,7 +147,7 @@
   <!-- ================================================================
        2. Exploring the Cancer Landscape
        ================================================================ -->
-  <section id="cancer‐landscape">
+  <section id="cancer-landscape">
     <h2>1. Exploring the Cancer Landscape</h2>
     <p>
       <strong>What do cancer rates look like across U.S. counties?</strong><br/>
@@ -164,7 +174,7 @@
   <!-- ================================================================
        3. Layering on Air Pollution
        ================================================================ -->
-  <section id="air‐pollution">
+  <section id="air-pollution">
     <h2>2. Layering on Air Pollution</h2>
     <p>
       <strong>Is there a relationship between cancer rates and air quality?</strong><br/>
@@ -186,11 +196,11 @@
   <!-- ================================================================
        4. Introducing Industrial Pollution
        ================================================================ -->
-  <section id="industrial‐pollution">
+  <section id="industrial-pollution">
     <h2>3. Introducing Industrial Pollution</h2>
     <p>
       <strong>Could the presence of large industrial facilities help explain elevated cancer clusters?</strong><br/>
-      We compiled a dataset of major industrial sites (e.g., power plants, chemical manufacturers, refineries) that each handle or produce over 10,000 tons of pollutants annually. Each facility is represented by its latitude, longitude, and name. Rather than making a separate standalone map, we overlay “facility dots” directly on top of the cancer incidence choropleth. Blue circles indicate the location of each facility; hovering on a dot shows the facility name.
+      We compiled a dataset of major industrial sites (e.g., power plants, chemical manufacturers, refineries) that each handle or produce over 10,000 tons of pollutants annually. Each facility is represented by its latitude, longitude, and name. Rather than making a separate standalone map, we overlay “facility dots” directly on top of the cancer choropleth. Blue circles indicate the location of each facility; hovering on a dot shows the facility name.
     </p>
     <p>
       Immediately, you’ll see that many of these facilities sit in or near counties that reported higher cancer incidence:
@@ -285,18 +295,20 @@
   </div>
 
   <div id="map">
-    <!-- CANCER MAP -->
     <div id="cancer-container">
       <svg id="cancer-svg" width="960" height="600"></svg>
-      <div id="cancer-tooltip" class="tooltip"></div>
+      <!-- tooltip moved out below -->
     </div>
 
-    <!-- POLLUTION MAP (hidden by default) -->
     <div id="pollution-container" style="display: none;">
       <svg id="pollution-svg" width="960" height="600"></svg>
-      <div id="pollution-tooltip" class="tooltip"></div>
+      <!-- tooltip moved out below -->
     </div>
   </div>
+
+  <!-- Two tooltip divs now live here, top‐level under <body> -->
+  <div id="cancer-tooltip" class="tooltip"></div>
+  <div id="pollution-tooltip" class="tooltip"></div>
 
   <script src="main_map.js"></script>
 </body>
