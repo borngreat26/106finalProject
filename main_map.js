@@ -7,12 +7,37 @@
 const width  = 960;
 const height = 600;
 
-// 1.1) Cancer‐map SVG & group
-const cancerSvg = d3.select("#cancer-svg")
+// 1.1) Cancer‐map container & SVG
+const cancerContainer = d3.select("#cancer-container")
+  .style("position", "relative"); // ensure relative positioning for overlay
+
+const cancerSvg = cancerContainer.select("#cancer-svg")
   .attr("width", width)
   .attr("height", height);
 
 const cancerG = cancerSvg.append("g").attr("class", "cancer-counties-group");
+
+// 1.1a) Canvas overlay (for industry dots)
+const cancerCanvas = cancerContainer.append("canvas")
+  .attr("id", "cancer-canvas")
+  .attr("width", width)
+  .attr("height", height)
+  .style("position", "absolute")
+  .style("top", "0px")
+  .style("left", "0px")
+  .style("pointer-events", "none"); // let mouse events pass through
+
+const ctx = cancerCanvas.node().getContext("2d");
+
+// Track whether “industry” mode is active
+let industryMode = false;
+// Store current zoom transform
+let currentTransform = d3.zoomIdentity;
+
+// Will hold industry facilities data after load
+let facilities = [];
+// Color scale for sectors (assigned after data load)
+let sectorColor;
 
 // 1.2) Pollution‐map SVG & group (for PM₂.₅, Income)
 const pollutionSvg = d3.select("#pollution-svg")
@@ -32,11 +57,59 @@ const projection = d3.geoAlbersUsa()
 
 const path = d3.geoPath().projection(projection);
 
-// 1.5) Zoom behaviors (one for each SVG)
+
+// —————————————————————————————————————————————————————————————————
+// 2) PREDEFINE FUNCTIONS FOR INDUSTRY LAYER (canvas draw)
+// —————————————————————————————————————————————————————————————————
+
+// Redraw all facility dots on the canvas under currentTransform
+function drawFacilities() {
+  ctx.save();
+  ctx.clearRect(0, 0, width, height);
+  ctx.translate(currentTransform.x, currentTransform.y);
+  ctx.scale(currentTransform.k, currentTransform.k);
+
+  facilities.forEach(d => {
+    const proj = projection([d.longitude, d.latitude]);
+    if (!proj) return;
+    const [cx, cy] = proj;
+    ctx.fillStyle = sectorColor(d.sector);
+    ctx.beginPath();
+    ctx.arc(cx, cy, 3, 0, 2 * Math.PI);
+    ctx.fill();
+  });
+
+  ctx.restore();
+}
+
+// Enter industry mode: enable canvas drawing + redraw
+function enterIndustryMode() {
+  industryMode = true;
+  drawFacilities();
+}
+
+// Cancel industry mode: clear canvas
+function cancelIndustryMode() {
+  if (industryMode) {
+    industryMode = false;
+    ctx.clearRect(0, 0, width, height);
+  }
+}
+
+
+// —————————————————————————————————————————————————————————————————
+// 3) SETUP ZOOM BEHAVIORS (one for each SVG)
+// —————————————————————————————————————————————————————————————————
+
+// Cancer zoom now also redraws canvas when in industryMode
 const cancerZoom = d3.zoom()
   .scaleExtent([1, 8])
   .on("zoom", event => {
+    currentTransform = event.transform;
     cancerG.attr("transform", event.transform);
+    if (industryMode) {
+      drawFacilities();
+    }
   });
 
 const pollutionZoom = d3.zoom()
@@ -45,21 +118,21 @@ const pollutionZoom = d3.zoom()
     pollutionG.attr("transform", event.transform);
   });
 
-// 1.6) Attach zoom handlers to each SVG
+// Attach zoom handlers
 cancerSvg.call(cancerZoom);
 pollutionSvg.call(pollutionZoom);
 
 
 // —————————————————————————————————————————————————————————————————
-// 2) LOAD DATA IN PARALLEL:
-//    2.1) US counties TopoJSON
-//    2.2) incd (1).csv  (All‐Cancer incidence – skip 8 lines)
-//    2.3) leukemia_incidents.csv
-//    2.4) lymphoma_incidents.csv
-//    2.5) thryroid_incidents.csv
-//    2.6) air_pollution_data2.csv  (FIPS, PM₂.₅)
-//    2.7) industry_over_10k.csv   (Facility Name, Lat, Lon)
-//    2.8) County_Median_Income_2022.csv (FIPS, Median_Income)
+// 4) LOAD DATA IN PARALLEL:
+//    4.1) US counties TopoJSON
+//    4.2) incd (1).csv  (All‐Cancer incidence – skip first 8 lines)
+//    4.3) leukemia_incidents.csv
+//    4.4) lymphoma_incidents.csv
+//    4.5) thryroid_incidents.csv
+//    4.6) air_pollution_data2.csv  (FIPS, PM₂.₅)
+//    4.7) industry_over_10k.csv   (Facility Name, Lat, Lon, Industry Sector)
+//    4.8) County_Median_Income_2022.csv (FIPS, Median_Income)
 // —————————————————————————————————————————————————————————————————
 
 Promise.all([
@@ -92,7 +165,8 @@ Promise.all([
   d3.csv("industry_over_10k.csv", row => ({
     facilityName: row["Facility Name"].trim(),
     latitude:     parseFloat(row.Latitude),
-    longitude:    parseFloat(row.Longitude)
+    longitude:    parseFloat(row.Longitude),
+    sector:       row["Industry Sector"].trim()
   })),
   d3.csv("County_Median_Income_2022.csv", row => {
     const fipsStr = (row.FIPS || "").trim();
@@ -115,7 +189,7 @@ Promise.all([
   incomeData
 ]) => {
   // —————————————————————————————————————————————————————————————————
-  // 3) PARSE “incd (1).csv” for “All Cancer Sites” (skip first 8 lines)
+  // 5) PARSE “incd (1).csv” for “All Cancer Sites” (skip first 8 lines)
   // —————————————————————————————————————————————————————————————————
 
   const cancerLines     = rawCancerText.split("\n");
@@ -163,10 +237,10 @@ Promise.all([
 
   const allCountyNames = Array.from(fipsToName.values());
 
-  // 3.6) Suggestions container
+  // 5.6) Suggestions container
   const suggestionsDiv = d3.select("#suggestions");
 
-  // 3.7) SEARCH BOX: show suggestions, handle clicks & Enter key
+  // 5.7) SEARCH BOX: show suggestions, handle clicks & Enter key
   d3.select("#county-search")
     .on("input", function() {
       const query = this.value.trim().toLowerCase();
@@ -214,7 +288,7 @@ Promise.all([
 
 
   // —————————————————————————————————————————————————————————————————
-  // 4) BUILD MAPS FOR EACH CANCER SUBTYPE: leukemia, lymphoma, thyroid
+  // 6) BUILD MAPS FOR EACH CANCER SUBTYPE: leukemia, lymphoma, thyroid
   // —————————————————————————————————————————————————————————————————
 
   const leukemiaByFIPS = new Map();
@@ -252,7 +326,7 @@ Promise.all([
 
 
   // —————————————————————————————————————————————————————————————————
-  // 5) BUILD MAP FOR PM₂.₅ (air_pollution_data2.csv)
+  // 7) BUILD MAP FOR PM₂.₅ (air_pollution_data2.csv)
   // —————————————————————————————————————————————————————————————————
 
   const airByFIPS = new Map();
@@ -271,17 +345,17 @@ Promise.all([
 
 
   // —————————————————————————————————————————————————————————————————
-  // 6) CONVERT US TopoJSON → GeoJSON features (shared by both maps)
+  // 8) CONVERT US TopoJSON → GeoJSON features (shared by both maps)
   // —————————————————————————————————————————————————————————————————
 
   const counties = topojson.feature(usTopology, usTopology.objects.counties).features;
 
 
   // —————————————————————————————————————————————————————————————————
-  // 7) DEFINE COLOR SCALES (using 95th percentile for dynamic ranges)
+  // 9) DEFINE COLOR SCALES (using 95th percentile for dynamic ranges)
   // —————————————————————————————————————————————————————————————————
 
-  // 7.1) All‐Sites Cancer: dynamic [min, 95th percentile], clamp above
+  // 9.1) All‐Sites Cancer: dynamic [min, 95th percentile], clamp above
   const allCancerValues = Array.from(cancerByFIPS.values()).filter(v => !isNaN(v));
   const allMin = d3.min(allCancerValues);
   const allSorted = allCancerValues.slice().sort(d3.ascending);
@@ -290,7 +364,7 @@ Promise.all([
     .domain([allMin, all95])
     .clamp(true);
 
-  // 7.2) Leukemia: domain [min, 95th percentile], clamp above
+  // 9.2) Leukemia: domain [min, 95th percentile], clamp above
   const leukemiaValuesArr = Array.from(leukemiaByFIPS.values()).filter(v => !isNaN(v));
   const leukMin = d3.min(leukemiaValuesArr);
   const leukSorted = leukemiaValuesArr.slice().sort(d3.ascending);
@@ -299,7 +373,7 @@ Promise.all([
     .domain([leukMin, leuk95])
     .clamp(true);
 
-  // 7.3) Lymphoma: domain [min, 95th percentile], clamp above
+  // 9.3) Lymphoma: domain [min, 95th percentile], clamp above
   const lymphomaValuesArr = Array.from(lymphomaByFIPS.values()).filter(v => !isNaN(v));
   const lyphMin = d3.min(lymphomaValuesArr);
   const lyphSorted = lymphomaValuesArr.slice().sort(d3.ascending);
@@ -308,7 +382,7 @@ Promise.all([
     .domain([lyphMin, lyph95])
     .clamp(true);
 
-  // 7.4) Thyroid: domain [min, 95th percentile], clamp above
+  // 9.4) Thyroid: domain [min, 95th percentile], clamp above
   const thyroidValuesArr = Array.from(thyroidByFIPS.values()).filter(v => !isNaN(v));
   const thyMin = d3.min(thyroidValuesArr);
   const thySorted = thyroidValuesArr.slice().sort(d3.ascending);
@@ -317,11 +391,11 @@ Promise.all([
     .domain([thyMin, thy95])
     .clamp(true);
 
-  // 7.5) PM₂.₅: fixed [3, 15]
+  // 9.5) PM₂.₅: fixed [3, 15]
   const pm25Color = d3.scaleSequential(d3.interpolateBlues)
     .domain([3, 15]);
 
-  // 7.6) County Median Income (dynamic, clamp to 120,000)
+  // 9.6) County Median Income (dynamic, clamp to 120,000)
   const incomeValuesArr = Array.from(incomeByFIPS.values()).filter(v => !isNaN(v));
   const incomeMin = d3.min(incomeValuesArr);
   const incomeMax = d3.max(incomeValuesArr);
@@ -330,8 +404,18 @@ Promise.all([
     .clamp(true);
 
 
+  // 9.7) Precompute facilities (for canvas) once, extract unique sectors
+  facilities = industryData.filter(d =>
+    !isNaN(d.latitude) && !isNaN(d.longitude)
+  );
+
+  // Use a categorical palette without reds/oranges/white → d3.schemeSet2
+  const uniqueSectors = Array.from(new Set(facilities.map(d => d.sector)));
+  sectorColor = d3.scaleOrdinal(d3.schemeSet2).domain(uniqueSectors);
+
+
   // —————————————————————————————————————————————————————————————————
-  // 8) DRAW THE CANCER MAP
+  // 10) DRAW THE CANCER MAP
   // —————————————————————————————————————————————————————————————————
 
   const cancerPaths = cancerG.selectAll("path")
@@ -391,7 +475,7 @@ Promise.all([
 
 
   // —————————————————————————————————————————————————————————————————
-  // 9) CANCER LEGEND SETUP (dynamically updated)
+  // 11) CANCER LEGEND SETUP (dynamically updated)
   // —————————————————————————————————————————————————————————————————
 
   const cancerLegendWidth  = 300;
@@ -430,7 +514,7 @@ Promise.all([
 
 
   // —————————————————————————————————————————————————————————————————
-  // 10) DRAW THE PM₂.₅ & INCOME MAPS
+  // 12) DRAW THE PM₂.₅ & INCOME MAPS
   // —————————————————————————————————————————————————————————————————
 
   const pollutionPaths = pollutionG.selectAll("path")
@@ -494,7 +578,7 @@ Promise.all([
 
 
   // —————————————————————————————————————————————————————————————————
-  // 11) DRAW LEGENDS FOR PM₂.₅ & INCOME
+  // 13) DRAW LEGENDS FOR PM₂.₅ & INCOME
   // —————————————————————————————————————————————————————————————————
 
   const pm25LegendWidth  = 300;
@@ -586,7 +670,7 @@ Promise.all([
 
 
   // —————————————————————————————————————————————————————————————————
-  // 12) CONTROLS BEHAVIOR
+  // 14) CONTROLS BEHAVIOR
   // —————————————————————————————————————————————————————————————————
 
   d3.select("#pollution-select").on("change", () => {
@@ -596,39 +680,42 @@ Promise.all([
       d3.select("#pollution-container").style("display", null);
       pm25LegendGroup.style("display", null);
       incomeLegendGroup.style("display", "none");
-      industryLayer.selectAll("circle").remove();
+      cancelIndustryMode();
+
       updatePollutionChoropleth();
     }
     else if (pollutionMetric === "income") {
       d3.select("#pollution-container").style("display", null);
       pm25LegendGroup.style("display", "none");
       incomeLegendGroup.style("display", null);
-      industryLayer.selectAll("circle").remove();
+      cancelIndustryMode();
+
       updateIncomeChoropleth();
     }
     else if (pollutionMetric === "industry") {
       d3.select("#pollution-container").style("display", "none");
       pm25LegendGroup.style("display", "none");
       incomeLegendGroup.style("display", "none");
-      drawIndustryDots();
+
+      enterIndustryMode();
     }
     else {
       d3.select("#pollution-container").style("display", "none");
       pm25LegendGroup.style("display", "none");
       incomeLegendGroup.style("display", "none");
-      industryLayer.selectAll("circle").remove();
+      cancelIndustryMode();
     }
 
     updateCancerChoropleth();
   });
 
-  // 12.2) Cancer dropdown: update choropleth & legend
+  // 14.2) Cancer dropdown: update choropleth & legend
   d3.select("#cancer-select").on("change", () => {
     updateCancerChoropleth();
     updateCancerLegend();
   });
 
-  // 12.3) SEARCH BUTTON: zoom & highlight outline
+  // 14.3) SEARCH BUTTON: zoom & highlight outline
   d3.select("#search-button").on("click", () => {
     const queryRaw = d3.select("#county-search").property("value").trim().toLowerCase();
     if (!queryRaw) {
@@ -678,7 +765,7 @@ Promise.all([
     zoomToFeature(feature);
   });
 
-  // 12.4) RESET BUTTON
+  // 14.4) RESET BUTTON
   d3.select("#reset-button").on("click", () => {
     // Reset zoom transforms
     cancerSvg.transition().duration(750).call(cancerZoom.transform, d3.zoomIdentity);
@@ -689,13 +776,13 @@ Promise.all([
       .attr("stroke", "#999")
       .attr("stroke-width", 0.2);
 
-    // Also clear industry dots if visible
-    industryLayer.selectAll("circle").remove();
+    // Also clear industry overlay if visible
+    cancelIndustryMode();
   });
 
 
   // —————————————————————————————————————————————————————————————————
-  // 13) HELPER: zoom a GeoJSON feature on both maps
+  // 15) HELPER: zoom a GeoJSON feature on both maps
   // —————————————————————————————————————————————————————————————————
 
   function zoomToFeature(feature) {
@@ -724,50 +811,7 @@ Promise.all([
 
 
   // —————————————————————————————————————————————————————————————————
-  // 14) DRAW INDUSTRY FACILITY DOTS ON THE CANCER MAP
-  // —————————————————————————————————————————————————————————————————
-
-  function drawIndustryDots() {
-    industryLayer.selectAll("circle").remove();
-
-    const validFacilities = industryData.filter(d =>
-      !isNaN(d.latitude) && !isNaN(d.longitude)
-    );
-
-    industryLayer.selectAll("circle")
-      .data(validFacilities)
-      .join("circle")
-        .attr("cx", d => {
-          const proj = projection([d.longitude, d.latitude]);
-          return proj ? proj[0] : null;
-        })
-        .attr("cy", d => {
-          const proj = projection([d.longitude, d.latitude]);
-          return proj ? proj[1] : null;
-        })
-        .attr("r", 3)
-        .attr("fill", "blue")
-        .attr("stroke", "#fff")
-        .attr("stroke-width", 0.5)
-        .attr("opacity", 0.7)
-      .on("mouseover", (event, d) => {
-        const html = `
-          <strong>Facility:</strong> ${d.facilityName}
-        `;
-        cancerTooltip
-          .style("left",  (event.pageX + 10) + "px")
-          .style("top",   (event.pageY) + "px")
-          .style("opacity", 1)
-          .html(html);
-      })
-      .on("mouseout", () => {
-        cancerTooltip.style("opacity", 0);
-      });
-  }
-
-
-  // —————————————————————————————————————————————————————————————————
-  // 15) UPDATE CANCER CHOROPLETH & LEGEND
+  // 16) UPDATE CANCER CHOROPLETH & LEGEND
   // —————————————————————————————————————————————————————————————————
 
   function updateCancerChoropleth() {
