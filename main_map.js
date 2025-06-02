@@ -63,58 +63,38 @@ pollutionSvg.call(pollutionZoom);
 // —————————————————————————————————————————————————————————————————
 
 Promise.all([
-  // 2.1) U.S. counties TopoJSON
   d3.json("https://cdn.jsdelivr.net/npm/us-atlas@3/counties-10m.json"),
-
-  // 2.2) incd (1).csv as raw text (skip first 8 lines)
   d3.text("incd (1).csv"),
-
-  // 2.3) leukemia_incidents.csv
   d3.csv("leukemia_incidents.csv", row => ({
     county:    row.County.replace(/\(\d+\)$/, "").replace(/"/g, "").trim(),
     fips:      String(+row.FIPS).padStart(5, "0"),
     incidence: +row["Age-Adjusted Incidence Rate([rate note]) - cases per 100,000"]
   })),
-
-  // 2.4) lymphoma_incidents.csv
   d3.csv("lymphoma_incidents.csv", row => ({
     county:    row.County.replace(/\(\d+\)$/, "").replace(/"/g, "").trim(),
     fips:      String(+row.FIPS).padStart(5, "0"),
     incidence: +row["Age-Adjusted Incidence Rate([rate note]) - cases per 100,000"]
   })),
-
-  // 2.5) thryroid_incidents.csv
   d3.csv("thryroid_incidents.csv", row => ({
     county:    row.County.replace(/\(\d+\)$/, "").replace(/"/g, "").trim(),
     fips:      String(+row.FIPS).padStart(5, "0"),
     incidence: +row["Age-Adjusted Incidence Rate([rate note]) - cases per 100,000"]
   })),
-
-  // 2.6) air_pollution_data2.csv (PM₂.₅ values)
   d3.csv("air_pollution_data2.csv", row => {
-    // The header for PM₂.₅ is "Micrograms per cubic meter (PM2.5)(1)"
     const rawPm25 = +row["Micrograms per cubic meter (PM2.5)(1)"];
     const pm25 = isNaN(rawPm25) ? null : rawPm25;
-
-    // FIPS might be a number; zero-pad to 5 digits
     const fipsStr = (row.FIPS || "").trim();
     const fipsCode = (fipsStr !== "" && !isNaN(+fipsStr))
       ? String(+fipsStr).padStart(5, "0")
       : null;
-
     return { fips: fipsCode, pm25 };
   }),
-
-  // 2.7) industry_over_10k.csv (Facility Name, Latitude, Longitude)
   d3.csv("industry_over_10k.csv", row => ({
     facilityName: row["Facility Name"].trim(),
     latitude:     parseFloat(row.Latitude),
     longitude:    parseFloat(row.Longitude)
   })),
-
-  // 2.8) County_Median_Income_2022.csv (FIPS, Median_Income_2022)
   d3.csv("County_Median_Income_2022.csv", row => {
-    // Expecting columns: "FIPS" and "Median_Income_2022"
     const fipsStr = (row.FIPS || "").trim();
     const fipsCode = (fipsStr !== "" && !isNaN(+fipsStr))
       ? String(+fipsStr).padStart(5, "0")
@@ -131,18 +111,16 @@ Promise.all([
   lymphomaData,
   thyroidData,
   pm25Data,
-  industryData,     // <-- previously loaded
-  incomeData        // <-- loaded county median income
+  industryData,
+  incomeData
 ]) => {
   // —————————————————————————————————————————————————————————————————
   // 3) PARSE “incd (1).csv” for “All Cancer Sites” (skip first 8 lines)
   // —————————————————————————————————————————————————————————————————
 
-  // 3.1) Drop the first 8 lines
   const cancerLines     = rawCancerText.split("\n");
   const cancerDataLines = cancerLines.slice(8).join("\n");
 
-  // 3.2) Parse the remainder as CSV
   const allCancerData = d3.csvParse(cancerDataLines, row => {
     const rawCounty = (row.County || "")
       .replace(/\(\d+\)$/, "")
@@ -164,23 +142,18 @@ Promise.all([
     };
   });
 
-  // 3.3) Build maps for “All Cancer Sites”
   const cancerByFIPS = new Map();
   const nameToFIPS   = new Map();
-
   allCancerData.forEach(d => {
     if (d.fips && d.incidence != null) {
       cancerByFIPS.set(d.fips, d.incidence);
-
       const key = `${d.county}, ${d.state}`.toLowerCase();
       nameToFIPS.set(key, d.fips);
-
       const noSuffix = key.replace(/ county$/, "");
       if (noSuffix !== key) nameToFIPS.set(noSuffix, d.fips);
     }
   });
 
-  // 3.4) Build a reverse lookup: FIPS → "County, State"
   const fipsToName = new Map();
   allCancerData.forEach(d => {
     if (d.fips) {
@@ -188,46 +161,47 @@ Promise.all([
     }
   });
 
-  // 3.5) Build an array of all county names for suggestions
   const allCountyNames = Array.from(fipsToName.values());
 
-  // 3.6) Grab the #suggestions container
+  // 3.6) Suggestions container
   const suggestionsDiv = d3.select("#suggestions");
 
-  // 3.7) Set up “input” listener on the search box to display suggestions
-  d3.select("#county-search").on("input", function() {
-    const query = this.value.trim().toLowerCase();
-    suggestionsDiv.html("");              // clear previous suggestions
-    suggestionsDiv.style("display", "none");
+  // 3.7) SEARCH BOX: show suggestions, handle clicks & Enter key
+  d3.select("#county-search")
+    .on("input", function() {
+      const query = this.value.trim().toLowerCase();
+      suggestionsDiv.html("");
+      suggestionsDiv.style("display", "none");
+      if (!query) return;
 
-    if (!query) return;                   // nothing to show
+      const matches = allCountyNames
+        .filter(name => name.toLowerCase().includes(query))
+        .slice(0, 10);
+      if (matches.length === 0) return;
 
-    // Filter county names that include the query (case-insensitive)
-    const matches = allCountyNames
-      .filter(name => name.toLowerCase().includes(query))
-      .slice(0, 10);                      // show up to 10 matches
+      matches.forEach(name => {
+        suggestionsDiv
+          .append("div")
+          .attr("class", "suggestion-item")
+          .text(name)
+          .on("click", () => {
+            // Fill input, clear suggestions, then trigger search
+            d3.select("#county-search").property("value", name);
+            suggestionsDiv.html("");
+            suggestionsDiv.style("display", "none");
+            d3.select("#search-button").node().click();
+          });
+      });
 
-    if (matches.length === 0) return;
-
-    // Populate suggestionsDiv with a <div> for each match
-    matches.forEach(name => {
-      suggestionsDiv
-        .append("div")
-        .attr("class", "suggestion-item")
-        .text(name)
-        .on("click", () => {
-          // When clicked, fill input, clear suggestions
-          d3.select("#county-search").property("value", name);
-          suggestionsDiv.html("");
-          suggestionsDiv.style("display", "none");
-        });
+      suggestionsDiv.style("display", "block");
+    })
+    .on("keydown", function(event) {
+      if (event.key === "Enter") {
+        event.preventDefault();
+        d3.select("#search-button").node().click();
+      }
     });
 
-    // Show the suggestions container (now that it has children)
-    suggestionsDiv.style("display", "block");
-  });
-
-  // 3.8) Clicking outside suggestions should clear/hide them
   d3.select("body").on("click", function(event) {
     if (
       !event.target.closest("#county-search") &&
@@ -247,7 +221,6 @@ Promise.all([
   leukemiaData.forEach(d => {
     if (d.fips && !isNaN(d.incidence)) {
       leukemiaByFIPS.set(d.fips, d.incidence);
-
       const key = d.county.toLowerCase();
       nameToFIPS.set(key, d.fips);
       const noSuffix = key.replace(/ county$/, "");
@@ -259,7 +232,6 @@ Promise.all([
   lymphomaData.forEach(d => {
     if (d.fips && !isNaN(d.incidence)) {
       lymphomaByFIPS.set(d.fips, d.incidence);
-
       const key = d.county.toLowerCase();
       nameToFIPS.set(key, d.fips);
       const noSuffix = key.replace(/ county$/, "");
@@ -271,7 +243,6 @@ Promise.all([
   thyroidData.forEach(d => {
     if (d.fips && !isNaN(d.incidence)) {
       thyroidByFIPS.set(d.fips, d.incidence);
-
       const key = d.county.toLowerCase();
       nameToFIPS.set(key, d.fips);
       const noSuffix = key.replace(/ county$/, "");
@@ -291,7 +262,6 @@ Promise.all([
     }
   });
 
-  // 5.1) BUILD MAP FOR County Median Income (2022)
   const incomeByFIPS = new Map();
   incomeData.forEach(d => {
     if (d.fips && d.medianIncome != null) {
@@ -308,46 +278,53 @@ Promise.all([
 
 
   // —————————————————————————————————————————————————————————————————
-  // 7) DEFINE COLOR SCALES
-  //    • cancerColor  (for all/selected cancer type): domain [300,700], Reds
-  //    • leukemiaColor, lymphomaColor, thyroidColor: dynamic Reds
-  //    • pm25Color     (for PM₂.₅ map): fixed [3, 15], Blues
-  //    • incomeColor   (for Income map): dynamic [incomeMin, incomeMax], Greens
+  // 7) DEFINE COLOR SCALES (using 95th percentile for dynamic ranges)
   // —————————————————————————————————————————————————————————————————
 
-  // 7.1) All‐Sites Cancer: [300,700]
+  // 7.1) All‐Sites Cancer: dynamic [min, 95th percentile], clamp above
+  const allCancerValues = Array.from(cancerByFIPS.values()).filter(v => !isNaN(v));
+  const allMin = d3.min(allCancerValues);
+  const allSorted = allCancerValues.slice().sort(d3.ascending);
+  const all95 = d3.quantile(allSorted, 0.95);
   const cancerColor = d3.scaleSequential(d3.interpolateReds)
-    .domain([300, 700]);
+    .domain([allMin, all95])
+    .clamp(true);
 
-  // 7.2) Leukemia: dynamic [leukMin, leukMax]
-  const leukemiaValues = Array.from(leukemiaByFIPS.values());
-  const leukMin = d3.min(leukemiaValues);
-  const leukMax = d3.max(leukemiaValues);
+  // 7.2) Leukemia: domain [min, 95th percentile], clamp above
+  const leukemiaValuesArr = Array.from(leukemiaByFIPS.values()).filter(v => !isNaN(v));
+  const leukMin = d3.min(leukemiaValuesArr);
+  const leukSorted = leukemiaValuesArr.slice().sort(d3.ascending);
+  const leuk95 = d3.quantile(leukSorted, 0.95);
   const leukemiaColor = d3.scaleSequential(d3.interpolateReds)
-    .domain([leukMin, leukMax]);
+    .domain([leukMin, leuk95])
+    .clamp(true);
 
-  // 7.3) Lymphoma: dynamic [lyphMin, lyphMax]
-  const lymphomaValues = Array.from(lymphomaByFIPS.values());
-  const lyphMin = d3.min(lymphomaValues);
-  const lyphMax = d3.max(lymphomaValues);
+  // 7.3) Lymphoma: domain [min, 95th percentile], clamp above
+  const lymphomaValuesArr = Array.from(lymphomaByFIPS.values()).filter(v => !isNaN(v));
+  const lyphMin = d3.min(lymphomaValuesArr);
+  const lyphSorted = lymphomaValuesArr.slice().sort(d3.ascending);
+  const lyph95 = d3.quantile(lyphSorted, 0.95);
   const lymphomaColor = d3.scaleSequential(d3.interpolateReds)
-    .domain([lyphMin, lyphMax]);
+    .domain([lyphMin, lyph95])
+    .clamp(true);
 
-  // 7.4) Thyroid: dynamic [thyMin, thyMax]
-  const thyroidValues = Array.from(thyroidByFIPS.values());
-  const thyMin = d3.min(thyroidValues);
-  const thyMax = d3.max(thyroidValues);
+  // 7.4) Thyroid: domain [min, 95th percentile], clamp above
+  const thyroidValuesArr = Array.from(thyroidByFIPS.values()).filter(v => !isNaN(v));
+  const thyMin = d3.min(thyroidValuesArr);
+  const thySorted = thyroidValuesArr.slice().sort(d3.ascending);
+  const thy95 = d3.quantile(thySorted, 0.95);
   const thyroidColor = d3.scaleSequential(d3.interpolateReds)
-    .domain([thyMin, thyMax]);
+    .domain([thyMin, thy95])
+    .clamp(true);
 
   // 7.5) PM₂.₅: fixed [3, 15]
   const pm25Color = d3.scaleSequential(d3.interpolateBlues)
     .domain([3, 15]);
 
   // 7.6) County Median Income (dynamic, clamp to 120,000)
-  const incomeValues = Array.from(incomeByFIPS.values());
-  const incomeMin = d3.min(incomeValues);
-  const incomeMax = d3.max(incomeValues);
+  const incomeValuesArr = Array.from(incomeByFIPS.values()).filter(v => !isNaN(v));
+  const incomeMin = d3.min(incomeValuesArr);
+  const incomeMax = d3.max(incomeValuesArr);
   const incomeColor = d3.scaleSequential(v => d3.interpolateGreys(1 - v))
     .domain([incomeMin, 120000])
     .clamp(true);
@@ -357,7 +334,6 @@ Promise.all([
   // 8) DRAW THE CANCER MAP
   // —————————————————————————————————————————————————————————————————
 
-  // 8.1) Main county paths (initially fill with all‐cancer)
   const cancerPaths = cancerG.selectAll("path")
     .data(counties)
     .join("path")
@@ -375,25 +351,29 @@ Promise.all([
           const val = cancerByFIPS.get(fips);
           html = `
             <strong>County:</strong> ${countyName}<br/>
-            <strong>All-Sites Cancer:</strong> ${val != null ? val.toFixed(1) : "N/A"}
+            <strong>All-Sites Cancer:</strong> ${val != null ? val.toFixed(1) : "N/A"}<br/>
+            ${val > all95 ? `(>95th percentile)` : ""}
           `;
         } else if (cancerType === "leukemia") {
-          const val = leukemiaByFIPS.get(fips);
+          let val = leukemiaByFIPS.get(fips);
           html = `
             <strong>County:</strong> ${countyName}<br/>
-            <strong>Leukemia:</strong> ${val != null ? val.toFixed(1) : "N/A"}
+            <strong>Leukemia:</strong> ${val != null ? val.toFixed(1) : "N/A"}<br/>
+            ${val > leuk95 ? `(>95th percentile)` : ""}
           `;
         } else if (cancerType === "lymphoma") {
-          const val = lymphomaByFIPS.get(fips);
+          let val = lymphomaByFIPS.get(fips);
           html = `
             <strong>County:</strong> ${countyName}<br/>
-            <strong>Lymphoma:</strong> ${val != null ? val.toFixed(1) : "N/A"}
+            <strong>Lymphoma:</strong> ${val != null ? val.toFixed(1) : "N/A"}<br/>
+            ${val > lyph95 ? `(>95th percentile)` : ""}
           `;
         } else if (cancerType === "thyroid") {
-          const val = thyroidByFIPS.get(fips);
+          let val = thyroidByFIPS.get(fips);
           html = `
             <strong>County:</strong> ${countyName}<br/>
-            <strong>Thyroid:</strong> ${val != null ? val.toFixed(1) : "N/A"}
+            <strong>Thyroid:</strong> ${val != null ? val.toFixed(1) : "N/A"}<br/>
+            ${val > thy95 ? `(>95th percentile)` : ""}
           `;
         }
 
@@ -407,42 +387,50 @@ Promise.all([
         cancerTooltip.style("opacity", 0);
       });
 
-  // 8.2) A dedicated <g> for drawing “Industry” circles atop the cancer map
   const industryLayer = cancerG.append("g").attr("class", "industry-layer");
-
-  function updateCancerChoropleth() {
-    const cancerType = d3.select("#cancer-select").property("value");
-
-    cancerPaths
-      .transition()
-      .duration(500)
-      .attr("fill", d => {
-        const fips = d.id;
-        if (cancerType === "all") {
-          const val = cancerByFIPS.get(fips);
-          return val != null ? cancerColor(val) : "#eee";
-        } else if (cancerType === "leukemia") {
-          const val = leukemiaByFIPS.get(fips);
-          return val != null ? leukemiaColor(val) : "#eee";
-        } else if (cancerType === "lymphoma") {
-          const val = lymphomaByFIPS.get(fips);
-          return val != null ? lymphomaColor(val) : "#eee";
-        } else if (cancerType === "thyroid") {
-          const val = thyroidByFIPS.get(fips);
-          return val != null ? thyroidColor(val) : "#eee";
-        }
-      });
-  }
-
-  // Initial draw (default: "all")
-  updateCancerChoropleth();
-
-  // Redraw when the cancer‐dropdown changes
-  d3.select("#cancer-select").on("change", updateCancerChoropleth);
 
 
   // —————————————————————————————————————————————————————————————————
-  // 9) DRAW THE PM₂.₅ & INCOME MAPS
+  // 9) CANCER LEGEND SETUP (dynamically updated)
+  // —————————————————————————————————————————————————————————————————
+
+  const cancerLegendWidth  = 300;
+  const cancerLegendHeight = 12;
+
+  const defsCancer = cancerSvg.append("defs");
+  const cancerGrad = defsCancer.append("linearGradient")
+    .attr("id", "legend-cancer");
+
+  const cancerLegendGroup = cancerSvg.append("g")
+    .attr("transform", `translate(${width - cancerLegendWidth - 50}, 30)`);
+
+  cancerLegendGroup.append("rect")
+    .attr("width", cancerLegendWidth)
+    .attr("height", cancerLegendHeight)
+    .style("fill", "url(#legend-cancer)");
+
+  let cancerLegendScale = d3.scaleLinear()
+    .range([0, cancerLegendWidth]);
+
+  let cancerLegendAxis = d3.axisBottom(cancerLegendScale)
+    .ticks(5)
+    .tickFormat(d3.format(".0f"));
+
+  cancerLegendGroup.append("g")
+    .attr("class", "cancer-legend-axis")
+    .attr("transform", `translate(0, ${cancerLegendHeight})`);
+
+  cancerLegendGroup.append("text")
+    .attr("class", "cancer-legend-title")
+    .attr("x", cancerLegendWidth / 2)
+    .attr("y", -6)
+    .attr("text-anchor", "middle")
+    .style("font-size", "12px")
+    .text("Cancer Incidence Rate");
+
+
+  // —————————————————————————————————————————————————————————————————
+  // 10) DRAW THE PM₂.₅ & INCOME MAPS
   // —————————————————————————————————————————————————————————————————
 
   const pollutionPaths = pollutionG.selectAll("path")
@@ -458,15 +446,13 @@ Promise.all([
         const pollutionMetric = d3.select("#pollution-select").property("value");
 
         let html = "";
-
         if (pollutionMetric === "pm25") {
           const val = airByFIPS.get(fips);
           html = `
             <strong>County:</strong> ${countyName}<br/>
             <strong>PM₂.₅:</strong> ${val != null ? val.toFixed(1) + " µg/m³" : "N/A"}
           `;
-        }
-        else if (pollutionMetric === "income") {
+        } else if (pollutionMetric === "income") {
           const val = incomeByFIPS.get(fips);
           html = `
             <strong>County:</strong> ${countyName}<br/>
@@ -508,52 +494,9 @@ Promise.all([
 
 
   // —————————————————————————————————————————————————————————————————
-  // 10) DRAW LEGENDS FOR CANCER, PM₂.₅, & INCOME
+  // 11) DRAW LEGENDS FOR PM₂.₅ & INCOME
   // —————————————————————————————————————————————————————————————————
 
-  // 10.1) Cancer legend (300→700, Reds)
-  const cancerLegendWidth  = 300;
-  const cancerLegendHeight = 12;
-
-  const defsCancer = cancerSvg.append("defs");
-  const cancerGrad = defsCancer.append("linearGradient")
-    .attr("id", "legend-cancer");
-
-  d3.range(0, 1.001, 0.01).forEach(t => {
-    const val = cancerColor.domain()[0] + t * (cancerColor.domain()[1] - cancerColor.domain()[0]);
-    cancerGrad.append("stop")
-      .attr("offset", `${t * 100}%`)
-      .attr("stop-color", cancerColor(val));
-  });
-
-  const cancerLegendGroup = cancerSvg.append("g")
-    .attr("transform", `translate(${width - cancerLegendWidth - 50}, 30)`);
-
-  cancerLegendGroup.append("rect")
-    .attr("width", cancerLegendWidth)
-    .attr("height", cancerLegendHeight)
-    .style("fill", "url(#legend-cancer)");
-
-  const cancerLegendScale = d3.scaleLinear()
-    .domain(cancerColor.domain())  // [300,700]
-    .range([0, cancerLegendWidth]);
-
-  const cancerLegendAxis = d3.axisBottom(cancerLegendScale)
-    .ticks(5)
-    .tickFormat(d3.format(".0f"));
-
-  cancerLegendGroup.append("g")
-    .attr("transform", `translate(0, ${cancerLegendHeight})`)
-    .call(cancerLegendAxis);
-
-  cancerLegendGroup.append("text")
-    .attr("x", cancerLegendWidth / 2)
-    .attr("y", -6)
-    .attr("text-anchor", "middle")
-    .style("font-size", "12px")
-    .text("Cancer Incidence Rate");
-
-  // 10.2) PM₂.₅ legend (fixed [3, 15], Blues)
   const pm25LegendWidth  = 300;
   const pm25LegendHeight = 12;
 
@@ -562,7 +505,7 @@ Promise.all([
     .attr("id", "legend-pm25");
 
   d3.range(0, 1.001, 0.01).forEach(t => {
-    const val = 3 + t * (15 - 3);  // interpolation from 3→15
+    const val = 3 + t * (15 - 3);
     pm25Grad.append("stop")
       .attr("offset", `${t * 100}%`)
       .attr("stop-color", pm25Color(val));
@@ -577,7 +520,7 @@ Promise.all([
     .style("fill", "url(#legend-pm25)");
 
   const pm25LegendScale = d3.scaleLinear()
-    .domain([3, 15])              // fixed [3,15]
+    .domain([3, 15])
     .range([0, pm25LegendWidth]);
 
   const pm25LegendAxis = d3.axisBottom(pm25LegendScale)
@@ -596,7 +539,6 @@ Promise.all([
     .text("PM₂.₅ (µg/m³)");
 
 
-  // 10.3) Income legend (dynamic [incomeMin→incomeMax], Greens)
   const incomeLegendWidth  = 300;
   const incomeLegendHeight = 12;
 
@@ -638,74 +580,55 @@ Promise.all([
     .style("font-size", "12px")
     .text("Median Income (2022)");
 
-  // Hide the PM₂.₅ map + legend initially
   d3.select("#pollution-container").style("display", "none");
   pm25LegendGroup.style("display", "none");
-  // Hide the income legend by default
   incomeLegendGroup.style("display", "none");
 
 
   // —————————————————————————————————————————————————————————————————
-  // 11) CONTROLS BEHAVIOR
-  //     • Cancer dropdown → update cancer map
-  //     • Pollution dropdown → show/hide PM₂.₅, Income, or Industry
-  //     • Search box → zoom both maps
-  //     • Reset button → reset zoom on both maps
+  // 12) CONTROLS BEHAVIOR
   // —————————————————————————————————————————————————————————————————
 
-  // 11.1) Pollution dropdown
   d3.select("#pollution-select").on("change", () => {
     const pollutionMetric = d3.select("#pollution-select").property("value");
 
     if (pollutionMetric === "pm25") {
-      // (1) Show the PM₂.₅ map & legend
       d3.select("#pollution-container").style("display", null);
       pm25LegendGroup.style("display", null);
       incomeLegendGroup.style("display", "none");
-
-      // (2) Hide any industry dots
       industryLayer.selectAll("circle").remove();
-
-      // (3) Color the counties by PM₂.₅
       updatePollutionChoropleth();
     }
     else if (pollutionMetric === "income") {
-      // (1) Show the pollution container (for income choropleth)
       d3.select("#pollution-container").style("display", null);
       pm25LegendGroup.style("display", "none");
       incomeLegendGroup.style("display", null);
-
-      // (2) Hide any industry dots
       industryLayer.selectAll("circle").remove();
-
-      // (3) Color the counties by income
       updateIncomeChoropleth();
     }
     else if (pollutionMetric === "industry") {
-      // (1) Hide the PM₂.₅ map & legend & income legend
       d3.select("#pollution-container").style("display", "none");
       pm25LegendGroup.style("display", "none");
       incomeLegendGroup.style("display", "none");
-
-      // (2) Draw industry facility dots on top of the cancer map
       drawIndustryDots();
     }
     else {
-      // “None” chosen: hide both PM₂.₅ and income map/legends, remove industry dots
       d3.select("#pollution-container").style("display", "none");
       pm25LegendGroup.style("display", "none");
       incomeLegendGroup.style("display", "none");
       industryLayer.selectAll("circle").remove();
     }
 
-    // Re‐draw cancer choropleth just in case the cancer dropdown changed
     updateCancerChoropleth();
   });
 
-  // 11.2) Cancer dropdown
-  d3.select("#cancer-select").on("change", updateCancerChoropleth);
+  // 12.2) Cancer dropdown: update choropleth & legend
+  d3.select("#cancer-select").on("change", () => {
+    updateCancerChoropleth();
+    updateCancerLegend();
+  });
 
-  // 11.3) SEARCH BOX (click “Go” to zoom)
+  // 12.3) SEARCH BUTTON: zoom & highlight outline
   d3.select("#search-button").on("click", () => {
     const queryRaw = d3.select("#county-search").property("value").trim().toLowerCase();
     if (!queryRaw) {
@@ -713,10 +636,7 @@ Promise.all([
       return;
     }
 
-    // Try exact match in nameToFIPS
     let matchedFips = nameToFIPS.get(queryRaw);
-
-    // If no exact match, try substring
     if (!matchedFips) {
       const candidates = Array.from(nameToFIPS.keys())
         .filter(key => key.includes(queryRaw));
@@ -736,6 +656,17 @@ Promise.all([
       }
     }
 
+    // Remove any existing highlight
+    cancerPaths
+      .attr("stroke", "#999")
+      .attr("stroke-width", 0.2);
+
+    // Highlight the matched county
+    cancerPaths
+      .filter(d => d.id === matchedFips)
+      .attr("stroke", "black")
+      .attr("stroke-width", 0.75);
+
     // Find the GeoJSON feature for that FIPS
     const feature = counties.find(d => d.id === matchedFips);
     if (!feature) {
@@ -747,23 +678,28 @@ Promise.all([
     zoomToFeature(feature);
   });
 
-  // 11.4) RESET BUTTON
+  // 12.4) RESET BUTTON
   d3.select("#reset-button").on("click", () => {
-    // Reset both zoom behaviors to identity
+    // Reset zoom transforms
     cancerSvg.transition().duration(750).call(cancerZoom.transform, d3.zoomIdentity);
     pollutionSvg.transition().duration(750).call(pollutionZoom.transform, d3.zoomIdentity);
 
-    // Also clear any industry dots if visible
+    // Remove any existing highlight
+    cancerPaths
+      .attr("stroke", "#999")
+      .attr("stroke-width", 0.2);
+
+    // Also clear industry dots if visible
     industryLayer.selectAll("circle").remove();
   });
 
 
   // —————————————————————————————————————————————————————————————————
-  // 12) HELPER: zoom a GeoJSON feature on both maps
+  // 13) HELPER: zoom a GeoJSON feature on both maps
   // —————————————————————————————————————————————————————————————————
 
   function zoomToFeature(feature) {
-    const bounds = path.bounds(feature);  // [[x0,y0],[x1,y1]]
+    const bounds = path.bounds(feature);
     const dx = bounds[1][0] - bounds[0][0];
     const dy = bounds[1][1] - bounds[0][1];
     const x  = (bounds[0][0] + bounds[1][0]) / 2;
@@ -788,19 +724,16 @@ Promise.all([
 
 
   // —————————————————————————————————————————————————————————————————
-  // 13) DRAW INDUSTRY FACILITY DOTS ON THE CANCER MAP
+  // 14) DRAW INDUSTRY FACILITY DOTS ON THE CANCER MAP
   // —————————————————————————————————————————————————————————————————
 
   function drawIndustryDots() {
-    // First, clear any existing circles
     industryLayer.selectAll("circle").remove();
 
-    // Filter out any invalid lat/lon rows
     const validFacilities = industryData.filter(d =>
       !isNaN(d.latitude) && !isNaN(d.longitude)
     );
 
-    // Bind the valid facilities and append one circle per facility
     industryLayer.selectAll("circle")
       .data(validFacilities)
       .join("circle")
@@ -812,7 +745,7 @@ Promise.all([
           const proj = projection([d.longitude, d.latitude]);
           return proj ? proj[1] : null;
         })
-        .attr("r", 3)               // radius of each dot (adjust if you like)
+        .attr("r", 3)
         .attr("fill", "blue")
         .attr("stroke", "#fff")
         .attr("stroke-width", 0.5)
@@ -831,6 +764,93 @@ Promise.all([
         cancerTooltip.style("opacity", 0);
       });
   }
+
+
+  // —————————————————————————————————————————————————————————————————
+  // 15) UPDATE CANCER CHOROPLETH & LEGEND
+  // —————————————————————————————————————————————————————————————————
+
+  function updateCancerChoropleth() {
+    const cancerType = d3.select("#cancer-select").property("value");
+
+    cancerPaths
+      .transition()
+      .duration(500)
+      .attr("fill", d => {
+        const fips = d.id;
+        if (cancerType === "all") {
+          const val = cancerByFIPS.get(fips);
+          return val != null ? cancerColor(val) : "lightblue";
+        } else if (cancerType === "leukemia") {
+          const val = leukemiaByFIPS.get(fips);
+          return val != null ? leukemiaColor(val) : "lightblue";
+        } else if (cancerType === "lymphoma") {
+          const val = lymphomaByFIPS.get(fips);
+          return val != null ? lymphomaColor(val) : "lightblue";
+        } else if (cancerType === "thyroid") {
+          const val = thyroidByFIPS.get(fips);
+          return val != null ? thyroidColor(val) : "lightblue";
+        }
+      });
+  }
+
+  function updateCancerLegend() {
+    const cancerType = d3.select("#cancer-select").property("value");
+    let scale, domainMin, domainMax, titleText;
+
+    if (cancerType === "all") {
+      scale = cancerColor;
+      domainMin = allMin;
+      domainMax = all95;
+      titleText = "All-Sites Cancer Incidence (≤ 95th percentile)";
+    } else if (cancerType === "leukemia") {
+      scale = leukemiaColor;
+      domainMin = leukMin;
+      domainMax = leuk95;
+      titleText = "Leukemia Incidence (≤ 95th percentile)";
+    } else if (cancerType === "lymphoma") {
+      scale = lymphomaColor;
+      domainMin = lyphMin;
+      domainMax = lyph95;
+      titleText = "Lymphoma Incidence (≤ 95th percentile)";
+    } else if (cancerType === "thyroid") {
+      scale = thyroidColor;
+      domainMin = thyMin;
+      domainMax = thy95;
+      titleText = "Thyroid Incidence (≤ 95th percentile)";
+    }
+
+    // Rebuild gradient stops
+    cancerGrad.selectAll("stop").remove();
+    d3.range(0, 1.001, 0.01).forEach(t => {
+      const val = domainMin + t * (domainMax - domainMin);
+      cancerGrad.append("stop")
+        .attr("offset", `${t * 100}%`)
+        .attr("stop-color", scale(val));
+    });
+
+    // Update legend scale domain & axis
+    cancerLegendScale = d3.scaleLinear()
+      .domain([domainMin, domainMax])
+      .range([0, cancerLegendWidth]);
+
+    cancerLegendAxis = d3.axisBottom(cancerLegendScale)
+      .ticks(5)
+      .tickFormat(d3.format(".0f"));
+
+    cancerLegendGroup.select(".cancer-legend-axis")
+      .transition()
+      .duration(500)
+      .call(cancerLegendAxis);
+
+    // Update legend title
+    cancerLegendGroup.select(".cancer-legend-title")
+      .text(titleText);
+  }
+
+  // Initial draw (default: "all")
+  updateCancerChoropleth();
+  updateCancerLegend();
 
 })
 .catch(err => {
