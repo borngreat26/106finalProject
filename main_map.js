@@ -14,7 +14,7 @@ const cancerSvg = d3.select("#cancer-svg")
 
 const cancerG = cancerSvg.append("g").attr("class", "cancer-counties-group");
 
-// 1.2) Pollution‐map SVG & group (for PM₂.₅)
+// 1.2) Pollution‐map SVG & group (for PM₂.₅, Income)
 const pollutionSvg = d3.select("#pollution-svg")
   .attr("width", width)
   .attr("height", height);
@@ -59,6 +59,7 @@ pollutionSvg.call(pollutionZoom);
 //    2.5) thryroid_incidents.csv
 //    2.6) air_pollution_data2.csv  (FIPS, PM₂.₅)
 //    2.7) industry_over_10k.csv   (Facility Name, Lat, Lon)
+//    2.8) County_Median_Income_2022.csv (FIPS, Median_Income)
 // —————————————————————————————————————————————————————————————————
 
 Promise.all([
@@ -109,7 +110,19 @@ Promise.all([
     facilityName: row["Facility Name"].trim(),
     latitude:     parseFloat(row.Latitude),
     longitude:    parseFloat(row.Longitude)
-  }))
+  })),
+
+  // 2.8) County_Median_Income_2022.csv (FIPS, Median_Income_2022)
+  d3.csv("County_Median_Income_2022.csv", row => {
+    // Expecting columns: "FIPS" and "Median_Income_2022"
+    const fipsStr = (row.FIPS || "").trim();
+    const fipsCode = (fipsStr !== "" && !isNaN(+fipsStr))
+      ? String(+fipsStr).padStart(5, "0")
+      : null;
+    const incomeRaw = +row["Median_Income_2022"];
+    const medianIncome = isNaN(incomeRaw) ? null : incomeRaw;
+    return { fips: fipsCode, medianIncome };
+  })
 ])
 .then(([
   usTopology,
@@ -118,7 +131,8 @@ Promise.all([
   lymphomaData,
   thyroidData,
   pm25Data,
-  industryData      // <-- newly loaded
+  industryData,     // <-- previously loaded
+  incomeData        // <-- loaded county median income
 ]) => {
   // —————————————————————————————————————————————————————————————————
   // 3) PARSE “incd (1).csv” for “All Cancer Sites” (skip first 8 lines)
@@ -277,6 +291,14 @@ Promise.all([
     }
   });
 
+  // 5.1) BUILD MAP FOR County Median Income (2022)
+  const incomeByFIPS = new Map();
+  incomeData.forEach(d => {
+    if (d.fips && d.medianIncome != null) {
+      incomeByFIPS.set(d.fips, d.medianIncome);
+    }
+  });
+
 
   // —————————————————————————————————————————————————————————————————
   // 6) CONVERT US TopoJSON → GeoJSON features (shared by both maps)
@@ -290,6 +312,7 @@ Promise.all([
   //    • cancerColor  (for all/selected cancer type): domain [300,700], Reds
   //    • leukemiaColor, lymphomaColor, thyroidColor: dynamic Reds
   //    • pm25Color     (for PM₂.₅ map): fixed [3, 15], Blues
+  //    • incomeColor   (for Income map): dynamic [incomeMin, incomeMax], Greens
   // —————————————————————————————————————————————————————————————————
 
   // 7.1) All‐Sites Cancer: [300,700]
@@ -320,6 +343,14 @@ Promise.all([
   // 7.5) PM₂.₅: fixed [3, 15]
   const pm25Color = d3.scaleSequential(d3.interpolateBlues)
     .domain([3, 15]);
+
+  // 7.6) County Median Income (dynamic, clamp to 120,000)
+  const incomeValues = Array.from(incomeByFIPS.values());
+  const incomeMin = d3.min(incomeValues);
+  const incomeMax = d3.max(incomeValues);
+  const incomeColor = d3.scaleSequential(v => d3.interpolateGreys(1 - v))
+    .domain([incomeMin, 120000])
+    .clamp(true);
 
 
   // —————————————————————————————————————————————————————————————————
@@ -411,7 +442,7 @@ Promise.all([
 
 
   // —————————————————————————————————————————————————————————————————
-  // 9) DRAW THE PM₂.₅ MAP
+  // 9) DRAW THE PM₂.₅ & INCOME MAPS
   // —————————————————————————————————————————————————————————————————
 
   const pollutionPaths = pollutionG.selectAll("path")
@@ -424,12 +455,24 @@ Promise.all([
       .on("mouseover", (event, d) => {
         const fips       = d.id;
         const countyName = fipsToName.get(fips) || "Unknown County";
-        const val        = airByFIPS.get(fips);
+        const pollutionMetric = d3.select("#pollution-select").property("value");
 
-        const html = `
-          <strong>County:</strong> ${countyName}<br/>
-          <strong>PM₂.₅:</strong> ${val != null ? val.toFixed(1) + " µg/m³" : "N/A"}
-        `;
+        let html = "";
+
+        if (pollutionMetric === "pm25") {
+          const val = airByFIPS.get(fips);
+          html = `
+            <strong>County:</strong> ${countyName}<br/>
+            <strong>PM₂.₅:</strong> ${val != null ? val.toFixed(1) + " µg/m³" : "N/A"}
+          `;
+        }
+        else if (pollutionMetric === "income") {
+          const val = incomeByFIPS.get(fips);
+          html = `
+            <strong>County:</strong> ${countyName}<br/>
+            <strong>Median Income:</strong> ${val != null ? "$" + d3.format(",")(val) : "N/A"}
+          `;
+        }
 
         pollutionTooltip
           .style("left",  (event.pageX + 10) + "px")
@@ -452,9 +495,20 @@ Promise.all([
       });
   }
 
+  function updateIncomeChoropleth() {
+    pollutionPaths
+      .transition()
+      .duration(500)
+      .attr("fill", d => {
+        const fips = d.id;
+        const val  = incomeByFIPS.get(fips);
+        return val != null ? incomeColor(val) : "#eee";
+      });
+  }
+
 
   // —————————————————————————————————————————————————————————————————
-  // 10) DRAW LEGENDS FOR CANCER & PM₂.₅
+  // 10) DRAW LEGENDS FOR CANCER, PM₂.₅, & INCOME
   // —————————————————————————————————————————————————————————————————
 
   // 10.1) Cancer legend (300→700, Reds)
@@ -541,15 +595,60 @@ Promise.all([
     .style("font-size", "12px")
     .text("PM₂.₅ (µg/m³)");
 
+
+  // 10.3) Income legend (dynamic [incomeMin→incomeMax], Greens)
+  const incomeLegendWidth  = 300;
+  const incomeLegendHeight = 12;
+
+  const defsIncome = pollutionSvg.append("defs");
+  const incomeGrad = defsIncome.append("linearGradient")
+    .attr("id", "legend-income");
+
+  d3.range(0, 1.001, 0.01).forEach(t => {
+    const val = incomeMin + t * (incomeMax - incomeMin);
+    incomeGrad.append("stop")
+      .attr("offset", `${t * 100}%`)
+      .attr("stop-color", incomeColor(val));
+  });
+
+  const incomeLegendGroup = pollutionSvg.append("g")
+    .attr("transform", `translate(${width - incomeLegendWidth - 50}, 50)`);
+
+  incomeLegendGroup.append("rect")
+    .attr("width", incomeLegendWidth)
+    .attr("height", incomeLegendHeight)
+    .style("fill", "url(#legend-income)");
+
+  const incomeLegendScale = d3.scaleLinear()
+    .domain([incomeMin, incomeMax])
+    .range([0, incomeLegendWidth]);
+
+  const incomeLegendAxis = d3.axisBottom(incomeLegendScale)
+    .ticks(5)
+    .tickFormat(d3.format(".0f"));
+
+  incomeLegendGroup.append("g")
+    .attr("transform", `translate(0, ${incomeLegendHeight})`)
+    .call(incomeLegendAxis);
+
+  incomeLegendGroup.append("text")
+    .attr("x", incomeLegendWidth / 2)
+    .attr("y", -6)
+    .attr("text-anchor", "middle")
+    .style("font-size", "12px")
+    .text("Median Income (2022)");
+
   // Hide the PM₂.₅ map + legend initially
   d3.select("#pollution-container").style("display", "none");
   pm25LegendGroup.style("display", "none");
+  // Hide the income legend by default
+  incomeLegendGroup.style("display", "none");
 
 
   // —————————————————————————————————————————————————————————————————
   // 11) CONTROLS BEHAVIOR
   //     • Cancer dropdown → update cancer map
-  //     • Pollution dropdown → show/hide PM₂.₅ map or Industry dots
+  //     • Pollution dropdown → show/hide PM₂.₅, Income, or Industry
   //     • Search box → zoom both maps
   //     • Reset button → reset zoom on both maps
   // —————————————————————————————————————————————————————————————————
@@ -562,6 +661,7 @@ Promise.all([
       // (1) Show the PM₂.₅ map & legend
       d3.select("#pollution-container").style("display", null);
       pm25LegendGroup.style("display", null);
+      incomeLegendGroup.style("display", "none");
 
       // (2) Hide any industry dots
       industryLayer.selectAll("circle").remove();
@@ -569,22 +669,36 @@ Promise.all([
       // (3) Color the counties by PM₂.₅
       updatePollutionChoropleth();
     }
+    else if (pollutionMetric === "income") {
+      // (1) Show the pollution container (for income choropleth)
+      d3.select("#pollution-container").style("display", null);
+      pm25LegendGroup.style("display", "none");
+      incomeLegendGroup.style("display", null);
+
+      // (2) Hide any industry dots
+      industryLayer.selectAll("circle").remove();
+
+      // (3) Color the counties by income
+      updateIncomeChoropleth();
+    }
     else if (pollutionMetric === "industry") {
-      // (1) Hide the PM₂.₅ map & legend
+      // (1) Hide the PM₂.₅ map & legend & income legend
       d3.select("#pollution-container").style("display", "none");
       pm25LegendGroup.style("display", "none");
+      incomeLegendGroup.style("display", "none");
 
       // (2) Draw industry facility dots on top of the cancer map
       drawIndustryDots();
     }
     else {
-      // “None” chosen: hide PM₂.₅ map/legend, remove industry dots
+      // “None” chosen: hide both PM₂.₅ and income map/legends, remove industry dots
       d3.select("#pollution-container").style("display", "none");
       pm25LegendGroup.style("display", "none");
+      incomeLegendGroup.style("display", "none");
       industryLayer.selectAll("circle").remove();
     }
 
-    // Re‐draw cancer choropleth if cancer dropdown changed
+    // Re‐draw cancer choropleth just in case the cancer dropdown changed
     updateCancerChoropleth();
   });
 
