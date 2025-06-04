@@ -182,7 +182,8 @@
     <h2>Cancer‐Only View</h2>
     <p>
       Below is the county map colored by age‐adjusted cancer incidence averaged over a five year period from 2018 to
-      2022. Use the dropdown to switch among cancer
+      2022. The scale in the top right of the graph indicates cancer cases per 100,000 people. Use the dropdown to
+      switch among cancer
       subtypes. Pollutant layers are disabled here so you can focus solely on the spatial distribution of cancer rates.
     </p>
 
@@ -232,17 +233,16 @@
   <section id="water-only">
     <h2>Water Pollution‐Only View</h2>
     <p>
-      Here we examine county‐level water quality scores. All other layers are disabled so you can focus solely on water quality distribution.
+      Here we examine county‐level water quality scores collected in 2025. A higher score indicates higher quality
+      water. All other layers are disabled so you can
+      focus solely on water
+      quality distribution.
     </p>
 
     <div class="controls">
       <!-- SEARCH BOX -->
       <div class="suggestions-container">
-        <input
-          type="text"
-          id="county-search-water"
-          placeholder="Type county, e.g. Union County, Florida"
-        />
+        <input type="text" id="county-search-water" placeholder="Type county, e.g. Union County, Florida" />
         <div id="suggestions-water" class="suggestions-list"></div>
       </div>
       <button id="search-button-water">Go</button>
@@ -335,6 +335,11 @@
       <select id="sector-select-industry">
         <option value="all" selected>All Sectors</option>
       </select>
+
+      <!-- OUTPUT THRESHOLD SLIDER -->
+      <label for="emission-threshold">Min Emissions:</label>
+      <input type="range" id="emission-threshold" min="0" max="500000" step="10000" value="10000">
+      <span id="emission-value">10000</span>
 
       <!-- RESET BUTTON -->
       <button id="reset-button-industry">Reset</button>
@@ -468,6 +473,7 @@
         <option value="none" selected>None</option>
         <option value="pm25">Air Pollution (PM₂.₅)</option>
         <option value="income">Income</option>
+        <option value="water">Water Quality</option>
       </select>
 
       <!-- INDUSTRY FACILITIES MULTI-SELECT -->
@@ -477,6 +483,11 @@
       </select>
       <button id="sector-all-2" type="button" style="margin-left: 8px;">All</button>
       <button id="sector-none-2" type="button">None</button>
+
+      <!-- OUTPUT THRESHOLD SLIDER (Full Dashboard) -->
+      <label for="emission-threshold-2">Min Emissions:</label>
+      <input type="range" id="emission-threshold-2" min="0" max="500000" step="10000" value="10000">
+      <span id="emission-value-2">10000</span>
 
       <!-- RESET BUTTON -->
       <button id="reset-button-2">Reset</button>
@@ -543,6 +554,24 @@
         <g class="legend-group" transform="translate(0, 12)" id="income-legend-axis-full"></g>
         <text x="150" y="-4" text-anchor="middle" class="legend-group" id="income-legend-title-full">
           Median Income (2022)
+        </text>
+      </svg>
+    </div>
+
+    <!-- 7.3) Water container sits below; hidden initially -->
+    <div id="water-container-2" class="map-container" style="display: none;">
+      <svg id="water-svg-2" width="960" height="600"></svg>
+      <div id="water-tooltip-2" class="tooltip"></div>
+
+      <!-- Water Quality Legend (Full Dashboard) -->
+      <svg width="300" height="30" style="position: absolute; top: 10px; right: 10px;" id="legend-water-full">
+        <defs>
+          <linearGradient id="legend-water-gradient-full"></linearGradient>
+        </defs>
+        <rect x="0" y="0" width="300" height="12" fill="url(#legend-water-gradient-full)"></rect>
+        <g class="legend-group" transform="translate(0, 12)" id="water-legend-axis-full"></g>
+        <text x="150" y="-4" text-anchor="middle" class="legend-group" id="water-legend-title-full">
+          Water Quality Score (≤ 95th percentile)
         </text>
       </svg>
     </div>
