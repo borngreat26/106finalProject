@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Cancer Incidence & Environmental Quality in U.S. Counties</title>
+
+  <!-- D3 + TopoJSON -->
+  <script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+  <script src="https://cdn.jsdelivr.net/npm/topojson@3"></script>
+
+  <style>
+    /* ========================
+       Global Styles & Narrative
+       ======================== */
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 1rem;
+      background: #f9f9f9;
+      line-height: 1.6;
+      color: #333;
+    }
+    h1, h2, h3 {
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+      color: #222;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2rem;
+    }
+    h2 {
+      font-size: 1.5rem;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 0.25rem;
+    }
+    p {
+      max-width: 800px;
+      margin-bottom: 1rem;
+    }
+    section {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 1rem;
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 4px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    /* ========================
+       Dashboard Controls
+       ======================== */
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+    }
+    .controls input {
+      width: 200px;
+      padding: 4px;
+      font-size: 0.9rem;
+    }
+    .controls button {
+      padding: 4px 8px;
+      font-size: 0.9rem;
+      cursor: pointer;
+    }
+    .controls select {
+      font-size: 1rem;
+      padding: 0.25rem;
+    }
+
+    /* Suggestions dropdown */
+    .suggestions-container {
+      position: relative;
+    }
+    .suggestions-list {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background: #fff;
+      border: 1px solid #ccc;
+      max-height: 150px;
+      overflow-y: auto;
+      z-index: 1000;
+      display: none;
+    }
+    .suggestion-item {
+      padding: 4px 8px;
+      cursor: pointer;
+    }
+    .suggestion-item:hover {
+      background-color: #eee;
+    }
+
+    /* ========================
+       Map & Tooltip Styles
+       ======================== */
+    .map-container {
+      width: 960px;
+      margin: 0 auto 2rem auto;
+      position: relative;      /* <-- Must be relative for tooltip */
+      background: #f0f0f0;
+    }
+    svg {
+      display: block;
+    }
+    canvas {
+      background: transparent;
+    }
+    .legend-group {
+      font-size: 12px;
+      pointer-events: none;
+    }
+    .tooltip {
+      position: absolute;
+      z-index: 1000;
+      padding: 6px 8px;
+      background: rgba(0,0,0,0.8);
+      color: #fff;
+      border-radius: 4px;
+      pointer-events: none;
+      font-size: 0.9rem;
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Cancer Incidence & Environmental Quality in U.S. Counties</h1>
+
+  <!-- ================================================================
+       1. Introduction Paragraph
+       ================================================================ -->
+  <section id="introduction">
+    <h2>Introduction</h2>
+    <p>
+      Cancer remains one of the most pressing public‐health challenges in the United States. Although genetics plays a role in many individual cases, environmental factors—especially air and industrial pollution—are widely believed to contribute to elevated cancer rates.
+    </p>
+    <p>
+      <strong>Our project asks:</strong> <em>Where in America do cancer rates run unusually high, and could environmental exposure explain some of those patterns?</em>
+    </p>
+    <p>
+      To answer this question, we designed a “Martini‐Glass” style story: we start with the county‐level cancer map alone; then we introduce the PM₂.₅ layer; next, we overlay industrial facility dots; finally, we examine income as a control. At each stage, we pause to explain why that layer matters. In the end, you’ll have a fully interactive dashboard where you can mix and match any combination of layers.
+    </p>
+  </section>
+
+  <!-- ================================================================
+       2. Cancer‐Only View
+       ================================================================ -->
+  <section id="cancer-only">
+    <h2>Cancer‐Only View</h2>
+    <p>
+      Below is the county map colored by age‐adjusted cancer incidence. Use the dropdown to switch among cancer subtypes. Pollutant layers are disabled here so you can focus solely on the spatial distribution of cancer rates.
+    </p>
+
+    <div class="controls">
+      <!-- SEARCH BOX -->
+      <div class="suggestions-container">
+        <input
+          type="text"
+          id="county-search"
+          placeholder="Type county, e.g. Union County, Florida"
+        />
+        <div id="suggestions" class="suggestions-list"></div>
+      </div>
+      <button id="search-button">Go</button>
+
+      <!-- CANCER DROPDOWN -->
+      <label for="cancer-select">Cancer Type:</label>
+      <select id="cancer-select">
+        <option value="all" selected>All Cancer Sites</option>
+        <option value="leukemia">Leukemia Incidence</option>
+        <option value="lymphoma">Lymphoma Incidence</option>
+        <option value="thyroid">Thyroid Incidence</option>
+      </select>
+
+      <!-- POLLUTION DROPDOWN (disabled) -->
+      <label for="pollution-select">Pollution Metric:</label>
+      <select id="pollution-select">
+        <option value="none" selected>None</option>
+        <option value="pm25" disabled>Air Pollution (PM₂.₅)</option>
+        <option value="industry" disabled>Industry Facilities</option>
+        <option value="income" disabled>Income</option>
+      </select>
+
+      <!-- RESET BUTTON -->
+      <button id="reset-button">Reset</button>
+    </div>
+
+    <div id="map-cancer" class="map-container">
+      <svg id="cancer-svg" width="960" height="600"></svg>
+      <div id="cancer-tooltip" class="tooltip"></div>
+
+      <!-- Cancer Legend -->
+      <svg width="300" height="30" style="position: absolute; top: 10px; right: 10px;">
+        <defs>
+          <linearGradient id="legend-cancer"></linearGradient>
+        </defs>
+        <rect x="0" y="0" width="300" height="12" fill="url(#legend-cancer)"></rect>
+        <g class="legend-group" transform="translate(0, 12)" id="cancer-legend-axis"></g>
+        <text x="150" y="-4" text-anchor="middle" class="legend-group">
+          All‐Sites Cancer Incidence (≤ 95th percentile)
+        </text>
+      </svg>
+    </div>
+  </section>
+
+
+  <!-- ================================================================
+       3. Air Pollution‐Only View
+       ================================================================ -->
+  <section id="air-only">
+    <h2>Air Pollution‐Only View</h2>
+    <p>
+      Next, we look at fine particulate matter (PM₂.₅) across counties. Cancer incidence and other layers are disabled so you can focus just on the PM₂.₅ distribution.
+    </p>
+
+    <div class="controls">
+      <!-- SEARCH BOX -->
+      <div class="suggestions-container">
+        <input
+          type="text"
+          id="county-search-air"
+          placeholder="Type county, e.g. Union County, Florida"
+        />
+        <div id="suggestions-air" class="suggestions-list"></div>
+      </div>
+      <button id="search-button-air">Go</button>
+
+      <!-- CANCER DROPDOWN (disabled) -->
+      <label for="cancer-select-air">Cancer Type:</label>
+      <select id="cancer-select-air">
+        <option value="all" disabled>All Cancer Sites</option>
+        <option value="leukemia" disabled>Leukemia Incidence</option>
+        <option value="lymphoma" disabled>Lymphoma Incidence</option>
+        <option value="thyroid" disabled>Thyroid Incidence</option>
+      </select>
+
+      <!-- POLLUTION DROPDOWN (only PM₂.₅ enabled) -->
+      <label for="pollution-select-air">Pollution Metric:</label>
+      <select id="pollution-select-air">
+        <option value="pm25" selected>Air Pollution (PM₂.₅)</option>
+        <option value="industry" disabled>Industry Facilities</option>
+        <option value="income" disabled>Income</option>
+      </select>
+
+      <!-- RESET BUTTON -->
+      <button id="reset-button-air">Reset</button>
+    </div>
+
+    <div id="map-air" class="map-container">
+      <svg id="air-svg" width="960" height="600"></svg>
+      <div id="air-tooltip" class="tooltip"></div>
+
+      <!-- PM₂.₅ Legend -->
+      <svg width="300" height="30" style="position: absolute; top: 10px; right: 10px;">
+        <defs>
+          <linearGradient id="legend-pm25"></linearGradient>
+        </defs>
+        <rect x="0" y="0" width="300" height="12" fill="url(#legend-pm25)"></rect>
+        <g class="legend-group" transform="translate(0, 12)" id="pm25-legend-axis"></g>
+        <text x="150" y="-4" text-anchor="middle" class="legend-group">
+          PM₂.₅ (µg/m³)
+        </text>
+      </svg>
+    </div>
+  </section>
+
+
+  <!-- ================================================================
+       4. Industrial‐Only View
+       ================================================================ -->
+  <section id="industry-only">
+    <h2>Industrial‐Only View</h2>
+    <p>
+      Now we overlay large industrial facilities (e.g., power plants, refineries) on top of the cancer map. Air pollution and income layers remain disabled. Hover over each dot to see its facility name and On‐Site Release Total.
+    </p>
+
+    <div class="controls">
+      <!-- SEARCH BOX -->
+      <div class="suggestions-container">
+        <input
+          type="text"
+          id="county-search-industry"
+          placeholder="Type county, e.g. Union County, Florida"
+        />
+        <div id="suggestions-industry" class="suggestions-list"></div>
+      </div>
+      <button id="search-button-industry">Go</button>
+
+      <!-- CANCER DROPDOWN (enabled) -->
+      <label for="cancer-select-industry">Cancer Type:</label>
+      <select id="cancer-select-industry">
+        <option value="all" selected>All Cancer Sites</option>
+        <option value="leukemia">Leukemia Incidence</option>
+        <option value="lymphoma">Lymphoma Incidence</option>
+        <option value="thyroid">Thyroid Incidence</option>
+      </select>
+
+      <!-- POLLUTION DROPDOWN (only Industry enabled) -->
+      <label for="pollution-select-industry">Pollution Metric:</label>
+      <select id="pollution-select-industry">
+        <option value="industry" selected>Industry Facilities</option>
+        <option value="pm25" disabled>Air Pollution (PM₂.₅)</option>
+        <option value="income" disabled>Income</option>
+      </select>
+
+      <!-- RESET BUTTON -->
+      <button id="reset-button-industry">Reset</button>
+    </div>
+
+    <div id="map-industry" class="map-container">
+      <svg id="industry-svg" width="960" height="600"></svg>
+      <div id="industry-tooltip" class="tooltip"></div>
+
+      <!-- Cancer Legend (same as Cancer‐Only) -->
+      <svg width="300" height="30" style="position: absolute; top: 10px; right: 10px;">
+        <defs>
+          <linearGradient id="legend-cancer-industry"></linearGradient>
+        </defs>
+        <rect x="0" y="0" width="300" height="12" fill="url(#legend-cancer-industry)"></rect>
+        <g class="legend-group" transform="translate(0, 12)" id="cancer-legend-axis-industry"></g>
+        <text x="150" y="-4" text-anchor="middle" class="legend-group">
+          All‐Sites Cancer Incidence (≤ 95th percentile)
+        </text>
+      </svg>
+
+      <!-- Industry Legend (categorical, now bottom-right) -->
+      <div
+        id="industry-legend"
+        style="
+          position: absolute;
+          bottom: 10px;
+          right: 10px;
+          background: rgba(255,255,255,0.8);
+          padding: 6px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          font-size: 12px;
+        "
+      >
+        <strong>Industry Sector Legend</strong>
+        <div id="industry-legend-items"></div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================================================================
+       5. Income‐Only View
+       ================================================================ -->
+  <section id="income-only">
+    <h2>Income‐Only View</h2>
+    <p>
+      Finally, we look at county‐level median income. Cancer, air pollution, and industry layers are disabled here so you can see how income alone is distributed.
+    </p>
+
+    <div class="controls">
+      <!-- SEARCH BOX -->
+      <div class="suggestions-container">
+        <input
+          type="text"
+          id="county-search-income"
+          placeholder="Type county, e.g. Union County, Florida"
+        />
+        <div id="suggestions-income" class="suggestions-list"></div>
+      </div>
+      <button id="search-button-income">Go</button>
+
+      <!-- CANCER DROPDOWN (disabled) -->
+      <label for="cancer-select-income">Cancer Type:</label>
+      <select id="cancer-select-income">
+        <option value="all" disabled>All Cancer Sites</option>
+        <option value="leukemia" disabled>Leukemia Incidence</option>
+        <option value="lymphoma" disabled>Lymphoma Incidence</option>
+        <option value="thyroid" disabled>Thyroid Incidence</option>
+      </select>
+
+      <!-- POLLUTION DROPDOWN (only Income enabled) -->
+      <label for="pollution-select-income">Pollution Metric:</label>
+      <select id="pollution-select-income">
+        <option value="income" selected>Income</option>
+        <option value="pm25" disabled>Air Pollution (PM₂.₅)</option>
+        <option value="industry" disabled>Industry Facilities</option>
+      </select>
+
+      <!-- RESET BUTTON -->
+      <button id="reset-button-income">Reset</button>
+    </div>
+
+    <div id="map-income" class="map-container">
+      <svg id="income-svg" width="960" height="600"></svg>
+      <div id="income-tooltip" class="tooltip"></div>
+
+      <!-- Income Legend -->
+      <svg width="300" height="30" style="position: absolute; top: 10px; right: 10px;">
+        <defs>
+          <linearGradient id="legend-income"></linearGradient>
+        </defs>
+        <rect x="0" y="0" width="300" height="12" fill="url(#legend-income)"></rect>
+        <g class="legend-group" transform="translate(0, 12)" id="income-legend-axis"></g>
+        <text x="150" y="-4" text-anchor="middle" class="legend-group">
+          Median Income (2022)
+        </text>
+      </svg>
+    </div>
+  </section>
+
+
+  <!-- ================================================================
+       6. Conclusion Paragraph
+       ================================================================ -->
+  <section id="conclusion">
+    <h2>Conclusion</h2>
+    <p>
+      We have now walked through cancer incidence alone, then layered on PM₂.₅, then industrial facility locations, and finally income. Each layer helps us see different patterns—some high‐cancer counties coincide with high PM₂.₅, others sit near heavy industries, and income can help explain residual differences.
+    </p>
+    <p>
+      Scroll down for the fully interactive dashboard where you can mix and match any combination of cancer subtypes, air pollution (PM₂.₅), industry facilities, and income.
+    </p>
+  </section>
+
+
+  <!-- ================================================================
+       7. Full Dashboard (All Controls Enabled)
+       ================================================================ -->
+  <section id="full-dashboard">
+    <h2 style="text-align: center; margin-bottom: 0.5rem;">
+      Cancer & Pollution Dashboard (Full Interactive View)
+    </h2>
+    <p style="text-align: center; max-width: 800px; margin: 0 auto 2rem;">
+      Now that you’ve seen each layer one by one, here’s the full interactive dashboard. Use the dropdowns to turn on or off any combination of cancer subtype, air pollution (PM₂.₅), industry facilities, and income. Zoom to specific counties with the search bar, or reset to the national view at any time.
+    </p>
+
+    <div class="controls">
+      <!-- SEARCH BOX -->
+      <div class="suggestions-container">
+        <input
+          type="text"
+          id="county-search-2"
+          placeholder="Type county, e.g. Union County, Florida"
+        />
+        <div id="suggestions-2" class="suggestions-list"></div>
+      </div>
+      <button id="search-button-2">Go</button>
+
+      <!-- CANCER DROPDOWN -->
+      <label for="cancer-select-2">Cancer Type:</label>
+      <select id="cancer-select-2">
+        <option value="all" selected>All Cancer Sites</option>
+        <option value="leukemia">Leukemia Incidence</option>
+        <option value="lymphoma">Lymphoma Incidence</option>
+        <option value="thyroid">Thyroid Incidence</option>
+      </select>
+
+      <!-- POLLUTION DROPDOWN -->
+      <label for="pollution-select-2">Pollution Metric:</label>
+      <select id="pollution-select-2">
+        <option value="none" selected>None</option>
+        <option value="pm25">Air Pollution (PM₂.₅)</option>
+        <option value="industry">Industry Facilities</option>
+        <option value="income">Income</option>
+      </select>
+
+      <!-- RESET BUTTON -->
+      <button id="reset-button-2">Reset</button>
+    </div>
+
+    <!-- 7.1) Cancer container sits on top -->
+    <div id="cancer-container-2" class="map-container">
+      <svg id="cancer-svg-2" width="960" height="600"></svg>
+      <svg id="facility-svg-2" width="960" height="600" style="position: absolute; top: 0; left: 0; pointer-events: none;"></svg>
+      <div id="cancer-tooltip-2" class="tooltip"></div>
+
+      <!-- Cancer Legend (Full Dashboard) -->
+      <svg width="300" height="30" style="position: absolute; top: 10px; right: 10px;" id="legend-cancer-full">
+        <defs>
+          <linearGradient id="legend-cancer-gradient-full"></linearGradient>
+        </defs>
+        <rect x="0" y="0" width="300" height="12" fill="url(#legend-cancer-gradient-full)"></rect>
+        <g class="legend-group" transform="translate(0, 12)" id="cancer-legend-axis-full"></g>
+        <text x="150" y="-4" text-anchor="middle" class="legend-group" id="cancer-legend-title-full">
+          All‐Sites Cancer Incidence (≤ 95th percentile)
+        </text>
+      </svg>
+    </div>
+
+    <!-- 7.2) Pollution container sits below; hidden initially -->
+    <div id="pollution-container-2" class="map-container" style="display: none;">
+      <svg id="pollution-svg-2" width="960" height="600"></svg>
+      <div id="pollution-tooltip-2" class="tooltip"></div>
+
+      <!-- PM₂.₅ Legend (Full Dashboard) -->
+      <svg width="300" height="30" style="position: absolute; top: 10px; right: 10px;" id="legend-pm25-full">
+        <defs>
+          <linearGradient id="legend-pm25-gradient-full"></linearGradient>
+        </defs>
+        <rect x="0" y="0" width="300" height="12" fill="url(#legend-pm25-gradient-full)"></rect>
+        <g class="legend-group" transform="translate(0, 12)" id="pm25-legend-axis-full"></g>
+        <text x="150" y="-4" text-anchor="middle" class="legend-group" id="pm25-legend-title-full">
+          PM₂.₅ (µg/m³)
+        </text>
+      </svg>
+
+      <!-- Income Legend (Full Dashboard) -->
+      <svg width="300" height="30" style="position: absolute; top: 50px; right: 10px;" id="legend-income-full">
+        <defs>
+          <linearGradient id="legend-income-gradient-full"></linearGradient>
+        </defs>
+        <rect x="0" y="0" width="300" height="12" fill="url(#legend-income-gradient-full)"></rect>
+        <g class="legend-group" transform="translate(0, 12)" id="income-legend-axis-full"></g>
+        <text x="150" y="-4" text-anchor="middle" class="legend-group" id="income-legend-title-full">
+          Median Income (2022)
+        </text>
+      </svg>
+
+      <!-- Industry Legend (Full Dashboard, now bottom-right; hidden until “Industry” selected) -->
+      <div
+        id="industry-legend-full"
+        style="
+          position: absolute;
+          bottom: 10px;
+          right: 10px;
+          background: rgba(255,255,255,0.8);
+          padding: 6px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          font-size: 12px;
+          display: none;
+        "
+      >
+        <strong>Industry Sector Legend</strong>
+        <div id="industry-legend-items-full"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Load the JavaScript logic last -->
+  <script src="main_map.js"></script>
+</body>
+</html>
