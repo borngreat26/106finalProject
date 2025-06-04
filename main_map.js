@@ -23,6 +23,9 @@ let cancerByFIPS;        // Map<fips, incidence>
 let leukemiaByFIPS;      // Map<fips, incidence>
 let lymphomaByFIPS;      // Map<fips, incidence>
 let thyroidByFIPS;       // Map<fips, incidence>
+let breastByFIPS;        // Map<fips, incidence> for breast cancer
+let breastColor;         // d3.scaleSequential for breast
+let breastMin, breast95; // 95th-percentile cutoffs for breast
 let airByFIPS;           // Map<fips, pm25>
 let incomeByFIPS;        // Map<fips, medianIncome>
 
@@ -69,6 +72,13 @@ Promise.all([
     incidence: +row["Age-Adjusted Incidence Rate([rate note]) - cases per 100,000"]
   })),
 
+  // 2.6a) breast_incidents.csv
+  d3.csv("breast_incidents.csv", row => ({
+    county:    row.County.replace(/\(\d+\)$/, "").replace(/"/g, "").trim(),
+    fips:      String(+row.FIPS).padStart(5, "0"),
+    incidence: +row["Age-Adjusted Incidence Rate([rate note]) - cases per 100,000"]
+  })),
+
   // 2.6) air_pollution_data2.csv → PM₂.₅
   d3.csv("air_pollution_data2.csv", row => {
     const rawPm25  = +row["Micrograms per cubic meter (PM2.5)(1)"];
@@ -106,6 +116,7 @@ Promise.all([
   leukemiaData,
   lymphomaData,
   thyroidData,
+  breastData,
   pm25Data,
   industryData,
   incomeData
@@ -190,6 +201,20 @@ Promise.all([
   });
 
   // —————————————————————————————————————————————————————————————————
+  // Parse breast_incidents.csv → breastByFIPS
+  // —————————————————————————————————————————————————————————————————
+  breastByFIPS = new Map();
+  breastData.forEach(d => {
+    if (d.fips && !isNaN(d.incidence)) {
+      breastByFIPS.set(d.fips, d.incidence);
+      const key = d.county.toLowerCase();
+      nameToFIPS.set(key, d.fips);
+      const noSuffix = key.replace(/ county$/, "");
+      if (noSuffix !== key) nameToFIPS.set(noSuffix, d.fips);
+    }
+  });
+
+  // —————————————————————————————————————————————————————————————————
   // 5) PARSE AIR POLLUTION DATA → airByFIPS
   // —————————————————————————————————————————————————————————————————
 
@@ -265,11 +290,22 @@ Promise.all([
       .clamp(true);
   }
 
-  // 8.5) PM₂.₅: fixed [3, 15]
+  // 8.5) Breast Cancer: dynamic [min, 95th percentile], clamp above
+  {
+    const arr = Array.from(breastByFIPS.values()).filter(v => !isNaN(v));
+    breastMin = d3.min(arr);
+    const sorted = arr.slice().sort(d3.ascending);
+    breast95 = d3.quantile(sorted, 0.95);
+    breastColor = d3.scaleSequential(d3.interpolateReds)
+      .domain([breastMin, breast95])
+      .clamp(true);
+  }
+
+  // 8.6) PM₂.₅: fixed [3, 15]
   pm25Color = d3.scaleSequential(d3.interpolateBlues)
     .domain([3, 15]);
 
-  // 8.6) Income: [incomeMin, incomeMax], clamp above 120k
+  // 8.7) Income: [incomeMin, incomeMax], clamp above 120k
   {
     const arr = Array.from(incomeByFIPS.values()).filter(v => !isNaN(v));
     incomeMin = d3.min(arr);
@@ -279,7 +315,7 @@ Promise.all([
       .clamp(true);
   }
 
-  // 8.7) Precompute “facilities” (for industrial dots)
+  // 8.8) Precompute “facilities” (for industrial dots)
   facilities = industryData.filter(d =>
     !isNaN(d.latitude) && !isNaN(d.longitude)
   );
@@ -316,6 +352,7 @@ function initCancerOnly() {
   // Zoom behavior
   const zoomBehavior = d3.zoom()
     .scaleExtent([1, 8])
+    .translateExtent([[0, 0], [width, height]])
     .on("zoom", event => {
       g.attr("transform", event.transform);
     });
@@ -349,6 +386,9 @@ function initCancerOnly() {
         } else if (type === "thyroid") {
           val = thyroidByFIPS.get(fips);
           label = "Thyroid";
+        } else if (type === "breast") {
+          val = breastByFIPS.get(fips);
+          label = "Breast";
         }
         const display = val != null ? val.toFixed(1) : "N/A";
         tooltip
@@ -383,6 +423,9 @@ function initCancerOnly() {
       } else if (type === "thyroid") {
         const v = thyroidByFIPS.get(fips);
         return v != null ? thyroidColor(v) : "#eee";
+      } else if (type === "breast") {
+        const v = breastByFIPS.get(fips);
+        return v != null ? breastColor(v) : "#eee";
       }
     });
   }
@@ -444,6 +487,7 @@ function initAirOnly() {
   // Zoom behavior
   const zoomBehavior = d3.zoom()
     .scaleExtent([1, 8])
+    .translateExtent([[0, 0], [width, height]])
     .on("zoom", event => {
       g.attr("transform", event.transform);
     });
@@ -530,6 +574,7 @@ function initIndustryOnly() {
   // Zoom behavior
   const zoomBehavior = d3.zoom()
     .scaleExtent([1, 8])
+    .translateExtent([[0, 0], [width, height]])
     .on("zoom", event => {
       const t = event.transform;
       g.attr("transform", t);
@@ -551,41 +596,34 @@ function initIndustryOnly() {
       .on("mouseover", (event, d) => {
         const fips = d.id;
         const name = fipsToName.get(fips) || "Unknown County";
-        const type = d3.select("#cancer-select-industry").property("value");
-        let val, label;
-        if (type === "all") {
-          val = cancerByFIPS.get(fips);
-          label = "All‐Sites Cancer";
-        } else if (type === "leukemia") {
-          val = leukemiaByFIPS.get(fips);
-          label = "Leukemia";
-        } else if (type === "lymphoma") {
-          val = lymphomaByFIPS.get(fips);
-          label = "Lymphoma";
-        } else if (type === "thyroid") {
-          val = thyroidByFIPS.get(fips);
-          label = "Thyroid";
-        }
-        const display = val != null ? val.toFixed(1) : "N/A";
         tooltip
-          .style("left",  (event.pageX + 10) + "px")
-          .style("top",   (event.pageY) + "px")
+          .style("left", (event.pageX + 10) + "px")
+          .style("top", (event.pageY) + "px")
           .style("opacity", 1)
-          .html(
-            `<strong>County:</strong> ${name}<br/>` +
-            `<strong>${label}:</strong> ${display}`
-          );
+          .html(`<strong>County:</strong> ${name}`);
       })
       .on("mouseout", () => {
         tooltip.style("opacity", 0);
       });
+
+  // Populate Sector dropdown
+  const sectorDropdown = d3.select("#sector-select-industry");
+  sectorDropdown.selectAll("option").remove();
+  sectorDropdown.append("option")
+    .attr("value", "all")
+    .text("All Sectors");
+  sectorColor.domain().forEach(sec => {
+    sectorDropdown.append("option")
+      .attr("value", sec)
+      .text(sec);
+  });
 
   // 12.2) Draw facilities (SVG circles) on top
   const facilityG = svg.append("g")
     .attr("class", "facility-group")
     .attr("pointer-events", "visiblePainted"); // allow mouseover on circles
 
-  facilityG.selectAll("circle")
+  const facilityCircles = facilityG.selectAll("circle")
     .data(facilities)
     .join("circle")
       .attr("cx", d => {
@@ -614,6 +652,16 @@ function initIndustryOnly() {
         tooltip.style("opacity", 0);
       });
 
+  // Filter facilities by selected sector
+  sectorDropdown.on("change", () => {
+    const selected = sectorDropdown.property("value");
+    if (selected === "all") {
+      facilityCircles.attr("display", null);
+    } else {
+      facilityCircles.attr("display", d => d.sector === selected ? null : "none");
+    }
+  });
+
   // 12.3) Cancer dropdown (changes choropleth colors)
   d3.select("#cancer-select-industry").on("change", updateChoropleth);
 
@@ -633,6 +681,9 @@ function initIndustryOnly() {
       } else if (type === "thyroid") {
         const v = thyroidByFIPS.get(fips);
         return v != null ? thyroidColor(v) : "#eee";
+      } else if (type === "breast") {
+        const v = breastByFIPS.get(fips);
+        return v != null ? breastColor(v) : "#eee";
       }
     });
   }
@@ -664,21 +715,25 @@ function initIndustryOnly() {
 // Helper: Build Industry legend (a list of colored squares + sector names)
 function buildIndustryLegend(containerSelector) {
   const container = d3.select(containerSelector);
-  container.html(""); // clear
-  const sectors = Array.from(sectorColor.domain());
-  sectors.forEach(sec => {
-    const row = container.append("div")
+  // Clear existing items
+  container.selectAll(".legend-item").remove();
+  // Bind data: one entry per sector
+  const items = container.selectAll(".legend-item")
+    .data(sectorColor.domain())
+    .join("div")
+      .classed("legend-item", true)
       .style("display", "flex")
       .style("align-items", "center")
       .style("margin", "2px 0");
-    row.append("div")
-      .style("width", "12px")
-      .style("height", "12px")
-      .style("background-color", sectorColor(sec))
-      .style("border", "1px solid #333")
-      .style("margin-right", "6px");
-    row.append("span").text(sec);
-  });
+  items.append("div")
+    .style("width", "12px")
+    .style("height", "12px")
+    .style("background-color", d => sectorColor(d))
+    .style("margin-right", "4px");
+  items.append("span")
+    .classed("label", true)
+    .attr("data-sector", d => d)
+    .text(d => d);
 }
 
 
@@ -693,6 +748,7 @@ function initIncomeOnly() {
   // Zoom
   const zoomBehavior = d3.zoom()
     .scaleExtent([1, 8])
+    .translateExtent([[0, 0], [width, height]])
     .on("zoom", event => {
       g.attr("transform", event.transform);
     });
@@ -819,6 +875,9 @@ function initFullDashboard() {
         } else if (type === "thyroid") {
           val = thyroidByFIPS.get(fips);
           label = "Thyroid";
+        } else if (type === "breast") {
+          val = breastByFIPS.get(fips);
+          label = "Breast";
         }
         const display = val != null ? val.toFixed(1) : "N/A";
         cancerTooltip
@@ -839,7 +898,8 @@ function initFullDashboard() {
     .attr("class", "facility-group-2")
     .style("display", "none"); // hidden until Industry is selected
 
-  facilityG.selectAll("circle")
+  // Facility circles for Industry (initially hidden)
+  const facilityCirclesFull = facilityG.selectAll("circle")
     .data(facilities)
     .join("circle")
       .attr("cx", d => {
@@ -867,6 +927,84 @@ function initFullDashboard() {
       .on("mouseout", () => {
         pollutionTooltip.style("opacity", 0);
       });
+
+  // —————————————————————————————————————————————————————————
+  // Populate “Industry Facilities” multi-select dropdown (Full Dashboard)
+  // —————————————————————————————————————————————————————————
+
+  const sectorDropdownFull = d3.select("#sector-select-2");
+  // Clear any existing <option> elements:
+  sectorDropdownFull.selectAll("option").remove();
+
+  // Create one <option> per sector:
+  sectorColor.domain().forEach(sec => {
+    sectorDropdownFull.append("option")
+      .attr("value", sec)
+      .text(sec);
+  });
+
+  // Whenever the dropdown changes, filter the facility circles:
+  sectorDropdownFull.on("change", () => {
+    // Gather an array of the values that are currently selected:
+    const selectedList = Array.from(
+      sectorDropdownFull.node().selectedOptions
+    ).map(opt => opt.value);
+
+    if (selectedList.length === 0) {
+      // If nothing is selected, hide all facilities:
+      facilityG.style("display", "none");
+    } else {
+      // Otherwise show the group, and hide any circle whose sector is not in the selectedList:
+      facilityG.style("display", null);
+      facilityCirclesFull.attr("display", d =>
+        selectedList.includes(d.sector) ? null : "none"
+      );
+    }
+
+    // Toggle legend visibility
+    if (selectedList.length === 0) {
+      d3.select("#industry-legend-full").style("display", "none");
+    } else {
+      d3.select("#industry-legend-full").style("display", null);
+    }
+
+    // Bold/unbold legend labels based on which sectors are selected
+    d3.selectAll("#industry-legend-items-full .legend-item .label")
+      .style("font-weight", function() {
+        const sector = d3.select(this).attr("data-sector");
+        return selectedList.includes(sector) ? "bold" : "normal";
+      });
+  });
+
+  // Allow clicking an option to toggle selection without needing Ctrl:
+  sectorDropdownFull.on("mousedown", function(event) {
+    event.preventDefault();
+    const opt = event.target;
+    if (opt.tagName === "OPTION") {
+      opt.selected = !opt.selected;
+      d3.select(this).dispatch("change");
+    }
+  });
+
+  // “All” button selects every option and triggers change:
+  d3.select("#sector-all-2").on("click", () => {
+    sectorDropdownFull.selectAll("option").property("selected", true);
+    sectorDropdownFull.dispatch("change");
+  });
+
+  // “None” button clears all selections and triggers change:
+  d3.select("#sector-none-2").on("click", () => {
+    sectorDropdownFull.selectAll("option").property("selected", false);
+    sectorDropdownFull.dispatch("change");
+  });
+
+  // —————————————————————————————————————————————————————————
+  // End of “Industry Facilities” multi-select dropdown logic
+  // —————————————————————————————————————————————————————————
+
+  // Populate Industry Legend in Full Dashboard
+  buildIndustryLegend("#industry-legend-items-full");
+  d3.select("#industry-legend-full").style("display", "none");
 
   // 14.3.3) Pollution paths (drawn when needed; initially fill="#eee")
   const pollutionPaths = pollutionG.selectAll("path")
@@ -903,6 +1041,7 @@ function initFullDashboard() {
   // ——————————————————————————————————————————————————
   const zoomBehavior2 = d3.zoom()
     .scaleExtent([1, 8])
+    .translateExtent([[0, 0], [width, height]])
     .on("zoom", event => {
       const t = event.transform;
       cancerG.attr("transform", t);
@@ -950,20 +1089,44 @@ function initFullDashboard() {
       } else if (type === "thyroid") {
         const v = thyroidByFIPS.get(fips);
         return v != null ? thyroidColor(v) : "#eee";
+      } else if (type === "breast") {
+        const v = breastByFIPS.get(fips);
+        return v != null ? breastColor(v) : "#eee";
       }
     });
 
     // Rebuild Cancer legend
-    buildLegendGradient("#legend-cancer-gradient-full", allMin, all95, cancerColor);
-    const scale = d3.scaleLinear().domain([allMin, all95]).range([0, 300]);
-    const axis  = d3.axisBottom(scale).ticks(5).tickFormat(d3.format(".0f"));
-    d3.select("#cancer-legend-axis-full").call(axis);
-    d3.select("#cancer-legend-title-full").text(
-      type === "all" ? "All‐Sites Cancer Incidence (≤ 95th percentile)" :
-      type === "leukemia" ? "Leukemia Incidence (≤ 95th percentile)" :
-      type === "lymphoma" ? "Lymphoma Incidence (≤ 95th percentile)" :
-      "Thyroid Incidence (≤ 95th percentile)"
-    );
+    if (type === "all") {
+      buildLegendGradient("#legend-cancer-gradient-full", allMin, all95, cancerColor);
+      const scale = d3.scaleLinear().domain([allMin, all95]).range([0, 300]);
+      const axis  = d3.axisBottom(scale).ticks(5).tickFormat(d3.format(".0f"));
+      d3.select("#cancer-legend-axis-full").call(axis);
+      d3.select("#cancer-legend-title-full").text("All‐Sites Cancer Incidence (≤ 95th percentile)");
+    } else if (type === "leukemia") {
+      buildLegendGradient("#legend-cancer-gradient-full", leukMin, leuk95, leukemiaColor);
+      const scale = d3.scaleLinear().domain([leukMin, leuk95]).range([0, 300]);
+      const axis  = d3.axisBottom(scale).ticks(5).tickFormat(d3.format(".0f"));
+      d3.select("#cancer-legend-axis-full").call(axis);
+      d3.select("#cancer-legend-title-full").text("Leukemia Incidence (≤ 95th percentile)");
+    } else if (type === "lymphoma") {
+      buildLegendGradient("#legend-cancer-gradient-full", lyphMin, lyph95, lymphomaColor);
+      const scale = d3.scaleLinear().domain([lyphMin, lyph95]).range([0, 300]);
+      const axis  = d3.axisBottom(scale).ticks(5).tickFormat(d3.format(".0f"));
+      d3.select("#cancer-legend-axis-full").call(axis);
+      d3.select("#cancer-legend-title-full").text("Lymphoma Incidence (≤ 95th percentile)");
+    } else if (type === "thyroid") {
+      buildLegendGradient("#legend-cancer-gradient-full", thyMin, thy95, thyroidColor);
+      const scale = d3.scaleLinear().domain([thyMin, thy95]).range([0, 300]);
+      const axis  = d3.axisBottom(scale).ticks(5).tickFormat(d3.format(".0f"));
+      d3.select("#cancer-legend-axis-full").call(axis);
+      d3.select("#cancer-legend-title-full").text("Thyroid Incidence (≤ 95th percentile)");
+    } else if (type === "breast") {
+      buildLegendGradient("#legend-cancer-gradient-full", breastMin, breast95, breastColor);
+      const scale = d3.scaleLinear().domain([breastMin, breast95]).range([0, 300]);
+      const axis  = d3.axisBottom(scale).ticks(5).tickFormat(d3.format(".0f"));
+      d3.select("#cancer-legend-axis-full").call(axis);
+      d3.select("#cancer-legend-title-full").text("Breast Incidence (≤ 95th percentile)");
+    }
   }
 
   // ——————————————————————————————————————————————————
@@ -977,14 +1140,13 @@ function initFullDashboard() {
     if (pm === "none") {
       // Hide pollution & facilities, show cancer alone
       pollutionContainer2.style("display", "none");
-      facilityG.style("display", "none");
       cancerPaths.attr("fill-opacity", 1);
 
       // Show cancer legend, hide others
       d3.select("#legend-cancer-full").style("display", null);
       d3.select("#legend-pm25-full").style("display", "none");
       d3.select("#legend-income-full").style("display", "none");
-      d3.select("#industry-legend-full").style("display", "none");
+      // d3.select("#industry-legend-full").style("display", "none"); // Removed to keep legend visible
 
       // Recolor cancer (in case user changed subtype)
       updateCancerChoroplethFull();
@@ -992,7 +1154,6 @@ function initFullDashboard() {
     } else if (pm === "pm25") {
       // Show pollution (PM₂.₅) below cancer
       pollutionContainer2.style("display", null);
-      facilityG.style("display", "none");
 
       // Color pollutionPaths by PM₂.₅
       pollutionPaths.transition().duration(500).attr("fill", d => {
@@ -1004,7 +1165,7 @@ function initFullDashboard() {
       d3.select("#legend-cancer-full").style("display", "none");
       d3.select("#legend-pm25-full").style("display", null);
       d3.select("#legend-income-full").style("display", "none");
-      d3.select("#industry-legend-full").style("display", "none");
+      // d3.select("#industry-legend-full").style("display", "none"); // Removed to keep legend visible
 
       // Rebuild PM₂.₅ gradient & axis
       buildLegendGradient("#legend-pm25-gradient-full", 3, 15, pm25Color);
@@ -1018,7 +1179,6 @@ function initFullDashboard() {
     } else if (pm === "income") {
       // Show pollution (Income) below cancer
       pollutionContainer2.style("display", null);
-      facilityG.style("display", "none");
 
       // Color pollutionPaths by Income
       pollutionPaths.transition().duration(500).attr("fill", d => {
@@ -1030,7 +1190,7 @@ function initFullDashboard() {
       d3.select("#legend-cancer-full").style("display", "none");
       d3.select("#legend-pm25-full").style("display", "none");
       d3.select("#legend-income-full").style("display", null);
-      d3.select("#industry-legend-full").style("display", "none");
+      // d3.select("#industry-legend-full").style("display", "none"); // Removed to keep legend visible
 
       // Rebuild Income gradient & axis
       buildLegendGradient("#legend-income-gradient-full", incomeMin, incomeMax, incomeColor);
@@ -1040,20 +1200,6 @@ function initFullDashboard() {
         d3.select("#income-legend-axis-full").call(axis);
       }
       d3.select("#income-legend-title-full").text("Median Income (2022)");
-
-    } else if (pm === "industry") {
-      // Hide pollution, show facility circles on top of cancer
-      pollutionContainer2.style("display", "none");
-      facilityG.style("display", null);
-
-      // Show cancer legend + industry legend
-      d3.select("#legend-cancer-full").style("display", null);
-      d3.select("#legend-pm25-full").style("display", "none");
-      d3.select("#legend-income-full").style("display", "none");
-      d3.select("#industry-legend-full").style("display", null);
-
-      // Build Industry legend (Full Dashboard)
-      buildIndustryLegend("#industry-legend-items-full");
     }
   }
 
@@ -1138,7 +1284,14 @@ function setupSearchBox(
   const suggestionsDiv = d3.select(suggestionsSelector);
   const searchButton   = d3.select(buttonSelector);
 
-  const highlightSelections = options.highlightPaths || [pathSelection];
+  let highlightSelections;
+  if (options.highlightPaths) {
+    highlightSelections = Array.isArray(options.highlightPaths)
+      ? options.highlightPaths
+      : [options.highlightPaths];
+  } else {
+    highlightSelections = [pathSelection];
+  }
   const highlightAttrs = options.highlightAttrs || {
     stroke: "black",
     "stroke-width": 0.75

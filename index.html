@@ -178,16 +178,10 @@
         <option value="leukemia">Leukemia Incidence</option>
         <option value="lymphoma">Lymphoma Incidence</option>
         <option value="thyroid">Thyroid Incidence</option>
+        <option value="breast">Breast Incidence</option>
       </select>
 
-      <!-- POLLUTION DROPDOWN (disabled) -->
-      <label for="pollution-select">Pollution Metric:</label>
-      <select id="pollution-select">
-        <option value="none" selected>None</option>
-        <option value="pm25" disabled>Air Pollution (PM₂.₅)</option>
-        <option value="industry" disabled>Industry Facilities</option>
-        <option value="income" disabled>Income</option>
-      </select>
+
 
       <!-- RESET BUTTON -->
       <button id="reset-button">Reset</button>
@@ -233,22 +227,7 @@
       </div>
       <button id="search-button-air">Go</button>
 
-      <!-- CANCER DROPDOWN (disabled) -->
-      <label for="cancer-select-air">Cancer Type:</label>
-      <select id="cancer-select-air">
-        <option value="all" disabled>All Cancer Sites</option>
-        <option value="leukemia" disabled>Leukemia Incidence</option>
-        <option value="lymphoma" disabled>Lymphoma Incidence</option>
-        <option value="thyroid" disabled>Thyroid Incidence</option>
-      </select>
 
-      <!-- POLLUTION DROPDOWN (only PM₂.₅ enabled) -->
-      <label for="pollution-select-air">Pollution Metric:</label>
-      <select id="pollution-select-air">
-        <option value="pm25" selected>Air Pollution (PM₂.₅)</option>
-        <option value="industry" disabled>Industry Facilities</option>
-        <option value="income" disabled>Income</option>
-      </select>
 
       <!-- RESET BUTTON -->
       <button id="reset-button-air">Reset</button>
@@ -294,21 +273,10 @@
       </div>
       <button id="search-button-industry">Go</button>
 
-      <!-- CANCER DROPDOWN (enabled) -->
-      <label for="cancer-select-industry">Cancer Type:</label>
-      <select id="cancer-select-industry">
-        <option value="all" selected>All Cancer Sites</option>
-        <option value="leukemia">Leukemia Incidence</option>
-        <option value="lymphoma">Lymphoma Incidence</option>
-        <option value="thyroid">Thyroid Incidence</option>
-      </select>
-
-      <!-- POLLUTION DROPDOWN (only Industry enabled) -->
-      <label for="pollution-select-industry">Pollution Metric:</label>
-      <select id="pollution-select-industry">
-        <option value="industry" selected>Industry Facilities</option>
-        <option value="pm25" disabled>Air Pollution (PM₂.₅)</option>
-        <option value="income" disabled>Income</option>
+      <!-- INDUSTRY SECTOR DROPDOWN -->
+      <label for="sector-select-industry">Industry Sector:</label>
+      <select id="sector-select-industry">
+        <option value="all" selected>All Sectors</option>
       </select>
 
       <!-- RESET BUTTON -->
@@ -373,22 +341,6 @@
       </div>
       <button id="search-button-income">Go</button>
 
-      <!-- CANCER DROPDOWN (disabled) -->
-      <label for="cancer-select-income">Cancer Type:</label>
-      <select id="cancer-select-income">
-        <option value="all" disabled>All Cancer Sites</option>
-        <option value="leukemia" disabled>Leukemia Incidence</option>
-        <option value="lymphoma" disabled>Lymphoma Incidence</option>
-        <option value="thyroid" disabled>Thyroid Incidence</option>
-      </select>
-
-      <!-- POLLUTION DROPDOWN (only Income enabled) -->
-      <label for="pollution-select-income">Pollution Metric:</label>
-      <select id="pollution-select-income">
-        <option value="income" selected>Income</option>
-        <option value="pm25" disabled>Air Pollution (PM₂.₅)</option>
-        <option value="industry" disabled>Industry Facilities</option>
-      </select>
 
       <!-- RESET BUTTON -->
       <button id="reset-button-income">Reset</button>
@@ -457,16 +409,24 @@
         <option value="leukemia">Leukemia Incidence</option>
         <option value="lymphoma">Lymphoma Incidence</option>
         <option value="thyroid">Thyroid Incidence</option>
+        <option value="breast">Breast Incidence</option>
       </select>
 
-      <!-- POLLUTION DROPDOWN -->
-      <label for="pollution-select-2">Pollution Metric:</label>
+      <!-- VIEW COMPARISON MAP DROPDOWN -->
+      <label for="pollution-select-2">View Comparison Map:</label>
       <select id="pollution-select-2">
         <option value="none" selected>None</option>
         <option value="pm25">Air Pollution (PM₂.₅)</option>
-        <option value="industry">Industry Facilities</option>
         <option value="income">Income</option>
       </select>
+
+      <!-- INDUSTRY FACILITIES MULTI-SELECT -->
+      <label for="sector-select-2">Industry Facilities:</label>
+      <select id="sector-select-2" multiple size="5" style="min-width: 150px;">
+        <!-- options will be injected by JS -->
+      </select>
+      <button id="sector-all-2" type="button" style="margin-left: 8px;">All</button>
+      <button id="sector-none-2" type="button">None</button>
 
       <!-- RESET BUTTON -->
       <button id="reset-button-2">Reset</button>
@@ -489,6 +449,24 @@
           All‐Sites Cancer Incidence (≤ 95th percentile)
         </text>
       </svg>
+      <!-- Industry Legend (Full Dashboard, now bottom-right; hidden until “Industry” selected) -->
+      <div
+        id="industry-legend-full"
+        style="
+          position: absolute;
+          bottom: 10px;
+          right: 10px;
+          background: rgba(249, 246, 246, 0.8);
+          padding: 6px;
+          border: 1px solid #ccc;
+          border-radius: 4px;
+          font-size: 12px;
+          display: none;
+        "
+      >
+        <strong>Industry Sector Legend</strong>
+        <div id="industry-legend-items-full"></div>
+      </div>
     </div>
 
     <!-- 7.2) Pollution container sits below; hidden initially -->
@@ -519,26 +497,8 @@
           Median Income (2022)
         </text>
       </svg>
-
-      <!-- Industry Legend (Full Dashboard, now bottom-right; hidden until “Industry” selected) -->
-      <div
-        id="industry-legend-full"
-        style="
-          position: absolute;
-          bottom: 10px;
-          right: 10px;
-          background: rgba(255,255,255,0.8);
-          padding: 6px;
-          border: 1px solid #ccc;
-          border-radius: 4px;
-          font-size: 12px;
-          display: none;
-        "
-      >
-        <strong>Industry Sector Legend</strong>
-        <div id="industry-legend-items-full"></div>
-      </div>
     </div>
+
   </section>
 
   <!-- Load the JavaScript logic last -->
