@@ -204,8 +204,6 @@
         <option value="breast">Breast Incidence</option>
       </select>
 
-
-
       <!-- RESET BUTTON -->
       <button id="reset-button">Reset</button>
     </div>
@@ -228,6 +226,48 @@
     </div>
   </section>
 
+  <!-- ================================================================
+       5.1. Water Pollution‐Only View
+       ================================================================ -->
+  <section id="water-only">
+    <h2>Water Pollution‐Only View</h2>
+    <p>
+      Here we examine county‐level water quality scores. All other layers are disabled so you can focus solely on water quality distribution.
+    </p>
+
+    <div class="controls">
+      <!-- SEARCH BOX -->
+      <div class="suggestions-container">
+        <input
+          type="text"
+          id="county-search-water"
+          placeholder="Type county, e.g. Union County, Florida"
+        />
+        <div id="suggestions-water" class="suggestions-list"></div>
+      </div>
+      <button id="search-button-water">Go</button>
+
+      <!-- RESET BUTTON -->
+      <button id="reset-button-water">Reset</button>
+    </div>
+
+    <div id="map-water" class="map-container">
+      <svg id="water-svg" width="960" height="600"></svg>
+      <div id="water-tooltip" class="tooltip"></div>
+
+      <!-- Water Quality Legend -->
+      <svg width="300" height="30" style="position: absolute; top: 10px; right: 10px;">
+        <defs>
+          <linearGradient id="legend-water"></linearGradient>
+        </defs>
+        <rect x="0" y="0" width="300" height="12" fill="url(#legend-water)"></rect>
+        <g class="legend-group" transform="translate(0, 12)" id="water-legend-axis"></g>
+        <text x="150" y="-4" text-anchor="middle" class="legend-group">
+          Water Quality Score (≤ 95th percentile)
+        </text>
+      </svg>
+    </div>
+  </section>
 
   <!-- ================================================================
        3. Air Pollution‐Only View
@@ -247,8 +287,6 @@
         <div id="suggestions-air" class="suggestions-list"></div>
       </div>
       <button id="search-button-air">Go</button>
-
-
 
       <!-- RESET BUTTON -->
       <button id="reset-button-air">Reset</button>
@@ -271,7 +309,6 @@
       </svg>
     </div>
   </section>
-
 
   <!-- ================================================================
        4. Industrial‐Only View
@@ -336,7 +373,6 @@
     </div>
   </section>
 
-
   <!-- ================================================================
        5. Income‐Only View
        ================================================================ -->
@@ -354,7 +390,6 @@
         <div id="suggestions-income" class="suggestions-list"></div>
       </div>
       <button id="search-button-income">Go</button>
-
 
       <!-- RESET BUTTON -->
       <button id="reset-button-income">Reset</button>

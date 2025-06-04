@@ -28,6 +28,9 @@ let breastColor;         // d3.scaleSequential for breast
 let breastMin, breast95; // 95th-percentile cutoffs for breast
 let airByFIPS;           // Map<fips, pm25>
 let incomeByFIPS;        // Map<fips, medianIncome>
+let waterByFIPS;       // Map<fips, water quality score>
+let waterColor;        // d3.scaleSequential for water
+let waterMin, water95; // 95th-percentile cutoffs for water
 
 let facilities = [];     // Array of { facilityName, latitude, longitude, sector, onSiteRelease }
 let sectorColor;         // d3.scaleOrdinal for sectors
@@ -108,7 +111,13 @@ Promise.all([
     const incomeRaw    = +row["Median_Income_2022"];
     const medianIncome = isNaN(incomeRaw) ? null : incomeRaw;
     return { fips: fipsCode, medianIncome };
-  })
+  }),
+
+  // 2.9) County_Water_Quality_Scores.csv → Water Quality Scores
+  d3.csv("County_Water_Quality_Scores.csv", d => ({
+    fips: String(+d.COUNTY_FIPS_CODE).padStart(5, "0"),
+    score: +d.WATER_QUALITY_COUNTY_SCORE
+  })),
 ])
 .then(([
   usTopology,
@@ -119,7 +128,8 @@ Promise.all([
   breastData,
   pm25Data,
   industryData,
-  incomeData
+  incomeData,
+  waterData
 ]) => {
   // —————————————————————————————————————————————————————————————————
   // 3) PARSE “incd (1).csv” → All‐Sites Cancer (skip first 8 lines)
@@ -236,6 +246,16 @@ Promise.all([
     }
   });
 
+  // —————————————————————————————————————————————————————————
+  // Parse County_Water_Quality_Scores.csv → waterByFIPS
+  // —————————————————————————————————————————————————————————
+  waterByFIPS = new Map();
+  waterData.forEach(d => {
+    if (d.fips && !isNaN(d.score)) {
+      waterByFIPS.set(d.fips, d.score);
+    }
+  });
+
   // —————————————————————————————————————————————————————————————————
   // 7) CONVERT TopoJSON → GeoJSON “counties”
   // —————————————————————————————————————————————————————————————————
@@ -322,6 +342,18 @@ Promise.all([
   const uniqueSectors = Array.from(new Set(facilities.map(d => d.sector)));
   sectorColor = d3.scaleOrdinal(d3.schemeSet2).domain(uniqueSectors);
 
+  // —————————————————————————————————————————————————————————
+  // 8.9) Water Quality: dynamic [min, 95th percentile], clamp above
+  // —————————————————————————————————————————————————————————
+  const waterArr = Array.from(waterByFIPS.values()).filter(v => !isNaN(v));
+  waterMin = d3.min(waterArr);
+  const waterSorted = waterArr.slice().sort(d3.ascending);
+  water95 = d3.quantile(waterSorted, 0.95);
+  waterColor = d3.scaleLinear()
+    .domain([40, 60])
+    .range(["#A0522D", "#ADD8E6"])
+    .clamp(true);
+
   // —————————————————————————————————————————————————————————————————
   // 9) INITIALIZE ALL FIVE VIEWS
   // —————————————————————————————————————————————————————————————————
@@ -330,7 +362,71 @@ Promise.all([
   initAirOnly();
   initIndustryOnly();
   initIncomeOnly();
+  initWaterOnly(); // Initialize the new Water Pollution‐Only view
   initFullDashboard();
+// ========================================================================
+//  Water Pollution‐Only View Initialization
+// ========================================================================
+function initWaterOnly() {
+  const svg     = d3.select("#water-svg").attr("width", width).attr("height", height);
+  const g       = svg.append("g").attr("class", "water-group");
+  const tooltip = d3.select("#water-tooltip");
+
+  const zoomBehavior = d3.zoom()
+    .scaleExtent([1, 8])
+    .translateExtent([[0, 0], [width, height]])
+    .on("zoom", event => {
+      g.attr("transform", event.transform);
+    });
+  svg.call(zoomBehavior);
+
+  const paths = g.selectAll("path")
+    .data(counties)
+    .join("path")
+      .attr("d", path)
+      .attr("stroke", "#999")
+      .attr("stroke-width", 0.2)
+      .attr("fill", d => {
+        const v = waterByFIPS.get(d.id);
+        return v != null ? waterColor(v) : "#eee";
+      })
+      .on("mouseover", (event, d) => {
+        const fips = d.id;
+        const name = fipsToName.get(fips) || "Unknown County";
+        const v = waterByFIPS.get(fips);
+        const display = v != null ? v.toFixed(1) : "N/A";
+        tooltip
+          .style("left",  (event.pageX + 10) + "px")
+          .style("top",   (event.pageY) + "px")
+          .style("opacity", 1)
+          .html(
+            `<strong>County:</strong> ${name}<br/>` +
+            `<strong>Water Quality Score:</strong> ${display}`
+          );
+      })
+      .on("mouseout", () => {
+        tooltip.style("opacity", 0);
+      });
+
+  // Build Water Quality legend
+  buildWaterLegend("#legend-water", "#water-legend-axis");
+
+  // Reset button
+  d3.select("#reset-button-water").on("click", () => {
+    svg.transition().duration(750).call(zoomBehavior.transform, d3.zoomIdentity);
+    paths.attr("stroke", "#999").attr("stroke-width", 0.2);
+  });
+
+  setupSearchBox(
+    "#county-search-water",
+    "#suggestions-water",
+    "#search-button-water",
+    paths,
+    zoomBehavior,
+    { highlightPaths: paths }
+  );
+}
+
 })
 .catch(err => {
   console.error("Error loading data:", err);
@@ -1393,4 +1489,20 @@ function setupSearchBox(
       .duration(750)
       .call(zoomBehavior.transform, transform);
   });
+}
+// ========================================================================
+// Helper: Build Water Quality legend
+// ========================================================================
+function buildWaterLegend(gradientId, axisGroupId) {
+  const grad = d3.select(gradientId);
+  grad.selectAll("stop").remove();
+  d3.range(0, 1.001, 0.01).forEach(t => {
+    const val = waterMin + t * (water95 - waterMin);
+    grad.append("stop")
+      .attr("offset", `${t * 100}%`)
+      .attr("stop-color", waterColor(val));
+  });
+  const scale = d3.scaleLinear().domain([waterMin, water95]).range([0, 300]);
+  const axis  = d3.axisBottom(scale).ticks(5).tickFormat(d3.format(".1f"));
+  d3.select(axisGroupId).call(axis);
 }
