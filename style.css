@@ -1,0 +1,13 @@
+#sector-controls button {
+  margin: 2px;
+  padding: 4px 8px;
+  border: 1px solid #aaa;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+#sector-controls button.selected {
+  background-color: #888;
+  color: white;
+  font-weight: bold;
+}
