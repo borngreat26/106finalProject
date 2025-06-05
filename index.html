@@ -39,11 +39,13 @@
       font-size: 1.5rem;
       border-bottom: 1px solid #ccc;
       padding-bottom: 0.25rem;
+      text-align: center;
     }
 
     p {
       max-width: 800px;
-      margin-bottom: 1rem;
+      margin: 0 auto 1rem auto;
+      text-align: center;
     }
 
     section {
@@ -54,6 +56,7 @@
       border: 1px solid #ddd;
       border-radius: 4px;
       box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      text-align: center;
     }
 
     /* ========================
@@ -62,9 +65,16 @@
     .controls {
       display: flex;
       flex-wrap: wrap;
+      justify-content: center;
       align-items: center;
       gap: 0.5rem;
       margin-bottom: 1rem;
+    }
+
+    .controls input,
+    .controls button,
+    .controls select {
+      margin: 0 auto;
     }
 
     .controls input {
@@ -82,6 +92,29 @@
     .controls select {
       font-size: 1rem;
       padding: 0.25rem;
+    }
+
+    /* Visually group search bar and Go button */
+    .search-group {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .search-group input[type="text"] {
+      width: 250px;
+      padding: 6px 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-size: 0.9rem;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+      margin-left: 30px;
+    }
+
+    .control-pair {
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
     }
 
     /* Suggestions dropdown */
@@ -203,31 +236,34 @@
       subtypes. Pollutant layers are disabled here so you can focus solely on the spatial distribution of cancer rates.
     </p>
 
+    <p>
+      We obtained county‐level cancer data as our first step. Note the annotated areas on the map: on the West Coast, a rectangle around California, Wyoming, and Idaho shows relatively low cancer incidence, while on the East Coast, rectangles around Minnesota, Kentucky, and Mississippi highlight regions with higher cancer rates. Observe these annotated regions to compare severity.
+    </p>
     <div class="controls">
-      <!-- SEARCH BOX -->
-      <div class="suggestions-container">
-        <input type="text" id="county-search" placeholder="Type county, e.g. Union County, Florida" />
-        <div id="suggestions" class="suggestions-list"></div>
+      <!-- SEARCH BOX + GO BUTTON grouped -->
+      <div class="search-group">
+        <div class="suggestions-container">
+          <input type="text" id="county-search" placeholder="Type county, e.g. Union County, Florida" />
+          <div id="suggestions" class="suggestions-list"></div>
+        </div>
+        <button id="search-button">Go</button>
       </div>
-      <button id="search-button">Go</button>
 
       <!-- CANCER DROPDOWN -->
-      <label for="cancer-select">Cancer Type:</label>
-      <select id="cancer-select">
-        <option value="all" selected>All Cancer Sites</option>
-        <option value="leukemia">Leukemia Incidence</option>
-        <option value="lymphoma">Lymphoma Incidence</option>
-        <option value="thyroid">Thyroid Incidence</option>
-        <option value="breast">Breast Incidence</option>
-      </select>
+      <div class="control-pair">
+        <label for="cancer-select">Cancer Type:</label>
+        <select id="cancer-select">
+          <option value="all" selected>All Cancer Sites</option>
+          <option value="leukemia">Leukemia Incidence</option>
+          <option value="lymphoma">Lymphoma Incidence</option>
+          <option value="thyroid">Thyroid Incidence</option>
+          <option value="breast">Breast Incidence</option>
+        </select>
+      </div>
 
       <!-- RESET BUTTON -->
       <button id="reset-button">Reset</button>
     </div>
-
-    <p>
-      We obtained county‐level cancer data as our first step. Note the annotated areas on the map: on the West Coast, a rectangle around California, Wyoming, and Idaho shows relatively low cancer incidence, while on the East Coast, rectangles around Minnesota, Kentucky, and Mississippi highlight regions with higher cancer rates. Observe these annotated regions to compare severity.
-    </p>
     <div id="map-cancer" class="map-container">
       <svg id="cancer-svg" width="960" height="600"></svg>
       <div id="cancer-tooltip" class="tooltip"></div>
@@ -248,21 +284,22 @@
       quality distribution.
     </p>
 
+    <p>
+      We also wondered if water quality might correlate with cancer rates, so we gathered 2025 county‐level water scores. On the map, the annotated West Coast region appears to have cleaner water, which aligns with its lower cancer incidence from the previous section. Conversely, the annotated East Coast region shows dirtier water and correspondingly higher cancer rates.
+    </p>
     <div class="controls">
-      <!-- SEARCH BOX -->
-      <div class="suggestions-container">
-        <input type="text" id="county-search-water" placeholder="Type county, e.g. Union County, Florida" />
-        <div id="suggestions-water" class="suggestions-list"></div>
+      <!-- SEARCH BOX + GO BUTTON grouped -->
+      <div class="search-group">
+        <div class="suggestions-container">
+          <input type="text" id="county-search-water" placeholder="Type county, e.g. Union County, Florida" />
+          <div id="suggestions-water" class="suggestions-list"></div>
+        </div>
+        <button id="search-button-water">Go</button>
       </div>
-      <button id="search-button-water">Go</button>
 
       <!-- RESET BUTTON -->
       <button id="reset-button-water">Reset</button>
     </div>
-
-    <p>
-      We also wondered if water quality might correlate with cancer rates, so we gathered 2025 county‐level water scores. On the map, the annotated West Coast region appears to have cleaner water, which aligns with its lower cancer incidence from the previous section. Conversely, the annotated East Coast region shows dirtier water and correspondingly higher cancer rates.
-    </p>
     <div id="map-water" class="map-container">
       <svg id="water-svg" width="960" height="600"></svg>
       <div id="water-tooltip" class="tooltip"></div>
@@ -283,21 +320,22 @@
       so you can focus just on the PM₂.₅ distribution.
     </p>
 
+    <p>
+      Next, we considered air pollution. However, the relationship is not straightforward: the California region shows higher PM₂.₅ levels despite low cancer rates; Minnesota has relatively clean air but high cancer incidence; Idaho and Wyoming appear to have clean air and low cancer rates; and the Kentucky/Mississippi region has more polluted air and high cancer rates. Thus, air pollution alone does not fully explain cancer patterns.
+    </p>
     <div class="controls">
-      <!-- SEARCH BOX -->
-      <div class="suggestions-container">
-        <input type="text" id="county-search-air" placeholder="Type county, e.g. Union County, Florida" />
-        <div id="suggestions-air" class="suggestions-list"></div>
+      <!-- SEARCH BOX + GO BUTTON grouped -->
+      <div class="search-group">
+        <div class="suggestions-container">
+          <input type="text" id="county-search-air" placeholder="Type county, e.g. Union County, Florida" />
+          <div id="suggestions-air" class="suggestions-list"></div>
+        </div>
+        <button id="search-button-air">Go</button>
       </div>
-      <button id="search-button-air">Go</button>
 
       <!-- RESET BUTTON -->
       <button id="reset-button-air">Reset</button>
     </div>
-
-    <p>
-      Next, we considered air pollution. However, the relationship is not straightforward: the California region shows higher PM₂.₅ levels despite low cancer rates; Minnesota has relatively clean air but high cancer incidence; Idaho and Wyoming appear to have clean air and low cancer rates; and the Kentucky/Mississippi region has more polluted air and high cancer rates. Thus, air pollution alone does not fully explain cancer patterns.
-    </p>
     <div id="map-air" class="map-container">
       <svg id="air-svg" width="960" height="600"></svg>
       <div id="air-tooltip" class="tooltip"></div>
@@ -319,32 +357,30 @@
       Total.
     </p>
 
+    <p>
+      We expected industrial emissions might align with cancer hotspots. Indeed, similar to water quality, the West Coast annotated area has fewer large industrial facilities and lower cancer rates, whereas the East Coast annotated area has many polluting facilities alongside high cancer incidence—suggesting a possible link.
+    </p>
     <div class="controls">
-      <!-- SEARCH BOX -->
-      <div class="suggestions-container">
-        <input type="text" id="county-search-industry" placeholder="Type county, e.g. Union County, Florida" />
-        <div id="suggestions-industry" class="suggestions-list"></div>
+      <!-- SEARCH BOX + GO BUTTON grouped -->
+      <div class="search-group">
+        <div class="suggestions-container">
+          <input type="text" id="county-search-industry" placeholder="Type county, e.g. Union County, Florida" />
+          <div id="suggestions-industry" class="suggestions-list"></div>
+        </div>
+        <button id="search-button-industry">Go</button>
       </div>
-      <button id="search-button-industry">Go</button>
 
       <!-- INDUSTRY SECTOR DROPDOWN -->
-      <label for="sector-select-industry">Industry Sector:</label>
-      <select id="sector-select-industry">
-        <option value="all" selected>All Sectors</option>
-      </select>
-
-      <!-- OUTPUT THRESHOLD SLIDER -->
-      <label for="emission-threshold">Min Emissions:</label>
-      <input type="range" id="emission-threshold" min="0" max="500000" step="10000" value="10000">
-      <span id="emission-value">10000</span>
+      <div class="control-pair">
+        <label for="sector-select-industry">Industry Sector:</label>
+        <select id="sector-select-industry">
+          <option value="all" selected>All Sectors</option>
+        </select>
+      </div>
 
       <!-- RESET BUTTON -->
       <button id="reset-button-industry">Reset</button>
     </div>
-
-    <p>
-      We expected industrial emissions might align with cancer hotspots. Indeed, similar to water quality, the West Coast annotated area has fewer large industrial facilities and lower cancer rates, whereas the East Coast annotated area has many polluting facilities alongside high cancer incidence—suggesting a possible link.
-    </p>
     <div id="map-industry" class="map-container">
       <svg id="industry-svg" width="960" height="600"></svg>
       <div id="industry-tooltip" class="tooltip"></div>
@@ -367,6 +403,12 @@
         <div id="industry-legend-items"></div>
       </div>
     </div>
+    <div style="text-align: center; margin-top: 1rem;">
+      <!-- OUTPUT THRESHOLD SLIDER -->
+      <label for="emission-threshold">Min Emissions:</label>
+      <input type="range" id="emission-threshold" min="0" max="500000" step="10000" value="10000">
+      <span id="emission-value">10000</span>
+    </div>
   </section>
 
   <!-- ================================================================
@@ -379,21 +421,22 @@
       you can see how income alone is distributed.
     </p>
 
+    <p>
+      We also explored whether socioeconomic factors play a role, so we included median household income. The Idaho/California region shows higher incomes and lower cancer rates. Mississippi and Kentucky have lower incomes and high cancer incidence. However, Minnesota has moderate to high income but still experiences high cancer rates, indicating income alone cannot fully explain the patterns.
+    </p>
     <div class="controls">
-      <!-- SEARCH BOX -->
-      <div class="suggestions-container">
-        <input type="text" id="county-search-income" placeholder="Type county, e.g. Union County, Florida" />
-        <div id="suggestions-income" class="suggestions-list"></div>
+      <!-- SEARCH BOX + GO BUTTON grouped -->
+      <div class="search-group">
+        <div class="suggestions-container">
+          <input type="text" id="county-search-income" placeholder="Type county, e.g. Union County, Florida" />
+          <div id="suggestions-income" class="suggestions-list"></div>
+        </div>
+        <button id="search-button-income">Go</button>
       </div>
-      <button id="search-button-income">Go</button>
 
       <!-- RESET BUTTON -->
       <button id="reset-button-income">Reset</button>
     </div>
-
-    <p>
-      We also explored whether socioeconomic factors play a role, so we included median household income. The Idaho/California region shows higher incomes and lower cancer rates. Mississippi and Kentucky have lower incomes and high cancer incidence. However, Minnesota has moderate to high income but still experiences high cancer rates, indicating income alone cannot fully explain the patterns.
-    </p>
     <div id="map-income" class="map-container">
       <svg id="income-svg" width="960" height="600"></svg>
       <div id="income-tooltip" class="tooltip"></div>
@@ -427,22 +470,26 @@
     </p>
 
     <div class="controls">
-      <!-- SEARCH BOX -->
-      <div class="suggestions-container">
-        <input type="text" id="county-search-2" placeholder="Type county, e.g. Union County, Florida" />
-        <div id="suggestions-2" class="suggestions-list"></div>
+      <!-- SEARCH BOX + GO BUTTON grouped -->
+      <div class="search-group">
+        <div class="suggestions-container">
+          <input type="text" id="county-search-2" placeholder="Type county, e.g. Union County, Florida" />
+          <div id="suggestions-2" class="suggestions-list"></div>
+        </div>
+        <button id="search-button-2">Go</button>
       </div>
-      <button id="search-button-2">Go</button>
 
       <!-- CANCER DROPDOWN -->
-      <label for="cancer-select-2">Cancer Type:</label>
-      <select id="cancer-select-2">
-        <option value="all" selected>All Cancer Sites</option>
-        <option value="leukemia">Leukemia Incidence</option>
-        <option value="lymphoma">Lymphoma Incidence</option>
-        <option value="thyroid">Thyroid Incidence</option>
-        <option value="breast">Breast Incidence</option>
-      </select>
+      <div class="control-pair">
+        <label for="cancer-select-2">Cancer Type:</label>
+        <select id="cancer-select-2">
+          <option value="all" selected>All Cancer Sites</option>
+          <option value="leukemia">Leukemia Incidence</option>
+          <option value="lymphoma">Lymphoma Incidence</option>
+          <option value="thyroid">Thyroid Incidence</option>
+          <option value="breast">Breast Incidence</option>
+        </select>
+      </div>
 
       <!-- VIEW COMPARISON MAP DROPDOWN -->
       <label for="pollution-select-2">View Comparison Map:</label>
@@ -454,17 +501,14 @@
       </select>
 
       <!-- INDUSTRY FACILITIES MULTI-SELECT -->
-      <label for="sector-select-2">Industry Facilities:</label>
-      <select id="sector-select-2" multiple size="5" style="min-width: 150px;">
-        <!-- options will be injected by JS -->
-      </select>
+      <div class="control-pair">
+        <label for="sector-select-2">Industry Facilities:</label>
+        <select id="sector-select-2" multiple size="5" style="min-width: 150px;">
+          <!-- options will be injected by JS -->
+        </select>
+      </div>
       <button id="sector-all-2" type="button" style="margin-left: 8px;">All</button>
       <button id="sector-none-2" type="button">None</button>
-
-      <!-- OUTPUT THRESHOLD SLIDER (Full Dashboard) -->
-      <label for="emission-threshold-2">Min Emissions:</label>
-      <input type="range" id="emission-threshold-2" min="0" max="500000" step="10000" value="10000">
-      <span id="emission-value-2">10000</span>
 
       <!-- RESET BUTTON -->
       <button id="reset-button-2">Reset</button>
@@ -493,6 +537,12 @@
         <strong>Industry Sector Legend</strong>
         <div id="industry-legend-items-full"></div>
       </div>
+    </div>
+    <div style="text-align: center; margin-top: 1rem;">
+      <!-- OUTPUT THRESHOLD SLIDER (Full Dashboard) -->
+      <label for="emission-threshold-2">Min Emissions:</label>
+      <input type="range" id="emission-threshold-2" min="0" max="500000" step="10000" value="10000">
+      <span id="emission-value-2">10000</span>
     </div>
 
     <!-- 7.2) Pollution container sits below; hidden initially -->
