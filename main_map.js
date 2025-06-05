@@ -266,74 +266,78 @@ Promise.all([
     // 8) DEFINE COLOR SCALES (Cancer, subtypes, PM₂.₅, Income)
     // —————————————————————————————————————————————————————————————————
 
-    // 8.1) All‐Sites Cancer: dynamic [min, 95th percentile], clamp above
+    // 8.1) All‐Sites Cancer: quintile-based threshold scale
     {
       const allVals = Array.from(cancerByFIPS.values()).filter(v => !isNaN(v));
+      allVals.sort(d3.ascending);
+      const q20 = d3.quantile(allVals, 0.2);
+      const q40 = d3.quantile(allVals, 0.4);
+      const q60 = d3.quantile(allVals, 0.6);
+      const q80 = d3.quantile(allVals, 0.8);
       allMin = d3.min(allVals);
-      const sorted = allVals.slice().sort(d3.ascending);
-      all95 = d3.quantile(sorted, 0.95);
-      cancerColor = d3.scaleSequential(d3.interpolateReds)
-        .domain([allMin, all95])
-        .clamp(true);
+      all95 = d3.max(allVals); // not really 95th but used for legend range
+
+      cancerColor = d3.scaleThreshold()
+        .domain([q20, q40, q60, q80])
+        .range(["#fdf4e3", "#f4c6ab", "#e49679", "#d85a44", "#990000"]);
     }
 
-    // 8.2) Leukemia
+    // 8.2) Leukemia (quintile-binned threshold scale)
     {
-      const arr = Array.from(leukemiaByFIPS.values()).filter(v => !isNaN(v));
+      const arr = Array.from(leukemiaByFIPS.values()).filter(v => !isNaN(v)).sort(d3.ascending);
+      const q20 = d3.quantile(arr, 0.2);
+      const q40 = d3.quantile(arr, 0.4);
+      const q60 = d3.quantile(arr, 0.6);
+      const q80 = d3.quantile(arr, 0.8);
       leukMin = d3.min(arr);
-      const sorted = arr.slice().sort(d3.ascending);
-      leuk95 = d3.quantile(sorted, 0.95);
-      leukemiaColor = d3.scaleSequential(d3.interpolateReds)
-        .domain([leukMin, leuk95])
-        .clamp(true);
+      leuk95 = d3.max(arr);
+      leukemiaColor = d3.scaleThreshold()
+        .domain([q20, q40, q60, q80])
+        .range(["#fdf4e3", "#f4c6ab", "#e49679", "#d85a44", "#990000"]);
     }
 
-    // 8.3) Lymphoma
+    // 8.3) Lymphoma (quintile-binned threshold scale)
     {
-      const arr = Array.from(lymphomaByFIPS.values()).filter(v => !isNaN(v));
+      const arr = Array.from(lymphomaByFIPS.values()).filter(v => !isNaN(v)).sort(d3.ascending);
+      const q20 = d3.quantile(arr, 0.2);
+      const q40 = d3.quantile(arr, 0.4);
+      const q60 = d3.quantile(arr, 0.6);
+      const q80 = d3.quantile(arr, 0.8);
       lyphMin = d3.min(arr);
-      const sorted = arr.slice().sort(d3.ascending);
-      lyph95 = d3.quantile(sorted, 0.95);
-      lymphomaColor = d3.scaleSequential(d3.interpolateReds)
-        .domain([lyphMin, lyph95])
-        .clamp(true);
+      lyph95 = d3.max(arr);
+      lymphomaColor = d3.scaleThreshold()
+        .domain([q20, q40, q60, q80])
+        .range(["#fdf4e3", "#f4c6ab", "#e49679", "#d85a44", "#990000"]);
     }
 
-    // 8.4) Thyroid
+    // 8.4) Thyroid (quintile-binned threshold scale)
     {
-      const arr = Array.from(thyroidByFIPS.values()).filter(v => !isNaN(v));
+      const arr = Array.from(thyroidByFIPS.values()).filter(v => !isNaN(v)).sort(d3.ascending);
+      const q20 = d3.quantile(arr, 0.2);
+      const q40 = d3.quantile(arr, 0.4);
+      const q60 = d3.quantile(arr, 0.6);
+      const q80 = d3.quantile(arr, 0.8);
       thyMin = d3.min(arr);
-      const sorted = arr.slice().sort(d3.ascending);
-      thy95 = d3.quantile(sorted, 0.95);
-      thyroidColor = d3.scaleSequential(d3.interpolateReds)
-        .domain([thyMin, thy95])
-        .clamp(true);
+      thy95 = d3.max(arr);
+      thyroidColor = d3.scaleThreshold()
+        .domain([q20, q40, q60, q80])
+        .range(["#fdf4e3", "#f4c6ab", "#e49679", "#d85a44", "#990000"]);
     }
 
-    // 8.5) Breast Cancer: dynamic [min, 95th percentile], clamp above
+    // 8.5) Breast Cancer (quintile-binned threshold scale)
     {
-      const arr = Array.from(breastByFIPS.values()).filter(v => !isNaN(v));
+      const arr = Array.from(breastByFIPS.values()).filter(v => !isNaN(v)).sort(d3.ascending);
+      const q20 = d3.quantile(arr, 0.2);
+      const q40 = d3.quantile(arr, 0.4);
+      const q60 = d3.quantile(arr, 0.6);
+      const q80 = d3.quantile(arr, 0.8);
       breastMin = d3.min(arr);
-      const sorted = arr.slice().sort(d3.ascending);
-      breast95 = d3.quantile(sorted, 0.95);
-      breastColor = d3.scaleSequential(d3.interpolateReds)
-        .domain([breastMin, breast95])
-        .clamp(true);
+      breast95 = d3.max(arr);
+      breastColor = d3.scaleThreshold()
+        .domain([q20, q40, q60, q80])
+        .range(["#fdf4e3", "#f4c6ab", "#e49679", "#d85a44", "#990000"]);
     }
 
-    // 8.6) PM₂.₅: fixed [3, 15]
-    pm25Color = d3.scaleSequential(d3.interpolateBlues)
-      .domain([3, 15]);
-
-    // 8.7) Income: [incomeMin, incomeMax], clamp above 120k
-    {
-      const arr = Array.from(incomeByFIPS.values()).filter(v => !isNaN(v));
-      incomeMin = d3.min(arr);
-      incomeMax = d3.max(arr);
-      incomeColor = d3.scaleSequential(v => d3.interpolateGreys(1 - v))
-        .domain([incomeMin, 120000])
-        .clamp(true);
-    }
 
     // 8.8) Precompute “facilities” (for industrial dots)
     facilities = industryData.filter(d =>
@@ -342,17 +346,45 @@ Promise.all([
     const uniqueSectors = Array.from(new Set(facilities.map(d => d.sector)));
     sectorColor = d3.scaleOrdinal(d3.schemeSet2).domain(uniqueSectors);
 
+    // 8.6) PM₂.₅: quantile scale
+    {
+      const allPM25Data = [];
+      airByFIPS.forEach((v, k) => {
+        allPM25Data.push({ fips: k, value: v });
+      });
+      const pm25Vals = allPM25Data.map(d => +d.value).filter(d => !isNaN(d)).sort(d3.ascending);
+      pm25Color = d3.scaleQuantile()
+        .domain(pm25Vals)
+        .range(["#f7f7f7", "#cccccc", "#999999", "#666666", "#333333"]);
+    }
+
+    // 8.7) Income: quantile scale
+    {
+      const allIncomeData = [];
+      incomeByFIPS.forEach((v, k) => {
+        allIncomeData.push({ fips: k, value: v });
+      });
+      const incomeVals = allIncomeData.map(d => +d.value).filter(d => !isNaN(d)).sort(d3.ascending);
+      incomeMin = d3.min(incomeVals);
+      incomeMax = d3.max(incomeVals);
+      incomeColor = d3.scaleQuantile()
+        .domain(incomeVals)
+        .range(["#f1e4c7", "#d3eac2", "#a8dba8", "#7ccba2", "#4daf91"]);
+    }
+
     // —————————————————————————————————————————————————————————
-    // 8.9) Water Quality: dynamic [min, 95th percentile], clamp above
+    // 8.9) Water Quality: quantile scale
     // —————————————————————————————————————————————————————————
-    const waterArr = Array.from(waterByFIPS.values()).filter(v => !isNaN(v));
-    waterMin = d3.min(waterArr);
-    const waterSorted = waterArr.slice().sort(d3.ascending);
-    water95 = d3.quantile(waterSorted, 0.95);
-    waterColor = d3.scaleLinear()
-      .domain([40, 60])
-      .range(["#ffffcc", "#41b6c4"])
-      .clamp(true);
+    {
+      const allWaterData = [];
+      waterByFIPS.forEach((v, k) => {
+        allWaterData.push({ fips: k, value: v });
+      });
+      const waterVals = allWaterData.map(d => +d.value).filter(d => !isNaN(d)).sort(d3.ascending);
+      waterColor = d3.scaleQuantile()
+        .domain(waterVals)
+        .range(["#a87c56", "#a6cfd5", "#72b4ce", "#4191b8", "#1d6ca4"]);
+    }
 
     // —————————————————————————————————————————————————————————————————
     // 9) INITIALIZE ALL FIVE VIEWS
@@ -408,8 +440,9 @@ Promise.all([
           tooltip.style("opacity", 0);
         });
 
-      // Build Water Quality legend
+      // Build Water Quality legend and ensure display
       buildWaterLegend("#legend-water", "#water-legend-axis");
+      d3.select("#legend-water").style("display", null);
 
       // Reset button
       d3.select("#reset-button-water").on("click", () => {
@@ -505,6 +538,13 @@ function initCancerOnly() {
   d3.select("#cancer-select").on("change", updateChoropleth);
 
   function updateChoropleth() {
+    // Hide all comparison legends except cancer
+    d3.select("#legend-water").style("display", "none");
+    d3.select("#legend-pm25").style("display", "none");
+    d3.select("#legend-income").style("display", "none");
+    d3.select("#legend-facilities").style("display", "none");
+    // Don't hide #legend-cancer-full here
+
     const type = d3.select("#cancer-select").property("value");
     paths.transition().duration(500).attr("fill", d => {
       const fips = d.id;
@@ -552,25 +592,41 @@ function initCancerOnly() {
 }
 
 
-// Helper: Build Cancer legend
-function buildCancerLegend(gradientId, axisGroupId) {
-  const legendWidth = 300;
-  const legendHeight = 12;
+// Helper: Build Cancer legend (categorical, quintile-based)
+function buildCancerLegend(containerSelector) {
+  const bins = cancerColor.range();
+  const container = d3.select(containerSelector);
+  container.selectAll("*").remove();
 
-  // 1) Gradient stops
-  const grad = d3.select(gradientId);
-  grad.selectAll("stop").remove();
-  d3.range(0, 1.001, 0.01).forEach(t => {
-    const val = allMin + t * (all95 - allMin);
-    grad.append("stop")
-      .attr("offset", `${t * 100}%`)
-      .attr("stop-color", cancerColor(val));
+  const svg = container.append("svg")
+    .attr("width", 300)
+    .attr("height", 50);
+
+  // Add title
+  svg.append("text")
+    .attr("x", 0)
+    .attr("y", 12)
+    .attr("font-size", "12px")
+    .attr("font-weight", "bold")
+    .text("Cancer Rates");
+
+  const labelCategories = ["Very Low", "Low", "Moderate", "High", "Very High"];
+
+  bins.forEach((color, i) => {
+    svg.append("rect")
+      .attr("x", i * 60)
+      .attr("y", 20)
+      .attr("width", 60)
+      .attr("height", 15)
+      .attr("fill", color);
+
+    svg.append("text")
+      .attr("x", i * 60 + 30)
+      .attr("y", 48)
+      .attr("text-anchor", "middle")
+      .attr("font-size", "10px")
+      .text(labelCategories[i]);
   });
-
-  // 2) Axis
-  const scale = d3.scaleLinear().domain([allMin, all95]).range([0, legendWidth]);
-  const axis = d3.axisBottom(scale).ticks(5).tickFormat(d3.format(".0f"));
-  d3.select(axisGroupId).call(axis);
 }
 
 
@@ -620,8 +676,9 @@ function initAirOnly() {
       tooltip.style("opacity", 0);
     });
 
-  // Build PM₂.₅ legend
+  // Build PM₂.₅ legend and ensure display
   buildPM25Legend("#legend-pm25", "#pm25-legend-axis");
+  d3.select("#legend-pm25").style("display", null);
 
   // Reset button
   d3.select("#reset-button-air").on("click", () => {
@@ -901,8 +958,9 @@ function initIncomeOnly() {
       tooltip.style("opacity", 0);
     });
 
-  // Build Income legend
+  // Build Income legend and ensure display
   buildIncomeLegend("#legend-income", "#income-legend-axis");
+  d3.select("#legend-income").style("display", null);
 
   // Reset
   d3.select("#reset-button-income").on("click", () => {
@@ -1141,6 +1199,29 @@ function initFullDashboard() {
   buildIndustryLegend("#industry-legend-items-full");
   d3.select("#industry-legend-full").style("display", "none");
 
+  // Build all three pollution legends for dashboard (ensure present and visible)
+  buildPM25Legend("#legend-pm25-full");
+  d3.select("#legend-pm25-full").style("display", null);
+  buildIncomeLegend("#legend-income-full");
+  d3.select("#legend-income-full").style("display", null);
+  // Build gradient legend for water using same structure as air/income
+  {
+    // Gather all water data values (needed for min/max)
+    const allWaterData = [];
+    waterByFIPS.forEach((v, k) => {
+      allWaterData.push({ fips: k, value: v });
+    });
+    const min = d3.min(allWaterData, d => +d.value);
+    const max = d3.max(allWaterData, d => +d.value);
+    buildLegendGradient("#legend-water-gradient-full", min, max, waterColor);
+    // Update legend title
+    d3.select("#water-legend-title-full").text("Drinking Water Quality");
+  }
+  d3.select("#legend-water-full").style("display", null);
+  // Build and display Cancer legend for dashboard
+  buildCancerLegend("#legend-cancer-full");
+  d3.select("#legend-cancer-full").style("display", null);
+
   // 14.3.3) Pollution paths (drawn when needed; initially fill="#eee")
   const pollutionPaths = pollutionG.selectAll("path")
     .data(counties)
@@ -1309,8 +1390,8 @@ function initFullDashboard() {
         return v != null ? pm25Color(v) : "#eee";
       });
 
-      // Hide cancer legend; show PM₂.₅ legend
-      d3.select("#legend-cancer-full").style("display", "none");
+      // Show cancer legend alongside PM2.5 legend
+      d3.select("#legend-cancer-full").style("display", null);
       d3.select("#legend-pm25-full").style("display", null);
       d3.select("#legend-income-full").style("display", "none");
       d3.select("#legend-water-full").style("display", "none");
@@ -1334,8 +1415,8 @@ function initFullDashboard() {
         return v != null ? incomeColor(v) : "#eee";
       });
 
-      // Hide cancer legend; show Income legend
-      d3.select("#legend-cancer-full").style("display", "none");
+      // Show cancer legend alongside Income legend
+      d3.select("#legend-cancer-full").style("display", null);
       d3.select("#legend-pm25-full").style("display", "none");
       d3.select("#legend-income-full").style("display", null);
       d3.select("#legend-water-full").style("display", "none");
@@ -1349,7 +1430,7 @@ function initFullDashboard() {
       }
       d3.select("#income-legend-title-full").text("Median Income (2022)");
 
-    } else if (selected === "water") {
+    } else if (selected === "water" || selected === "Water Quality") {
       pollutionContainer2.style("display", null);
 
       pollutionPaths.transition().duration(500).attr("fill", d => {
@@ -1357,13 +1438,30 @@ function initFullDashboard() {
         return v != null ? waterColor(v) : "#eee";
       });
 
-      d3.select("#legend-cancer-full").style("display", "none");
+      // Show cancer legend alongside Water legend
+      d3.select("#legend-cancer-full").style("display", null);
       d3.select("#legend-pm25-full").style("display", "none");
       d3.select("#legend-income-full").style("display", "none");
-      d3.select("#legend-water-full").style("display", null);
 
-      buildWaterLegend("#legend-water-gradient-full", "#water-legend-axis-full", waterColor, waterMin, water95);
-      d3.select("#water-legend-title-full").text("Water Contaminant Level (≤ 95th percentile)");
+      // Rebuild water gradient & axis (updated for new HTML structure)
+      const waterVals = Array.from(waterByFIPS.values()).filter(d => !isNaN(d));
+      const min = d3.min(waterVals);
+      const max = d3.max(waterVals);
+      const gradientId = "#legend-water-gradient-full";
+      d3.select(gradientId).selectAll("stop").remove();
+      d3.range(0, 1.001, 0.01).forEach(t => {
+        const val = min + t * (max - min);
+        d3.select(gradientId)
+          .append("stop")
+          .attr("offset", `${t * 100}%`)
+          .attr("stop-color", waterColor(val));
+      });
+
+      const scale = d3.scaleLinear().domain([min, max]).range([0, 300]);
+      const axis = d3.axisBottom(scale).ticks(5).tickFormat(d3.format(".0f"));
+      d3.select("#water-legend-axis-full").call(axis);
+      d3.select("#water-legend-title-full").text("Drinking Water Quality");
+      d3.select("#legend-water-full").style("display", null);
     }
   }
 
@@ -1562,18 +1660,115 @@ function setupSearchBox(
   });
 }
 // ========================================================================
-// Helper: Build Water Quality legend
+// Helper: Build Water Quality legend (quintile-binned threshold scale)
 // ========================================================================
-function buildWaterLegend(gradientId, axisGroupId, color = waterColor, min = waterMin, max = water95) {
-  const grad = d3.select(gradientId);
-  grad.selectAll("stop").remove();
-  d3.range(0, 1.001, 0.01).forEach(t => {
-    const val = min + t * (max - min);
-    grad.append("stop")
-      .attr("offset", `${t * 100}%`)
-      .attr("stop-color", color(val));
+function buildWaterLegend(containerSelector) {
+  const bins = waterColor.range();
+  const container = d3.select(containerSelector);
+  container.selectAll("*").remove();
+
+  const svg = container.append("svg")
+    .attr("width", 300)
+    .attr("height", 50);
+
+  // Add title
+  svg.append("text")
+    .attr("x", 0)
+    .attr("y", 12)
+    .attr("font-size", "12px")
+    .attr("font-weight", "bold")
+    .text("Drinking Water Quality");
+
+  // Reverse both bins and labels so "Very Dirty" is leftmost
+  const reversedBins = bins.slice().reverse();
+  const labelCategories = ["Very Clean", "Clean", "Moderate", "Dirty", "Very Dirty"];
+  reversedBins.forEach((color, i) => {
+    svg.append("rect")
+      .attr("x", i * 60)
+      .attr("y", 20)
+      .attr("width", 60)
+      .attr("height", 15)
+      .attr("fill", color);
+
+    svg.append("text")
+      .attr("x", i * 60 + 30)
+      .attr("y", 48)
+      .attr("text-anchor", "middle")
+      .attr("font-size", "10px")
+      .text(labelCategories[i]);
   });
-  const scale = d3.scaleLinear().domain([min, max]).range([0, 300]);
-  const axis = d3.axisBottom(scale).ticks(5).tickFormat(d3.format(".1f"));
-  d3.select(axisGroupId).call(axis);
+}
+
+// Helper: Build PM₂.₅ legend (quintile-binned threshold scale)
+function buildPM25Legend(containerSelector) {
+  const bins = pm25Color.range();
+  const container = d3.select(containerSelector);
+  container.selectAll("*").remove();
+
+  const svg = container.append("svg")
+    .attr("width", 300)
+    .attr("height", 50);
+
+  // Add title
+  svg.append("text")
+    .attr("x", 0)
+    .attr("y", 12)
+    .attr("font-size", "12px")
+    .attr("font-weight", "bold")
+    .text("Air Pollution (PM2.5)");
+
+  const labelCategories = ["Very Clean", "Clean", "Moderate", "Polluted", "Very Polluted"];
+
+  bins.forEach((color, i) => {
+    svg.append("rect")
+      .attr("x", i * 60)
+      .attr("y", 20)
+      .attr("width", 60)
+      .attr("height", 15)
+      .attr("fill", color);
+
+    svg.append("text")
+      .attr("x", i * 60 + 30)
+      .attr("y", 48)
+      .attr("text-anchor", "middle")
+      .attr("font-size", "10px")
+      .text(labelCategories[i]);
+  });
+}
+
+// Helper: Build Income legend (quintile-binned threshold scale)
+function buildIncomeLegend(containerSelector) {
+  const bins = incomeColor.range();
+  const container = d3.select(containerSelector);
+  container.selectAll("*").remove();
+
+  const svg = container.append("svg")
+    .attr("width", 300)
+    .attr("height", 50);
+
+  // Add title
+  svg.append("text")
+    .attr("x", 0)
+    .attr("y", 12)
+    .attr("font-size", "12px")
+    .attr("font-weight", "bold")
+    .text("Median Household Income");
+
+  const labelCategories = ["Very Low", "Low", "Moderate", "High", "Very High"];
+
+  bins.forEach((color, i) => {
+    svg.append("rect")
+      .attr("x", i * 60)
+      .attr("y", 20)
+      .attr("width", 60)
+      .attr("height", 15)
+      .attr("fill", color);
+
+    svg.append("text")
+      .attr("x", i * 60 + 30)
+      .attr("y", 48)
+      .attr("text-anchor", "middle")
+      .attr("font-size", "10px")
+      .text(labelCategories[i]);
+  });
 }

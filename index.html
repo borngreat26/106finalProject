@@ -214,16 +214,7 @@
       <div id="cancer-tooltip" class="tooltip"></div>
 
       <!-- Cancer Legend -->
-      <svg width="300" height="30" style="position: absolute; top: 10px; right: 10px;">
-        <defs>
-          <linearGradient id="legend-cancer"></linearGradient>
-        </defs>
-        <rect x="0" y="0" width="300" height="12" fill="url(#legend-cancer)"></rect>
-        <g class="legend-group" transform="translate(0, 12)" id="cancer-legend-axis"></g>
-        <text x="150" y="-4" text-anchor="middle" class="legend-group">
-          All‐Sites Cancer Incidence (≤ 95th percentile)
-        </text>
-      </svg>
+      <div id="legend-cancer" style="position: absolute; top: 10px; right: 10px;"></div>
     </div>
   </section>
 
@@ -256,16 +247,7 @@
       <div id="water-tooltip" class="tooltip"></div>
 
       <!-- Water Quality Legend -->
-      <svg width="300" height="30" style="position: absolute; top: 10px; right: 10px;">
-        <defs>
-          <linearGradient id="legend-water"></linearGradient>
-        </defs>
-        <rect x="0" y="0" width="300" height="12" fill="url(#legend-water)"></rect>
-        <g class="legend-group" transform="translate(0, 12)" id="water-legend-axis"></g>
-        <text x="150" y="-4" text-anchor="middle" class="legend-group">
-          Water Quality Score (≤ 95th percentile)
-        </text>
-      </svg>
+      <div id="legend-water" style="position: absolute; top: 10px; right: 10px;"></div>
     </div>
   </section>
 
@@ -297,16 +279,7 @@
       <div id="air-tooltip" class="tooltip"></div>
 
       <!-- PM₂.₅ Legend -->
-      <svg width="300" height="30" style="position: absolute; top: 10px; right: 10px;">
-        <defs>
-          <linearGradient id="legend-pm25"></linearGradient>
-        </defs>
-        <rect x="0" y="0" width="300" height="12" fill="url(#legend-pm25)"></rect>
-        <g class="legend-group" transform="translate(0, 12)" id="pm25-legend-axis"></g>
-        <text x="150" y="-4" text-anchor="middle" class="legend-group">
-          PM₂.₅ (µg/m³)
-        </text>
-      </svg>
+      <div id="legend-pm25" style="position: absolute; top: 10px; right: 10px;"></div>
     </div>
   </section>
 
@@ -350,16 +323,7 @@
       <div id="industry-tooltip" class="tooltip"></div>
 
       <!-- Cancer Legend (same as Cancer‐Only) -->
-      <svg width="300" height="30" style="position: absolute; top: 10px; right: 10px;">
-        <defs>
-          <linearGradient id="legend-cancer-industry"></linearGradient>
-        </defs>
-        <rect x="0" y="0" width="300" height="12" fill="url(#legend-cancer-industry)"></rect>
-        <g class="legend-group" transform="translate(0, 12)" id="cancer-legend-axis-industry"></g>
-        <text x="150" y="-4" text-anchor="middle" class="legend-group">
-          All‐Sites Cancer Incidence (≤ 95th percentile)
-        </text>
-      </svg>
+      <div id="legend-cancer-industry" style="position: absolute; top: 10px; right: 10px;"></div>
 
       <!-- Industry Legend (categorical, now bottom-right) -->
       <div id="industry-legend" style="
@@ -405,16 +369,7 @@
       <div id="income-tooltip" class="tooltip"></div>
 
       <!-- Income Legend -->
-      <svg width="300" height="30" style="position: absolute; top: 10px; right: 10px;">
-        <defs>
-          <linearGradient id="legend-income"></linearGradient>
-        </defs>
-        <rect x="0" y="0" width="300" height="12" fill="url(#legend-income)"></rect>
-        <g class="legend-group" transform="translate(0, 12)" id="income-legend-axis"></g>
-        <text x="150" y="-4" text-anchor="middle" class="legend-group">
-          Median Income (2022)
-        </text>
-      </svg>
+      <div id="legend-income" style="position: absolute; top: 10px; right: 10px;"></div>
     </div>
   </section>
 
@@ -501,16 +456,7 @@
       <div id="cancer-tooltip-2" class="tooltip"></div>
 
       <!-- Cancer Legend (Full Dashboard) -->
-      <svg width="300" height="30" style="position: absolute; top: 10px; right: 10px;" id="legend-cancer-full">
-        <defs>
-          <linearGradient id="legend-cancer-gradient-full"></linearGradient>
-        </defs>
-        <rect x="0" y="0" width="300" height="12" fill="url(#legend-cancer-gradient-full)"></rect>
-        <g class="legend-group" transform="translate(0, 12)" id="cancer-legend-axis-full"></g>
-        <text x="150" y="-4" text-anchor="middle" class="legend-group" id="cancer-legend-title-full">
-          All‐Sites Cancer Incidence (≤ 95th percentile)
-        </text>
-      </svg>
+      <div id="legend-cancer-full" style="position: absolute; top: 10px; right: 10px;"></div>
       <!-- Industry Legend (Full Dashboard, now bottom-right; hidden until “Industry” selected) -->
       <div id="industry-legend-full" style="
           position: absolute;
@@ -534,28 +480,9 @@
       <div id="pollution-tooltip-2" class="tooltip"></div>
 
       <!-- PM₂.₅ Legend (Full Dashboard) -->
-      <svg width="300" height="30" style="position: absolute; top: 10px; right: 10px;" id="legend-pm25-full">
-        <defs>
-          <linearGradient id="legend-pm25-gradient-full"></linearGradient>
-        </defs>
-        <rect x="0" y="0" width="300" height="12" fill="url(#legend-pm25-gradient-full)"></rect>
-        <g class="legend-group" transform="translate(0, 12)" id="pm25-legend-axis-full"></g>
-        <text x="150" y="-4" text-anchor="middle" class="legend-group" id="pm25-legend-title-full">
-          PM₂.₅ (µg/m³)
-        </text>
-      </svg>
-
+      <div id="legend-pm25-full" style="position: absolute; top: 10px; right: 10px;"></div>
       <!-- Income Legend (Full Dashboard) -->
-      <svg width="300" height="30" style="position: absolute; top: 50px; right: 10px;" id="legend-income-full">
-        <defs>
-          <linearGradient id="legend-income-gradient-full"></linearGradient>
-        </defs>
-        <rect x="0" y="0" width="300" height="12" fill="url(#legend-income-gradient-full)"></rect>
-        <g class="legend-group" transform="translate(0, 12)" id="income-legend-axis-full"></g>
-        <text x="150" y="-4" text-anchor="middle" class="legend-group" id="income-legend-title-full">
-          Median Income (2022)
-        </text>
-      </svg>
+      <div id="legend-income-full" style="position: absolute; top: 50px; right: 10px;"></div>
     </div>
 
     <!-- 7.3) Water container sits below; hidden initially -->
@@ -564,16 +491,16 @@
       <div id="water-tooltip-2" class="tooltip"></div>
 
       <!-- Water Quality Legend (Full Dashboard) -->
-      <svg width="300" height="30" style="position: absolute; top: 10px; right: 10px;" id="legend-water-full">
-        <defs>
-          <linearGradient id="legend-water-gradient-full"></linearGradient>
-        </defs>
-        <rect x="0" y="0" width="300" height="12" fill="url(#legend-water-gradient-full)"></rect>
-        <g class="legend-group" transform="translate(0, 12)" id="water-legend-axis-full"></g>
-        <text x="150" y="-4" text-anchor="middle" class="legend-group" id="water-legend-title-full">
-          Water Quality Score (≤ 95th percentile)
-        </text>
-      </svg>
+      <div class="legend-container" id="legend-water-full" style="position: absolute; top: 10px; right: 10px;">
+        <svg width="300" height="50">
+          <defs>
+            <linearGradient id="legend-water-gradient-full" x1="0%" y1="0%" x2="100%" y2="0%"></linearGradient>
+          </defs>
+          <rect x="0" y="20" width="300" height="12" fill="url(#legend-water-gradient-full)"></rect>
+          <g id="water-legend-axis-full" transform="translate(0, 35)"></g>
+          <text id="water-legend-title-full" x="0" y="12" font-size="12px" font-weight="bold">Drinking Water Quality</text>
+        </svg>
+      </div>
     </div>
 
   </section>
