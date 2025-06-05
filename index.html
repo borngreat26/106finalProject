@@ -117,8 +117,7 @@
     .map-container {
       width: 960px;
       margin: 0 auto 2rem auto;
-      position: relative;
-      /* <-- Must be relative for tooltip */
+      position: relative; /* must be relative so that tooltips can absolutely position within */
       background: #f0f0f0;
     }
 
@@ -147,6 +146,26 @@
       opacity: 0;
       transition: opacity 0.2s;
     }
+
+    /* ========================
+       Annotation Outlines
+       ======================== */
+    /* 
+       All five “annotation” groups (cancer, air, industry, income, water)
+       append a <g> with class="annotation-group-…". Each path inside
+       those groups should be drawn on top, with no fill, black stroke, 2px, 
+       and let mouse events pass through to underlying counties.
+    */
+    .annotation-group-cancer path,
+    .annotation-group-air path,
+    .annotation-group-industry path,
+    .annotation-group-income path,
+    .annotation-group-water path {
+      fill: none;
+      stroke: black;
+      stroke-width: 2px;
+      pointer-events: none;
+    }
   </style>
 </head>
 
@@ -168,10 +187,7 @@
         particular pollutants seem to explain some of those patterns?</em>
     </p>
     <p>
-      To answer this question, we designed a “Martini‐Glass” style story: we will start with the county‐level cancer
-      density map. We will then introduce the PM₂.₅ layer followed by industrial facilities. Finally, we will examine
-      income as a control. At each stage, we pause to explain why that layer matters. By the end, you’ll have a fully
-      interactive dashboard where you can mix and match any combination of layers.
+      One of our group members moved away from their home county due to concerns about fracking and industrial pollution—and feared these factors might increase cancer risk. This personal experience motivated us to investigate whether a broader pattern exists between environmental pollution and cancer incidence across the United States.
     </p>
   </section>
 
@@ -209,6 +225,9 @@
       <button id="reset-button">Reset</button>
     </div>
 
+    <p>
+      We obtained county‐level cancer data as our first step. Note the annotated areas on the map: on the West Coast, a rectangle around California, Wyoming, and Idaho shows relatively low cancer incidence, while on the East Coast, rectangles around Minnesota, Kentucky, and Mississippi highlight regions with higher cancer rates. Observe these annotated regions to compare severity.
+    </p>
     <div id="map-cancer" class="map-container">
       <svg id="cancer-svg" width="960" height="600"></svg>
       <div id="cancer-tooltip" class="tooltip"></div>
@@ -225,8 +244,7 @@
     <h2>Water Pollution‐Only View</h2>
     <p>
       Here we examine county‐level water quality scores collected in 2025. A higher score indicates higher quality
-      water. All other layers are disabled so you can
-      focus solely on water
+      water. All other layers are disabled so you can focus solely on water
       quality distribution.
     </p>
 
@@ -242,6 +260,9 @@
       <button id="reset-button-water">Reset</button>
     </div>
 
+    <p>
+      We also wondered if water quality might correlate with cancer rates, so we gathered 2025 county‐level water scores. On the map, the annotated West Coast region appears to have cleaner water, which aligns with its lower cancer incidence from the previous section. Conversely, the annotated East Coast region shows dirtier water and correspondingly higher cancer rates.
+    </p>
     <div id="map-water" class="map-container">
       <svg id="water-svg" width="960" height="600"></svg>
       <div id="water-tooltip" class="tooltip"></div>
@@ -274,6 +295,9 @@
       <button id="reset-button-air">Reset</button>
     </div>
 
+    <p>
+      Next, we considered air pollution. However, the relationship is not straightforward: the California region shows higher PM₂.₅ levels despite low cancer rates; Minnesota has relatively clean air but high cancer incidence; Idaho and Wyoming appear to have clean air and low cancer rates; and the Kentucky/Mississippi region has more polluted air and high cancer rates. Thus, air pollution alone does not fully explain cancer patterns.
+    </p>
     <div id="map-air" class="map-container">
       <svg id="air-svg" width="960" height="600"></svg>
       <div id="air-tooltip" class="tooltip"></div>
@@ -318,6 +342,9 @@
       <button id="reset-button-industry">Reset</button>
     </div>
 
+    <p>
+      We expected industrial emissions might align with cancer hotspots. Indeed, similar to water quality, the West Coast annotated area has fewer large industrial facilities and lower cancer rates, whereas the East Coast annotated area has many polluting facilities alongside high cancer incidence—suggesting a possible link.
+    </p>
     <div id="map-industry" class="map-container">
       <svg id="industry-svg" width="960" height="600"></svg>
       <div id="industry-tooltip" class="tooltip"></div>
@@ -364,6 +391,9 @@
       <button id="reset-button-income">Reset</button>
     </div>
 
+    <p>
+      We also explored whether socioeconomic factors play a role, so we included median household income. The Idaho/California region shows higher incomes and lower cancer rates. Mississippi and Kentucky have lower incomes and high cancer incidence. However, Minnesota has moderate to high income but still experiences high cancer rates, indicating income alone cannot fully explain the patterns.
+    </p>
     <div id="map-income" class="map-container">
       <svg id="income-svg" width="960" height="600"></svg>
       <div id="income-tooltip" class="tooltip"></div>
@@ -373,23 +403,15 @@
     </div>
   </section>
 
-
   <!-- ================================================================
        6. Conclusion Paragraph
        ================================================================ -->
   <section id="conclusion">
     <h2>Conclusion</h2>
     <p>
-      We have now walked through cancer incidence alone, then layered on PM₂.₅, then industrial facility locations, and
-      finally income. Each layer helps us see different patterns—some high‐cancer counties coincide with high PM₂.₅,
-      others sit near heavy industries, and income can help explain residual differences.
-    </p>
-    <p>
-      Scroll down for the fully interactive dashboard where you can mix and match any combination of cancer subtypes,
-      air pollution (PM₂.₅), industry facilities, and income.
+      We recognize that many factors—such as family history, lifestyle, and genetics—impact cancer risk. Our goal was to highlight how environmental pollution might contribute as well. By comparing cancer data with water quality, air pollution, industrial facility locations, and income, we see that water contamination and industrial emissions frequently coincide with higher cancer incidence, while higher income areas often show lower rates. Although no single factor tells the whole story, these patterns suggest pollution may elevate cancer risk and deserve greater public awareness.
     </p>
   </section>
-
 
   <!-- ================================================================
        7. Full Dashboard (All Controls Enabled)
@@ -451,8 +473,7 @@
     <!-- 7.1) Cancer container sits on top -->
     <div id="cancer-container-2" class="map-container">
       <svg id="cancer-svg-2" width="960" height="600"></svg>
-      <svg id="facility-svg-2" width="960" height="600"
-        style="position: absolute; top: 0; left: 0; pointer-events: none;"></svg>
+      <svg id="facility-svg-2" width="960" height="600" style="position: absolute; top: 0; left: 0; pointer-events: none;"></svg>
       <div id="cancer-tooltip-2" class="tooltip"></div>
 
       <!-- Cancer Legend (Full Dashboard) -->
@@ -483,13 +504,6 @@
       <div id="legend-pm25-full" style="position: absolute; top: 10px; right: 10px;"></div>
       <!-- Income Legend (Full Dashboard) -->
       <div id="legend-income-full" style="position: absolute; top: 50px; right: 10px;"></div>
-    </div>
-
-    <!-- 7.3) Water container sits below; hidden initially -->
-    <div id="water-container-2" class="map-container" style="display: none;">
-      <svg id="water-svg-2" width="960" height="600"></svg>
-      <div id="water-tooltip-2" class="tooltip"></div>
-
       <!-- Water Quality Legend (Full Dashboard) -->
       <div class="legend-container" id="legend-water-full" style="position: absolute; top: 10px; right: 10px;">
         <svg width="300" height="50">
@@ -502,7 +516,6 @@
         </svg>
       </div>
     </div>
-
   </section>
 
   <!-- Load the JavaScript logic last -->

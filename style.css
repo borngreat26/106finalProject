@@ -1,31 +1,156 @@
-#sector-controls button {
-  margin: 2px;
-  padding: 4px 8px;
-  border: 1px solid #aaa;
-  background-color: #f0f0f0;
-  cursor: pointer;
-}
-
-#sector-controls button.selected {
-  background-color: #888;
-  color: white;
-  font-weight: bold;
-}
-
-#comparison-container {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  gap: 20px;
-}
-
-#comparison-container .map-container {
-  width: 360px;
-  height: 360px;
-  position: relative;
-}
-
-#comparison-container svg {
-  width: 100%;
-  height: 100%;
-}
+/* ========================
+   Global Styles & Narrative
+   ======================== */
+   body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 1rem;
+    background: #f9f9f9;
+    line-height: 1.6;
+    color: #333;
+  }
+  
+  h1,
+  h2,
+  h3 {
+    margin-top: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #222;
+  }
+  
+  h1 {
+    text-align: center;
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 0.25rem;
+  }
+  
+  p {
+    max-width: 800px;
+    margin: 0 auto 1rem auto;
+  }
+  
+  section {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* ========================
+     Dashboard Controls
+     ======================== */
+  .controls {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .controls input {
+    width: 200px;
+    padding: 4px;
+    font-size: 0.9rem;
+  }
+  
+  .controls button {
+    padding: 4px 8px;
+    font-size: 0.9rem;
+    cursor: pointer;
+  }
+  
+  .controls select {
+    font-size: 1rem;
+    padding: 0.25rem;
+  }
+  
+  /* Suggestions dropdown */
+  .suggestions-container {
+    position: relative;
+  }
+  
+  .suggestions-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border: 1px solid #ccc;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 1000;
+    display: none;
+  }
+  
+  .suggestion-item {
+    padding: 4px 8px;
+    cursor: pointer;
+  }
+  
+  .suggestion-item:hover {
+    background-color: #eee;
+  }
+  
+  /* ========================
+     Map & Tooltip Styles
+     ======================== */
+  .map-container {
+    width: 960px;
+    margin: 0 auto 2rem auto;
+    position: relative; /* must be relative so that tooltips can absolutely position within */
+    background: #f0f0f0;
+  }
+  
+  svg {
+    display: block;
+  }
+  
+  canvas {
+    background: transparent;
+  }
+  
+  .legend-group {
+    font-size: 12px;
+    pointer-events: none;
+  }
+  
+  .tooltip {
+    position: absolute;
+    z-index: 1000;
+    padding: 6px 8px;
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    border-radius: 4px;
+    pointer-events: none;
+    font-size: 0.9rem;
+    opacity: 0;
+    transition: opacity 0.2s;
+  }
+  
+  /* ========================
+     Annotation Outlines
+     ======================== */
+  /* 
+     All five “annotation” groups (cancer, air, industry, income, water)
+     append a <g> with class="annotation-group-…". Each path inside
+     those groups should be drawn on top, with no fill, black stroke, 2px, 
+     and let mouse events pass through to underlying counties.
+  */
+  .annotation-group-cancer path,
+  .annotation-group-air path,
+  .annotation-group-industry path,
+  .annotation-group-income path,
+  .annotation-group-water path {
+    fill: none;
+    stroke: black;
+    stroke-width: 2px;
+    pointer-events: none;
+  }
