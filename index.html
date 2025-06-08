@@ -150,7 +150,8 @@
     .map-container {
       width: 960px;
       margin: 0 auto 2rem auto;
-      position: relative; /* must be relative so that tooltips can absolutely position within */
+      position: relative;
+      /* must be relative so that tooltips can absolutely position within */
       background: #f0f0f0;
     }
 
@@ -220,7 +221,13 @@
         particular pollutants seem to explain some of those patterns?</em>
     </p>
     <p>
-      One of our group members moved away from their home county due to concerns about fracking and industrial pollution—and feared these factors might increase cancer risk. This personal experience motivated us to investigate whether a broader pattern exists between environmental pollution and cancer incidence across the United States.
+      One of our group members moved away from their home county due to concerns about fracking and industrial
+      pollution—and feared these factors might increase cancer risk. This personal experience motivated us to
+      investigate whether a broader pattern exists between environmental pollution and cancer incidence across the
+      United States.
+      This project also draws on the DuPont C-8 lawsuit, where contaminated water was linked to increased cancer rates
+      in communities that resided within a close range of the plant. Geagraphic vissualizations were a key part of the
+      of discovering and aruging the case.
     </p>
   </section>
 
@@ -231,13 +238,17 @@
     <h2>Cancer‐Only View</h2>
     <p>
       Below is the county map colored by age‐adjusted cancer incidence averaged over a five year period from 2018 to
-      2022. The scale in the top right of the graph indicates cancer cases per 100,000 people. Use the dropdown to
+      2022. Each county is placed in one of five quantiles based on cancer incedents per 100,000 people. You are able to
+      hover over
+      individual counties to observe their cancer rate. Use the
+      dropdown to
       switch among cancer
-      subtypes. Pollutant layers are disabled here so you can focus solely on the spatial distribution of cancer rates.
+      types. Pollutant layers are disabled here so you can focus solely on the spatial distribution of cancer rates.
     </p>
 
     <p>
-      We obtained county‐level cancer data as our first step. Note the annotated areas on the map: on the West Coast, a rectangle around California, Wyoming, and Idaho shows relatively low cancer incidence, while on the East Coast, rectangles around Minnesota, Kentucky, and Mississippi highlight regions with higher cancer rates. Observe these annotated regions to compare severity.
+      Note the annotated areas on the map: These areas ares characterized by high concentrations of cancer incedents. We
+      have laid boxes over these areas on the following maps to help the viewer see different patterns.
     </p>
     <div class="controls">
       <!-- SEARCH BOX + GO BUTTON grouped -->
@@ -278,14 +289,13 @@
        ================================================================ -->
   <section id="water-only">
     <h2>Water Pollution‐Only View</h2>
-    <p>
-      Here we examine county‐level water quality scores collected in 2025. A higher score indicates higher quality
-      water. All other layers are disabled so you can focus solely on water
-      quality distribution.
-    </p>
+
 
     <p>
-      We also wondered if water quality might correlate with cancer rates, so we gathered 2025 county‐level water scores. On the map, the annotated West Coast region appears to have cleaner water, which aligns with its lower cancer incidence from the previous section. Conversely, the annotated East Coast region shows dirtier water and correspondingly higher cancer rates.
+      We also wondered if water quality might correlate with cancer rates, so we gathered 2025 county‐level water
+      scores. On the map, the annotated West Coast region appears to have cleaner water, which aligns with its lower
+      cancer incidence from the previous section. Conversely, the annotated East Coast region shows dirtier water and
+      correspondingly higher cancer rates.
     </p>
     <div class="controls">
       <!-- SEARCH BOX + GO BUTTON grouped -->
@@ -321,7 +331,10 @@
     </p>
 
     <p>
-      Next, we considered air pollution. However, the relationship is not straightforward: the California region shows higher PM₂.₅ levels despite low cancer rates; Minnesota has relatively clean air but high cancer incidence; Idaho and Wyoming appear to have clean air and low cancer rates; and the Kentucky/Mississippi region has more polluted air and high cancer rates. Thus, air pollution alone does not fully explain cancer patterns.
+      Next, we considered air pollution. However, the relationship is not straightforward: the California region shows
+      higher PM₂.₅ levels despite low cancer rates; Minnesota has relatively clean air but high cancer incidence; Idaho
+      and Wyoming appear to have clean air and low cancer rates; and the Kentucky/Mississippi region has more polluted
+      air and high cancer rates. Thus, air pollution alone does not fully explain cancer patterns.
     </p>
     <div class="controls">
       <!-- SEARCH BOX + GO BUTTON grouped -->
@@ -358,7 +371,9 @@
     </p>
 
     <p>
-      We expected industrial emissions might align with cancer hotspots. Indeed, similar to water quality, the West Coast annotated area has fewer large industrial facilities and lower cancer rates, whereas the East Coast annotated area has many polluting facilities alongside high cancer incidence—suggesting a possible link.
+      We expected industrial emissions might align with cancer hotspots. Indeed, similar to water quality, the West
+      Coast annotated area has fewer large industrial facilities and lower cancer rates, whereas the East Coast
+      annotated area has many polluting facilities alongside high cancer incidence—suggesting a possible link.
     </p>
     <div class="controls">
       <!-- SEARCH BOX + GO BUTTON grouped -->
@@ -422,7 +437,10 @@
     </p>
 
     <p>
-      We also explored whether socioeconomic factors play a role, so we included median household income. The Idaho/California region shows higher incomes and lower cancer rates. Mississippi and Kentucky have lower incomes and high cancer incidence. However, Minnesota has moderate to high income but still experiences high cancer rates, indicating income alone cannot fully explain the patterns.
+      We also explored whether socioeconomic factors play a role, so we included median household income. The
+      Idaho/California region shows higher incomes and lower cancer rates. Mississippi and Kentucky have lower incomes
+      and high cancer incidence. However, Minnesota has moderate to high income but still experiences high cancer rates,
+      indicating income alone cannot fully explain the patterns.
     </p>
     <div class="controls">
       <!-- SEARCH BOX + GO BUTTON grouped -->
@@ -452,7 +470,12 @@
   <section id="conclusion">
     <h2>Conclusion</h2>
     <p>
-      We recognize that many factors—such as family history, lifestyle, and genetics—impact cancer risk. Our goal was to highlight how environmental pollution might contribute as well. By comparing cancer data with water quality, air pollution, industrial facility locations, and income, we see that water contamination and industrial emissions frequently coincide with higher cancer incidence, while higher income areas often show lower rates. Although no single factor tells the whole story, these patterns suggest pollution may elevate cancer risk and deserve greater public awareness.
+      We recognize that many factors—such as family history, lifestyle, and genetics—impact cancer risk. Our goal was to
+      highlight how environmental pollution might contribute as well. By comparing cancer data with water quality, air
+      pollution, industrial facility locations, and income, we see that water contamination and industrial emissions
+      frequently coincide with higher cancer incidence, while higher income areas often show lower rates. Although no
+      single factor tells the whole story, these patterns suggest pollution may elevate cancer risk and deserve greater
+      public awareness.
     </p>
   </section>
 
@@ -517,7 +540,8 @@
     <!-- 7.1) Cancer container sits on top -->
     <div id="cancer-container-2" class="map-container">
       <svg id="cancer-svg-2" width="960" height="600"></svg>
-      <svg id="facility-svg-2" width="960" height="600" style="position: absolute; top: 0; left: 0; pointer-events: none;"></svg>
+      <svg id="facility-svg-2" width="960" height="600"
+        style="position: absolute; top: 0; left: 0; pointer-events: none;"></svg>
       <div id="cancer-tooltip-2" class="tooltip"></div>
 
       <!-- Cancer Legend (Full Dashboard) -->
@@ -562,7 +586,8 @@
           </defs>
           <rect x="0" y="20" width="300" height="12" fill="url(#legend-water-gradient-full)"></rect>
           <g id="water-legend-axis-full" transform="translate(0, 35)"></g>
-          <text id="water-legend-title-full" x="0" y="12" font-size="12px" font-weight="bold">Drinking Water Quality</text>
+          <text id="water-legend-title-full" x="0" y="12" font-size="12px" font-weight="bold">Drinking Water
+            Quality</text>
         </svg>
       </div>
     </div>

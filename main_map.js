@@ -18,54 +18,74 @@ const path = d3.geoPath().projection(projection);
 // A) FIVE ANNOTATION REGIONS (GeoJSON “Polygons”)
 // ──────────────────────────────────────────────────────────────────────────
 const annotationRegions = {
-  high1: {
+  Louisisiana: {
     type: "Polygon",
     coordinates: [[
-      [-94.0, 35.0],
-      [-88.5, 35.0],
-      [-88.5, 32.5],
-      [-94.0, 32.5],
-      [-94.0, 35.0]
+      [-94.0, 31.5], // top left
+      [-89.5, 31.5], // top right
+      [-89.5, 29], // bottom right
+      [-94.0, 29], // bottom left
+      [-94.0, 32.0]  // top left again to close the polygon
     ]]
   },
-  high2: {
+  Florida: {
     type: "Polygon",
     coordinates: [[
-      [-98.6, 48.3],
-      [-92.5, 48.3],
-      [-92.5, 43.5],
-      [-98.6, 43.5],
-      [-98.6, 48.3]
+      [-84.5, 30.5], // top left
+      [-81.0, 31.0], // top right
+      [-80.0, 27.5], // bottom right
+      [-83.0, 28.0], // bottom left
+      [-84.5, 30.5]  // top left again to close the polygon
     ]]
   },
-  low1: {
+  NorthMidWest: {
     type: "Polygon",
     coordinates: [[
-      [-124.5, 42.0],
-      [-114.0, 42.0],
-      [-114.0, 32.5],
-      [-124.5, 32.5],
-      [-124.5, 42.0]
+      [-98.6, 48.3], // top left
+      [-92.5, 48.3], // top right
+      [-87.5, 36.5], // bottom right
+      [-98.6, 43.5], // bottom left
+      [-98.6, 48.3] //  top left again to close the polygon
     ]]
   },
-  low2: {
+  Alaska: {
     type: "Polygon",
     coordinates: [[
-      [-114.5, 45.0],
-      [-108.5, 45.0],
-      [-108.5, 42.0],
-      [-114.5, 42.0],
-      [-114.5, 45.0]
+      [-117.5, 28.5], // top left
+      [-114.395, 29.574],// top right
+      [-113.281, 27.139],// bottom right
+      [-117.0, 26.2],// bottom left
+      [-117.5, 28.5]//  top left again to close the polygon
+    ]]
+  },
+  Montana: {
+    type: "Polygon",
+    coordinates: [[
+      [-112.5, 47.0],//top left
+      [-106.0, 47.0], //top right 
+      [-106.0, 45.0],//bottom right
+      [-112.5, 45.0], //bottom left
+      [-112.5, 47.0] //top left again to close the polygon
     ]]
   },
   kentucky: {
     type: "Polygon",
     coordinates: [[
-      [-90.0, 39.2],
-      [-81.8, 39.2],
-      [-81.8, 36.5],
-      [-90.0, 36.5],
-      [-90.0, 39.2]
+      [-87.0, 38.8], //top left
+      [-80.8, 40.2], //top right
+      [-81.8, 36.5],//bottom right
+      [-87.0, 36.5],//bottom left
+      [-87.0, 38.8] //top left again to close the polygon
+    ]]
+  },
+  NewYork: {
+    type: "Polygon",
+    coordinates: [[
+      [-80.0, 44.0], //top left
+      [-75.0, 44.4], //top right
+      [-75.0, 42.0],//bottom right
+      [-80.0, 42.0],//bottom left
+      [-80.0, 44.0] //top left again to close the polygon
     ]]
   }
 };
@@ -82,6 +102,15 @@ let thyroidByFIPS;       // Map<fips, incidence>
 let breastByFIPS;        // Map<fips, incidence> for breast cancer
 let breastColor;         // d3.scaleThreshold for breast
 let breastMin, breast95; // for legend (max)
+
+// —————————————————————————————————————————————————————————————————
+// Reusable function to toggle annotation groups
+// —————————————————————————————————————————————————————————————————
+let showAnnotations = true;
+function toggleAnnotations(groupSelector) {
+  showAnnotations = !showAnnotations;
+  d3.selectAll(groupSelector).style("display", showAnnotations ? null : "none");
+}
 
 let airByFIPS;           // Map<fips, pm25>
 let incomeByFIPS;        // Map<fips, medianIncome>
@@ -473,7 +502,22 @@ function initCancerOnly() {
   // Select elements
   const svg = d3.select("#cancer-svg").attr("width", width).attr("height", height);
   const g = svg.append("g").attr("class", "cancer-group");
-  const tooltip = d3.select("#cancer-tooltip");
+  // Remove tooltip-based display, use fixed info box instead
+  // Add static info box if not already present
+  d3.select("#map-cancer")
+    .selectAll("#info-cancer")
+    .data([null])
+    .join("div")
+    .attr("id", "info-cancer")
+    .attr("class", "static-info-box")
+    .style("position", "absolute")
+    .style("bottom", "10px")
+    .style("left", "10px")
+    .style("background", "#fff")
+    .style("padding", "8px")
+    .style("border", "1px solid #ccc")
+    .style("font-size", "12px")
+    .text("Hover over a county");
 
   // Zoom behavior
   const zoomBehavior = d3.zoom()
@@ -517,17 +561,8 @@ function initCancerOnly() {
         label = "Breast";
       }
       const display = val != null ? val.toFixed(1) : "N/A";
-      tooltip
-        .style("left", (event.clientX + 1) + "px")
-        .style("top", (event.clientY + 1) + "px")
-        .style("opacity", 1)
-        .html(
-          `<strong>County:</strong> ${name}<br/>` +
-          `<strong>${label}:</strong> ${display}`
-        );
-    })
-    .on("mouseout", () => {
-      tooltip.style("opacity", 0);
+      d3.select("#info-cancer")
+        .text(`${name} — ${label}: ${display}`);
     });
 
   // Cancer dropdown behavior
@@ -593,6 +628,15 @@ function initCancerOnly() {
       .attr("stroke", "black")
       .attr("stroke-width", 2);
   });
+
+  // Add Toggle Annotations button (styled and placed under map, right aligned)
+  d3.select("#map-cancer") // Use the correct existing container in your HTML
+    .append("button")
+    .attr("id", "toggle-annotations-btn")
+    .text("Toggle Annotations")
+    .style("margin-top", "10px")
+    .style("float", "right")
+    .on("click", () => toggleAnnotations(".annotation-group-cancer"));
 }
 
 
@@ -640,7 +684,21 @@ function buildCancerLegend(containerSelector) {
 function initAirOnly() {
   const svg = d3.select("#air-svg").attr("width", width).attr("height", height);
   const g = svg.append("g").attr("class", "air-group");
-  const tooltip = d3.select("#air-tooltip");
+  // Remove tooltip-based display, use fixed info box instead
+  d3.select("#map-air")
+    .selectAll("#info-air")
+    .data([null])
+    .join("div")
+    .attr("id", "info-air")
+    .attr("class", "static-info-box")
+    .style("position", "absolute")
+    .style("bottom", "10px")
+    .style("left", "10px")
+    .style("background", "#fff")
+    .style("padding", "8px")
+    .style("border", "1px solid #ccc")
+    .style("font-size", "12px")
+    .text("Hover over a county");
 
   // Zoom behavior
   const zoomBehavior = d3.zoom()
@@ -667,17 +725,8 @@ function initAirOnly() {
       const name = fipsToName.get(fips) || "Unknown County";
       const v = airByFIPS.get(fips);
       const display = v != null ? v.toFixed(1) + " µg/m³" : "N/A";
-      tooltip
-        .style("left", (event.clientX + 1) + "px")
-        .style("top", (event.clientY + 1) + "px")
-        .style("opacity", 1)
-        .html(
-          `<strong>County:</strong> ${name}<br/>` +
-          `<strong>PM₂.₅:</strong> ${display}`
-        );
-    })
-    .on("mouseout", () => {
-      tooltip.style("opacity", 0);
+      d3.select("#info-air")
+        .text(`${name} — PM₂.₅: ${display}`);
     });
 
   // Build PM₂.₅ legend (quintile‐binned)
@@ -713,6 +762,14 @@ function initAirOnly() {
       .attr("stroke", "black")
       .attr("stroke-width", 2);
   });
+  // Add Toggle Annotations button for Air-Only
+  d3.select("#map-air")
+    .append("button")
+    .attr("id", "toggle-annotations-btn-air")
+    .text("Toggle Annotations")
+    .style("margin-top", "10px")
+    .style("float", "right")
+    .on("click", () => toggleAnnotations(".annotation-group-air"));
 }
 
 // Helper: Build PM₂.₅ legend (quintile‐binned threshold scale)
@@ -759,7 +816,21 @@ function buildPM25Legend(containerSelector) {
 function initIndustryOnly() {
   const svg = d3.select("#industry-svg").attr("width", width).attr("height", height);
   const g = svg.append("g").attr("class", "industry-cancer-group");
-  const tooltip = d3.select("#industry-tooltip");
+  // Remove tooltip-based display, use fixed info box instead
+  d3.select("#map-industry")
+    .selectAll("#info-industry")
+    .data([null])
+    .join("div")
+    .attr("id", "info-industry")
+    .attr("class", "static-info-box")
+    .style("position", "absolute")
+    .style("bottom", "10px")
+    .style("left", "10px")
+    .style("background", "#fff")
+    .style("padding", "8px")
+    .style("border", "1px solid #ccc")
+    .style("font-size", "12px")
+    .text("Hover over a county or facility");
 
   // Zoom behavior
   const zoomBehavior = d3.zoom()
@@ -786,14 +857,8 @@ function initIndustryOnly() {
     .on("mouseover", (event, d) => {
       const fips = d.id;
       const name = fipsToName.get(fips) || "Unknown County";
-      tooltip
-        .style("left", (event.clientX + 1) + "px")
-        .style("top", (event.clientY + 1) + "px")
-        .style("opacity", 1)
-        .html(`<strong>County:</strong> ${name}`);
-    })
-    .on("mouseout", () => {
-      tooltip.style("opacity", 0);
+      d3.select("#info-industry")
+        .text(`${name}`);
     });
 
   // Populate Sector dropdown
@@ -829,17 +894,8 @@ function initIndustryOnly() {
     .attr("stroke", "#333")
     .attr("stroke-width", 0.5)
     .on("mouseover", (event, d) => {
-      const html =
-        `<strong>Facility:</strong> ${d.facilityName}<br/>` +
-        `<strong>Emissions Total:</strong> ${d.onSiteRelease}`;
-      tooltip
-        .style("left", (event.clientX + 1) + "px")
-        .style("top", (event.clientY + 1) + "px")
-        .style("opacity", 1)
-        .html(html);
-    })
-    .on("mouseout", () => {
-      tooltip.style("opacity", 0);
+      d3.select("#info-industry")
+        .text(`Facility: ${d.facilityName} — Emissions Total: ${d.onSiteRelease}`);
     });
 
   // Filter facilities by selected sector
@@ -931,6 +987,14 @@ function initIndustryOnly() {
       .attr("stroke", "black")
       .attr("stroke-width", 2);
   });
+  // Add Toggle Annotations button for Industry-Only
+  d3.select("#map-industry")
+    .append("button")
+    .attr("id", "toggle-annotations-btn-industry")
+    .text("Toggle Annotations")
+    .style("margin-top", "10px")
+    .style("float", "right")
+    .on("click", () => toggleAnnotations(".annotation-group-industry"));
 }
 
 
@@ -965,7 +1029,21 @@ function buildIndustryLegend(containerSelector) {
 function initIncomeOnly() {
   const svg = d3.select("#income-svg").attr("width", width).attr("height", height);
   const g = svg.append("g").attr("class", "income-group");
-  const tooltip = d3.select("#income-tooltip");
+  // Remove tooltip-based display, use fixed info box instead
+  d3.select("#map-income")
+    .selectAll("#info-income")
+    .data([null])
+    .join("div")
+    .attr("id", "info-income")
+    .attr("class", "static-info-box")
+    .style("position", "absolute")
+    .style("bottom", "10px")
+    .style("left", "10px")
+    .style("background", "#fff")
+    .style("padding", "8px")
+    .style("border", "1px solid #ccc")
+    .style("font-size", "12px")
+    .text("Hover over a county");
 
   // Zoom
   const zoomBehavior = d3.zoom()
@@ -992,17 +1070,8 @@ function initIncomeOnly() {
       const name = fipsToName.get(fips) || "Unknown County";
       const v = incomeByFIPS.get(fips);
       const display = v != null ? "$" + d3.format(",")(v) : "N/A";
-      tooltip
-        .style("left", (event.clientX + 1) + "px")
-        .style("top", (event.clientY + 1) + "px")
-        .style("opacity", 1)
-        .html(
-          `<strong>County:</strong> ${name}<br/>` +
-          `<strong>Median Income:</strong> ${display}`
-        );
-    })
-    .on("mouseout", () => {
-      tooltip.style("opacity", 0);
+      d3.select("#info-income")
+        .text(`${name} — Median Income: ${display}`);
     });
 
   // Build Income legend (quintile‐binned)
@@ -1038,6 +1107,14 @@ function initIncomeOnly() {
       .attr("stroke", "black")
       .attr("stroke-width", 2);
   });
+  // Add Toggle Annotations button for Income-Only
+  d3.select("#map-income")
+    .append("button")
+    .attr("id", "toggle-annotations-btn-income")
+    .text("Toggle Annotations")
+    .style("margin-top", "10px")
+    .style("float", "right")
+    .on("click", () => toggleAnnotations(".annotation-group-income"));
 }
 
 
@@ -1085,7 +1162,21 @@ function buildIncomeLegend(containerSelector) {
 function initWaterOnly() {
   const svg = d3.select("#water-svg").attr("width", width).attr("height", height);
   const g = svg.append("g").attr("class", "water-group");
-  const tooltip = d3.select("#water-tooltip");
+  // Remove tooltip-based display, use fixed info box instead
+  d3.select("#map-water")
+    .selectAll("#info-water")
+    .data([null])
+    .join("div")
+    .attr("id", "info-water")
+    .attr("class", "static-info-box")
+    .style("position", "absolute")
+    .style("bottom", "10px")
+    .style("left", "10px")
+    .style("background", "#fff")
+    .style("padding", "8px")
+    .style("border", "1px solid #ccc")
+    .style("font-size", "12px")
+    .text("Hover over a county");
 
   const zoomBehavior = d3.zoom()
     .scaleExtent([1, 8])
@@ -1110,17 +1201,8 @@ function initWaterOnly() {
       const name = fipsToName.get(fips) || "Unknown County";
       const v = waterByFIPS.get(fips);
       const display = v != null ? v.toFixed(1) : "N/A";
-      tooltip
-        .style("left", (event.clientX + 1) + "px")
-        .style("top", (event.clientY + 1) + "px")
-        .style("opacity", 1)
-        .html(
-          `<strong>County:</strong> ${name}<br/>` +
-          `<strong>Water Quality Score:</strong> ${display}`
-        );
-    })
-    .on("mouseout", () => {
-      tooltip.style("opacity", 0);
+      d3.select("#info-water")
+        .text(`${name} — Water Quality Score: ${display}`);
     });
 
   // Build Water Quality legend (quintile‐binned)
@@ -1156,6 +1238,14 @@ function initWaterOnly() {
       .attr("stroke", "black")
       .attr("stroke-width", 2);
   });
+  // Add Toggle Annotations button for Water-Only
+  d3.select("#map-water")
+    .append("button")
+    .attr("id", "toggle-annotations-btn-water")
+    .text("Toggle Annotations")
+    .style("margin-top", "10px")
+    .style("float", "right")
+    .on("click", () => toggleAnnotations(".annotation-group-water"));
 }
 
 
@@ -1527,81 +1617,81 @@ function initFullDashboard() {
   // ——————————————————————————————————————————————————
   d3.select("#pollution-select-2").on("change", updatePollutionFull);
 
-    function updatePollutionFull() {
-      const selected = d3.select("#pollution-select-2").property("value");
+  function updatePollutionFull() {
+    const selected = d3.select("#pollution-select-2").property("value");
 
-      if (selected === "none") {
-        // Hide pollution & facilities, show cancer alone
-        pollutionContainer2.style("display", "none");
-        cancerPaths.attr("fill-opacity", 1);
+    if (selected === "none") {
+      // Hide pollution & facilities, show cancer alone
+      pollutionContainer2.style("display", "none");
+      cancerPaths.attr("fill-opacity", 1);
 
-        // Show cancer legend, hide others
-        d3.select("#legend-cancer-full").style("display", null);
-        d3.select("#legend-pm25-full").style("display", "none");
-        d3.select("#legend-income-full").style("display", "none");
-        d3.select("#legend-water-full").style("display", "none");
+      // Show cancer legend, hide others
+      d3.select("#legend-cancer-full").style("display", null);
+      d3.select("#legend-pm25-full").style("display", "none");
+      d3.select("#legend-income-full").style("display", "none");
+      d3.select("#legend-water-full").style("display", "none");
 
-        // Recolor cancer (in case user changed subtype)
-        updateCancerChoroplethFull();
+      // Recolor cancer (in case user changed subtype)
+      updateCancerChoroplethFull();
 
-      } else if (selected === "pm25") {
-        // Show pollution (PM₂.₅) below cancer
-        pollutionContainer2.style("display", null);
+    } else if (selected === "pm25") {
+      // Show pollution (PM₂.₅) below cancer
+      pollutionContainer2.style("display", null);
 
-        // Color pollutionPaths by PM₂.₅
-        pollutionPaths.transition().duration(500).attr("fill", d => {
-          const v = airByFIPS.get(d.id);
-          return v != null ? pm25Color(v) : "#eee";
-        });
+      // Color pollutionPaths by PM₂.₅
+      pollutionPaths.transition().duration(500).attr("fill", d => {
+        const v = airByFIPS.get(d.id);
+        return v != null ? pm25Color(v) : "#eee";
+      });
 
-        // Show cancer legend alongside PM₂.₅ legend
-        d3.select("#legend-cancer-full").style("display", null);
-        d3.select("#legend-pm25-full").style("display", null);
-        d3.select("#legend-income-full").style("display", "none");
-        d3.select("#legend-water-full").style("display", "none");
+      // Show cancer legend alongside PM₂.₅ legend
+      d3.select("#legend-cancer-full").style("display", null);
+      d3.select("#legend-pm25-full").style("display", null);
+      d3.select("#legend-income-full").style("display", "none");
+      d3.select("#legend-water-full").style("display", "none");
 
-        // Rebuild PM₂.₅ legend
-        buildPM25Legend("#legend-pm25-full");
+      // Rebuild PM₂.₅ legend
+      buildPM25Legend("#legend-pm25-full");
 
-      } else if (selected === "income") {
-        // Show pollution (Income) below cancer
-        pollutionContainer2.style("display", null);
+    } else if (selected === "income") {
+      // Show pollution (Income) below cancer
+      pollutionContainer2.style("display", null);
 
-        // Color pollutionPaths by Income
-        pollutionPaths.transition().duration(500).attr("fill", d => {
-          const v = incomeByFIPS.get(d.id);
-          return v != null ? incomeColor(v) : "#eee";
-        });
+      // Color pollutionPaths by Income
+      pollutionPaths.transition().duration(500).attr("fill", d => {
+        const v = incomeByFIPS.get(d.id);
+        return v != null ? incomeColor(v) : "#eee";
+      });
 
-        // Show cancer legend alongside Income legend
-        d3.select("#legend-cancer-full").style("display", null);
-        d3.select("#legend-pm25-full").style("display", "none");
-        d3.select("#legend-income-full").style("display", null);
-        d3.select("#legend-water-full").style("display", "none");
+      // Show cancer legend alongside Income legend
+      d3.select("#legend-cancer-full").style("display", null);
+      d3.select("#legend-pm25-full").style("display", "none");
+      d3.select("#legend-income-full").style("display", null);
+      d3.select("#legend-water-full").style("display", "none");
 
-        // Rebuild Income legend
-        buildIncomeLegend("#legend-income-full");
+      // Rebuild Income legend
+      buildIncomeLegend("#legend-income-full");
 
-      } else if (selected === "water") {
-        // Display the pollution container (reusing its <svg> for water)
-        d3.select("#pollution-container-2").style("display", null);
+    } else if (selected === "water") {
+      // Display the pollution container (reusing its <svg> for water)
+      d3.select("#pollution-container-2").style("display", null);
 
-        // Show cancer legend, hide others except water
-        d3.select("#legend-cancer-full").style("display", null);
-        d3.select("#legend-pm25-full").style("display", "none");
-        d3.select("#legend-income-full").style("display", "none");
-        d3.select("#legend-water-full").style("display", null);
+      // Show cancer legend, hide others except water
+      d3.select("#legend-cancer-full").style("display", null);
+      d3.select("#legend-pm25-full").style("display", "none");
+      d3.select("#legend-income-full").style("display", "none");
+      d3.select("#legend-water-full").style("display", null);
 
-        // Color pollutionPaths by Water Quality
-        pollutionPaths.transition().duration(500).attr("fill", d => {
-          const v = waterByFIPS.get(d.id);
-          return v != null ? waterColor(v) : "#eee";
-        });
+      // Color pollutionPaths by Water Quality
+      pollutionPaths.transition().duration(500).attr("fill", d => {
+        const v = waterByFIPS.get(d.id);
+        return v != null ? waterColor(v) : "#eee";
+      });
 
-        // Build the discrete Water Quality legend
-        buildWaterLegend("#legend-water-full");
-      }
+      // Build the discrete Water Quality legend
+      buildWaterLegend("#legend-water-full");
     }
+  }
 
   // ——————————————————————————————————————————————————
   // 15.8) RESET BUTTON (Full Dashboard)
