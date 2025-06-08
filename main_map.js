@@ -248,10 +248,10 @@ Promise.all([
     cancerByFIPS = new Map();
     allCancerData.forEach(d => {
       if (d.fips && d.incidence != null) {
+        const fullName = `${d.county}, ${d.state}`.replace(/,+$/, "").trim();
         cancerByFIPS.set(d.fips, d.incidence);
-        const fullName = `${d.county}, ${d.state}`;
         fipsToName.set(d.fips, fullName);
-        const key = fullName.toLowerCase();
+        const key = fullName.toLowerCase().replace(/,+$/, "").trim();
         nameToFIPS.set(key, d.fips);
         // Also allow “county” without “County” suffix
         const noSuffix = key.replace(/ county$/, "");
