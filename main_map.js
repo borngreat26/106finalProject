@@ -132,6 +132,9 @@ let incomeMin, incomeMax;
 // 2) LOAD ALL DATA IN PARALLEL (TopoJSON + CSVs)
 // —————————————————————————————————————————————————————————————————
 
+// Emission radius scale for facility circles (logarithmic, sqrt scale)
+let emissionRadius;
+
 Promise.all([
   // 2.1) US counties TopoJSON
   d3.json("https://cdn.jsdelivr.net/npm/us-atlas@3/counties-10m.json"),
@@ -429,6 +432,11 @@ Promise.all([
     const uniqueSectors = Array.from(new Set(facilities.map(d => d.sector)));
     sectorColor = d3.scaleOrdinal(d3.schemeSet2).domain(uniqueSectors);
 
+    // Emission radius scale (sqrt, domain [5000, max])
+    emissionRadius = d3.scaleSqrt()
+      .domain([5000, d3.max(facilities, d => d.onSiteRelease)])
+      .range([3, 12]);
+
     // 8.7) PM₂.₅: quantile scale
     {
       const allPM25Data = [];
@@ -633,7 +641,7 @@ function initCancerOnly() {
   d3.select("#map-cancer") // Use the correct existing container in your HTML
     .append("button")
     .attr("id", "toggle-annotations-btn")
-    .text("Toggle Annotations")
+    .text("View High-Cancer Areas")
     .style("margin-top", "10px")
     .style("float", "right")
     .on("click", () => toggleAnnotations(".annotation-group-cancer"));
@@ -766,7 +774,7 @@ function initAirOnly() {
   d3.select("#map-air")
     .append("button")
     .attr("id", "toggle-annotations-btn-air")
-    .text("Toggle Annotations")
+    .text("Highlight High-Cancer Areas")
     .style("margin-top", "10px")
     .style("float", "right")
     .on("click", () => toggleAnnotations(".annotation-group-air"));
@@ -889,7 +897,7 @@ function initIndustryOnly() {
       const xy = projection([d.longitude, d.latitude]);
       return xy ? xy[1] : -10;
     })
-    .attr("r", 4)
+    .attr("r", d => emissionRadius(d.onSiteRelease))
     .attr("fill", d => sectorColor(d.sector))
     .attr("stroke", "#333")
     .attr("stroke-width", 0.5)
@@ -958,6 +966,9 @@ function initIndustryOnly() {
     { highlightPaths: paths }
   );
 
+  // Set minimum value for emission threshold slider
+  d3.select("#emission-threshold")
+    .attr("min", 5000);
   // Add emission threshold filter
   d3.select("#emission-threshold").on("input", function () {
     d3.select("#emission-value").text(this.value);
@@ -991,7 +1002,7 @@ function initIndustryOnly() {
   d3.select("#map-industry")
     .append("button")
     .attr("id", "toggle-annotations-btn-industry")
-    .text("Toggle Annotations")
+    .text("Highlight High-Cancer Areas")
     .style("margin-top", "10px")
     .style("float", "right")
     .on("click", () => toggleAnnotations(".annotation-group-industry"));
@@ -1111,7 +1122,7 @@ function initIncomeOnly() {
   d3.select("#map-income")
     .append("button")
     .attr("id", "toggle-annotations-btn-income")
-    .text("Toggle Annotations")
+    .text("Highlight High-Cancer Areas")
     .style("margin-top", "10px")
     .style("float", "right")
     .on("click", () => toggleAnnotations(".annotation-group-income"));
@@ -1242,7 +1253,7 @@ function initWaterOnly() {
   d3.select("#map-water")
     .append("button")
     .attr("id", "toggle-annotations-btn-water")
-    .text("Toggle Annotations")
+    .text("Highlight High-Cancer Areas")
     .style("margin-top", "10px")
     .style("float", "right")
     .on("click", () => toggleAnnotations(".annotation-group-water"));
@@ -1303,6 +1314,19 @@ function initFullDashboard() {
   const pollutionSvg = d3.select("#pollution-svg-2").attr("width", width).attr("height", height);
   const pollutionG = pollutionSvg.append("g").attr("class", "pollution-group-2");
   const pollutionTooltip = d3.select("#pollution-tooltip-2");
+  // Add static info box for dashboard pollution map (explicit append, not selectAll/join)
+  d3.select("#map-dashboard")
+    .append("div")
+    .attr("id", "info-dashboard")
+    .attr("class", "static-info-box")
+    .style("position", "absolute")
+    .style("bottom", "10px")
+    .style("left", "10px")
+    .style("background", "#fff")
+    .style("padding", "8px")
+    .style("border", "1px solid #ccc")
+    .style("font-size", "12px")
+    .text("Hover over a county");
 
   // Track whether “Industry” is active
   let industryModeFull = false;
@@ -1344,17 +1368,8 @@ function initFullDashboard() {
         label = "Breast";
       }
       const display = val != null ? val.toFixed(1) : "N/A";
-      cancerTooltip
-        .style("left", (event.clientX + 1) + "px")
-        .style("top", (event.clientY + 1) + "px")
-        .style("opacity", 1)
-        .html(
-          `<strong>County:</strong> ${name}<br/>` +
-          `<strong>${label}:</strong> ${display}`
-        );
-    })
-    .on("mouseout", () => {
-      cancerTooltip.style("opacity", 0);
+      d3.select("#info-dashboard")
+        .text(`${name} — ${label}: ${display}`);
     });
 
   // 15.3.2) Facility circles for Industry (initially hidden)
@@ -1373,7 +1388,7 @@ function initFullDashboard() {
       const xy = projection([d.longitude, d.latitude]);
       return xy ? xy[1] : -10;
     })
-    .attr("r", 4)
+    .attr("r", d => emissionRadius(d.onSiteRelease))
     .attr("fill", d => sectorColor(d.sector))
     .attr("stroke", "#333")
     .attr("stroke-width", 0.5)
@@ -1391,6 +1406,9 @@ function initFullDashboard() {
       pollutionTooltip.style("opacity", 0);
     });
 
+  // Set minimum value for emission threshold slider in Full Dashboard
+  d3.select("#emission-threshold-2")
+    .attr("min", 5000);
   // Add emission threshold filter for Full Dashboard
   d3.select("#emission-threshold-2").on("input", function () {
     d3.select("#emission-value-2").text(this.value);
@@ -1515,39 +1533,30 @@ function initFullDashboard() {
     .attr("stroke-width", 0.2)
     .attr("fill", "#eee")
     .on("mouseover", (event, d) => {
+      const fips = d.id;
+      const name = fipsToName.get(fips) || "Unknown County";
+      const pollutionType = d3.select("#pollution-select-2").property("value");
+
       let value = null;
       let label = "";
-      let rec = null;
 
-      const selected = d3.select("#pollution-select-2").property("value");
-      if (selected === "cancer") {
-        rec = cancerByFIPS.get(d.id);
-        label = "Cancer Rate:";
-        value = rec;
-      } else if (selected === "pm25") {
-        rec = airByFIPS.get(d.id);
-        label = "PM₂.₅:";
-        value = rec;
-      } else if (selected === "income") {
-        rec = incomeByFIPS.get(d.id);
-        label = "Income:";
-        value = rec;
-      } else if (selected === "water") {
-        rec = waterByFIPS.get(d.id);
-        label = "Water Quality:";
-        value = rec;
+      if (pollutionType === "pm25") {
+        value = airByFIPS.get(fips);
+        label = "PM₂.₅";
+      } else if (pollutionType === "income") {
+        value = incomeByFIPS.get(fips);
+        label = "Median Income";
+      } else if (pollutionType === "water") {
+        value = waterByFIPS.get(fips);
+        label = "Water Quality Score";
       }
 
-      if (value != null) {
-        pollutionTooltip
-          .style("left", (event.clientX + 6) + "px")
-          .style("top", (event.clientY + 4) + "px")
-          .style("opacity", 1)
-          .html(`<strong>County:</strong> ${fipsToName.get(d.id)}<br/>
-                 <strong>${label}</strong> ${d3.format(".2f")(value)}`);
-      }
-    })
-    .on("mouseout", () => pollutionTooltip.style("opacity", 0));
+      const display = value != null ? d3.format(".2f")(value) : "N/A";
+      d3.select("#pollution-container-2 #info-dashboard").html(`
+        <strong>County:</strong> ${name}<br/>
+        <strong>${label}:</strong> ${display}
+      `);
+    });
 
   // ——————————————————————————————————————————————————
   // 15.4) ZOOM BEHAVIOR (shared by both maps + facility)

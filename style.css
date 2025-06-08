@@ -2,7 +2,7 @@
    Global Styles & Narrative
    ======================== */
    body {
-    font-family: sans-serif;
+    font-family: 'Inter', 'Segoe UI', sans-serif;
     margin: 0;
     padding: 1rem;
     background: #f9f9f9;
@@ -40,7 +40,7 @@
   }
   
   section {
-    max-width: 1000px;
+    max-width: 1500px;
     margin: 2rem auto;
     padding: 1rem;
     background: #fff;
@@ -158,4 +158,54 @@
     stroke: black;
     stroke-width: 2px;
     pointer-events: none;
+  }
+
+  /* Section Styling Enhancements */
+  section {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  }
+
+  /* Map Container Enhancements */
+  .map-container {
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+
+  /* Button Hover Effect */
+  .controls button {
+    background-color: #004785;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+  }
+
+  .controls button:hover {
+    background-color: #003366;
+  }
+
+  /* Dashboard Navigation Bar (Optional Sticky) */
+  #navbar {
+    position: sticky;
+    top: 0;
+    background: white;
+    border-bottom: 1px solid #ddd;
+    z-index: 1000;
+  }
+
+  /* Conclusion Section Highlight */
+  #conclusion {
+    background: #f1f1f1;
+    border-left: 5px solid #0077cc;
+    padding: 20px;
+    margin-top: 40px;
+    font-style: italic;
   }
